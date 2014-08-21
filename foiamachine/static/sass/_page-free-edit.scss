@@ -1,0 +1,162 @@
+$sliding-drawer-width: 250px;
+$edit-box-width: 220px;
+$edit-input-width: 215px;
+
+.ui-dialog-titlebar {
+    display: none;
+}
+.ui-dialog-buttonpane{
+    font-size: 105%;
+    color: rgb(64, 164, 103);
+    width: 100%;
+    font-weight: normal;
+}
+.ui-button-text {
+    font-size: 100%;
+    font-weight: normal;
+    width: 100%;
+    color: rgb(64, 164, 103);
+}
+.page-free-edit {
+    color: $headline;
+    #rm-contacts-dialog-confirm {
+        font-size: 80%;
+        background: #fff !important;
+        padding: 10px;
+    }
+
+    .subject {
+        @include zen-grid-item(12,1);
+        @include zen-clear();
+        padding: 10px 0;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed $support-text + 70;
+        
+        input {
+            height: 20px;
+            padding: 2px 5px;
+            font-size: 14px;
+            width: 50%;
+        }
+    }
+        
+    .recipients .label,
+    .subject .label {
+        float: left;
+        font-weight: 700;
+        margin: 4px 10px 0 0;
+        }
+    
+    .quick-start {
+        @include zen-grid-item(12,1);
+        @include zen-clear();
+        padding: 20px 0;
+    }
+    
+    .button-secondary {
+        @include button-secondary;
+        float: left;
+        padding: 0;
+        width: 125px;
+        text-align: center;
+    }
+    
+    .or {
+        float: left;
+        margin: 6px 10px 0;
+        font-size: 80%;
+    }
+        
+    .privacy {
+        float: right;
+        margin-top: 5px;
+        width: 250px;
+        .switch-light {
+            height: 30px;
+            font-size: 18px;
+            span {
+                line-height: 30px;
+            }
+        }
+    }
+    
+    .body-content {
+        @include zen-grid-item(12,1);
+        @include zen-clear();
+        @include textarea;
+        height: 400px;
+        p:first-child {
+            margin: 5px;
+        }
+        .placeholder {
+            @include placeholder-text;
+        }
+    }
+    
+    .form-controls {
+        @include zen-grid-item(12,1);
+        @include zen-clear();
+        padding: 20px 0;
+        
+        .call-to-action {
+            @include button-large();
+            @include grayed-out();
+            display: inline-block;
+            margin-right: 15px;
+            
+            &.active {
+                @include button-large();
+            }
+        }
+    }
+    #fileUploadForm {
+        margin-bottom: 15px;
+       .btn {
+            @include button-secondary-gray;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    #who-gets-btn {
+        margin-bottom: 0;
+    } 
+    .subline {
+        margin-bottom: 20px;
+        border-bottom: 1px dashed $support-text + 70;
+    }
+    .header-info{
+        span {
+            color: #e15838;
+        }
+        #request-generator-btn {
+            color: #3fa4bd;
+            float: right;
+        }
+
+    }
+
+    #save-request-btn, #save-quit-request-btn, #download-request {
+        @include button-secondary-gray;
+        margin-left: 5px;
+        &#download-request {
+            display: none;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

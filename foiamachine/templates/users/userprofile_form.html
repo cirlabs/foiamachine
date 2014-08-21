@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% load url from future %}
+
+{% block content %}
+<style type="text/css">
+#updated {
+    color: #e15838;
+}
+div.formRow {
+    padding: 10px 0;
+}
+div.formRow label {
+    width: 150px;
+    display: inline-block;
+}
+div.formRow input {
+    padding: 5px 10px;
+
+}
+
+</style>
+<div class="user-profile-container">
+    <h1 class="headline">
+    Update Your Information
+    </h1>
+    {% if not verified %}
+    Please verify your email address. You should have received an email with a link to confirm we have your correct address. <a href="/accounts/verify/send">Click here</a> if you'd like another confirmation email.
+    {% endif %}
+    {% if updated %}
+    <div id="updated">
+    Your information was successfully updated.
+    </div>
+    {% endif %}
+    <form class="user-profile" action="/accounts/update/" method="post">
+            {% csrf_token %}
+        <div class = "formRow">
+            {{user_form.email.errors}}<br/>
+            <label>Email</label>
+            {{user_form.email}}
+        </div>
+        <div class = "formRow">
+            {{userprofile_form.mailing_address.errors}}
+            <label>Mailing Address</label>
+            {{userprofile_form.mailing_address}}
+        </div>
+        <div class = "formRow">
+            {{userprofile_form.mailing_city.errors}}
+            <label>City</label>
+            {{userprofile_form.mailing_city}}
+        </div>
+        <div class = "formRow">
+            {{userprofile_form.mailing_state.errors}}
+            <label>State</label>
+            {{userprofile_form.mailing_state}}
+        </div>
+        <div class = "formRow">
+            {{userprofile_form.mailing_zip.errors}}
+            <label>Zip Code</label>
+            {{userprofile_form.mailing_zip}}
+        </div>
+        <div class = "formRow">
+            {{userprofile_form.phone.errors}}
+            <label>Phone</label>
+            {{userprofile_form.phone}}
+        </div>
+        <div class = "formRow">
+            {{userprofile_form.timezone.errors}}
+            <label>Timezone</label>
+            <select name="timezone">
+            {% for tz in timezones %}
+            <option value="{{ tz }}"{% if tz == TIME_ZONE %} selected="selected"{% endif %}>{{ tz }}</option>
+
+            {% endfor %}
+
+            </select>
+        </div>
+        <input type="submit" value="Update" />
+
+    </form>
+</div>
+{% endblock %}

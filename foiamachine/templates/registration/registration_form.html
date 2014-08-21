@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}<style>.errors {color: red;}</style>{% endblock %}
+
+{% block body_class %}page-register{% endblock %}
+
+{% block content %}
+<h1>Sign Up</h1>
+<h3>Personal information such as addresses and phone numbers will not be shared or sold.</h3>
+<h4>Personal information will be applied as your default contact when creating a FOI request so officials know how to get ahold of you.</h4>
+<div>
+<form class="standard-form" action="/accounts/register/" method="POST">
+    {% csrf_token %}
+    
+    <label for="id_username">Username:</label>
+    {{ form.username.errors }}
+    {{ form.username }}
+    
+    <label for="id_email">email:</label>
+    {{ form.email.errors }}
+    {{ form.email }}
+    
+    <label for="id_password1">Password:</label>
+    {{ form.password1.errors }}
+    {{ form.password1 }}
+    
+    <label for="id_password2">Password (again):</label>
+    {{ form.password2.errors }}
+    {{ form.password2 }}
+    
+    <label for="id_first_name">First name:</label>
+    {{ form.first_name.errors }}
+    {{ form.first_name }}
+    
+    <label for="id_last_name">Last name:</label>
+    {{ form.last_name.errors }}
+    {{ form.last_name }}
+    
+    <label for="id_mailing_address">Mailing address:</label>
+    {{form.mailing_address.errors}}
+    {{form.mailing_address}}
+
+    <label for="id_mailing_city">City:</label>
+    {{form.mailing_city.errors}}
+    {{form.mailing_city}}
+
+    <label for="id_mailing_state">State:</label>
+    {{form.mailing_state.errors}}
+    {{form.mailing_state}}
+
+    <label for="id_mailing_zip">Zip:</label>
+    {{form.mailing_zip.errors}}
+    {{form.mailing_zip}}
+
+    <label for="id_phone">Phone:</label>
+    {{form.phone.errors}}
+    {{form.phone}}
+    
+    <label for="id_timezone">Timezone:</label>
+    {{form.timezone.errors}}
+    {{form.timezone}}
+    <label for="id_journalist">I am a journalist: {{ form.journalist }}</label>
+    <div class="form-controls">
+        <input class="call-to-action" type="submit" value="Sign Up" />
+    </div>
+</form>
+</div>
+{% endblock %}
+{% block page_scripts %}
+<script type="text/javascript">
+    $("#id_email").val("{{request.session.interested_party.email}}");
+</script>
+{% endblock %}

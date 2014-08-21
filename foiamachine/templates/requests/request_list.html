@@ -1,0 +1,235 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% load i18n %}
+
+{% block title %}FOIA Machine: {{scope}} requests{% endblock %}
+    
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}
+<link rel="stylesheet" href="{{ STATIC_URL }}css/chosen/chosen.min.css" />
+<link rel="stylesheet" href="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.css" />
+<link rel="stylesheet" href="{{ STATIC_URL }}css/overcast/jquery-ui-1.10.0.custom.min.css"/>
+
+{% endblock %}
+{% block page_scripts %}
+<script src="{{ STATIC_URL }}js/backbone-0.9.10-min.js"></script>
+<script src="{{ STATIC_URL }}js/backbone-tastypie.js"></script>
+<script src="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/backbone-multi-post-fix.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/generic-item-adder.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/request.js"></script>
+<script>
+$(document).ready(function() {
+    if(window.scrollY > 149){
+        $(".header-controls-container").addClass("fixed-header").css("top", window.scrollY  + "px");
+        $(".filters").css("top", (window.scrollY + 65) + "px");
+        $(".request-list-conatiner").css("margin-top", "150px");
+    }
+    window.onscroll = function() {
+        if(window.scrollY > 149){
+            $(".header-controls-container").addClass("fixed-header").css("top", window.scrollY  + "px");
+            $(".filters").css("top", (window.scrollY + 65) + "px");
+            $(".request-list-conatiner").css("margin-top", "150px");
+        }else{
+            $(".header-controls-container").removeClass("fixed-header").css("top", 0  + "px");
+            $(".filters").css("top", (210) + "px");
+            $(".request-list-conatiner").css("margin-top", "0px");
+        }
+    }
+    /*
+    var requestAttrs = [
+      {% for obj in object_list %}
+      {
+        el: "#request-{{obj.id}}",
+        attrs: {
+          title: '{{obj.title}}',
+          id: {{obj.id}}
+        }
+      },
+      {% endfor %}
+    ];
+    var rlv = new RequestListView({el: '.request-list', modelAttributes: requestAttrs});
+    */
+    /*
+    $(".request-item-click").on("click", function(e){
+        var href = $(this).attr("data-href");
+        window.location.href = href;
+    });
+    */
+    $('[title]').qtip();
+    $('#request-status').change(function(){
+        $("#action_form").submit();
+    });
+    $( "#id_added_after" ).datepicker({
+        dateFormat: "yy-mm-dd",
+        changeMonth: true,
+        changeYear: true,
+        numberOfMonths: 1,
+        maxDate: "+1M",
+        onClose: function( selectedDate ) {
+            $( "#id_added-before" ).datepicker( "option", "minDate", selectedDate );
+        }
+    });
+    $( "#id_added_before" ).datepicker({
+        dateFormat: "yy-mm-dd",
+        changeMonth: true,
+        changeYear: true,
+        numberOfMonths: 1,
+        maxDate: "+1M",
+        onClose: function( selectedDate ) {
+            $( "#id_added_after" ).datepicker( "option", "maxDate", selectedDate );
+        }
+    });
+    function showLinkGenerator(){
+        if ($('#id_tags').val()){
+            $('#generateLinkButton').show();
+        }
+        else {
+            $('#generateLinkButton').hide();
+        }
+    }
+    var tagKeyVals = {
+        {% for tag in user_tags %}
+        '{{tag.name}}': {{tag.id}},
+        {% endfor %}
+    };
+    var addRmTags = new MultiAddRemoveItemsView({
+        el: ".shared-container.tag",
+        requestIds: [],
+        input: "#add-tag",
+        addButton: "#add-tag-btn",
+        groupKeyVals: tagKeyVals,
+        type: 'tag'
+    });
+    $("#add-tag-reveal-btn").click(function(e){
+        $(".tag-input-container").toggle();
+    });
+    $('.request_check').change(function(){
+        addRmTags.requestIds = _.pluck(_.filter($('.request_check'), function(x){return $(x).attr('checked');}),'id');
+    });
+    $('#shareSelectedButton').click(function(){
+        addRmTags.addGenericItem(function(tagName){
+            vl = new ViewableLink({
+                tags: [tagName]
+            });
+            vl.save({}, {success: function(){
+               var link = location.href;
+               if (link.indexOf('/my/') === -1)
+               {
+                link  += 'requests/my/?';
+               }
+               if (link.indexOf('?') === -1)
+               {
+                link += '?';
+               }
+
+               var link = link.replace("/my/","/link/") + '&code=' + vl.attributes.code;
+               //$('#viewableLink').html('<a target="_blank" href="' + link + '">' + link + '</a>').show();
+                window.prompt("Anyone with this link can view this request. Copy it to your clipboard by pressing Ctrl+C", link);
+                FOIMachine.utils.showUserMsg("Saved");
+              },
+              error: function(){
+                    FOIMachine.utils.showUserMsg("Sorry - an error occurred");
+
+              }
+            });
+
+        
+        });
+
+    });
+
+    $('#id_tags').attr('data-placeholder', 'Select tags').chosen({width: '350px'}).change(showLinkGenerator);
+    showLinkGenerator();
+    $('#generateLinkButton').click(function(e){
+        e.preventDefault();
+        var tags = [];
+
+        $('#id_tags :selected').each(function (i, el){
+            tags.push(el.innerHTML);
+        });
+        var vl = new ViewableLink({
+            tags: tags
+        });
+        vl.save({},{success: function(){
+           var link = location.href.replace("/my/","/link/") + '&code=' + vl.attributes.code;
+           //$('#viewableLink').html('<a target="_blank" href="' + link + '">' + link + '</a>').show();
+            window.prompt("Anyone with this link can view this request. Copy it to your clipboard by pressing Ctrl+C", link);
+            FOIMachine.utils.showUserMsg("Saved");
+          },
+          error: function(){
+                    FOIMachine.utils.showUserMsg("Sorry - an error occurred");
+
+          }
+        });
+        return false;
+    });
+    $(".filter-toggle.show-filters").unbind("click").bind("click", function(e){
+        e.preventDefault();
+        $(".filter-toggle.filters-expanded").toggle();
+        $(".filter-toggle.show-filters").toggle();
+        $(".filters").toggle();
+        return false;
+    });
+    $(".filter-toggle.filters-expanded").unbind("click").bind("click", function(e){
+        e.preventDefault();
+        $(".filter-toggle.show-filters").toggle();
+        $(".filter-toggle.filters-expanded").toggle();
+        $(".filters").toggle();
+        return false;
+    });
+    $("#filter-form").show();
+
+    $(".guided").on("click", function(e){
+        window.location.href = "{% url 'request_new'%}"
+    });
+
+    $(".free").on("click", function(e){
+        window.location.href = "{% url 'free_request_edit'%}"
+    });
+
+    {% if not user.userprofile.is_verified %}
+    FOIMachine.utils.showUserMsg("Your email address has not been confirmed, <a href='{% url 'account_update' %}'>please respond to the confirmation email</a>.");
+    {% endif %}
+
+});
+</script>
+{% endblock %}
+
+
+{% block body_class %}page-requests{% endblock %}
+
+{% block content %}
+
+{% if not show_create %}
+<div class="header">
+    <h1 class="headline">{{scope}} Requests {%if group %} for group {{group.name}} {% endif %}</h1>
+    {% if default_request_creation_free %}
+        <a class="new-request" href="{% url 'free_request_edit' %}">Create New Request</a>
+    {% else %}
+        <a class="new-request" href="{% url 'request_new' %}">Create New Request</a>
+    {% endif %}
+
+</div>
+{% include 'requests/request_entries.html' with object_list=object_list%}
+{% else %}
+<div class="header">
+    <h1 class="headline">Welcome! Pick one of the options below to start creating a request</h1>
+</div>
+<div class="clearfix choose-your-adventure">
+    <div class="choice-container">
+        <div class="guided">
+            <span class="icon"><i class="fa fa-road"></i></span>
+            <span class="new-request lbl">REQUEST GENERATOR</span>
+        </div>
+        <div class="free">
+            <span class="icon"><i class="fa fa-pencil-square"></i></span>
+            <span class="new-request lbl">CUSTOM REQUEST</span>
+        </div>
+    </div>
+</div>
+{% endif %}
+    
+{% endblock %}

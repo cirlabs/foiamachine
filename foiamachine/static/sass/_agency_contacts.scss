@@ -1,0 +1,379 @@
+$titleBg: #fae8cc;
+$titleFontClr: #584b42;
+$controlsClr: #faf6f0;
+#agency-view-wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+
+    .recipients {
+        width: 35%;
+        height: 100%;
+        float: left;
+        .rnote {
+            padding: 10px;
+            display: block;
+        }
+        @media (max-width: 1126px){
+            float: left;
+            width: 100%;
+            height: 100px;
+        }
+        border: 1px solid #999;
+        #contact-selection {
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+            .recipient {
+                &:first-child {
+                    margin-top: 10px;
+                }
+                @include recipient-style;
+            } 
+        }
+
+        #contact-selection-msg {
+            font-weight: 700;
+            color: #564b41;
+        }
+
+    }
+    #agency-view{
+        border: 1px solid #999;
+        width: 63.5%;
+        height: 100%;
+        min-width: 525px;
+        float: right;
+        @media (max-width: 1126px){
+            float: left;
+            width: 100%;
+        }
+        overflow-y: scroll;
+        &.sliding-drawer{
+            top: 0;
+            bottom: 0;
+            right: 0;
+            position: fixed;
+            width: $sliding-drawer-width;
+            height: 100%;
+            z-index: 102;
+            padding-top: 57px;
+        }
+        background-color: $nav-bg;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        z-index: 100;
+        margin-bottom: 10px;
+
+        .title-bar {
+            @include adjust-font-size-to(23px);
+            background-color: $titleBg;
+            color: $titleFontClr;
+            //overflow: hidden;
+
+            width: 100%;
+            height: 52px;
+            span.title {
+                padding-left: 10px;
+                font-weight: 900; 
+            }
+            &.sliding-drawer {
+                position: fixed;
+                width: 208px;
+                top: 0;
+                padding: 0 20px;
+            }
+            #close-drawer {
+                float: right;
+                display: block;
+                margin-top: 6px;
+                margin-right: 20px;
+                &:hover {
+                    color: black;
+                }
+            }
+            #agency-search-box {
+                width: 235px;
+                font-size: 65%;
+                float: none !important;
+                pointer-events: none;
+                opacity: .3;
+                transition: all 0.3s ease 0s;
+            }
+            .add-agency-btn, .add-contact-btn {
+                margin-bottom: 10px;
+                font-size: 70%;
+                color: #5f996c;
+                display: inline;
+                text-shadow: none;
+                padding: 5px;
+                transition: all 0.3s ease 0s;
+                &:hover {
+                    background-color: darken($titleBg, 15%)
+                }
+                &.add-contact-btn {
+                    display: none;
+                }
+                &.add-agency-btn {
+                    opacity: .3;
+                    pointer-events: none;
+                }
+            }
+        }
+
+        .textarea {
+            @include textarea;
+            width: 90%;
+        }
+        label {
+            display: block;
+            font-size: 90%;
+            float: none;
+        }
+
+        .agency-contact-controls {
+            border-bottom: 1px solid #EEE5D4;
+            background-color: $controlsClr;
+            height: 60px;
+            border-bottom: 1px solid #999;
+            .sort-text {
+                color: #8a8288;
+            }
+            #sortByLabel {
+                display: inline-block;
+            }
+            .sortToggle {
+                display: inline-block;
+                cursor: pointer;
+                margin-left: 10px;
+                color: #5fa185;
+                &:hover {
+                    background-color: darken($controlsClr, 20%);
+                }
+
+            }
+
+            .sortToggle.selected {
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            .filterAgenciesContainer {
+               float: right;
+               color: #999; 
+               font-size: 65%;
+               input {
+                    margin-bottom: 0;
+               }
+            }
+
+            .pagination {
+                padding: 0;
+                margin-left: 10px;
+                .count {
+                    display: inline-block;
+                    font-size: 10px;
+                }
+                .btn {
+                    display: inline-block;
+                    @include flat-button;
+                    &.disabled {
+                        pointer-events: none;
+                        background-color: #999;
+                        opacity: .3;
+                    }
+                }
+            }
+        }
+
+
+        .addAgency, .addContact {
+            width: 100%;
+            display: none;
+            #addAgencyDrawer, #addContactDrawer {
+                border: 1px solid #999;
+                @include border-radius(4px);
+                width: $edit-input-width;
+                padding: 10px;
+            }
+            .btn {
+                @include button-secondary-gray;
+                margin-top: 20px;
+            }
+
+        }
+
+        #editAgencyDrawer, .editContact, .editContactDrawer {
+            border: 1px solid #999;
+            @include border-radius(4px);
+            width: $edit-box-width;
+            padding: 5px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            input {
+                width: $edit-input-width;
+            }
+            #edit_input_hidden, #input_edit_agency_hidden {
+                width: 10px;
+            }
+            .delete-obj {
+                display: inline;
+            }
+            .btn {
+                @include button-secondary-gray;
+            }
+        }
+
+        .agencies {
+            background-color: white;
+
+            .agency {
+                position: relative;
+                .hide-these-contacts {
+                    font-size: 80%;
+                    display: none;
+                    position: absolute;
+                    right: 0;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .item {
+                @include adjust-font-size-to(14px);
+                line-height: 18px;
+                padding: 10px 10px;
+                margin: 0 1px;
+                //border-bottom: 1px solid #EEE5D4;
+                &.agency {
+                    border-bottom: 1px solid #EEE5D4;
+                }
+                &:hover {
+                    //background-color: darken( $nav-bg, 20% );
+                    //cursor: pointer;
+                }
+                .click-agency-button, .edit-agency-btn, .edit-contact-btn, .click-contact-btn{
+                    font-size: 80%;
+                }
+                .agency-government-name {
+                    text-indent: 10px;
+                    font-size: 120%;
+                    color: #999;
+                }
+                .deleted-msg {
+                    margin-left: 20px;
+                    margin-bottom: 3px;
+                    font-weight: bold;
+                    font-size: 80%;
+                }
+                .agency-container, .contact-container {
+                    margin-left: 20px;
+                    &.editspace {
+                        //margin-top: -20px;
+                    }
+                    &.deleted {
+                        text-decoration:line-through;
+                    }
+                    .agency-government-name {
+                        width: 100%;
+                        margin-left: -10px;
+                    }
+                    .note {
+                        font-size: 80%;
+                        color: #999;
+                        display: block;
+                    }
+                }
+                .agency-container {
+                    .toggle {
+                        transition: all 0.3s ease 0s;
+                    }
+                    &:hover {
+                        cursor: pointer;
+                        .toggle {
+                            color: red;
+                        }
+                    }
+                }
+            }
+            .contacts {
+                border-left: 5px solid #999;
+                margin-left: 25px;
+                display: none;
+                .item-container {
+                    width: 85%;
+                    .contact-container {
+                        margin-left: 0;
+                    }
+                    border-bottom: none;
+                    .contact-container {
+                        position: relative;
+                        .warning {
+                            display: none;
+                            padding: 5px;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                            background-color: $nav-bg;
+                            border-radius: 4px;
+                            .yes {
+                                display: block;
+                                width: 120px;
+                                padding: 5px;
+                                text-align: center;
+                                border-radius: 4px;
+                                background-color: lighten(#FFFF9A, 15%);
+                                margin: 0 auto;
+                                &:hover {
+                                    background-color: darken(#FFFF9A, 20%);
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                        .select-this-contact {
+                            position: absolute;
+                            right: 0;
+                            width: 150px;
+                            background-color: #669966;
+                            color: white;
+                            font-size: 115%;
+                            padding: 7px;
+                            border-radius: 4px;
+                            text-align: center;
+                            &:hover {
+                                background-color: darken(#669966, 20%);
+                                cursor: pointer;
+                            }
+                            &.selected {
+                                background-color: white;
+                                color: #669966;
+                                border: 1px solid #669966;
+                            }
+                        }
+                    }
+                }
+                .add-contact-btn {
+                    margin-top: 15px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}    
+.page-agency-listing {
+    #agency-view-wrapper{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    #agency-view {
+        height: 100% !important;
+        width: 100% !important;
+        float: none !important;
+        .select-this-contact {
+            display: none !important;
+        }
+    }
+    .recipients {
+        display: none;
+    }
+} 

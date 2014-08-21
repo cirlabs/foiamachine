@@ -1,0 +1,56 @@
+{% load url from future %}
+{% load filter_tags %}
+<div id="agency-view-wrapper">
+  {% if False %}
+  <div id="agency-view" class="sliding-drawer">
+  {% else %}
+  <div id="agency-view">
+  {% endif %}
+    <div class="title-bar">
+      <span class="title" id="contacts-agencies-title">Agencies</span>
+      <a href="#" class="add-agency-btn"><i class="fa fa-plus-circle"></i> Add New</a>
+      <input type="text" name="search" id="agency-search-box" placeholder="Search">
+    </div>
+    <div class="agency-wrapper">
+      <div class="addAgency">
+        <div id="addAgencyDrawer">
+          <div class="error" id="addAgencyError"></div>
+          <div class="formRow">
+            <label>Agency name<input id="input_name" placeholder="required"/>
+          </div>
+          <div class="formRow">
+            <label>Select government</label>
+            <select id="select_government" /></select>
+          </div>
+          <button id="saveNewAgency" class="btn">Save</button>
+          <button id="cancelNewAgency" class="btn">Cancel</button>
+        </div>
+      </div>
+      <div class="agency-contact-controls">
+        <div id="sortByLabel" class="sort-text">Sort by</div>
+        <div class="sortToggle sort-text" id="sortByAgency">agency name</div>
+        <div class="selected sortToggle sort-text" id="sortByState">state/country</div>
+        <div class="filterAgenciesContainer">
+          <input checked id="showHideByContacts" type="checkbox" name="showNoAgencies" value="" title="Agencies without contacts are hidden. If you created an agency without adding a contact and left this page, either search for the agency by name above or click here to find it."><span id="showhidetxt">Show agencies without contacts</span><br>
+          <input id="showHideByEdits" type="checkbox" name="showEditableAgencies" value="" title="You can add a contact to any agency but you can edit only the agencies and contacts you created. Clicking here will show you only agencies you can edit or agencies with contacts you can edit."><span id="showhidetxt">Show only agencies I can edit</span><br>
+        </div>
+        <div class="pagination">
+            <div id="prevPage" class="btn prev green disabled">back</div>
+            <div id="nextPage" class="btn next green disabled">next</div>
+            <div class="count">Page <span class="current">1</span>/<span class="total">1000</span></div>
+        </div>
+      </div>
+      <div class="loading-note">
+        <span>Loading agencies</span>
+      </div>
+      <div class="agencies"></div>
+    </div>
+  </div>
+
+
+  <div id="input" class="recipients">
+    <div id="contact-selection">
+      <span class="rnote">No contacts selected. Create, edit and select your contact and agency to the right.</span>
+    </div>
+  </div>
+</div>

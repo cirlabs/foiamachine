@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% load url from future %}
+
+{% block wrapper_css %}
+<link rel="stylesheet" href="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.css" />
+<link rel="stylesheet" href="{{ STATIC_URL }}css/overcast/jquery-ui-1.10.0.custom.min.css"/>
+{% endblock %}
+{% block content %}
+<h1 class="headline">
+Your Groups
+</h1>
+<p>
+    Use this form to create a group, add users to it, or remove users from an existing group. Groups you are part of but did not create are also displayed here. Only a group's creator can add and remove users from that group.
+</p>
+<p>
+    All members of a group will be able to view any requests associated with the group. 
+</p>
+<p>
+    Requests can be linked to a specific group under the “Request” page (see tabs on left.) 
+</p>
+<div id="newGroupForm" class="formRow">
+    <input class="group-user-input" id="groupNameInput" placeholder="Name of a new group" />
+    <span id="newGroupSubmit">Create group</span>
+</div>
+<div id="groups">
+</div>
+
+{% endblock %}
+{% block page_scripts %}
+<link rel="stylesheet" href="{{ STATIC_URL }}css/overcast/jquery-ui-1.10.0.custom.min.css"/>
+<script src="{{ STATIC_URL }}js/backbone-0.9.10-min.js"></script>
+<script src="{{ STATIC_URL }}js/backbone-tastypie.js"></script>
+<script src="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/backbone-multi-post-fix.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/group.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/request.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var gcv = new GroupCollectionView({userId: {{request.user.id}}});
+        FOIMachine.events.on('groupsLoaded', function(data){
+            $('[title]').qtip();
+            data.groupIds.forEach(function(id){
+                new RequestListView({el: ".requests-container#i"+id, groupId: id});
+            });
+        });
+        $('#addGroupButton').click(function(){
+            $('#newGroupForm input, #newGroupForm button').show();
+        });
+        $('#newGroupSubmit').click(function(){
+            var name = $('#groupNameInput').val();
+
+            if (!name){
+                return;
+            }
+            var group = new Group ({name: name});
+
+            group.save(group.attributes, {
+                success: function(model){
+                    gcv.renderNewGroup(model);
+                    $('#groupExists').hide();
+                },
+                error: function(){
+                    FOIMachine.utils.showUserMsg("Sorry, a group by that name already exists.");
+                }
+
+            });
+            return false;
+
+        });
+        $("input").on("keypress", function(e){
+            if (e.keyCode == 13) {
+                e.preventDefault();
+                $("#newGroupSubmit").click();
+            }
+        });
+        
+
+    });
+
+</script>
+
+
+{% endblock %}

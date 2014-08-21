@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block title %}FOIA Machine: New request{% endblock %}
+	
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}{% endblock %}
+
+{% block content %}
+
+
+<div class="body-content">
+  <section id="my-requests">
+  	<h1>All of the agencies are belong to us</h1>
+  	
+  	<div id="agency-search">
+  		<input type="text"/>
+  		<a class="btn btn-primary btn-large">Search</a>
+  	</div>
+  		
+  	<table class="table table-striped" cellspacing="0" cellpadding="0" border="0">
+  		<tr>
+  			<th>Level</th>
+  			<th>Name</th>
+  			<th>Contacts</th>
+  		</tr>
+  		{% for agency in agency_list %}<tr>
+  			<td>Federal</td>
+  			<td><a href="{% url 'agency_detail' slug=agency.slug %}">{{ agency.name }}</a></td>
+  			<td>3ish</td>
+  		</tr>{% endfor %}
+  	</table>
+  </section>
+</div>
+{% endblock %}

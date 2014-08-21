@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block title %}FOIA Machine: {{agency.name}}{% endblock %}
+	
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}{% endblock %}
+
+{% block content %}
+
+
+	<h1>{{ agency.name }}</h1>
+	<h2>Requests</h2>
+    {% include 'requests/requests_table_entry.html' %}
+
+{% endblock %}

@@ -1,0 +1,173 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% load core_extras %}
+{% load i18n %}
+
+
+{% block title %}FOIA Machine{% endblock %}
+
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}
+  <link rel="stylesheet" href="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.css" />
+  <link rel="stylesheet" href="{{STATIC_URL}}js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/medium-editor/medium-editor.css" />
+{% endblock %}
+
+{% block body_class %}page-free-edit{% endblock %}
+
+{% block content %}
+
+<div id="rm-contacts-dialog-confirm">
+</div>
+<div class="header-info">
+  <span>Custom Requests > </span>New Request
+  {% if edit_obj %}
+    <a id="request-generator-btn" href="{% url 'request_new'  %}#request={{edit_obj.id}}"><i class="fa fa-edit"></i> Switch to request generator</a>
+  {% else %}
+    <a id="request-generator-btn" href="{% url 'request_new' %}"><i class="fa fa-edit"></i> Switch to request generator</a>
+  {% endif %}
+</div>
+<h1 class="headline">Create a custom FOIA request</h1>
+<div class="subline">
+  <a id="who-gets-btn" href="{% url 'the_workings' %}" class="fancybox fancybox.iframe" style="display: inline-block;"><i class="fa fa-info-circle"></i> Who gets your request</a>
+</div>
+    {% include 'requests/agency_contact_view.html' %}
+
+<div class="subject">
+    <span class="label">Subject:</span>
+    <input id="subject-input" type="text" />
+</div>
+<div contenteditable="true" id="request-edit-area" class="body-content textarea editable">
+    <span class="placeholder">Start by selecting an agency and then a contact, then begin writing request here.</span>
+</div>
+<div class="form-controls">
+    <div class="attachment-controls">
+        <form class="<%= cid %>" id="fileUploadForm">
+            {% csrf_token %}
+             <button style="position: relative" type="button" id="fileUploadButton" class="btn"><i id="fileUploadStatus"></i>Upload Attachment  
+             <input style="opacity: 0; position: absolute; top:0; right: 0; left: 0; bottom: 0" type="file" id="fileUploadInput" name="file"></input>  
+             </button> 
+        </form>
+        <div id="attachments">
+        </div>
+    </div>
+    <a href="#" id="send-now-btn" class="call-to-action">Send Now</a>
+    <a style="float: right;" href="#" id="save-quit-request-btn" class=""><i class="fa fa-floppy-o"></i> Save Request and Quit</a>
+    <a style="float: right;" href="#" id="save-request-btn" class="">Save Request</a>
+    <span style="float: right;" id="download-request">Download Request</span>
+</div>
+{% endblock %}
+{% block page_scripts %}
+<script type="text/javascript" src="{{ STATIC_URL }}js/backbone-min-1.1.2.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/backbone-tastypie.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/medium-editor.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/backbone-multi-post-fix.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/agency.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/request.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/government.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/contact.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.iframe-transport.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.fileupload.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.js"></script>
+<style>
+  #error-msg a {
+    color: #FCECBB;
+  }
+</style>
+<script type='text/javascript'>
+  $(document).ready(function(){
+    $('[title]').qtip();
+    $(".fancybox").fancybox();
+    //RequestCreationView
+    var MyRCV = RequestCreationView.extend({
+      el: ".right-col",
+      events: {
+        "click #request-generator-btn": "doSwitchContext"
+      },
+      doSwitchContext: function(e){
+        e.preventDefault();
+        this.request.set("text", FOIMachine.utils.getMediumHtml(this.textAreaEl).trim())
+        var target = e.srcElement || e.target;
+        this.switchContext = $(target).attr("href");
+        if(this.request.get("id") === undefined){
+          window.location = this.switchContext;
+        }else{
+            this.updateRequest();
+        }
+        return false;
+      },
+      postSave: function(){
+        if(this.switchContext !== undefined)
+          window.location = this.switchContext;
+      },
+      setRequest: function(){
+        var me = this;
+        {% if edit_obj %}
+        FOIMachine.utils.showUserMsg("Loading request...");
+        this.request = new Request({"id": {{edit_obj.id}} });
+        this.request.fetch({error: function(){
+            FOIMachine.utils.showUserMsg("Error finding object to edit");
+          }, success: function(){
+            FOIMachine.utils.showUserMsg("Request loaded!");
+            me.request.initRelations();
+            me.setEditableRequest();
+            me.renderAttachments();
+            if(me.request.get("contacts").length > 0)
+              $(".rnote").hide();
+            if(me.request.get("request_download_url"))
+              me.requestDownloadButton.show();
+            if(me.request.canSend())
+              me.sendButton.addClass('active');
+        }});
+        {% else %}
+        var match = window.location.hash.match(/request=\d*/)
+        if(match != null){
+          FOIMachine.utils.showUserMsg("Loading request...");
+          var id = match[0].split("=")[1];
+          me.request = new Request({"id": id});
+          this.request.fetch({error: function(){
+              FOIMachine.utils.showUserMsg("Error finding object to edit");
+            }, success: function(){
+              FOIMachine.utils.showUserMsg("Request loaded!");
+              me.request.initRelations();
+              me.setEditableRequest();
+              if(me.request.get("contacts").length > 0)
+                $(".rnote").hide();
+              if(me.request.get("request_download_url"))
+                me.requestDownloadButton.show();
+              me.renderAttachments();
+              if(me.request.canSend())
+                me.sendButton.addClass('active');
+          }});
+        }else{
+          me.request = new Request({});
+          me.request.initRelations();
+        }
+        {% endif %}
+        {% if sent_too_many %}
+          this.sendButton.removeClass("active");
+          FOIMachine.utils.showUserMsg('You have exceeded your limit of {{ limit }} requests this week. If you would like us to adjust your limit, please email <a href="mailto:info@foiamachine.org">info@foiamachine.org</a>');
+        {% endif %}
+        {% if not is_verified %}
+          //this.sendButton.removeClass("active");
+          //FOIMachine.utils.showUserMsg("Your email address has not been confirmed, <a href='{% url 'account_update' %}'>please respond to the confirmation email</a>.");
+        {% endif %} 
+      }
+    })
+    var rcv = new MyRCV({
+      agencyEl: "#agency-view",
+      saveButton: "#save-request-btn",
+      textArea: "#request-edit-area",
+      subjectInput: "#subject-input",
+      sendButton: "#send-now-btn",
+      fileUploadInput: '#fileUploadInput',
+      saveAndQuitButton: "#save-quit-request-btn",
+      attachments: "#attachments",
+      selectedContactsEl: "#contact-selection",
+      downloadRequestButton: "#download-request"
+    });
+  });
+</script>
+{% endblock %}

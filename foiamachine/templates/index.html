@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block title %}FOIA Machine{% endblock %}
+  
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}{% endblock %}
+
+{% block content %}
+{% include 'index_hero.html' %}
+<div class="row-fluid selling-points">
+  <div class="span12">
+	<div class="row-fluid">
+	  <div class="span4">
+		<h3>Submit FOI requests</h3>
+		<p>Whether you're a professional FOI user or a member of the general public who has never submitted an open records request, we'll help you streamline the process.</p>
+	  </div>
+	  <div class="span4">
+		<h3>Tracking</h3>
+		<p>With Bird Dog, you can track the progress of your requests, keep your efforts organized, set reminders for yourself and more.</p>
+	  </div>
+	  <div class="span4">
+		<h3>Social Shaming &amp; Support</h3>
+		<p>Until now, journalists slaved away in their own misery, swearing their way through the FOIA request process. Now you can gain support from the collective voice of the community.</p>
+	  </div>
+	</div>
+  </div>
+</div>
+    
+  
+  
+{% endblock %}

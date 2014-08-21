@@ -1,0 +1,11 @@
+.page-sign-in > {
+    
+    .sign-in {
+        @include zen-grid-item(12,1);
+    }
+    
+    .sign-up {
+        @include zen-grid-item(12,1);
+        @include zen-clear();
+    }
+}

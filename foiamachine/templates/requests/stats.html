@@ -1,0 +1,193 @@
+{% extends "base.html" %}
+{% block page_scripts %}
+    <script src="{{ STATIC_URL }}js/d3.v3.min.js"></script>
+    <script src="{{ STATIC_URL }}js/moment.min.js"></script>
+    <script type="text/x-underscore-template" id="statsEntryTemplate">
+      <div class="statsEntry" id="statsEntry-<%= id %>">
+        <div class="statsName"><%= name %></div>
+        <div class="statsRow total">
+            <div class="statsField total">Total requests filed:</div>
+            <div class="statsNum total"><%= num_requests_filed %></div>
+        </div>
+        <div class="statsRow subfield">
+            <div class="statsField subfield">Requests fulfilled:</div>
+            <div class="statsNum subfield"><%= num_fulfilled %></div>
+        </div>
+        <div class="statsRow subfield">
+            <div class="statsField subfield">Requests partially fulfilled:</div>
+            <div class="statsNum subfield"><%= num_partially_fulfilled %></div>
+        </div>
+        <div class="statsRow subfield">
+            <div class="statsField subfield">Requests denied:</div>
+            <div class="statsNum subfield"><%= num_denied %></div>
+        </div>
+        <div class="statsRow subfield">
+            <div class="statsField subfield">Requests awaiting reply:</div>
+            <div class="statsNum subfield"><%= num_no_response %></div>
+        </div>
+        <div class="statsRow subfield">
+            <div class="statsField subfield">Requests - other response:</div>
+            <div class="statsNum subfield"><%= num_other_responses %></div>
+        </div>
+        <% if (avg_first_response_time) { %>
+            <div class="statsRow subfield">
+                <div class="statsField subfield">Average Initial Response Time:</div>
+                <div class="statsNum subfield"><%= avg_first_response_time %></div>
+            </div>
+        <% } %>
+        <% if (avg_lifetime) { %>
+            <div class="statsRow subfield">
+                <div class="statsField subfield">Average Total Lifetime:</div>
+                <div class="statsNum subfield"><%= avg_lifetime %></div>
+            </div>
+        <% } %>
+        <% if (avg_days_outstanding) { %>
+            <div class="statsRow subfield">
+                <div class="statsField subfield">Average Days Currently Awaiting Response:</div>
+                <div class="statsNum subfield"><%= avg_days_outstanding %></div>
+            </div>
+        <% } %>
+        <div class="pieChart" id="piechart-<%= id %>">
+
+        </div>
+
+      </div>
+
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            {% if user.is_staff %}
+            var which = 'overall';
+            {% else %}
+            var which = 'user';
+            {% endif %}
+            $('.statsDateStart').datepicker({changeMonth: true, changeYear: true}).datepicker(
+                "setDate", -60
+            );
+            $('.statsDateEnd').datepicker({changeMonth: true, changeYear: true}).datepicker(
+                "setDate", "now"
+            );
+            var start_date = moment().subtract('days', 60).format("YYYY-MM-DD");
+            //var end_date=moment().format("YYYY-MM-DD");
+            var protocol =  window.location.protocol + "//";
+            var host = window.location.hostname === "localhost" ? protocol + "localhost:8000/api/v1/" : protocol+window.location.hostname+"/api/v1/";
+            var offset = 0;
+
+            var url = getUrl();
+            var statsEntryTemplate = _.template($('#statsEntryTemplate').html());
+            
+            function getUrl(){
+                return host + which + 'stats/?format=json&start_date=' + moment($('.statsDateStart').datepicker('getDate')).format("YYYY-MM-DD") + '&end_date=' + moment($('.statsDateEnd').datepicker('getDate')).format("YYYY-MM-DD") + '&offset=' + offset;
+
+            }
+            function makePie(entry){
+                var width = 500,
+                height = 300,
+                radius = Math.min(width, height) / 2;
+
+                var tooltip = d3.select("#tooltip");
+
+                var colors = d3.scale.category10();
+                var arc = d3.svg.arc().outerRadius(radius - 10).innerRadius(0);
+                var labels = ['Fulfilled', 'Partially Fulfilled', 'Denied', 'Awaiting Reply', 'Other Response'];
+
+                var pie = d3.layout.pie().sort(null)([entry.num_fulfilled, entry.num_partially_fulfilled, entry.num_denied, entry.num_no_response, entry.num_other_responses]);
+
+                var svg = d3.select("#piechart-" + entry.id).append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .append("g")
+                .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+                var g = svg.selectAll("arc").data(pie).enter().append("g").attr("class", "arc");
+
+                g.append("path").attr("d", arc)
+                .style("fill",function(d,i) {return colors(i);})
+                .append("svg:title").text(function(d, i){return labels[i] + ": " + d.data});
+                //.on("mouseover",function(d, i){tooltip.text(labels[i] + ': ' + d.data)
+                //.style({display: 'block', 'left' : event.pageX + 10 + 'px'kk
+
+                d3.selectAll("#statsEntry-" + entry.id + " .statsRow.subfield").style("color", function(d, i) { return colors(i);});
+                
+            }
+            function loadData(){
+                $.getJSON(url, function(data){
+                    
+                    var frag = '';
+                    if (_.keys(data.objects).length == 0){
+                        frag += "<b>No recent data</b>";
+                    }
+                    _.each(data.objects, function(entry){
+                        frag += statsEntryTemplate(entry);
+                    });
+                    $('#statsBody').html(frag);
+                    
+                    _.each(data.objects, makePie);
+                    offset = data.meta.offset;
+
+                    if (data.meta.next){
+                        $('#nextPage').data('page', data.meta.next).show();
+                    }
+                    else
+                    {
+                        $('#nextPage').hide();
+                    }
+                    if (data.meta.previous){
+                        $('#previousPage').data('page', data.meta.previous).show();
+                    }
+                    else
+                    {
+                        $('#previousPage').hide();
+                    }
+
+                });
+            }
+            $('.pageLink').click(function(){
+                url = $(this).data('page');
+                loadData();
+
+            });
+            $('.statsDateStart, .statsDateEnd').change(function(){
+                url = getUrl();
+                loadData();
+
+            });
+            loadData();
+            $('.statsButton').click(function(){
+                $('.statsButton').removeClass('selected');
+                var $this = $(this);
+                which = $this.attr('id').split('-')[0];
+                $this.addClass('selected');
+                offset = 0;
+                url = getUrl();
+                loadData();
+
+
+
+            });
+        });
+
+    </script>
+{% endblock %}
+{% block content %}
+    <section class="stats-container">
+        <div id="statsHeader">
+            {% if user.is_staff %}
+            <div class="statsButton selected" id="overall-Button">overall</div>
+            <div class="statsButton" id="agency-Button">agencies</div>
+            {% endif %}
+            <div class="statsButton" id="user-Button">users</div>
+        </div>
+            <div class="statsDateRange">
+                requests from <input class="statsDateStart" type="text" /> through
+                <input class="statsDateEnd" type="text" />
+            </div>
+        <div id="statsBody"></div>
+        <a class="pageLink" href="#" id="previousPage"><i class="fa fa-arrow-left"></i></a>
+        <a class="pageLink" href="#" id="nextPage"><i class="fa fa-arrow-right"></i></a>
+        <div id="tooltip">
+        
+        </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,154 @@
+$group-bg: #F0F0F0;
+#groups {
+    .group {
+        background: $group-bg;
+        @include border-radius(3px);
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        .groupContainer {
+        }
+        .requests-container {
+            input {
+                display: none;
+            }
+            .response-due {
+                display: inline-table;
+            }
+            .header {
+                font-weight: bold;
+            }
+            .header-note {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                margin-left: 10px;
+                span:first-child {
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+                span:nth-child(2) {
+                    font-weight: bold;
+                    float: right;
+                    margin-right: 30px;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: darken($group-bg, 20%);
+                    }
+                }
+            }
+            .load-all {
+                display: none;
+            }
+            .last-viewed {
+                width: initial;
+            }
+        }
+        .users {
+            margin-bottom: 10px;
+        }
+        .add-list-users {
+            background-color: #eeeedf;
+            padding-left: 10px;
+        }
+        .groupName {
+            padding-left: 10px;
+            font-weight: bold;
+            font-size: 36px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            .edit, .save-edit, .remove-group, .cancel-edit {
+                margin-right: 5px;
+                &:hover {
+                    background-color: darken($group-bg, 20%);
+                }
+                @include saveeditbutton;
+                &.save-edit, &.cancel-edit {
+                    display: none;
+                }
+            }
+            .remove, .remove-group {
+                @include removebutton;
+            }
+            .edit-name {
+                display: none;
+            }
+            background-color: #eeeed1;
+        }
+        .group-subhed {
+            font-size: 11px;
+            font-weight: normal;
+        }
+        .userName {
+            padding-left: 5px;
+            @include itemstyle;
+            .remove {
+                @include removebutton;
+                padding-left: 5px;
+            }
+            .edit {
+                padding-left: 5px;
+            }
+            .switch-container {
+                display: none;
+                width: 100px;
+                .switch-light {
+                    width: 100%;
+                    height: 20px;
+                    font-size: 18px;
+                    margin-left: 0;
+                    span {
+                        line-height: 20px;
+                        &.change-access {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .remove-container {
+            display: inline-block;
+            .rm-confirm-container {
+                display: none;
+                font-size: 14px;
+                float: right;
+                .remove-confirm {
+                    width: 40px;
+                    @include flat-button;
+                    margin-left: 3px;
+                    display: inline-block;
+                    text-align: center;
+                }
+            }
+        }
+        .addUserForm {
+            display: block;
+            padding-bottom: 10px;
+            .addUserButton {
+                @include addbutton;
+                display: inline-block;
+            }
+        }
+    }
+    #updated {
+        color: #e15838;
+    }
+    div.formRow {
+        padding: 10px 0;
+    }
+    div.formRow label {
+        width: 150px;
+        display: inline-block;
+    }
+    div.formRow input {
+        padding: 5px 10px;
+
+    }
+    div#groupExists {
+        color: red;
+        display: none;
+
+    }
+}
+#newGroupSubmit {
+    @include addbutton;
+}

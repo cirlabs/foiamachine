@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+
+{% block title %}Bird Dog: Mail Messages Associated w/ Request{% endblock %}
+    
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}{% endblock %}
+
+{% block content %}
+{% block page_scripts %}
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#check-mail").on('click', function(e){
+            var url = "{% url 'check_mail'%}";
+            var success = function(data, textStatus, jqXHR){
+                location.reload();
+            };
+            $.ajax({
+                url: url,
+                success: success,
+            });
+        });
+    });
+</script>
+{% endblock %}
+<ul>
+    <li><a id="check-mail" href="#">Check mail</a></li>
+    <li><a id="view-mailbox" href="{% url 'mailbox_mail_view' %}">View mailbox</a></li>
+<ul>
+
+{% for message in mail_messages %}
+ID: {{message.message_id}}
+<ul>
+    <li>FROM: {{message.email_from}}</li>
+    <li>TO: {% for thisguy in message.to.all %} {{thisguy.address}} <br/>{%endfor%}</li>
+    <li>CC: {% for thisguy in message.cc.all %} {{thisguy.address}} <br/>{%endfor%}</li>
+    <li>SUBJECT: {{message.subject}}</td>
+    <li>BODY: <a href="{% url 'mail_detail_view' slug=message.slug%}">{{message.body|truncatewords:15|safe}}</a></li>
+    <li>ATTACHMENTS: {% for attachment in message.attachments.all %}
+        <a href="#">{{attachment.file.name}}</a>{%endfor%}
+    </li>
+    <li>REPLIES: 
+        {% for reply in replies %} 
+        <ul>
+            <li>FROM: {{reply.email_from}}</li>
+            <li>TO: {% for thisguy in reply.to.all %} {{thisguy.address}} <br/>{%endfor%}</li>
+            <li>CC: {% for thisguy in reply.cc.all %} {{thisguy.address}} <br/>{%endfor%}</li>
+            <li>SUBJECT: {{reply.subject}}</li>
+            <li>BODY: {{reply.body|safe}}</li>
+            <li>ATTACHMENTS: {% for attachment in reply.attachments.all %}
+                <a href="#">{{attachment.file.name}}</a>{%endfor%}
+            </li>
+            <li>ID: {{reply.message_id}}</li>           
+        </ul>
+        {%endfor%} 
+    </li>
+</ul>
+<br/>
+{% endfor %}
+
+{% endblock %}

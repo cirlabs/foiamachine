@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if success %}
+        <h3>Your email address has been verified.</h3>
+    {% else %}
+        <h3>That link doesn't seem to work. Please make sure you clicked or copied-and-pasted correctly from your email.</h3>
+    {% endif %}
+{% endblock %}

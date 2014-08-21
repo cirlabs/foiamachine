@@ -1,0 +1,48 @@
+{% load url from future %}
+{% load filter_tags %}
+<div class="request list-item row" id="request-{{object.pk}}">
+	<div class="title-dates-status-container row">
+		<div class="selectme">
+			<input class="request_check" name="requests_to_modify" id="{{ object.pk }}" value="{{ object.pk }}" type="checkbox"/>
+		</div>
+		<div class="request-item-click" data-href="{% url 'request_detail' pk=object.pk %}">
+			<div class="title">
+				<a href="{% url 'request_detail' pk=object.pk %}">{{object.get_title_string}}</a>
+			</div>
+			<div class="status">
+				<span class="status-lbl" style="background-color:{{object.get_status_color}}">
+					<a href="{% url 'request_detail' pk=object.pk %}">{{ object.get_status_display }}</a>
+					</span>
+			</div>
+			<div class="response-date">
+				{% if object.status != 'F' %}
+				<a href="{% url 'request_detail' pk=object.pk %}">{{ object.get_due_date_string }}</a>
+				{% else %}
+				{% endif %}
+			</div>
+		</div>
+		<div class="misc-container row">
+			<div class="date-added">
+				Added on {{ object.get_date_added_string }}
+			</div>
+			<div class="privacy">
+				{{ object.get_privacy_string }}
+			</div>
+			<div class="last-viewed">
+				Last updated on {{object.get_date_updated_string}} 
+			</div>
+		</div>
+		<div class="agency-statute-container row">
+			<div class="agency">
+				<span class="lbl">Addressed to</span>
+				{{object.get_agency_string|safe}}
+				<span class="lbl">under</span>
+				{{object.get_government_string|safe}}
+			</div>
+		</div>
+		<div class="tags-container row">
+			<span class="lbl">Tags: </span>
+			{{object.get_tags_string|safe}}
+		</div>
+	</div>
+</div>

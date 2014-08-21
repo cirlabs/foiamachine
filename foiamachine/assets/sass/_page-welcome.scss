@@ -1,0 +1,260 @@
+.page-welcome {
+    min-width: 320px;
+    
+    .splash-wrap {
+        @include zen-grid-container();
+        position: relative;
+    }
+
+    .splash {
+        // need to animate -306px up 
+        @include zen-grid-item(12,1);
+        @include zen-clear;
+        @include box-shadow(0px 1px 5px rgba(black, 0.25), 0px 1px 83px rgba(#E96E47, .3) inset);
+        position: relative;
+        z-index: 2;
+        background-color: $logo-bg;
+        padding: $zen-gutter-width $zen-gutter-width ($zen-gutter-width * 2);
+        
+        .splash-logo {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 531px;
+            max-height: 367px;
+        }
+    }
+    
+    .signup-wrap {
+        @include box-shadow(0px 0px 5px rgba(black, .25) inset);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background-color: $nav-links;
+        margin: 0 auto;
+    }
+    
+    .sign-up {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+                
+        .disclaimer {
+            @include zen-clear();
+            @include adjust-font-size-to(14px);
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            color: $nav-bg;
+            max-width: 783px;
+            padding: 0 $zen-gutter-width;
+            margin-bottom: $zen-gutter-width;
+        }
+        
+        .standard-form {
+            @include zen-clear();
+            position: relative;
+            text-align: center;
+            
+            label,
+            input {
+                display: inline-block;
+                text-align: left;
+                vertical-align: top;
+            }
+            
+            label {
+                color: $logo-bg;
+                font-size: $base-font-size + 2;
+            }
+            
+            input[type=text] {
+                @include border-radius(4px);
+                @include box-shadow(0px 1px 0px rgba(white, 0.20), 0px 1px 3px rgba(black, .5) inset);
+                border: 1px solid #55381D;
+                background-color: $nav-bg - 20;
+                @include transition-property();
+                @include transition-duration(0.5s);
+                
+                &:focus {
+                    background-color: #fff;
+                    outline: none;
+                }
+            }
+            
+            .call-to-action {
+                @include zen-clear();
+                //margin-top: 27px;
+                margin-top: 20px;
+                padding: 0 15px;
+                height: 37px;
+                line-height: 37px;
+                position: absolute;
+                //bottom: -19px;
+                //left: 50%;
+                //margin-left: -52px;
+                text-align: center;
+            }
+            
+            .first-name,
+            .last-name,
+            .email,
+            .interest {
+                display: inline-block;
+                margin: 0 7px;
+            }
+                
+            .interest {
+                width: 10%;
+                height: 94px;
+                
+                label {
+                    white-space: nowrap;
+                }
+            }
+            
+            @media only screen and (max-width: 791px) {
+                
+                .disclaimer {
+                    margin-bottom: $zen-gutter-width / 2;
+                }
+                                
+                input[type=text] {
+                    margin-bottom: 10px;
+                }
+                
+                .first-name,
+                .last-name,
+                .email {
+                    padding: 0 0 30px;
+                    width: 25%;
+                }
+            }
+            
+            @media only screen and (max-width: 600px) {
+                        
+                input[type=text] {
+                    padding: 5px;
+                    font-size: 75%;
+                }
+                
+                label {
+                    @include adjust-font-size-to(13px);
+                    line-height: .75em;
+                }
+                
+                .call-to-action {
+                    font-size: 75%;
+                    position: absolute;
+                    bottom: -19px;
+                    left: 50%;
+                    margin-left: -52px;
+                    width: 105px;
+                    height: 37px;
+                    line-height: 37px;
+                    text-align: center;
+                }
+                
+                .disclaimer {
+                    @include adjust-font-size-to(12px);
+                    line-height: 1.5em;
+                }
+            }
+            
+            @media only screen and (max-width: 531px) {
+                
+                .first-name,
+                .last-name,
+                .email {
+                    padding-bottom: 0;
+                }
+                
+                .interest {
+                    width: 84%;
+                    padding-bottom: 0;
+                }
+            }
+        }        
+    }
+
+    .send-interest {
+        margin-top: -20px;
+    }
+    
+    .signup-button {
+        @include button-med;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -205px;
+        margin-bottom: -25px;
+        display: inline-block;
+        height: 50px;
+        width: 180px;
+        text-align: center;
+        outline: none;
+    }
+    .signin-button {
+        @include button-med;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: 5px;
+        margin-bottom: -25px;
+        display: inline-block;
+        height: 50px;
+        width: 180px;
+        text-align: center;
+        outline: none;
+    }
+    
+    .features {
+        @include zen-clear();
+        max-width: 1050px;
+        margin: 0 auto;
+        padding: $zen-gutter-width * 2;
+        text-align: center;
+        color: $nav-links;
+        
+        h1 {
+            @include adjust-font-size-to(26px);
+            border-bottom: 1px solid $nav-bg - 20;
+        }
+    }
+    
+    .submit {
+        @include zen-grid-item(4,1);
+    }
+    
+    .track {
+        @include zen-grid-item(4,5);
+    }
+    
+    .social {
+        @include zen-grid-item(4,9);
+    }
+    
+    @media only screen and (max-width: 955px) {
+        .submit,
+        .track,
+        .social {
+            @include zen-grid-item(12,1);
+            @include zen-clear();
+            text-align: left;
+        }        
+    }
+    
+    @media only screen and (max-width: 531px) {
+        .features {
+            padding-left: $zen-gutter-width / 2;
+            padding-right: $zen-gutter-width / 2;
+        }
+    }
+    .sign-in {
+        font-size: 20px;
+    }
+}

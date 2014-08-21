@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block title %}Statutes{% endblock %}
+    
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}{% endblock %}
+
+{% block page_scripts %}
+<script src="{{ STATIC_URL }}js/backbone-0.9.10-min.js"></script>
+<script src="{{ STATIC_URL }}js/backbone-tastypie.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/backbone-multi-post-fix.js"></script>
+<script src="{{ STATIC_URL }}js/statute.js"></script>
+<script>
+$(document).ready(function() {
+    {% if can_edit %}
+    FOIMachine.utils.showUserMsg("You are an editor and have permission to edit statutes. Click on the links to do so.");
+    {% endif %}
+});
+$('.add-btn').click(function(){
+    $('#newStatuteForm').show();
+});
+$('#cancelNewStatute').click(function(){
+    $('#statuteNameInput').val('');
+    $('#newStatuteForm').hide();
+});
+$('#saveNewStatute').click(function(){
+    var name = $('#statuteNameInput').val();
+    var statute = new Statute ({
+        short_title: name
+    });
+    statute.save({}, {
+        success: function(model, response, objects){
+            window.location.href = '/governments/statutes/' + model.attributes.slug + '/';
+        },
+        error: function(model, response, objects){
+            var message = JSON.parse(objects.xhr.responseText);
+            FOIMachine.utils.showUserMsg(message);
+        }
+    
+    });
+
+});
+</script>
+{% endblock %}
+{% block content %}
+
+<div class="body-content">
+  <section id="my-requests">
+    <h1>{{statutes.count.all}} FOI Laws</h1>
+    {% if request.user.is_staff %}
+    <div class="add-btn new-statute green"><i class="fa fa-plus-circle"></i>Add New Statute</div>
+    <form id="newStatuteForm">
+        <div class="formRow">
+            <label>Statute Name</label> <input id="statuteNameInput" />
+        </div>
+        <div class="formRow">
+            <button id="saveNewStatute" type="button">Add Statute</button>
+            <button id="cancelNewStatute" type="button">Cancel</button>
+        </div>
+    </form>
+    {% endif %}
+        
+    <table class="requests" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <th>Name</th>
+            <th>Government(s)</th>
+            <th>Response required in:</th>
+        </tr>
+        {% for statute in statutes %}
+        {% if can_edit or not statute.deleted and not statute.deprecated %}
+        
+        <tr {% if statute.deleted %} style="text-decoration:line-through" {% endif %}>
+            <td><a href="{% url 'statute_detail' slug=statute.slug %}">{% if can_edit %}<i class="fa fa-edit"></i> {% endif %}{{statute.short_title}}
+                {% if statute.deleted %}
+                <i>(hidden)</i>
+                {% endif %}
+                {% if statute.deprecated %}
+                (deprecated)
+                {% endif %}
+            
+            
+            </a></td>
+            <td>
+                {% for gov in statute.get_governments %}
+                    {{gov.name}}<br/>
+                {% endfor %}
+            </td>
+            <td>{% if statute.days_till_due == -1 %} Reasonable amount of time {% else %}{{statute.days_till_due}} days {% endif %}</td>
+        </tr>{% endif %} {% endfor %}
+    </table>
+  </section>
+</div>
+{% endblock %}

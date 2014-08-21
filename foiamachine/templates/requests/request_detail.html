@@ -1,0 +1,361 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block body_class %}page-request-details{% endblock %}
+
+{% block content %}
+<form id="action_form" action="" method="POST" class="standard-form">
+<input type="hidden" name="requests_to_modify" value="{{ object.id }}" />
+{% csrf_token %}
+<div class="header">
+    <h1>Request Details</h1>
+    <h2 class="subject">{% if object.title %}{{ object.title }}{% else %} unspecified {% endif %}</h2>
+    {% if can_edit %}
+    <div class="threading-id-container">
+        <div class="thread-code">
+            <span class="threading-id">{{ object.thread_lookup }}</span>
+        </div>
+        {% if can_edit %}
+        <div class="thread-text">
+            To associate an email with this request, paste <span class="thiscode">this code</span> into the body or subject of a message addressed to <span class="threading-email">{{provisioned_email}}</span>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+    <div class="top-nav-container">
+        {% if can_edit and show_edit_button %}
+            {% if default_request_creation_free %}
+                <a class="edit" href="{% url 'free_request_edit' pk=object.pk%}"><i class="fa fa-pencil-square-o"></i> Edit</a>
+            {% else %}
+                <a class="edit" href="{% url 'request_new'%}#request={{object.pk}}"><i class="fa fa-pencil-square-o"></i> Edit</a>
+            {% endif %}
+        {% endif %}
+        {% if can_edit and object.scheduled_send_date == None and object.can_send %}
+            <a class="send-btn" href="{% url 'send_request' pk=object.pk %}"><i class="fa fa-envelope"></i> Send</a>
+        {% endif %}
+        {% if is_author %}
+        <span id="generateLinkButton"><i class="fa fa-share-square"></i> Link to this request</span>
+        {% endif %}
+    </div>
+</div>
+
+<div class="msg-details">
+    <div class="left">
+        <span class="author">{{ object.author }}</span>
+        <span class="email">({{object.author.email}})</span>
+        <div class="to">
+            to
+        {% for c in object.contacts.all %}
+            <span>{{ c.get_first_active_email }}{% if not forloop.last %}, {% endif %}</span>
+        {% endfor %}
+        {% if object.agency %}
+            (<a href="{% url 'agency_detail' slug=object.agency.slug %}">{{ object.agency.name }}</a>)
+        {% endif %}
+        </div>
+        <div class="">
+            <span class="filed-under-label">Filed Under:</span>
+            {% for statute in object.government.statutes.all %}
+            <a href="{% url 'statute_detail' slug=statute.slug %}">{{statute.short_title}}</a>
+            {% endfor %}
+        </div>
+    </div>
+    
+</div>
+
+<div class="msg-details-details">
+    <div class="leftside">
+        <div>
+            <span class="label">Created:</span> {{ object.date_added|date }}
+        </div>
+        <div>
+            <span class="label">Last Updated:</span> {{ object.date_updated|date }}
+        </div>
+       
+        {% if object.status != 'D' %}
+            <div> 
+                <span class="label">Response Due:</span> 
+                {% if object.get_due_date != None %}{{object.get_due_date|date}} {% else %} NA {% endif %}
+                {% if can_edit %}
+                <span href="#" id="changeresponsedate"><i class="fa fa-pencil-square-o" title='Update response date'></i></span>
+                <input id="responsedateinput" type="text" name="newduedate" class="dateField" placeholder="Update Date" />
+                {% endif %}
+            </div>        
+        {% endif %}
+        <div class="groups-container">
+            <span class="label">Shared with:</span>
+            <div class="shared-container group">
+            </div>
+            {% if object.author == request.user %}
+            <input id='add-group' type="text" placeholder="User or group's name" /><span class="add-btn" id="add-group-btn"><i class="fa fa-plus-square"></i></span>
+            <br/><a id="manage-groups-link" href="{% url 'manage_groups' %}">Manage my groups</a>
+            {% endif %}
+        </div>
+    </div>
+    
+    <div class="rightside">
+        <div>
+            <span class="label">Privacy Status:</span> {{ object.privacy_status }}
+            {% if can_edit %}
+                {% if object.privacy_status == 'Private' %}
+                <button class='request-control-btn' type="submit" name="action" title="Make request public" value="Make Public"><i class="fa fa-unlock"></i></button>
+                {% else %}
+                  <button class='request-control-btn' type="submit" name="action" title="Make request private" value="Make Private"><i class="fa fa-lock"></i></button>
+                {% endif %}<br>
+            {% endif %}
+        </div>
+        <div>
+            <span class="label">Status:</span>
+            {% if can_edit %}
+            <select name="newstatus">
+                <option value="U" {% if object.status == "U" %}selected {% endif %} >New (Unsent)</option>
+                <option value="I" {% if object.status == "I" %}selected {% endif %}>Incomplete</option>
+                <option value="S"{% if object.status == "S" %}selected {% endif %}> Filed (request sent)</option>
+                <option value="R" {% if object.status == "R" %}selected {% endif %}>Response received (but not complete)</option>
+                <option value="P"{% if object.status == "P" %}selected {% endif %}> Partially Fulfilled</option>
+                <option value="F"{% if object.status == "F" %}selected {% endif %}> Fulfilled</option>
+                <option value="D"{% if object.status == "D" %}selected {% endif %}> Denied</option>
+            </select> 
+            {% else %}
+                <span> {{ object.get_status}} </span>
+            {% endif %}
+        </div>
+        <div>
+            <span class="label">Date Fulfilled:</span> 
+            {% if object.date_fulfilled %}
+            {{ object.date_fulfilled|date }}
+            {% else %}
+            Still Pending
+            {% endif %}
+            {% if can_edit and object.status == 'F' or object.status == 'P' %}
+            <span id="changefulfill" href="#"><i class="fa fa-pencil-square-o" title='Update fulfilled date'></i></span>
+            <input id='fulfillinput' type="text" name="newfulfilleddate" class="dateField" placeholder="Update Date" />
+            {% endif %}
+        </div>
+        
+        <div class="tags-container">
+            <span class="label">Tags:</span>
+            <div class="shared-container tag">
+            </div>
+            {% if can_edit %}
+            <input id='add-tag' type="text" placeholder="Type the name of a tag" /><span class="add-btn" id="add-tag-btn"><i class="fa fa-plus-square"></i></span>
+            {% endif %}
+        </div>
+    </div>
+    {% if can_edit %}
+    <div class="form-action">
+        <button type="submit" name="action" value="Update">Save Changes</button>
+    </div>
+    {% endif %}
+</div>
+
+
+</form>
+<div class="mail">
+    {% if contacts_sin_email > 0 %}
+        Contacts without emails:
+        <div class="contacts-no-email recipients">
+        {% for contact in object.get_contacts_with_email %}
+            <div class="contact-no-email recipient">
+                <span>{{contact.first_name}} {{contact.last_name}}</span>
+                <span>{{contact.get_first_active_address}}</span>
+            </div>
+        {% endfor %}
+        </div>
+    {% endif %}
+
+    {% if object.printed %}
+        <a href="{{object.printed.get_public_url}}" target="_blank"><i class="fa fa-cloud-download"></i> Download request</a><br/>
+    {% endif %}
+    {% if replies %}
+        {% for reply in replies %}
+            {% include "mail/mail_message.html" with mail_message=reply index=forloop.counter0 %}
+        {% endfor %}
+    {% endif %}
+    {% if not object.sent %}
+        <b>Message unsent</b>
+        <p>{{object.free_edit_body|safe}}</p>
+    {% endif %}
+</div>
+{% if can_edit %}
+<div class="message-container">
+    <div class="messages"></div>
+    <span id="add-msg" class="btn">Add note</span>
+</div>
+{% endif %}
+{% endblock %}
+{% block wrapper_css %}
+<link rel="stylesheet" href="{{STATIC_URL}}js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.css" />
+<link rel="stylesheet" href="{{ STATIC_URL }}css/medium-editor/medium-editor.css" />
+
+<style>
+#interest-form-container{
+    {% if display %}
+    display: {{display}};
+    {% else %}
+    display: none;
+    {% endif %}
+}
+</style>
+{% endblock %}
+{% block page_scripts %}
+<link rel="stylesheet" href="{{ STATIC_URL }}css/overcast/jquery-ui-1.10.0.custom.min.css"/>
+<script type="text/javascript" src="{{ STATIC_URL }}js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.cookie.js"></script>
+<script src="{{ STATIC_URL }}js/medium-editor.min.js"></script>
+<script src="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.js"></script>
+<script src="{{ STATIC_URL }}js/backbone-0.9.10-min.js"></script>
+<script src="{{ STATIC_URL }}js/backbone-tastypie.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/backbone-multi-post-fix.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/generic-item-adder.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.iframe-transport.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.fileupload.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/editabletext.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/request.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        //var etv = new EditableMessageView({el: ".message-container", token: "{% csrf_token %}", request: {{ object.id }} });
+        $(".thiscode").on("mouseover", function(e){
+            $(".threading-id").addClass("do-the-hover");
+        });
+        $(".thiscode").on("mouseout", function(e){
+            $(".threading-id").removeClass("do-the-hover");
+        });
+        $(".threading-id").on("mouseover", function(e){
+            $(".thiscode").addClass("do-the-hover");
+        });
+        $(".threading-id").on("mouseout", function(e){
+            $(".thiscode").removeClass("do-the-hover");
+        });
+        var userMessages = [];
+        $(".user-msg").each(function(idx, ele){
+            var id = $(ele).attr("id");
+            userMessages.push({
+                id: id,
+                el: ".message#"+id
+            });
+        });
+        var listview = new EditableMessagesListView({el: ".message-container", token: "{% csrf_token %}", request: {{ object.id }}, userMessages: userMessages });
+
+        var fwdedMessages = [];
+        $(".fwded-msg").each(function(idx, ele){
+            var id = $(ele).attr("id");
+            var el = ".message#"+id
+
+            var message = new Message({id: id, request: {{object.id}} });
+            message.id = id;//so backbone doesn't think this is a NEW new object
+            message.set("request", {{object.id}});
+            var emv = new EditableMessageView({model: message, token: "{% csrf_token %}", request: {{object.id}}, el: el});
+            emv.textAreaClassName = ".textarea.saved.c"+id;
+            emv.setEditor();
+            emv.editor.deactivate();
+            fwdedMessages.push([message, emv]);
+        });
+
+
+        $('[title]').qtip();
+        $(".fancybox").fancybox();
+        var cookie = $.cookie('feedback-form');
+        /*
+        if(cookie === undefined){
+            $(".fancybox").eq(0).trigger('click');
+        }*/
+        $.cookie('feedback-form', '1', { expires: 7,  path:'/' });
+        //$(".msg-details-details").hide();
+        var shown = false;
+        $("a.details").on("click", function(e){
+            if(shown){
+                $(".msg-details-details").hide();
+                $("a.details").removeClass("opened");
+                $("a.details").addClass("closed");
+            }else {
+                $(".msg-details-details").show();
+                $("a.details").removeClass("closed");
+                $("a.details").addClass("opened");
+            }
+            shown = !shown;
+            return false;
+        });
+        $("#changefulfill").on("click", function(e){
+            $(this).hide();
+            $("#fulfillinput").show();
+            return false;
+        });
+        $("#changeresponsedate").on("click", function(e){
+            $(this).hide();
+            $("#responsedateinput").show();
+            return false;
+        });
+        $("#change-duedate-form").hide();
+        $("#show-form").on('click', function(e){
+            $("#interest-form-container").show();
+            return false;
+        });
+        $("#show-update-due-date-btn").on("click", function(e){
+            $("#change-duedate-form").show();
+            $("#show-update-due-date-btn").hide();
+            return false;
+        })
+        $("#check-mail").on('click', function(e){
+            var url = "{% url 'check_mail'%}";
+            var success = function(data, textStatus, jqXHR){
+                location.reload();
+            };
+            $.ajax({
+                url: url,
+                success: success,
+            });
+        });
+        $('.reassign-message').unbind('click').on('click', function(e){
+            var target = event.target||event.srcElement;
+            var exposure = $($(target).parent().children()[1]);
+            exposure.show();
+            //console.log(target);
+        });
+        $('.dateField').datepicker();
+        //KEYVALS are important here so the generic items collection
+        //can know what is an update and what is a creation (IE it creates whatever the user enters that is not in this list)
+        var groupKeyVals = {
+            {% for group in groups %}
+            '{{group.name}}': {{group.id}},
+            {% endfor %}
+        };
+        var tagKeyVals = {
+            {% for tag in user_tags %}
+            '{{tag.name}}': {{tag.id}},
+            {% endfor %}
+        };
+        var addRmGroups = new AddRemoveItemsView({
+            el: ".groups-container",
+            requestId: {{object.id}},
+            groupKeyVals: groupKeyVals,
+            type: 'group'
+        });
+        var addRmTags = new AddRemoveItemsView({
+            el: ".tags-container",
+            requestId: {{object.id}},
+            groupKeyVals: tagKeyVals,
+            type: 'tag'
+        });
+
+        $('#generateLinkButton').click(function(){
+            var vl = new ViewableLink({
+                request: {{object.id}}
+            });
+            vl.save({},{success: function(){
+               var link = location.href.replace("/requests/","/requests/link/") + '?code=' + vl.attributes.code;
+               //$('#viewableLink').html('<a target="_blank" href="' + link + '">' + link + '</a>').show();
+               window.prompt("Anyone with this link can view this request. Copy it to your clipboard by pressing Ctrl+C", link);
+
+              },
+              error: function(model, data, objects){
+                    var responseText = JSON.parse(objects.xhr.responseText);
+                    FOIMachine.utils.showUserMsg(responseText);
+
+              }
+            });
+        });
+    });
+
+</script>
+{% endblock %}

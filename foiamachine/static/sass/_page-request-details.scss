@@ -1,0 +1,407 @@
+@mixin hover-thread {
+    cursor: pointer;
+    text-decoration:underline; 
+    background-color: $selected-color !important;
+}
+
+.do-the-hover {
+    @include hover-thread;
+}
+
+.page-request-details {    
+    form {
+        display: inherit;        
+    }
+    .recipient {
+        &:first-child {
+            margin-top: 10px;
+        }
+        @include recipient-style;
+        margin: 0 10px 10px 0 !important;
+        span {
+            display: block;
+        }
+    } 
+    
+    .header {
+        position: relative;
+        
+        h1 {
+            margin-bottom: 0;
+        }
+        .top-nav-container {
+            position: absolute;
+            right: 25px;
+            top: 25px;
+            .edit, .send-btn {
+                @include button-secondary-gray;
+                padding: 10px;
+            }
+            #generateLinkButton, #generateThreadButton {
+                @include button-secondary-gray;
+                padding: 10px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        .threading-id-container {
+            padding: 20px;
+            .thiscode {
+                background-color: $nav-icon;
+                &:hover {
+                    @include hover-thread;
+                }
+            }
+            .threading-id {
+                background-color: $nav-icon;
+                padding: 3px;
+                line-height: 35px;
+                &:hover {
+                    @include hover-thread;
+                }
+            }
+            .threading-email {
+                background-color: $nav-bg-active;
+                padding: 3px;
+                border-bottom: 1px solid #D2D2D2;
+                border-top: 1px solid #D2D2D2;
+                line-height: 35px;
+            }
+        }
+    }
+
+    .subject {
+        @include adjust-font-size-to(22px);
+        font-weight: normal;
+        margin-top: 0;
+        color: #80630B;
+        margin-bottom: 15px;
+    }
+    
+    .msg-details {
+        overflow: hidden;
+        border-bottom: 1px solid #D2D2D2;
+        border-top: 1px solid #D2D2D2;
+        margin-left: -($zen-gutter-width * 2);
+        margin-right: -($zen-gutter-width * 2);
+        padding: 15px ($zen-gutter-width * 2);
+
+    }
+    
+    .author,
+    .details {
+        font-weight: bold;
+    }
+    
+    .to,
+    .date,
+    .filed-under-label {
+        color: #837A71;
+    }
+    
+    .left {
+        float: left;
+    }
+    
+    .right {
+        float: right;
+    }
+    
+    .date,
+    .details {
+        text-align: right;
+        display: block;
+    }
+    
+    .details.opened:after {
+        content: "";
+        display: block;
+        float: right;
+        margin: 6px;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 0 5px 7px 5px;
+        border-color: transparent transparent #000000 transparent;
+    }
+    
+    .details.closed:after {
+        content: "";
+        display: block;
+        float: right;
+        margin: 6px;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 7px 5px 0 5px;
+        border-color: #000000 transparent transparent transparent;
+    }
+    
+    .msg-details-details {
+        @include zen-grid-container;
+        margin-left: -($zen-gutter-width * 2);
+        margin-right: -($zen-gutter-width * 2);    
+        padding: 15px ($zen-gutter-width * 2);
+        padding-bottom: 0;
+        background: #F0F0F0;
+        -moz-box-shadow:    inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+        -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+        box-shadow:         inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+        border-bottom: 1px solid #D2D2D2;
+        
+        font-size: $base-font-size - 1;
+        color: #837A71;
+        
+        .label {
+            color: #333;
+            font-weight: bold;
+        }
+        
+        .leftside {
+            @include zen-grid-item(6, 1);
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+        
+        .rightside {
+            @include zen-grid-item(6, 7);
+            padding-bottom: 10px;
+            margin-top: -5px;
+        }
+        
+        select,
+        input {
+            width: inherit;
+            float: none;
+            margin: 0;
+            vertical-align: middle;
+        }
+
+        input {
+            padding: 0;
+        }
+        
+        button {
+            @include button-secondary-gray;
+            outline: none;
+            
+            &.link-style {
+                @include button-secondary-gray;
+            }
+        }
+        #changefulfill, #changeresponsedate {
+            @include button-secondary-gray;
+            padding: 0 15px;
+        }
+        .request-control-btn {
+            @include button-secondary-gray;
+            padding: 0 15px;
+            height: 20px;
+            line-height: 20px;
+        }
+        
+        .form-action {
+            margin-top: 10px;
+            border-top: 1px solid (#E9E9E9 - 20);
+            clear: both;
+            background: #E9E9E9;
+            padding: 5px 0;
+            text-align: center;
+            margin-left: -($zen-gutter-width * 2);
+            margin-right: -($zen-gutter-width * 2);
+        }
+    }
+    
+   .mail {
+       margin-top: $zen-gutter-width;
+   }
+   .btn {
+        @include button-secondary-gray;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+
+    .message-container {
+        margin-top: 15px;
+        position: relative;
+
+        .message{
+            margin-top: 15px;
+            position: relative;
+            .email-to{
+                font-size: .75em;
+                display: block;
+                padding-left: 5px;
+            }
+            .email-content{
+
+            }
+            .email-subject{
+                padding-top: 20px;
+                padding-bottom: 5px;
+                font-size: 1.25em;
+                display: block;
+            }
+            .email-header{
+                border-top: 1px solid #D2D2D2;
+                border-bottom: 1px solid #D2D2D2;
+                padding: 10px 0;
+                margin-bottom: 30px;
+            }
+            .edit-rm-container {
+                text-align: right;
+            }
+            .remove-msg-btn {
+                @include button-secondary-gray;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .attachment {
+            }
+        }
+
+
+        #save-msg, .save-edit-body, #cancel-msg,#msg-subject, #msg-date, #fileUploadForm {
+        }
+        #fileUploadForm {
+            position: absolute;
+            right: 0px;
+        }
+        .textarea {
+            @include textarea;
+            height: 400px;
+            &.saved {
+                display: block;
+                height: 100%;
+                &.editable {
+                    height: 400px;
+                }
+            }
+            .placeholder {
+                @include placeholder-text;
+            }
+        }
+        .fwded-msg {
+            .email-header {
+                background-color: #eee;
+            }
+        }
+        .user-msg {
+            background-color: #feef9c;
+            width: 85%;
+            @include border-radius(10px);
+            margin: 0 auto;
+            padding: 10px;
+            .email-header {
+                border-top: none;
+            }
+            .textarea {
+                padding: 0 !important;
+            }
+            #fileUploadButton {
+                top: 5px;
+                right: 10px;
+            }
+        }
+        .messages {
+            .user-msg {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    
+}
+
+#manage-groups-link {
+    font-size: 11px;
+    color: #999;
+}
+
+
+/*tmp groups */
+.groups-container, .tags-container{
+    .item-container {
+        @include itemstyle;
+        .edit-name {
+            display: none;
+        }
+        .edit, .save-edit {
+            @include saveeditbutton;
+            &.save-edit {
+                display: none;
+            }
+        }
+        .remove {
+            @include removebutton;
+        }
+    }
+    .add-btn {
+        @include addbutton;
+        line-height: 35px;
+        margin-left: 3px;
+    }
+    .switch-container {
+        display: none;
+        width: 100px;
+        .switch-light {
+            height: 20px;
+            font-size: 18px;
+            span {
+                line-height: 20px;
+            }
+        }
+    }
+}
+.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all {
+    width: 30%;
+    list-style-type: none;
+}
+.fancybox {
+    display: none;
+}
+.message-reassignment{
+    padding-left: 20px;
+    margin-bottom: -20px;
+    right: 0;
+}
+.message-reassignment-form{
+    display: none;
+}
+#check-mail{
+    margin-left: 5px;
+    font-size: .75em;
+}
+
+
+
+table{
+    table-layout: fixed;
+}
+
+#interest-proposition{
+    margin-top: 30px;
+}
+#interest-proposition span{
+    font-size: 1.05em;
+    font-weight: bold;
+}
+form{
+    display: inline-block;
+}
+.call-to-action{
+    display: inline-block;
+}
+.msg-details-details {
+}
+#fulfillinput{
+    display: none;
+}
+#responsedateinput {
+    display: none;
+}
+

@@ -1,0 +1,206 @@
+@mixin button-large { // Primary action, the big eraser looking buttons
+    @include border-radius(4px);
+    @include box-shadow(0px 1px 1px rgba(black, 0.15), 0px 1px 0px rgba(#FDA284, 1) inset);
+    @include text-shadow(rgba(black, 0.3) 0px 1px 1px);
+    @include transition-property();
+    @include transition-duration(0.15s);
+    background-color: $call-to-action;
+    border: 1px solid #B6351E;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: $base-font-size * 1.17647059; // 20px
+    color: white;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: $call-to-action + 20;
+    }
+    
+    &:active {
+        @include box-shadow(0px 2px 2px rgba(black, 0.15) inset);
+        background-color: $call-to-action - 20;        
+    }
+}
+
+@mixin button-med { // Primary action, the big eraser looking buttons
+    @include border-radius(4px);
+    @include box-shadow(0px 1px 1px rgba(black, 0.15), 0px 1px 0px rgba(#FDA284, 1) inset);
+    @include text-shadow(rgba(black, 0.3) 0px 1px 1px);
+    @include transition-property();
+    @include transition-duration(0.15s);
+    background-color: $call-to-action;
+    border: 1px solid #B6351E;
+    height: 30px;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: $base-font-size * 1.17647059; // 20px
+    color: white;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: $call-to-action + 20;
+    }
+    
+    &:active {
+        @include box-shadow(0px 2px 2px rgba(black, 0.15) inset);
+        background-color: $call-to-action - 20;        
+    }
+}
+
+@mixin button-secondary { // Secondary action, smaller green buttons 
+    @include border-radius(4px);
+    @include box-shadow(0px 1px 1px rgba(black, 0.15), 0px 1px 0px rgba(#7FD9A8, 1) inset);
+    @include text-shadow(rgba(black, 0.3) 0px 1px 1px);
+    @include transition-property();
+    @include transition-duration(0.15s);
+    background-color: $selected-color;
+    border: 1px solid #217A49;
+    height: 30px;
+    line-height: 31px;
+    padding: 0 10px;
+    font-size: $base-font-size * 0.82352941; // 14px
+    color: white;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: $selected-color + 20;
+    }
+    
+    &:active {
+        @include box-shadow(0px 2px 2px rgba(black, 0.15) inset);
+        background-color: $selected-color - 20;        
+    }
+}
+
+@mixin button-secondary-gray { // Secondary action, smaller gray buttons w/ green text
+    @include border-radius(4px);
+    @include box-shadow(0px 1px 1px rgba(black, 0.1), 0px 1px 0px rgba(white, 1) inset);
+    @include text-shadow(rgba(white, 0.3) 0px 1px 1px);
+    @include transition-property();
+    @include transition-duration(0.15s);
+    background-color: $gray-button;
+    border: 1px solid #D9D9D9;
+    height: 30px;
+    line-height: 31px;
+    padding: 0 15px;
+    font-size: $base-font-size * 0.82352941; // 14px
+    color: $selected-color;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: darken($gray-button, 10%);
+        border-color: #D9D9D9 - 5;
+    }
+    
+    &:active {
+        @include box-shadow(0px 2px 2px rgba(black, 0.15) inset);
+        background-color: $gray-button - 5;        
+    }
+}
+
+@mixin link-style {
+    display: inline;
+    font-size: inherit;
+    color: $call-to-action;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    @include box-shadow(none);
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+@mixin grayed-out { // Must be applied after any button mixins, grays out buttons
+    @include box-shadow(0px 0px 0px rgba(black, 0), 0px 0px 0px rgba(#7FD9A8, 0) inset);
+    @include text-shadow(rgba(black, 0) 0px 0px 0px);
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9 - 15;
+    cursor: default;
+    
+    &:hover,
+    &:active {
+        @include box-shadow(0px 0px 0px rgba(black, 0) inset);        
+        background-color: #d9d9d9;
+    }
+    
+}
+
+
+a {
+    color: $call-to-action;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+    
+    &:focus {
+        outline: none;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+// Standard table styling
+// **********************
+
+$table-breakpoint: 1180px; // Setting up a breakpoint to help keep things legible on smaller screens
+
+table.requests {
+    @include zen-clear();
+    @include adjust-font-size-to(14px);
+    line-height: 18px;
+    border: 1px solid $headline + 90;
+    width: 100%;
+    
+    @media only screen and (max-width: $table-breakpoint) {
+        @include adjust-font-size-to(12px);
+        line-height: 16px;
+    }
+    
+    th {
+        background-color: $headline + 100;
+        color: $headline + 20;
+        padding: 10px 15px;
+        
+        @media only screen and (max-width: $table-breakpoint) {
+            padding: 10px 5px;
+        }
+    }
+    
+    td {
+        padding: 15px;
+
+        @media only screen and (max-width: $table-breakpoint) {
+            padding: 15px 5px;
+        }
+    }
+    
+    th,
+    td {
+        text-align: left;
+        vertical-align: top;
+    }
+    
+    tr {
+        border-top: 1px solid $headline + 90;
+        
+        &:nth-child(odd) {
+            background-color: rgba(($headline + 100), 0.1);
+        }
+        
+        &:first-child {
+            border: 1px solid $headline + 40;
+        }
+    }
+}    
+
+#newStatuteForm {
+    display: none;
+}

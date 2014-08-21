@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block content %}
+
+<style>
+	#my-requests th,
+	#my-requests td {
+		padding : 7px ;
+		border-bottom : 1px solid #CCC ;
+		text-align: left;
+	}
+	
+	th {
+  	font-size: 1.2em;
+  	text-align: left;
+	}
+	
+</style>
+
+  <div class="body-content">
+    <a class="btn btn-primary btn-large" href="{% url 'docs_create'%}">Create New Document</a>
+    <a class="btn btn-large" href="{% url 'request_list'%}">View Requests</a>
+    <hr>
+    <table class="table table-striped">
+        <tr>
+            <th>Title</th>
+            <th>Created</th>
+            <th>Access Level</th>
+        </tr>
+        {% for object in objects %}
+        <tr>
+            <!--TODO: restrict access to documents based on user -->
+            <td><a href="{% url 'docs_detail' slug=object.slug %}">{{object.title}}</a></td>
+            <td>{{object.created_at}}</td>
+            <td>{{object.access_level}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
+{% endblock %}

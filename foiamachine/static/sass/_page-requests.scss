@@ -1,0 +1,85 @@
+
+
+
+.page-requests {
+
+    .header {
+        @include zen-clear();
+        .headline {
+            @include zen-grid-item(6,1);
+            padding: 0;
+        }
+        .new-request {
+            @include zen-grid-item(4,9);
+            @include button-large();
+            width: 230px !important;
+            font-size: 18px;
+        }
+    }
+    .clearfix {
+        @include zen-clear();
+    }
+
+    .choose-your-adventure {
+        @include zen-grid-container;    
+        $zen-column-count: 12;
+        margin-top: 200px;
+        .choice-container {
+            span {
+                display: block;
+            }
+            .icon {
+                font-size: 300px;
+            }
+            .lbl {
+                //@include button-secondary-gray;
+                font-size: 15px;
+                width: 30%;
+                margin: 0 auto;
+            }
+            i {
+                color: $call-to-action;
+            }
+            .guided {
+                @include zen-grid-item(6,1);
+                text-align: center;
+                &:hover {
+                    cursor: pointer;
+                    background-color: #eee;
+                }
+            }
+            .free {
+                @include zen-grid-item(6,7);
+                text-align: center;
+                &:hover {
+                    cursor: pointer;
+                    background-color: #eee;
+                }
+            }
+
+        }
+    }
+
+
+    .linebreak {
+        border-bottom: 1px solid #999;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    table {
+        tr {
+            th:first-child {
+                padding: 0; 
+                width: 10px;
+                padding-top: 8px;
+                padding-left: 15px; 
+            }
+            td:first-child {
+                width: 10px;
+                padding: 0;
+                padding-top: 15px;
+                padding-left: 15px; 
+            }
+        }
+    }
+}

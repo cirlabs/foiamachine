@@ -1,0 +1,48 @@
+{% load url from future %}
+{% load bleach_tags %}
+<div class="message-container">
+    <div class="message {% if mail_message.message_id == None %} user-msg {% endif %} {% if can_edit and index != 0 %} fwded-msg {% endif %}" data-message="{{mail_message.id}}" id="{{mail_message.id}}">
+        <div class="email-header">
+            {% if DEBUG %}
+
+            ID: {{mail_message.message_id}} {{message.deprecated}}
+            {% endif %}
+            <span class="email-subject">{{mail_message.subject}}</span>
+            <div>
+            {% if mail_message.was_fwded %}
+            This message was forwarded to this request by <b>{{mail_message.email_from}}</b>
+            {% else %}
+            <b>{{mail_message.email_from}}</b> 
+            {% endif %}
+            </div>
+            {% if mail_message.to.all %}
+            <span class="email-to">to: <span class="email-to-address">{% for thisguy in mail_message.to.all %} {{thisguy.get_email}}{%endfor%}</span></span>
+            {% endif %}
+            {% if mail_message.cc.all %}
+            <span class="email-to">cc: <span class="email-to-address">{% for thisguy in mail_message.cc.all %} {{thisguy.get_email}}{%endfor%}</span></span>
+            {% endif %}
+            {% if mail_message.dated %}
+            <span class="email-to">received @: {{mail_message.dated}}</span>
+            {% endif %}
+            {% if can_edit and index != 0 %} 
+            <div class="edit-rm-container">
+                <span class="remove-msg-btn"><i class="fa fa-times-circle"> Delete</i></span>
+                <span class="edit-body btn">Edit note</span><span class="save-edit-body btn" style="display:none;">Save note</span><span class="cancel-edit-body btn" style="display: none">Cancel</span>
+            </div>
+            {% endif %}
+        </div>
+        <div class="email-content">
+            <div class="textarea saved c{{mail_message.id}}">
+                {{mail_message.get_body|bleach}}
+            </div>
+            <div class="attachments">
+                {% for attachment in mail_message.attachments.all %}
+                    {% if can_view %}
+                    <a class="attachment" href="{{attachment.file.url}}"><i class="fa fa-cloud-download"></i> {{attachment.get_filename}}</a>
+                    {% endif %}
+                {%endfor%} 
+            </div>
+        </div>
+
+    </div>
+</div>

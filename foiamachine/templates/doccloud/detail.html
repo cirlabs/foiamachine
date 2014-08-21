@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block content %}
+  <div class="body-content">
+    <!-- TODO: embed private document??? -->
+    <script type="text/javascript" src="http://s3.documentcloud.org/viewer/loader.js"></script>
+    <script type="text/javascript">
+      DV.load('http://www.documentcloud.org/documents/{{document.dc_properties.dc_id}}.js', {
+        container : 'div#doc'
+    });
+    </script>
+    <a class="btn btn-large" href="{% url 'docs_list' %}">Return to Docs Listing</a>
+    <hr>  
+    <div id="doc" style="height: 1000px;overflow:scroll;"></div>
+    </div>
+{% endblock %}

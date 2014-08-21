@@ -1,0 +1,19 @@
+{% extends "registration/registration_base.html" %}
+{% load url from future %}
+
+{% block content %}
+<div class="splash">
+    <img class="splash-logo" src="{{ STATIC_URL }}img/logo-splash.png" alt="FOIA Machine - Automate your #FOIAs" />
+    <h3 style="text-align:center;">Thanks for registering interest! We'll send you an update soon and feel free to browse our: </h3>
+    <div style="text-align:center;">
+        <a href="{% url 'request_list_public' %}">Public requests<i class="icon-doc-text"></i></a>
+        <a href="{% url 'wiki' %}">Wiki<i class="icon-chat"></i></a>
+        <a href="{% url 'wall_of_shame' %}">Google group<i class="icon-trophy"></i></a>
+        <a href="{% url 'about' %}">About<i class="icon-info"></i></a>
+    </div>
+</div>
+<div class="signup-wrap">
+    <div class="sign-up">
+    </div>
+</div>
+{% endblock %}

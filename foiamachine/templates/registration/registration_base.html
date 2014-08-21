@@ -1,0 +1,118 @@
+{% load url from future %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>FOIA Machine</title>
+        
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="FOIA Machine">
+
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/screen.css">
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/fontello.css">
+        <!--[if lte IE 8]>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/selectivizr-min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body class="page-welcome">
+        <div class="app-wrap">
+        
+            <header class="splash-wrap">
+              {% block content %}
+
+              {% endblock %}
+            </header>
+            
+            <section class="features">
+                <div class="submit">
+                    <h1>Submit FOI requests</h1>
+                    <p>Whether you're a professional FOI user or a member of the general public who has never submitted an open records request, we'll help you streamline the process.</p>
+                </div>
+                <div class="track">
+                    <h1>Tracking</h1>
+                    <p>With FOIA Machine, you can track the progress of your requests, keep your efforts organized, set reminders for yourself and more.</p>
+                </div>
+                <div class="social">
+                    <h1>Social Support</h1>
+                    <p>Until now, journalists slaved away in their own misery, swearing their way through the FOIA request process. Now you can gain support from the collective voice of the community. <a href="/about">Find out more here!</a></p>
+                </div>
+            </section>
+            <section class="features" style="padding:0">
+                <div class="">
+                    <h1>Now with more Kickstarter</h1>
+                    <p>
+                      Thanks to the generous support from more than 2,000 backers we've raised enough finish FOIA Machine. <a href="/kickstarter">Thank you so much!</a> 
+                    </p>
+                </div>
+            </section>
+        
+            <footer class="app-footer">
+                <div class="knight">
+                    <a href="http://www.knightfoundation.org/"><img src="{{ STATIC_URL }}img/logo-knight.png" alt="Knight Foundation" /></a>
+                </div>
+                <div class="cir">
+                  <a href="http://www.cironline.org"><img src="{{ STATIC_URL }}img/CIR_BUG_300px-alpha.png" align="Center for Investigative Reporting" width="100px"/></a>
+                </div>
+                <div class="rji">
+                    <a href="http://www.rjionline.org/"><img src="{{ STATIC_URL }}img/rji-60.png" align="Reynolds Journalism Institute" /></a>
+                </div>
+                
+            </footer>
+        </div>
+        
+        <script type="text/javascript" src="//use.typekit.net/ypg7mil.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/ext/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/progress-bar.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/helpers.js"></script>
+        
+        <script type="text/javascript">
+            /*
+            function getParameterByName(name)
+            {
+              name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+              var regexS = "[\\?&]" + name + "=([^&#]*)";
+              var regex = new RegExp(regexS);
+              var results = regex.exec(window.location.search);
+              if(results == null)
+                return "";
+              else
+                return decodeURIComponent(results[1].replace(/\+/g, " "));
+            }
+            function showForm(){
+              h = $(".sign-up").height() + 50;
+              var speed = speed === undefined ? 500 : speed;
+              $(".splash").animate({"top":-h},speed);
+              setTimeout(function() {
+                 $(".signup-button").text("Maybe later...");
+              },speed);
+            }
+            function hideForm(speed){
+              var speed = speed === undefined ? 500 : speed;
+              $(".splash").animate({"top":0}, speed);
+              setTimeout(function() {
+                 $(".signup-button").text("Sign up!");
+              }, speed);
+            }
+            
+            if(getParameterByName('refreshed'))
+              showForm(0);
+            $(".signup-button").click(function(event) {
+                event.preventDefault();
+                if($(".signup-button").text() === "Maybe later..."){
+                  hideForm();
+                }else{
+                  showForm();
+                }
+            });
+            */
+        </script>
+    </body>
+</html>

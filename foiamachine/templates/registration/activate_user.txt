@@ -1,0 +1,28 @@
+Dear {{name}},
+ 
+To use FOIA Machine, follow the link below:
+ 
+{{activation_link}}
+
+FOIA Machine is still in beta. We are inviting early users to test features, get feedback and improve all aspects of the platform. 
+ 
+With FOIA Machine users can create, send and track open records requests in multiple jurisdictions. To start a request:
+           
+- Click on “REQUESTS” on the left rail.
+ 
+- You will see a list of options, including “Create new request.” Click that and you’re ready to start.
+ 
+Among the contacts included in the system is a “TEST AGENCY,” which sends e-mails to members of the FOIA Machine team. Feel free to send sample requests to the TEST AGENCY to see how the system works, but aren’t ready to file a
+Many of your questions may also be answered at two pages:
+ 
+How it Works: https://www.foiamachine.org/how-it-works/
+ 
+Frequently Asked Questions: https://www.foiamachine.org/wiki/
+ 
+Development is ongoing. We will be adding and improving features in the coming weeks. Your feedback and use of the system is appreciated. Do not hesitate to e-mail info@foiamachine.org if you have questions.
+ 
+Thank you for being apart of this project.
+ 
+The FOIA Machine team
+
+

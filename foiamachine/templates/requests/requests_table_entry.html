@@ -1,0 +1,178 @@
+{% load url from future %}
+{% load filter_tags %}
+
+
+{% if scope == "My" or scope == "Group" or scope == "Link" %}
+<div class='form-container'>
+  <form id="action_form" action="" method="POST">
+  {% csrf_token %}
+  {% if scope != "Link" %}
+      <div class="controls-filter-container">
+        <div class="update-controls">
+          <span id="shareSelectedButton" title="Share selected requests" class="request-control-btn"><i class="fa fa-share"></i></span>
+          <button class='request-control-btn' type="submit" name="action" title="Make selected requests public" value="Make Public"><i class="fa fa-unlock"></i></button>
+          <button class='request-control-btn' type="submit" name="action" title="Make selected requests private" value="Make Private"><i class="fa fa-lock"></i></button>
+          <button class='request-control-btn' type="submit" name="action" title="Delete selected requests" value="Delete"><i class="fa fa-trash-o"></i></button>
+          <div class="filters-toggle-container">
+              <span title="Show filters" class="filter-toggle show-filters"><i class="fa fa-filter"></i></span>
+              <span title="Hide filters" class="filter-toggle filters-expanded"><i class="fa fa-filter"></i></span>
+          </div>
+          {% if scope == "My" %}
+          <div class="add-tag-container">
+            <span title="Add tags to selected requests" class="request-control-btn add-btn" id="add-tag-reveal-btn"><i class="fa fa-tags"></i></span>
+            <div class="tag-input-container">
+              <input class="" id='add-tag' type="text" placeholder="Type the name of a tag" />
+              <span title="Add tags to selected requests" class="request-control-btn add-btn" id="add-tag-btn"><i class="fa fa-check-circle"></i></span>
+            </div>
+          </div>
+          {% endif %}
+          <select id="request-status" name="newstatus">
+              <option value="">Set selected requests' status to:</option>
+              <option value="U" >New (Unsent)</option>
+              <option value="I" >Incomplete</option>
+              <option value="S" >Filed (request sent)</option>
+              <option value="R" >Response received (but not complete)</option>
+              <option value="P" >Partially Fulfilled</option>
+              <option value="F" >Fulfilled</option>
+              <option value="D" >Denied</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="linebreak"></div>
+  {% endif %} <!-- scope != "Link" -->
+  {% endif %}
+  <table class="requests" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+          {% if scope and scope != "Link" %}
+          <th><input type="checkbox" id="check_all_requests"/></th>
+          {% endif %}
+          <th>Subject</th>
+          <th>Status</th>
+          <th>Agency</th>
+          <th>Date added</th>
+          <th>Response required by (estimate)</th>
+          <th>Privacy</th>
+          <th>Filed under</th>
+          {% if scope == "My" or scope == "Link" %}
+          <th>Tags </th>
+          {% else %}
+          <th>Author</th>
+          {% endif %}
+      </tr>
+          {% for object in object_list %}<tr>
+              {% if scope and scope != "Link" %}
+                <td><input class="request_check" name="requests_to_modify" id="{{ object.pk }}" value="{{ object.pk }}" type="checkbox"/></td>
+              {% endif %}
+            <td>
+               {% if scope == "Link" %}
+                <a href="{% url 'link_request_detail' pk=object.pk %}?code={{code}}">
+               {% else %}
+                <a href="{% url 'request_detail' pk=object.pk %}">
+               {% endif %}
+                  {% if object.title == '' %}
+                  Unspecified
+                  {% else %}
+                  {{object.title}}
+                  {% endif %}
+                </a>
+            </td>
+            <td>{{ object.get_status_display }}</td>
+            <td>{% if object.agency %}{{ object.agency.name }}{% else %}Agency not set{% endif %}</td>
+            <td>
+              {{ object.date_added|date }}
+            </td>
+            <td>
+              {% if object.get_due_date != None %}{{object.get_due_date|date}} {% else %} NA {% endif %}
+            </td>
+            <td>{{ object.privacy_status }}</td>
+            <td>
+              {% if object.government.statutes %}
+                {% for statute in object.government.statutes.all %}
+                {{statute.short_title}}<br/>
+                {% endfor %}
+              {% else %}
+                NA
+              {% endif %}
+
+            </td>
+            {% if scope == "My" or scope == "Link" %}
+                <td>
+                {% for tag in object.tags.all|excludeHiddenTags %}
+                  <a href="?tags={{tag.id}}&filtering=1">{{tag.name}}</a>{% if not forloop.last %},{% endif %}
+                {% endfor %}
+                </td>
+            {% else %}
+                <td>{{ object.author.username }}</td>
+            {% endif %}
+
+
+          </tr>{% endfor %}
+      </table>
+  {% if scope == "My" or scope == "Group" or scope == "Link" %}
+  </form>
+</div>
+{% endif %}
+<div class="pagination">
+{% if is_paginated %}
+    {% if page_obj.has_previous %}
+        <a class="page-nav prev-page" href="?{{queries_encoded}}&page={{ page_obj.previous_page_number }}"><i class="fa fa-arrow-left"></i></a>
+    {% else %}
+    &nbsp;&nbsp;
+    {% endif %}
+    Showing page {{page_obj.number}} of {{paginator.num_pages}}
+    {% if page_obj.has_next %}
+        <a class="page-nav next-page" href="?{{queries_encoded}}&page={{ page_obj.next_page_number }}"><i class="fa fa-arrow-right"></i></a>
+    {% else %}
+    &nbsp;&nbsp;
+
+    {% endif %}
+    <a class="page-nav showall" href="?{{queries_encoded}}&show=all"><i class="fa fa-list-alt"></i> Show all</a>
+
+{% endif %}
+</div>
+
+<div class="filters">
+  <form id="filter-form" class="filters-expanded" method="get">
+      {{ filterform.non_field_errors }}
+
+      <div class="filterWrapper">
+          {{ filterform.agency.errors }}
+          <span class='filter-lbl'>By agency</span> {{ filterform.agency }}
+      </div>
+
+      <div class="filterWrapper">
+          {{ filterform.added_after.errors }}
+          {{ filterform.added_before.errors }}
+          <span class="filter-lbl">Added between dates</span>
+          {{ filterform.added_after }}
+          and
+          {{ filterform.added_before }}
+
+      </div>
+      <div class="filterWrapper">
+          {{ filterform.tags.errors }}
+          <span class="filter-lbl">By tag</span>
+          {% if scope == "Link" %}
+              {% for tag in tags.all %}
+                  {{ tag }}{% if not forloop.last %},{% endif %}
+              {% endfor %}
+          {% else %} 
+              {{ filterform.tags }}
+          {% endif %}
+
+      </div>
+      <input type="hidden" name="filtering" value="1" />
+      {% if scope == "Link" %}
+          <input type="hidden" name="code" value="{{code}}" />
+      {% endif %}
+
+      <input class='request-control-btn' type="submit" value="Filter" />
+      <a href="?{% if scope == "Link" %}code={{code}}{% endif %}">
+          <input type="button" class='request-control-btn' id="clear_filters" value="Clear Filters" />
+      </a>
+      {% if scope == "My" %}
+      <input type="button" class='request-control-btn' id="generateLinkButton" value="Generate Link to These Tags" />
+      {% endif %}
+  </form>
+</div> 

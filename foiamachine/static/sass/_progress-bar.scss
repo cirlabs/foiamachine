@@ -1,0 +1,118 @@
+$points: 5;
+$demo_w: 90%;
+$track_h: 11px;
+$track_h05: $track_h / 2;
+$gutter: 100% / ($points - 1);
+$duration: 1s;
+
+$_r: 33px;
+$_r05: $_r / 2;
+$_r025: $_r05 / 2;
+$_b: $track_h;
+$_mt: ($track_h - $_r) * 0.5 - $track_h;
+
+$tint-track: #ddd;
+$tint-progress: red;
+$tint-complete: #777;
+$tint-incomplete: lighten($tint-complete, 20%);
+
+.progress-meter {
+    margin: 0 auto;
+    width: $demo_w;
+    font-size: $base-font-size * 0.76470588; // 13px
+    color: #CACACA;
+  
+    *, *:before, *:after {
+        @include box-sizing(border-box);
+    }
+
+    %check {
+        @include transition;
+        @include border-radius($_r);
+        display: block;
+        width: 33px;
+        height: 33px;
+        content: "";
+        line-height: $_r - $_b * 2;
+        margin: 0 auto 5px;
+        text-align: center;
+        background-image: url("../img/progress-point.png");
+        background-repeat: no-repeat;
+    }
+  
+    .track {
+        position: relative;
+        height: $track_h;
+        background-image: url("../img/progress-bar-bg.png");
+        background-repeat: repeat-x;
+    }
+  
+    .progress {
+        @include transition(width 1s);        
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: $track_h;
+        background-image: url("../img/progress-bar-bg-active.png");
+    }
+  
+    .progress-points {  
+        position: relative;
+        margin: $_mt 0 0;
+        padding: 0;
+        list-style: none;
+        
+        @for $i from 1 through $points {
+            [data-point='#{$i}'] {
+            left: ($i - 1) * $gutter;
+            }    
+        }
+    }
+  
+    .progress-point {
+        $_w: 120px;
+        $_ml: $_w / -2;
+        @include transition(color $duration);
+        position: absolute;
+        display: block;
+        width: $_w;
+        margin-left: $_ml;
+        text-align: center;
+        cursor: pointer;
+        color: #CACACA;
+        z-index: 1;
+    
+        &:before {
+            @extend %check;
+        }
+    
+        &.completed,
+        &.active {
+            @include transition(color $duration);
+            background-image: url("../img/progress-point-active.png");
+            background-repeat: no-repeat;
+            background-position: 44px 0;
+            color: $call-to-action;
+        }
+    
+        &.completed {
+            color: $selected-color;
+        }
+    
+        &.completed:before {
+            @include transition(color $duration);
+            background-image: url("../img/progress-point-active.png");
+            background-repeat: no-repeat;
+            background-position: 44px 0;
+        }
+    
+        &.active:before {
+            @include transition(color $duration);
+            background-image: url("../img/progress-point-active.png");
+            background-repeat: no-repeat;
+            background-position: 44px 0;
+        }
+    }
+}

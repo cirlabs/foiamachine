@@ -1,0 +1,305 @@
+.request-list {
+	@include zen-grid-container;	
+	$zen-column-count: 12;
+
+
+	.status-filters {
+		text-align: center;
+		.status-filter {
+			&:hover {
+				text-decoration:underline;
+				cursor: pointer;
+			}
+			&.selected {
+				font-weight: bold;
+				font-size: 20px;
+			}
+		}
+	}
+
+	.row {
+		@include zen-clear();
+		position: relative;
+	}
+
+	.selectme {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.header {
+		@include zen-grid-item(12,1);
+		@include zen-nested-container();
+		text-transform:uppercase;
+		border-bottom: 1px solid #eee;
+		padding-bottom: 5px;
+		.name {
+			@include zen-grid-item(4,1);
+			padding-left: 25px;
+		}
+		.status {
+			@include zen-grid-item(5,5);
+		}
+		.response-due {
+			@include zen-grid-item(2,10);	
+		}
+		&.Public {
+			input {
+	    		display: none;
+	    	}
+		}
+	}	
+
+	.header-controls-container {
+
+		@include zen-grid-item(12,1);
+		@include zen-nested-container();
+
+		.controls-filter-container {
+			&.Public {
+				display: none;
+			}
+		    position: relative;
+		    margin-bottom: 5px;
+		    padding-left: 0;
+		    i {
+		        font-size: 1.5em !important;
+		    }
+		    .update-controls {
+		        @include zen-grid-item(12,1);
+		        float: none !important;
+		        span.request-control-btn {
+		            //padding: 4px 15px;
+		            padding: 8px 15px 5px 15px;
+		            &:hover {
+		                cursor: pointer; 
+		            }
+		        }
+		        .add-tag-container {
+		            display: inline;
+		            z-index: 35;
+		            .tag-input-container {
+			            z-index: 35;
+		                display: none;
+		                width: 252px;
+		                position: absolute;
+		                padding: 20px;
+		                background-color: #eee;
+		                border-radius: 5px;
+		                opacity: .98;
+		                @include box-shadow(-1px 1px 4px rgba(black, .20), 0px 0px 0px 1px rgba(#C1B59F, 1) inset);
+		                @include border-radius(4px 4px 0 0);
+		            }
+		        }
+		        .request-control-btn {
+		            @include button-secondary-gray;
+		        }
+		        #shareSelectedButton, #add-tag-reveal-btn {
+		            padding: 6px 15px 3px 15px;
+
+		        }
+		        .filters-toggle-container {
+		            display: inline;
+		            .filter-toggle.show-filters {
+		                @include button-secondary-gray;
+		                //padding: 4px 15px;
+		                padding: 6px 15px 3px 15px;
+		            }
+		            .filter-toggle.filters-expanded {
+		                @include button-secondary-gray;
+		                display: none;
+		                //padding: 4px 15px;
+		                padding: 6px 15px 3px 15px;
+		            }
+		        }
+		    }
+		}
+	}
+
+	.filters {
+	    display: none;
+	    position: absolute;
+	    top: 210px;
+	    right: 60px !important;
+	    z-index: 30;
+	    right: 0;
+	    padding: 20px;
+	    background-color: #eee;
+	    border-radius: 5px;
+	    opacity: .98;
+	    @include box-shadow(-1px 1px 4px rgba(black, .20), 0px 0px 0px 1px rgba(#C1B59F, 1) inset);
+	    @include border-radius(4px 4px 0 0);
+	    background-color: $nav-bg;
+	    .request-control-btn {
+	        @include button-secondary-gray;
+	    }
+	    .filterWrapper {
+	        padding: 5px;
+	        .filter-lbl {
+	            display: block;
+	            text-transform: uppercase;
+	            font-size: 14px;
+	            line-height: 16px;
+	        }
+	    }
+	}
+
+	.fixed-header {
+		position: absolute;
+		background-color: white;
+		@include box-shadow(0 1px 5px rgba(0,0,0,0.1));
+		z-index: 30;
+		margin-top: -90px;
+		.header {
+			border-bottom: none;
+		}
+		.update-controls {
+			margin-top: 0;
+		}
+		.filters {
+			top: 55px;
+		}
+	}
+
+
+
+
+    #action_form {
+        @include zen-grid-item(12,1);
+		@include zen-nested-container();
+		width: 95%;
+        //margin-top: 10px;
+        .bulk-actions {
+            @include zen-grid-item(12,1);
+            @include zen-clear();
+            margin: ($zen-gutter-width / 2) 0 $zen-gutter-width 0;
+            padding: 10px 15px;
+            background-color: $nav-bg-active + 20;
+            border-top: 1px solid $nav-bg-active - 20;
+            border-bottom: 1px solid $nav-bg-active - 20;
+                    
+            .label {
+                float: left;
+                margin: 0 15px 0 0;
+                color: $nav-links;
+            }
+            
+            .options {
+                float: left;
+            }
+        }
+
+    }
+    .pagination {
+        @include zen-clear();
+        @include zen-grid-item(12, 1);
+        .page-nav.showall {
+            @include button-secondary-gray;
+            padding: 10px;
+        }
+    }
+
+    .request-list-conatiner.Public {
+    	input {
+    		display: none;
+    	}
+    }
+
+
+	.request.list-item {
+		@include zen-grid-item(12,1);
+		@include zen-nested-container();
+
+		&:hover {
+			background-color: rgba(186, 175, 165, 0.1);
+		}
+		.request-item-click {
+			background-color: white;
+			a {
+				color: black;
+			}
+			&:hover {
+				background-color: rgba(186, 175, 165, 0.1);
+			}
+		}
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		width: 100%;
+		border-bottom: 1px solid #eee;
+
+
+		.title-dates-status-container {
+			@include zen-grid-item(12,1);
+			@include zen-nested-container();
+			font-size: 20px;
+			&:hover {
+				text-decoration:underline;
+			}
+
+			.title {
+				@include zen-grid-item(4,1);
+				padding-left: 25px;
+				&:hover {
+					text-decoration:underline;
+					cursor: pointer;
+				}
+			}
+			.status {
+				@include zen-grid-item(5,5);
+				.status-lbl {
+					min-width: 100px;
+				}
+				&:hover {
+					text-decoration:underline;
+					cursor: pointer;
+				}
+			}
+			.response-date {
+				@include zen-grid-item(2,10);
+				&:hover {
+					text-decoration:underline;
+					cursor: pointer;
+				}
+			}
+		}
+
+		.agency-statute-container {
+			@include zen-grid-item(12,1);
+			font-size: 11px;
+			color: #999;
+			padding-left: 25px;
+
+		}
+
+		.misc-container{
+			@include zen-grid-item(12,1);
+			@include zen-nested-container();
+			margin-top: 5px;
+			margin-bottom: -5px;
+			font-size: 11px;
+			color: #999;
+			.date-added, .privacy, .last-viewed {
+			}
+			.date-added {
+				@include zen-grid-item(4,1);
+				padding-left: 25px;
+			}
+			.privacy {
+				@include zen-grid-item(4,5);
+			}
+			.last-viewed {
+				@include zen-grid-item(4,10);
+			}
+
+		}
+		.tags-container {
+			@include zen-grid-item(12,1);
+			margin-top: -5px;
+			font-size: 11px;
+			color: #999;
+			padding-left: 25px;
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{"files" : [
+ {
+    "filename": "{{filename}}",
+    "id": "{{attachment}}",
+    "url" : "{{url}}"
+ }]}

@@ -1,0 +1,135 @@
+{% load url from future %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>{% block title %}FOIA Machine{% endblock %}</title>
+
+	{% block wrapper_meta %}
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="{% block description %}{% endblock %}">
+	<meta name="author" content="{% block content_author %}FOIA Machine{% endblock %}">
+	{% endblock %}
+
+	<!-- Le styles -->
+    <link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 80px;
+        padding-bottom: 60px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <link href="{{ STATIC_URL }}css/bootstrap-responsive.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+	{% block wrapper_css %}{% endblock %}
+
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/base.css" />
+  <link rel="stylesheet" href="{{ STATIC_URL }}jquery-autosuggest/css/autoSuggest.css" />
+
+	<script>
+  		var _gaq = _gaq || [];
+  		_gaq.push(['_setAccount', 'UA-2147301-15']);
+  		_gaq.push(['_setDomainName', '.cironline.org']);
+  		_gaq.push(['_trackPageview']);
+
+  		(function() {
+    		var ga = document.createElement('script'); ga.async = true;
+    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+	</script>
+</head>
+<body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="{% url 'front_page' %}"><img src="{{ STATIC_URL }}img/logo-navHeader.png" /></a>
+          <div class="btn-group pull-right">
+            {% if user.is_authenticated %}
+            <a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" href="#">
+              <i class="icon-user icon-white"></i> {{user.username}}
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Profile</a></li>
+              <li class="divider"></li>
+              <li><a href="{% url 'logout' %}">Sign Out</a></li>
+            </ul>
+            {% else %}
+            <a class="btn btn-inverse" href="{% url 'login' %}">
+              Sign In
+            </a>
+            <a class="btn btn-inverse" href="{% url 'login' %}">
+              Register
+            </a>
+            {% endif %}
+          </div>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="{% url 'wiki' %}">FOI Wiki</a></li>
+              <li><a href="{% url 'wall_of_shame' %}">Wall of Shame</a></li>
+              <li><a href="{% url 'about' %}">About</a></li>
+              <li class="dropdown">
+    			<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          			Requests
+          			<b class="caret"></b>
+    			</a>
+    			<ul class="dropdown-menu">
+    				<li><a href="{% url 'request_list_public' %}">Public Requests</a></li>
+    				<li class="divider"></li>
+    				<li><a href="{% url 'request_list' %}">My Requests</a></li>
+    				<li class="divider"></li>
+    				<li><a href="{% url 'request_new' %}">Create New Request</a></li>
+            <li class="divider"></li>
+            <li><a href="{% url 'mailbox_mail_view' %}">View mailbox</a></li>
+    			</ul>
+  			  </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+			{% block content %}{% endblock %}
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer class="site-footer">
+        <p><img class="footerLogo" src="{{ STATIC_URL }}img/logo-cirFooter.png" /></p>
+        <p>&copy; Center for Investigative Reporting 2012</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ STATIC_URL }}js/ext/jquery-1.7.2.min.js"></script>
+    <script src="{{ STATIC_URL }}js/ext/bootstrap.min.js"></script>
+    <script src="{{ STATIC_URL }}js/ext/jquery.autoSuggest.packed.js"></script>
+    <script src="{{ STATIC_URL }}js/underscore-min.js"></script>
+    {% block page_scripts %}{% endblock %}
+
+  </body>
+</html>

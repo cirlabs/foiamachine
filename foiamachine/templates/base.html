@@ -1,0 +1,239 @@
+{% load url from future %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% block title %}FOIA Machine{% endblock %}</title>
+        
+        {% block wrapper_meta %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{% block description %}{% endblock %}">
+        <meta name="author" content="{% block content_author %}FOIA Machine{% endblock %}">
+        {% endblock %}
+
+        
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/overcast/jquery-ui-1.10.0.custom.min.css"/>
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/screen.css">
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/fontello.css">
+        <link rel="stylesheet" href="{{ STATIC_URL }}jquery-autosuggest/css/autoSuggest.css" />
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/font-awesome-4.0.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/overcast/jquery-ui-1.10.0.custom.min.css"/>
+        
+        {% block wrapper_css %}{% endblock %}
+        
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!--[if lte IE 8]>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/selectivizr-min.js"></script>
+        <![endif]-->
+        
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-45900036-1', 'foiamachine.org');
+          ga('send', 'pageview');
+
+        </script>
+    </head>
+    
+    <body class="{% block body_class %}{% endblock %}">
+        <div class="app-wrap">
+            {% block app_navigation %}
+            <!-- Begin left column -->
+            <div class="left-col">
+                <h1 class="logo"><a href="{% url 'front_page' %}"><img src="{{ STATIC_URL }}img/logo-foia-machine.png" /></a></h1>
+                <nav class="main-nav">
+                    <ul>
+                        {% url 'request_new' as nr_url %}
+                        {% url 'request_list' as rl_url %}
+                        {% url 'request_list_public' as rlp_url %}
+                        {% url 'free_request_edit' as frp_url %}
+                        {% url 'manage_groups' as manage_groups_url %}
+                        {% url 'request_stats' as stats_url %}                        
+                        <li class="requests {% if request.path == nr_url or request.path == rl_url or request.path == rlp_url or request.path == frp_url %}active{% endif%}"><a href="">Requests<i class="icon-doc-text"></i></a></li>
+                        <li class="requests-sub-menu">
+                            <ul class="sub-menu">
+                                {% if default_request_creation_free %}
+                                    <li><a href="{% url 'free_request_edit' %}">Create new request</a></li>
+                                {% else %}
+                                    <li><a href="{% url 'request_new' %}">Create new request</a></li>
+                                {% endif %}
+                                <li><a href="{% url 'request_list' %}">My requests</a></li>
+                                <li><a href="{% url 'request_list_group' %}">Requests shared with me</a></li>
+                                <li><a href="{% url 'request_list_public' %}">Public requests</a></li>
+                            </ul>
+                        </li>
+                        {% if user.is_authenticated %}
+                        {% url 'agency_list' as agency_list %}
+                        <li class="{% if request.path == agency_list %}active{% endif %}"><a href="{% url 'agency_list' %}">Contacts<i class="fa fa-phone"></i></a></li>
+                        <li class="{% if request.path == manage_groups_url %}active{% endif %}"><a href="{% url 'manage_groups' %}">My Groups<i class="fa fa-users"></i></a></li>
+                        <li class="{% if request.path == settings_url %}active{% endif %}"><a href="{% url 'account_update' %}">My Settings<i class="icon-user"></i></a></li>
+                        {% endif %}
+                        {% url 'statute_list' as statute_list %}
+                        <li class="{% if request.path == statute_list %}active{% endif %}"><a href="{% url 'statute_list' %}">Laws<i class="fa fa-gavel"></i></a></li>
+                        {% url 'wall_of_shame' as shame_url %}
+                        <li class="{% if request.path == shame_url %}active{% endif %}"><a href="{% url 'wall_of_shame' %}">Community<i class="icon-chat"></i></a></li>
+                        {% url 'about' as about_url %}
+                        <li class="{% if request.path == about_url %}active{% endif %}"><a href="{% url 'about' %}">About<i class="icon-info"></i></a></li>
+                        {% url 'account_update' as settings_url %}
+                        
+                        {% if user.is_staff %}
+                        <li class="{% if request.path == stats_url %}active{% endif %}"><a href="{% url 'request_stats' %}">Request Stats<i class="fa fa-bar-chart-o"></i></a></li>
+                        {% endif %}
+                        {% url 'kickstarter' as kickstarter_url %}
+                        <li class="{% if request.path == kickstarter_url %}active{% endif %}"><a href="{% url 'kickstarter' %}">Kickstarted<i class="icon-heart-empty"></i></a></li>
+                        <li class="aux">
+                            {% if user.is_authenticated %}
+                            <span class="note">Signed in as {{ user.username }}
+                            
+                            </span>
+                            {% if not user.userprofile.is_verified %}
+                            <br />
+                            <a class="sign-in" href="{% url 'account_update' %}">Please verify your email address.</a>
+
+                            {% endif %}
+
+                            {% else %}
+                            <a class="sign-in" href="{% url 'login' %}">Sign In</a>
+                            {% endif %}
+                        </li>
+                        {% if user.is_authenticated %}
+                        <li class="aux">
+                            <a class="sign-out" href="{% url 'logout' %}">Sign out</a>
+                        </li>
+                        {% endif %}
+                        <li>
+                    </ul>
+                </nav>
+            </div>
+            {% endblock %}
+            
+            <!-- Begin right column -->
+            <div class="right-col">
+                <div class="error-msgs" id="error-msg">
+                  <span id="callback-msg"></span>
+                  <a href="#" id="close-msg-btn">Close</a>
+                </div>
+                {% block content %}
+                {% endblock %}
+                <footer class="app-footer">
+                    <div class="knight">
+                        <a href="http://www.knightfoundation.org/"><img src="{{ STATIC_URL }}img/logo-knight.png" alt="Knight Foundation" /></a>
+                    </div>
+                    <div class="cir">
+                        <a href="http://www.cironline.org"><img src="{{ STATIC_URL }}img/CIR_BUG_300px-alpha.png" align="Center for Investigative Reporting" width="100px"/></a>
+                    </div>
+                    <div class="rji">
+                        <a href="http://www.rjionline.org/"><img src="{{ STATIC_URL }}img/rji-60.png" align="Reynolds Journalism Institute" /></a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <!-- Can't compress external (typekit) file or packed autoSuggest -->
+        <script type="text/javascript" src="{{ STATIC_URL }}js/ext/jquery-1.7.2.min.js"></script>
+        <script src="{{ STATIC_URL }}js/ext/jquery-ui-all.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/ypg7mil.js"></script>
+        <script src="{{ STATIC_URL }}js/ext/jquery.autoSuggest.packed.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/progress-bar.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/helpers.js"></script>
+        <script src="{{ STATIC_URL }}js/ext/jquery-ui-1.10.0.custom.min.js"></script>
+        <script src="{{ STATIC_URL }}js/underscore-min.js"></script>
+        <script type="text/javascript">
+            FOIMachine = {
+                templates: {},
+                userData: {
+                    username: {% if user.is_authenticated %} '{{user.username}}' {% else %} '' {%endif%},
+                    isEditor: {% if user.is_authenticated %}  {% if user.is_superuser or user.is_staff%} true {% else %} false {% endif %} {% else %} false {%endif %}
+                },
+                utils: {
+                    userMsgDiv: $("#error-msg"),
+                    closeMsgButton: $("#close-msg-btn"),
+                    showUserMsg: function(msg){
+                        FOIMachine.utils.userMsgDiv.hide();
+                        FOIMachine.utils.userMsgDiv.find('span').html(msg);
+                        FOIMachine.utils.userMsgDiv.show('highlight', {}, 250);
+                    },
+                    hideUserMsg: function(){
+                        FOIMachine.utils.userMsgDiv.find('span').html('');
+                        FOIMachine.utils.userMsgDiv.hide();
+                    },
+                    showServerError: function(model, response, options){
+                        var responseText = null;
+                        if (options && options.xhr && options.xhr.responseText) {
+                            try {
+                                responseText = JSON.parse(options.xhr.responseText);
+                            }
+                            catch (e) {
+                                responseText = options.xhr.responseText;
+
+                            }
+                        }
+                        if (responseText) {
+                            FOIMachine.utils.showUserMsg('An error occurred: ' +  responseText + '. If the problem persists, please contact info@foiamachine.org for assistance.');
+                        }
+                        else {
+                            FOIMachine.utils.showUserMsg('An error occurred. If the problem persists, please contact info@foiamachine.org.');
+                        }
+                    },
+                    constructSafeUrl: function(end){
+                        var proto = window.location.protocol;
+                        return proto + '//' + document.location.host + end;
+                    },
+                    getMediumEditor: function(className){
+                        var editor = new MediumEditor(className, {placeholder: '', buttons: ['bold', 'italic', 'quote', 'strikethrough']});
+                        $(className).unbind("input").bind("input", function(){
+                            FOIMachine.utils.scrubMediumInput(className);
+                        });
+                        $(className).unbind("focus").bind("focus", function(){
+                            FOIMachine.utils.clearPlaceholderText(className);
+                        })
+                        return editor;
+                    },
+                    scrubMediumInput: function(className){
+                        /*
+                        H* tags are disabled BECAUSE they seem broken
+                        1.) Highlight a word
+                        2.) Use the medium editor to H1/H2 it
+                        3.) Delete that text
+                        4.) Inspect, you'll see the H* tag still in the dom
+                        5.) Backspace and let some text fill the position of the text you deleted... IT WILL BE HEADLINED
+                        */
+                        $(className).find("span").each(function(index) {
+                            var text = $(this).text();//get span content
+                            $(this).replaceWith(text);//replace all span with just content
+                        });
+                    },
+                    clearPlaceholderText: function(className){
+                        var selector = className + " span.placeholder";
+                        if($(selector).length > 0)
+                            $(selector).empty();
+                    },
+                    getMediumHtml: function(className){
+                        if($(className).find("span.placeholder").length > 0)
+                            return '';
+                        this.scrubMediumInput(className);
+                        var html = $(className).html();
+                        return html.trim();
+                    }
+                }
+            };
+        FOIMachine.utils.closeMsgButton.unbind("click").on("click", function(e){
+            FOIMachine.utils.hideUserMsg();
+            return false;
+        });
+        </script>
+        {% block page_scripts %}{% endblock %}
+    </body>
+</html>

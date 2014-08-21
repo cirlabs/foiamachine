@@ -1,0 +1,172 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% load makecolumns %}
+
+{% block title %}FOIA Machine: About{% endblock %}
+
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}{% endblock %}
+
+
+{% block content %}
+
+<div class="body-content">
+
+<h1>About FOIA Machine</h1>
+
+<p>FOIA Machine is an open-source platform that empowers citizens and journalists to easily prepare, file and track multiple public records requests to various governmental and public agencies worldwide. This site helps users access government documents and data that are covered by <a href = 'http://www.foia.gov/'>Freedom of Information Act</a> (FOIA) laws allowing citizens to obtain information vital to the workings of their government.</p>
+
+<p>
+FOIA Machine was initially funded with a <a href = 'http://www.knightfoundation.org/grants/20102529/'>John S. Knight Foundation Prototype grant</a>
+</p>
+
+<p>FOIA Machine users will be able to:</p>
+
+<ul>
+    <li>Prepare an open records request following the applicable laws of that jurisdiction</li>
+    <li>Send requests directly to the correct person or department</li>
+    <li>Track requests from filing through receipt of records</li>
+    <li>Rally support for their requests when governments are unresponsive</li>
+</ul>
+<p>
+If you have specific questions about how this platform works, please visit the <a href = 'http://www.foiamachine.org/wiki/'>FAQ section</a> or join the our <a href = 'http://foiamachine.org/foi-shame/'>users group on Google</a>.
+</p>
+
+<h2>Kickstarted</h2>
+<p>
+FOIA Machine  project was made possible by several organizations but if it weren't for the 2,000+ backers who supported our Kickstarter campaign this project wouldn't have been possible. <a href="{% url 'kickstarter' %}">Find out more here.</a>
+</p>
+
+<a name="about"></a>
+<h2>Meet the team</h2>
+
+<p>
+<a href="http://twitter.com/mikejcorey" class="bio-name">Michael Corey, </a> a news applications developer for CIR, is an advisor to FOIA Machine and occasionally contributes code to the project.
+</p>
+<p>
+<a href="http://twitter.com/coulterjones" class="bio-name">Coulter Jones </a> is FOIA Machine's project manager and a data journalist at WNYC. Before that, he was an investigative reporter for CIR specializing in data analysis. 
+</p>
+<p>
+<a href="https://twitter.com/djordjepadejski" class="bio-name">Djordje Padejski</a> is FOIA Machine's founding director. He works for the Knight Journalism Fellowships at Stanford University, where he was a Knight fellow in 2012 and worked on the FOIA Machine concept. He was also a founder of Serbia’s Center for Investigative Reporting.
+</p>
+<p>
+<a href="http://twitter.com/shaneshifflett" class="bio-name">Shane Shifflett </a> is a FOIA Machine developer and a data reporter at The Huffington Post. Before that, he was a data reporter for CIR. 
+</p>
+<a href="http://twitter.com/smelendez" class="bio-name">Steven Melendez </a> is a FOIA Machine developer and a freelance journalist. Before that, he was a data journalist at WNYC Radio. 
+</p>
+<p>
+<a href="http://twitter.com/davidsuriano" class="bio-name">David Suriano’s </a> is CIR's master of user interface design. He is working to make sure FOIA Machine looks good and is easy to use.
+</p>
+
+<p>
+The FOIA Machine advisory group includes Chase Davis of The New York Times, David Herzog of the University of Missouri, T. Christian Miller of ProPublica, and Martha Mendoza of the Associated Press.
+</p>
+
+
+<h1>FOIA Machine FAQ</h1>
+<ul>
+    <li><a href="#q1">What is FOIA Machine?</a></li>
+    <li><a href="#q2">What can I do with FOIA Machine?</a></li> 
+    <li><a href="#q3">What is FOIA?</a></li>
+    <li><a href="#q4">What tools did you use to build FOIA Machine?</a></li>
+    <li><a href="#q5">How do you make money from this?</a></li>
+    <li><a href="#q6">How I can contribute?</a></li>
+    <li><a href="#q9">Are there similar projects?</a></li>
+    <li><a href="#q13">Why register?</a></li>
+    <li><a href="#q14">Can I file requests without registering?</a></li>
+    <li><a href="#q16">Do I have to pay for the service?</a></li>
+    <li><a href="#q18">Would you sell my data?</a></li>
+    <li><a href="#q19">How do I request a fee waiver?</a></li>
+    <li><a href="#q20">How do I know if my request was submitted?</a></li>
+    <li><a href="#q21">How am I notified when records are available?</a></li>
+    <li><a href="#q22">How do I track the progress of my request?</a></li>
+    <li><a href="#q24">How do I contact you?</a></li>
+</ul>
+<a name="q1"></a><h2>What is FOIA Machine?</h2>
+<p>
+FOIA Machine is an open source web transparency platform that allows citizens to prepare, file and track public record requests to government agencies.
+</p>
+<p>
+<a name="q2"></a><h2>What can I do with the FOIA Machine?</h2>
+<ul>
+    <li>Prepare a request under the Freedom of Information Act or with applicable laws for a given government agency</li>
+    <li>Easily lookup the appropriate contact or add it to a crowd-sourced database</li>
+    <li>Send requests and track their status</li>
+    <li>Share a request with other FOIA Machine users or add it to a list of publicly searchable requests</li>
+    <li>Create a request "template" when you have to send the same request to multiple agencies across multiple governments</li>
+    <li>Search for other users requests and responsive documents</li>
+    <li>Share your FOIA experience with other users</li>
+</ul>
+</p>
+<p>
+<a name="q3"></a><h2>What is FOIA?</h2>
+The Freedom of Information Act (FOIA) is the United States law that allows individuals to gain access to federal records. Some records may be completely or partially withheld if the information falls under one or more of <a href = "http://www.foia.gov/faq.html#exemptions" target="_blank">nine exemptions</a> and <a href ="http://www.foia.gov/faq.html#exclusions" target="_blank">three exclusions</a>. 
+</p>
+<p>
+<h2>Who is doing this?</h2>
+See <a href="{% url 'about' %}">about us</a>
+</p>
+<a name="q4"></a><p>
+<h2>What tools did you use to build FOIA Machine?</h2>
+Django, Python, jQuery, MySQL, Backbone.js and a little love.
+</p>
+<a name="q5"></a><p>
+<h2>How do you make money from this?</h2>
+
+This project is a labor of love because we believe information should be accessible and government should be transparent. Therefore, we depend on private donations and foundation grants to pay for development and operational expenses. The Knight Foundation provided initial support for this project through a prototype grant and additional support has been given by The Center for Investigative Reporting in various capacities. Oh, and <a href="{% url 'kickstarter' %}">over 2,000 people backed FOIA Machine on Kickstarter</a>!
+</p>
+<a name="q6"></a><p>
+<h2>How I can contribute?</h2>
+Use the platform and let us know how we can improve FOIA Machine by leaving feedback on our <a href="https://groups.google.com/d/forum/foia-machine">support forum.</a>
+</p>
+<a name="q9"></a><p>
+<h2>Are there similar projects?</h2>
+Yes, there are several other projects to help you create and send FOI requests. We believe our approach is different. FOIA Machine is a platform that allows users to share requests and an open database that allows people to collaborate while creating a robust source of knowledge about FOI requests.
+</p>
+<p>
+<a name="q13"></a><h2>Why register?</h2>
+You're contacting government agencies and they will need some basic information. 
+</p>
+<a name="q14"></a><p>
+<h2>Can I file a request without registering?</h2>
+Nope. Guest users may search through previously filed public requests, but they cannot file requests using FOIA Machine. 
+</p>
+<a name="q16"></a><p>
+<h2>Do I have to pay for the service?</h2>
+Nope! 
+</p>
+<a name="q18"></a><p>
+<h2>Would you sell my data?</h2>
+Definitely not. We respect your privacy and only collect the necessary information to generate a FOIA request. Occasionally we create reports about how the system is working and who is using it, but no identifying information will ever be published.
+</p>
+<a name="q20"></a><p>
+<h2>How do I know if my request was submitted?</h2>
+You have to follow up with the agency officer for confirmation.
+</p>
+<a name="q21"></a><p>
+<h2>How am I notified when records are available?</h2>
+Emails will arrive in your personal inbox. Click here for <a class="" href="{%url 'the_workings' %}">a full explanation about how FOIA Machine works its magic.</a>
+</p>
+<a name="q22"></a><p>
+<h2>How do I track the progress of my request?</h2>
+You can track your requests by logging into FOIA Machine, where you will find your dashboard. Periodically, we’ll send you reminders when you need to react.
+</p>
+<a name="q24"></a><p>
+<h2>How do I contact you?</h2>
+<p>
+Contact the FOIA Machine team at the <a href="https://groups.google.com/d/forum/foia-machine">support forum </a> or email info at foiamachine.org
+</p>
+
+</div>
+
+{% endblock %}
+
+{% block page_scripts %}
+<script type="text/javascript" src="{{ STATIC_URL }}js/fancybox/jquery.fancybox.pack.js"></script>
+<script type='text/javascript'>
+  $(document).ready(function(){
+    $(".fancybox").fancybox();
+   });
+</script>
+{% endblock %}

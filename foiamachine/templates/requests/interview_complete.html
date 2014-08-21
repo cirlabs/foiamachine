@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% load i18n %}
+
+{% block title %}FOIA Machine: New request complete{% endblock %}
+
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}{% endblock %}
+
+
+{% block content %}
+<style>
+  legend {
+    border: none;
+  }
+  legend > span {
+    background-color: #5c92b6;
+    padding: 3px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: .8em;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #4a7796;
+  }
+  fieldset {
+    background-color: #fffaed;
+  }
+  label {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  label[for="id_private"] {
+    margin: 20px 0 0 25px;
+  }
+  input#id_private {
+    margin-top: -30px;
+  }
+</style>
+
+
+<div class="body-content">
+	<section id="new-request">
+		<h1>We did it!</h1>
+		<p>Request complete</p>
+		<img src="{{ STATIC_URL }}img/coonhound.jpg"/>
+	</section>
+	</div>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% load url from future %}
+<form action="{% url 'orphaned_mail_view' message_id=mail_message.id %}" method="POST">
+    <select name="request">
+        <option value=""></option>
+        {% for request in requests %}
+        <option value="{{request.id}}">{{request.title}} @ {{request.date_added}}</option>
+        {% endfor %}
+    </select>
+    <input type="hidden" name="csrfmiddlewaretoken" value="{{csrf}}"/>
+    <input class='call-to-action' type="submit" value="Go!">
+</form>

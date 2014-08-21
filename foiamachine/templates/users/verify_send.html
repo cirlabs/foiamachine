@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if request.user.email %}
+    <h3>A confirmation email has been sent to you at {{ request.user.email }}.</h3>
+    {% else %}
+    <h3> Log in first </h3>
+    {% endif %}
+
+{% endblock %}

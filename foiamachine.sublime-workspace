@@ -1,0 +1,1448 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"load_",
+				"load_statutes"
+			],
+			[
+				"cont",
+				"contactData"
+			],
+			[
+				"obj",
+				"objects"
+			],
+			[
+				"fi",
+				"first_name"
+			],
+			[
+				"an",
+				"anotherAgainContactData"
+			],
+			[
+				"edit",
+				"editingContactData"
+			],
+			[
+				"ret",
+				"retstr"
+			],
+			[
+				"email",
+				"emails"
+			],
+			[
+				"other",
+				"otherContactData"
+			],
+			[
+				"otherCon",
+				"otherContactData"
+			],
+			[
+				"contact",
+				"contactData"
+			],
+			[
+				"agency",
+				"agencyJSON"
+			],
+			[
+				"conta",
+				"contactJSON"
+			],
+			[
+				"create",
+				"create_agency"
+			],
+			[
+				"ap",
+				"api_client"
+			],
+			[
+				"get_",
+				"get_credentials_other"
+			],
+			[
+				"can",
+				"can_edit"
+			],
+			[
+				"fee",
+				"feeorexemption"
+			],
+			[
+				"auth",
+				"authentication"
+			],
+			[
+				"govern",
+				"governmentJSON"
+			],
+			[
+				"sche",
+				"scheduled_send_date"
+			],
+			[
+				"is_",
+				"is_staff"
+			],
+			[
+				"crat",
+				"creator"
+			],
+			[
+				"the",
+				"therequests"
+			],
+			[
+				"stat",
+				"status_str"
+			],
+			[
+				"do",
+				"do_generated_text"
+			],
+			[
+				"Em",
+				"UsernameOrEmailAuthenticationForm"
+			],
+			[
+				"get",
+				"get_perms"
+			],
+			[
+				"del",
+				"deleted"
+			],
+			[
+				"de",
+				"deleted"
+			],
+			[
+				"mail",
+				"mail_msg"
+			],
+			[
+				"remove",
+				"remove-confirm"
+			],
+			[
+				"parent",
+				"parentNode"
+			],
+			[
+				"request",
+				"requestjson"
+			],
+			[
+				"get_c",
+				"get_credentials_other"
+			],
+			[
+				"cre",
+				"create_request"
+			],
+			[
+				"generated",
+				"generated_text"
+			],
+			[
+				"regen",
+				"regenBodyEdit"
+			],
+			[
+				"free",
+				"free_edit_body"
+			],
+			[
+				"group",
+				"groupAttr"
+			],
+			[
+				"usert",
+				"usertwo"
+			],
+			[
+				"usre",
+				"userthree"
+			],
+			[
+				"user",
+				"userthree"
+			],
+			[
+				"groups",
+				"groupJSON"
+			],
+			[
+				"has",
+				"has_perm"
+			],
+			[
+				"load",
+				"loadedAll"
+			],
+			[
+				"cance",
+				"cancelEdit"
+			],
+			[
+				"down",
+				"downloading"
+			],
+			[
+				"gene",
+				"generate_pdf"
+			],
+			[
+				"downl",
+				"downloadRequestButton"
+			],
+			[
+				"USE",
+				"USE_S3"
+			],
+			[
+				"show",
+				"showUserMsg"
+			],
+			[
+				"add",
+				"addresses"
+			],
+			[
+				"resp",
+				"responseText"
+			],
+			[
+				"atta",
+				"attachment"
+			],
+			[
+				"printe",
+				"printed_request"
+			],
+			[
+				"click",
+				"clickRequestGenerator"
+			],
+			[
+				"init",
+				"initRelations"
+			],
+			[
+				"intne",
+				"intended-parties"
+			],
+			[
+				"fields",
+				"fields_to_use"
+			],
+			[
+				"send",
+				"send-now-btn"
+			],
+			[
+				"Request",
+				"RequestCreationView"
+			],
+			[
+				"textar",
+				"textarea"
+			],
+			[
+				"private",
+				"privateCheck"
+			],
+			[
+				"progres",
+				"progress-point"
+			],
+			[
+				"active",
+				"activatePoints"
+			],
+			[
+				"pro",
+				"progress-point"
+			],
+			[
+				"scv",
+				"scvParent"
+			],
+			[
+				"geta",
+				"get_active_emails"
+			],
+			[
+				"set",
+				"setSelectedUnselected"
+			],
+			[
+				"remo",
+				"removedContact"
+			],
+			[
+				"cur",
+				"curAgency"
+			],
+			[
+				"con",
+				"contacts"
+			],
+			[
+				"selec",
+				"selectedContactsView"
+			],
+			[
+				"attac",
+				"attachments"
+			],
+			[
+				"render",
+				"renderAttachments"
+			],
+			[
+				"phon",
+				"phone_numbers"
+			],
+			[
+				"exc",
+				"exception"
+			],
+			[
+				"gove",
+				"government"
+			],
+			[
+				"save",
+				"save_quit"
+			],
+			[
+				"contact-sele",
+				"contact-selection-msg"
+			],
+			[
+				"new",
+				"newContactBtn"
+			],
+			[
+				"this",
+				"thiscode"
+			],
+			[
+				"thread",
+				"threading-id"
+			],
+			[
+				"threading",
+				"threading-id"
+			],
+			[
+				"ut",
+				"utf8"
+			],
+			[
+				"Contact",
+				"ContactSummaryView"
+			],
+			[
+				"acti",
+				"activation_key"
+			],
+			[
+				"savenE",
+				"saveExistingAgency"
+			],
+			[
+				"Agen",
+				"AgencySummaryView"
+			],
+			[
+				"addI",
+				"addItemKey"
+			],
+			[
+				"tag",
+				"tags-container"
+			],
+			[
+				"subject",
+				"subjectInput"
+			],
+			[
+				"textArea",
+				"textAreaEl"
+			],
+			[
+				"autosave",
+				"autosaveError"
+			],
+			[
+				"autoSave",
+				"autosaveSuccess"
+			],
+			[
+				"error",
+				"errorCallback"
+			],
+			[
+				"succe",
+				"successCallback"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"request_",
+				"request_statuses"
+			],
+			[
+				"att",
+				"attachments"
+			],
+			[
+				"ed",
+				"editor"
+			],
+			[
+				"agen",
+				"agencyW"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"governme",
+				"government_name"
+			],
+			[
+				"text",
+				"textAreaClassName"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"is",
+				"is_journalist"
+			],
+			[
+				"cancel",
+				"cancel-edit-body"
+			],
+			[
+				"Edi",
+				"EditableMessageView"
+			],
+			[
+				"Mess",
+				"MessageCollection"
+			],
+			[
+				"def",
+				"default_request_creator_free"
+			],
+			[
+				"st",
+				"statute"
+			],
+			[
+				"statu",
+				"statute_detail"
+			],
+			[
+				"date_",
+				"date_updated"
+			],
+			[
+				"date",
+				"date_added"
+			],
+			[
+				"status",
+				"statuses"
+			],
+			[
+				"Requ",
+				"RequestCollection"
+			],
+			[
+				"shared",
+				"shared_with"
+			],
+			[
+				"priv",
+				"privacy"
+			],
+			[
+				"phone",
+				"phone_contact"
+			],
+			[
+				"agencySele",
+				"AgencySelectionView"
+			],
+			[
+				"go",
+				"goAhead"
+			],
+			[
+				"edit-",
+				"edit-agency-btn"
+			],
+			[
+				"lawTe",
+				"lawTextClassName"
+			],
+			[
+				"edi",
+				"editing"
+			],
+			[
+				"save-",
+				"save-edit-body"
+			],
+			[
+				"canc",
+				"cancelMsg"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "birddog_prototype/settings/local.py",
+			"settings":
+			{
+				"buffer_size": 2183,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "birddog_prototype/settings/common.py",
+			"settings":
+			{
+				"buffer_size": 10010,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "birddog_prototype/settings/production.py",
+			"settings":
+			{
+				"buffer_size": 2830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "birddog_prototype/apps/requests/views.py",
+			"settings":
+			{
+				"buffer_size": 24266,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":a",
+				":w - Save"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				":ew",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				":we",
+				":w - Save"
+			],
+			[
+				":pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/government/tests.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/contacts/tests.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/contacts/models.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/contacts/api.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/agency/api.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/agency/models.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/core/models.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/core/user_test_base.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/requests/tests.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/requests/models.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/government/utils.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/agency/tests.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/mail/tests.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/request_detail.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/requests/views.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/mail/models.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/government/api.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/forms.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/base.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/request_item.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/request_list.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_page-requests.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_request-list.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/api.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/users/groups.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/request.js",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/government/views.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/fee-exemption.js",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/government/models.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/mail/mail_message.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/tests.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/government/statute_list.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/government/management/commands/load_states.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/government/management/commands/load_statutes.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/settings/production.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/regbackend.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/core/middleware.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/requests/urls.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/agency/views.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/agency/urls.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/urls.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/agency_contact_view.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/requests/api.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/agency.js",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/contact.js",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/registration/register_interest.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/registration/registration_base.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/registration/registration_form.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/views.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/utils.py",
+		"/Users/sshifflett13/dev/birddog_prototype/Procfile",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/wsgi.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_agency_contacts.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/agency/management/commands/bake_agency_counts.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/agency/management/commands/__init__.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/agency/management/__init__.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/request_entries.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/requests/forms.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/government/statute.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/stats.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/agency/agency_contacts.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/agency/agency_list.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/requests/management/commands/update_request_stats.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/requests/management/commands/set_request_stats.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/models.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/request_wizard.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/mail/management/commands/find_lookups.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/editabletext.js",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/mail/api.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_page-request-details.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/index.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/settings/local.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/settings/common.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/core/profiler.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/core/management/commands/view_stats.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/free_edit.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/core/views.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/core/api_profile.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/management/commands/users_request_summary.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/management/commands/request_summary_for_user.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/management/commands/objects_for_user.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/management/commands/set_group_ownership.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/group.js",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_page-statute.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/statute.js",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/government.js",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_page-edit-groups.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/government/urls.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_base.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/whitelist-2014-06-10.csv",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/management/commands/send_activation.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/mail/attachment.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/message.js",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/backbone-min-1.1.2.js",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/generic-item-adder.js",
+		"/Users/sshifflett13/dev/birddog_prototype/requirements.txt",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_page-new-request.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/add-send-list.csv",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/mail/management/commands/update_filepath.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/mail/management/commands/__init__.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/mail/management/__init__.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/users/verify_confirm.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/requests/migrations/0009_auto__add_field_request_printed__add_field_request_thread_lookup.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_page-free-edit.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/fabfile.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_forms.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_progress-bar.scss",
+		"/Users/sshifflett13/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/forms/interview_form.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/contacts/urls.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/core/misc_tags.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/core/templatetags/core_extras.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/government/admin.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/mail/mail_detail.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/forms/interview_preview.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/mail/views.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/forms/dates_form.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/forms/pub_private_form.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/forms/misc_form.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass/_ui.scss",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/requests/forms/agency_form.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/templates/about.html",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/management/commands/send_survey.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/mail/management/commands/set_thread_lookup.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/requests/management/commands/set_threadlookup.py",
+		"/Users/sshifflett13/dev/birddog_prototype/whitelist.csv",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps/users/management/commands/set_and_send.py",
+		"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/js/thread-lookup.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/apps",
+			"/Users/sshifflett13/dev/birddog_prototype/apps",
+			"/Users/sshifflett13/dev/birddog_prototype/",
+			"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype/assets/sass",
+			"/Users/sshifflett13/dev/birddog_prototype/birddog_prototype",
+			"/Users/sshifflett13/dev/election-2012/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"timezone",
+			"get_due_",
+			"print",
+			"created",
+			"is_valid",
+			"bundle.obj",
+			"self.agencyData",
+			"Count",
+			"contact",
+			"cotnact",
+			"hidden",
+			"deprecated",
+			"government",
+			"sent",
+			"get_threads",
+			"setUp",
+			"import pdb",
+			"request-item-click",
+			"request.user",
+			"user",
+			"debugg",
+			"can_edit",
+			"never_ca",
+			"CACHE_MIDDLEWARE_SECONDS",
+			"cache",
+			"get_due_date",
+			"RequestDetailView",
+			"status",
+			"user_org",
+			"smelen",
+			"BadRequest",
+			"hidden",
+			"Simple",
+			"save",
+			"hidden",
+			"Hide Contacts",
+			"hide-these-contacts",
+			"hide contacts",
+			"sent",
+			"slug",
+			"header",
+			"header-row",
+			"request-list-cont",
+			"request-list",
+			"filters",
+			"agency",
+			"official_stats",
+			"response_overdue",
+			"scheduled_send_date",
+			"print",
+			"workdays",
+			"Mailbox",
+			"first_response_time",
+			"done_registered_fp",
+			"lookup_thread",
+			"console",
+			"add-agency-btn",
+			"request-generator-btn-guided",
+			"Autoslug",
+			"Auto",
+			"AutoS",
+			"AutoSlug",
+			"AutoSl",
+			"AutoSlugField",
+			"front_Page",
+			"my_view.prof",
+			"agency_str",
+			"generated_text",
+			"console",
+			"pdb",
+			"import ",
+			"import pdb",
+			"debugger",
+			"addUserButton",
+			"pop",
+			"data.pop",
+			"Hewlett Bay Park",
+			"Email",
+			"accounts/login",
+			"group",
+			"freedom",
+			"font-family",
+			"request",
+			"toggleDel",
+			"GovernmentSelectionView",
+			"governmentTEmplateSelected",
+			"governmentTemplateSelected",
+			"+data",
+			"from",
+			"add-msg",
+			"note",
+			"was_fwded",
+			"django.contrib.auth.models.User",
+			"User",
+			"thread_patter",
+			"LOOKUP",
+			"map",
+			"backbone-min.map",
+			"updateRequest",
+			"updateReq",
+			"saveButton",
+			"saveButton\\",
+			"error finding object to edit",
+			"agencies",
+			"switch",
+			"item-container",
+			"switch",
+			"user",
+			"switch",
+			"edit",
+			"UserTemplate",
+			"userTEmplate",
+			"toggle_to_edit",
+			"PublicRequestManager",
+			"remov",
+			"saveAndRenderNewUser",
+			"Userprofile",
+			"get_objects_for_user",
+			"Response",
+			"django.core.context_processors.debug",
+			"CONTEXT_PRO",
+			"Immed",
+			"groupjson",
+			"freeEditBody",
+			"this.freeEditBody",
+			"getMedi",
+			"body",
+			"detail_url"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"save_quit = forms.BooleanField(widget=forms.HiddenInput(), initial='f', required=False)",
+			"widget",
+			"\"",
+			"FOIMachine.utils.showUserMsg",
+			"getFatalitiesUntilDayHash"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "birddog_prototype/settings/local.py",
+					"settings":
+					{
+						"buffer_size": 2183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								779,
+								768
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"ruby": "~/.rvm/bin/rvm-auto-ruby"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "birddog_prototype/settings/common.py",
+					"settings":
+					{
+						"buffer_size": 10010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"ruby": "~/.rvm/bin/rvm-auto-ruby"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "birddog_prototype/settings/production.py",
+					"settings":
+					{
+						"buffer_size": 2830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1441,
+								1452
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"ruby": "~/.rvm/bin/rvm-auto-ruby"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "birddog_prototype/apps/requests/views.py",
+					"settings":
+					{
+						"buffer_size": 24266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10597,
+								10597
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"ruby": "~/.rvm/bin/rvm-auto-ruby"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3624.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 381.0,
+	"status_bar_visible": true
+}

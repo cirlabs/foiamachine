@@ -1,0 +1,10 @@
+{
+	"success": "{{ success }}",
+	"message": "{{ message }}",
+	"supporters": [{% for s in supporters %}
+		{
+			"username": "{{ s.username }}",
+			"link": "{{ s.get_absolute_url }}"
+		}{% if not forloop.last %},{% endif %}
+	{% endfor %}]
+}

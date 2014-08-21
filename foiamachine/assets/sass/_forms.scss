@@ -1,0 +1,115 @@
+
+form.user-profile {
+    display: block;
+}
+.standard-form {
+    //@include zen-nested-container();
+    width: 100%;
+    display: inline-block;
+    label,
+    input[type="text"],
+    input[type="password"],
+    select,
+    textarea,
+    .errorlist {
+        @include zen-grid-item(12,1);
+        @include zen-clear();
+        margin-bottom: $zen-gutter-width;
+        padding: 5px 10px;
+    }
+    
+    .errorlist {
+        @include adjust-font-size-to(12px);
+        @include border-top-radius(4px);
+        padding: 3px 10px;
+        background-color: #BF2400;
+        border: 1px solid #A21A00;
+        margin: 0;
+        color: #fff;
+    }
+        
+    textarea {
+        resize: vertical;
+    }
+    
+    label {
+        padding: 0;
+        margin-bottom: 5px;
+        font-size: $base-font-size * 1.41176471;
+        color: $headline;
+        font-weight: 700;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"],
+    .radio,
+    .check {
+        @include zen-clear();
+        font-size: $base-font-size;
+        font-weight: normal;
+        margin-right: 5px;
+        margin-bottom: $zen-gutter-width;
+    }
+    
+    .radio.last,
+    .check.last {
+        margin-bottom: $zen-gutter-width;
+    }
+    
+    .form-controls {
+        @include zen-clear();
+        line-height: 50px;
+    }
+    
+    
+    .cancel {
+        @include zen-grid-item(2,4);
+        color: $label-text;
+        text-decoration: none;
+    }
+}
+.call-to-action {
+    @include button-large;
+}
+/* pagination and filter controls on requests view */
+.update-controls{
+    margin-top: 60px;
+}
+#id_agency {
+    width: 500px;
+}
+.filters .filters-expanded, .filters.open .show-filters {
+    display: none;
+}
+.filters .show-filters, .filters.open .filters-expanded {
+    display: block;
+}
+.filter-toggle {
+    color: #e15838;
+    cursor: pointer;
+}
+.filter-toggle:hover {
+    text-decoration: underline;
+
+}
+.filters {
+    padding-left: 21.5px;
+
+}
+.pagination {
+    padding: 10px;
+
+}
+.showall {
+    margin-left: 10px;
+
+}
+.page-welcome .sign-up .standard-form {
+    width: 100%;
+}
+div.error {
+    color: red;
+}
+div.formRow {
+    padding-bottom: 10px;
+}

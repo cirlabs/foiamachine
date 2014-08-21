@@ -1,0 +1,479 @@
+#statute {
+	@include zen-grid-container;	
+	$zen-column-count: 12;
+	.row {
+		@include zen-clear();
+		//margin-top: 10px;
+		//margin-bottom: 10px;
+		position: relative;
+	}
+    .sliding-drawer {
+        @include box-shadow(-1px 1px 4px rgba(black, .20), 0px 0px 0px 1px rgba(#C1B59F, 1) inset);
+        @include border-radius(4px 4px 0 0);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: $sliding-drawer-width;
+        height: 100%;
+        background-color: $nav-bg;
+        overflow-y: scroll;
+        display: none;
+        z-index: 100;
+        padding-top: 57px;
+
+        .textarea {
+            @include textarea;
+            width: 90%;
+        }
+        label {
+            display: block;
+            font-size: 90%;
+            float: none;
+        }
+
+
+        .btn-remove-lg {
+            float: right;
+            display: block;
+            margin-top: 6px;
+        }
+
+        #govs-back {
+            @include sassy-button;
+            display: none;
+            padding: 5px 5px 5px 5px !important;
+        }
+        .editGovernmentForm {
+            display: none;
+            .btn {
+                @include button-secondary-gray;
+            }
+        }
+        .input_name {
+            display: block;
+        }
+        .addGovernment {
+            padding: 10px 10px 0 10px;
+            width: $edit-box-width + 10;
+            margin: 0 auto;
+            #addGovernmentDrawer {
+                border: 1px solid #999;
+                @include border-radius(4px);
+                width: $edit-input-width;
+                padding: 5px;
+            }
+            .btn {
+                @include button-secondary-gray;
+            }
+
+        }
+        
+        .item {
+            &:first-child {
+                margin-top: 5px;
+            }
+            @include adjust-font-size-to(14px);
+            line-height: 18px;
+            padding: 10px 10px;
+            margin: 0 1px;
+            border-bottom: 1px solid #EEE5D4;
+            &:hover {
+                background-color: darken( $nav-bg, 20% );
+                cursor: pointer;
+            }
+            .click-government-button {
+                &:hover {
+                    //font-size: 150%;
+                    color: darken( $call-to-action, 50%);
+                }
+            }
+        }
+        
+        
+        &.templates {
+        
+            .to {
+                margin-bottom: 5px;
+                font-weight: 700;
+            }
+            
+            .date {
+                margin-top: 5px;
+                font-size: 80%;
+                font-style: italic;
+            }
+        }
+        
+        // Hacky z-indexing for sliding drawer panels to get around missing js 
+
+        #requests-view {
+            z-index: 101;
+        }
+        
+        #agency-view {
+            z-index: 102;
+        }
+        
+        #contact-view {
+           z-index: 103; 
+        }
+        #showhidetxt {
+            font-size: 80%;
+
+        }
+    }
+    .title-bar {
+        @include adjust-font-size-to(23px);
+        @include box-shadow(0px 1px 1px rgba(black, .15), 0px 1px 0px rgba(#7FD9A8, 1) inset);
+        @include border-radius(4px 4px 0 0);
+        @include text-shadow(rgba(black, 0.3) 0px 1px 1px);
+        background-color: $selected-color;
+        border: 1px solid #217A49;
+        padding: 0 20px;
+        color: #fff;
+        position: fixed;
+        width: 208px;
+        height: 52px;
+        top: 0;
+    }
+
+	div {
+		//background-color: #eee;
+		//border: 1px solid black;
+	}
+
+	input, textarea {
+		display: none;
+	}
+    #input_name, #select_level {
+        display: block;
+
+    }
+    .gov-add-btn {
+        @include flat-button;
+    }
+    .gov-container {
+        margin-top: 10px;
+        .government-listing {
+            @include itemstyle;
+        }
+    }
+
+	.textarea {
+		@include textarea;
+		p {
+			margin: 0;
+		}
+		.placeholder {
+			@include placeholder-text;
+		}
+	}
+
+	.edit-btn{
+		@include button-secondary-gray;
+		position: absolute;
+		right: 30px;
+		top: 25px;
+		padding: 0px 3px 0px 3px !important;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.remove-btn{
+		@include button-secondary-gray;
+		position: absolute;
+		right: 20px;
+		top: 25px;
+		padding: 0px 3px 0px 3px !important;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.editable {
+		.edit-btn {
+			//display: none;
+		}
+		&:hover {
+			background-color: #eee;
+			.edit-btn {
+				//display: inline-block;
+			}
+		}
+	}
+	.save-edit {
+		@include button-secondary-gray;
+		display: none;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.add-btn, .delete-btn {
+		@include button-secondary-gray;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+    .delete-btn {
+        width: 105px;
+        color: red;
+
+    }
+
+	.top-nav {
+		@include zen-grid-item(12, 1);
+		@include zen-nested-container();
+		.back-container {
+			position: relative;
+			@include zen-grid-item(3, 1);
+			height: 85px;
+			span {
+				@include button-secondary-gray;
+				padding: 7px 13px 2px 15px;
+				position: absolute;
+				top: 20px;
+				font-size: 1.5em;
+			}
+		}
+		.credit-container {
+			@include zen-grid-item(3, 10);
+			.nfoic {
+				height: 85px;
+				width: 85px;
+				margin: 0 auto;
+				background-image: url("../img/logo-nfoic.png");
+				background-repeat:no-repeat;
+				border-radius: 50%;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				background-position: -5px 9px;
+				background-size: 110% auto;		
+			}
+		}
+	}
+	.short-title-container {
+		@include zen-clear();
+		@include zen-grid-item(12,1);
+		height: 50px;
+		text-align: center;
+		margin-bottom: 30px;
+		height: 100%;
+	}
+	.stats-summary {
+		@include zen-clear();
+		@include zen-grid-item(12, 1);
+		text-align: center;
+		height: 20px;
+		span { 
+			width: 35%;
+			margin: 0 auto;
+		}
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		color: #9E959A;
+	}	
+	.basic-stats-container {
+		@include zen-clear();
+		@include zen-grid-item(12,1);
+		.one {
+		  @include zen-grid-item(3, 1);
+		  border-right: 1px solid rgb(221, 221, 221);;
+		}
+		.two {
+		  border-right: 1px solid rgb(221, 221, 221);;
+		  @include zen-grid-item(3, 4);
+		}
+		.three {
+		  border-right: 1px solid rgb(221, 221, 221);;
+		  @include zen-grid-item(3, 7);
+		}
+		.four {
+		  @include zen-grid-item(3, 10);
+		  position: relative;
+		  .save-edit {
+		  	position: absolute;
+		  	top: 0;
+		  	right: 0;
+		  }
+		}
+		.stats-row-one, .stats-row-two, stats-summary {
+			@include zen-nested-container();
+			&:first-child {
+				height: 65px;
+				.one, .two, .three, .four {
+					height: 75px;
+					text-align: center;
+					font-size: 4em;
+					font-weight: bold;
+					line-height: 1;
+				}
+			}
+			&:last-child {
+				padding-top: 10px;
+				height: 60px;
+				.one, .two, .three, .four {
+					height: 50px;
+					text-align: center;
+				}
+				color: #9E959A;
+			}
+		}
+	}
+	.exemptions-container, .fees-container {
+		.save-edit {
+			display: none;
+			position: absolute;
+			right: 25px;
+			top: -10px;
+		}
+	}
+	.law-text-container, .updates-container, .exemptions-container, .fees-container, .gov-text-container {
+		@include zen-grid-item(12,1);
+		.hed {
+			text-transform: uppercase;
+		}
+		.byline, .pubbed-on {
+			margin-top: -25px;
+			font-size: 11px;
+			color: #999;
+		}
+		.update-copy {
+			p {
+				margin: 5px 0 5px 0 !important;
+			}
+			p:first-child {
+				margin: -15px 0 5px 0 !important;
+			}
+		}
+		.name {
+			color: #999;
+		}
+		.description {
+			font-size: 11px;
+		}
+		.source {
+			font-size: 11px;
+		}
+		.source.textarea {
+			display: none;
+		}
+		.hidden {
+			display: none;
+		}
+		.show-more {
+			@include button-secondary-gray;
+			position: relative;
+			top: -10px;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+		.limit {
+			border-bottom: solid 1px #eee;
+		}
+		.published-text {
+			position: relative;
+			.edit-btn {
+				right: 20px !important;
+				top: -10px !important;
+			}
+			.remove-btn {
+				right: 0 !important;
+				top: -10px !important;
+			}
+			.law-text {
+				.hidden-lawtext {
+					display: none;
+				}
+				&.editable {
+					height: 400px;
+				}
+			}
+			.toggle-btn {
+				@include button-secondary-gray;
+				&.show {
+					display: none;
+				}
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+		.published-text-container {
+			@include zen-nested-container();
+			.header {
+				@include zen-grid-item(10, 2);
+			}
+			.text {
+				@include zen-grid-item(10,2);
+			}
+		}
+		.header {
+			margin-bottom: -15px;
+		}
+		.text {
+			padding: 10px;
+			.edit-container {
+				margin-bottom: 20px;
+				display: none;
+			}
+			.save-edit {
+				padding: 0px 3px 0px 3px !important;
+			}
+		}
+	}
+	.updates-container, .exemptions-container, .fees-container  {
+		//margin-top: -30px !important;
+		h3 {
+			display: inline-block;
+		}
+		.add-btn {
+			position: absolute;
+			top: 25px;
+			margin-left: 5px;
+			height: 20px;
+			line-height: 20px;
+		}
+	}
+	.updates-container {
+		display: none;//disable for now
+	}
+	.related-requests {
+		@include zen-grid-item(12,1);
+	}
+    .requests-container {
+            input {
+                display: none;
+            }
+            .response-due {
+                display: inline-table;
+            }
+            .header {
+                font-weight: bold;
+            }
+            .header-note {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                margin-left: 10px;
+                span:first-child {
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+                span:nth-child(2) {
+                    font-weight: bold;
+                    float: right;
+                    margin-right: 30px;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: darken($group-bg, 20%);
+                    }
+                }
+            }
+            .load-all {
+                display: none;
+            }
+            .last-viewed {
+                width: initial;
+            }
+        }
+}

@@ -1,0 +1,85 @@
+.main-nav {
+    color: $nav-links;
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    i { // Icon fonts
+        color: $nav-icon;
+        float: right;
+    }
+    
+    a {
+        display: block;
+        padding: 25px;
+        color: $nav-links;
+        text-decoration: none;
+    }
+    
+    li {
+        border-bottom: 1px solid $nav-bg - 15;
+        border-top: 1px solid $nav-bg + 5;
+        text-transform: uppercase;
+        font-size: $base-font-size * 1.05882353;
+        
+        &.active {
+            background-color: $nav-bg-active;
+            border-left: 5px solid $selected-color;
+            
+            i {
+                color: #C06630;
+            }
+        }
+        
+        &:hover {
+            background-color: $nav-bg-active + 3;
+        }
+        
+        &.aux {
+            padding-left: 25px;
+            padding-right: 25px;
+            text-transform: none;
+            font-size: $base-font-size * 0.64705882;
+            font-family: Helvetica, sans-serif;
+            border-bottom: none;
+            border-top: none;
+            
+            &:hover {
+                background-color: $nav-bg;
+            }
+        }
+
+        .sign-out,
+        .sign-in,
+        .action,
+        .register {
+            padding: 0;
+            color: $call-to-action;
+            display: inline;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .action {
+        }
+
+        &.requests-sub-menu {
+            background-color: $nav-bg;
+            display: none;
+        }
+        
+        .sub-menu li {
+            margin: 10px 0;
+            text-transform: none;
+            border: none;
+            font-size: 80%;
+                        
+            a {
+                padding: 5px 30px;
+            }
+        }
+    }
+}

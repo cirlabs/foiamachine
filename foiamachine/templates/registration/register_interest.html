@@ -1,0 +1,38 @@
+{% extends "registration/registration_base.html" %}
+{% load url from future %}
+
+{% block content %}
+<div class="splash">
+    <img class="splash-logo" src="{{ STATIC_URL }}img/logo-splash.png" alt="FOIA Machine - Automate your #FOIAs" />
+    <a class="signup-button" href="{% url 'registration_register' %}">Sign up!</a>
+    <a class="sign-in signin-button" href="{% url 'login' %}">Sign In</a>
+</div>
+<div class="signup-wrap">
+    <div class="sign-up">
+      <form action=".?refreshed=true" class="standard-form" method="POST">
+          {% csrf_token %}
+              <div class="first-name">
+                  {{form.first_name.errors}}
+                  <label>First name</label>
+                  {{form.first_name}}
+              </div>
+              <div class="last-name">
+                  {{form.last_name.errors}}
+                  <label>Last name</label>
+                  {{form.last_name}}
+              </div>
+              <div class="email">
+                  {{form.email.errors}}
+                  <label>Email</label>
+                  {{form.email}}
+              </div>
+              <div class="interest">
+                  {{form.interested_in.errors}}
+                  <label>Interest</label>
+                  {{form.interested_in}}
+              </div>
+          <input class='call-to-action send-interest' type="submit" value="Send">
+      </form>  
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% load url from future %}
+
+  <div class="hero-unit">
+    
+    <h1>When information plays hard to get. <span>FOIA Machine.</span></h1>
+    
+    <div class="row-fluid pro-am">
+        <div class="span12">
+            <h3>Submit a public records request</h3>
+        </div>
+    </div>
+    <div class="row-fluid pro-am">
+        <div class="span6">
+            <a href="{% url 'request_new_pro' %}"><img src="{{ STATIC_URL }}img/press-hat.png" width="200"/></a>
+            <h2><a href="{% url 'request_new_pro' %}">I am a professional FOI user</a></h2>
+        </div>
+        <div class="span6">
+            <a href="{% url 'request_new_public' %}"><img src="{{ STATIC_URL }}img/binoculars.png" width="200"/></a>
+            <h2><a href="{% url 'request_new_public' %}">I am a member of the public</a></h2>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div class="span12 search-existing">
+            <h3>Search existing requests</h3>
+            <form class="search-existing-form">
+                <input name="search-existing-input" id="search-existing-input" type="text"/>
+                <button class="btn btn-primary">Search</button>
+            </form>
+        </div>
+    </div>
+</div>

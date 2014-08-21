@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block content %}
+    {% for message in mail_messages %}
+        <div class="mail-selection">
+            {% include "mail/orphaned_mail_form.html" with mail_message=message %}
+            {% include "mail/mail_message.html" with mail_message=message %}
+        </div>
+    {% endfor %}
+{% endblock %}
+{% block wrapper_css %}
+<style>
+    .mail-selection{
+        border: 1px solid black;
+    }
+    #check-mail{
+        margin-left: 5px;
+        font-size: .75em;
+    }
+    .email-header{
+        background-color: #EEEEEE;
+    }
+    .message{
+        padding: 20px;
+    }
+    .email-to{
+        font-size: .75em;
+        display: block;
+        padding: left 5px;
+    }
+    .email-content{
+        padding-left: 10px;
+    }
+    .email-subject{
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-size: 1.25em;
+        display: block;
+    }
+    table{
+        table-layout: fixed;
+    }
+    #interest-form-container{
+        {% if display %}
+        display: {{display}};
+        {% else %}
+        display: none;
+        {% endif %}
+    }
+    #interest-proposition{
+        margin-top: 30px;
+    }
+    #interest-proposition span{
+        font-size: 1.05em;
+        font-weight: bold;
+    }
+    form{
+        display: inline-block;
+    }
+    .call-to-action{
+        display: inline-block;
+    }
+</style>
+{% endblock %}

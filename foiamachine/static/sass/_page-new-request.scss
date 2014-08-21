@@ -1,0 +1,264 @@
+$sliding-drawer-width: 250px;
+$edit-box-width: 220px;
+$edit-input-width: 215px;
+.page-new-request {
+
+    .progress-point {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    #send-now-btn {
+        display: none;
+    }
+    .slide {
+        height: 600px;
+        overflow-y: scroll;
+    }
+    .intended-parties {
+        .selected-contact-container {
+            display: inline-block;
+            .recipient {
+                @include recipient-style;
+                margin: none;
+                margin-right: 5px;
+                .remove-contact-btn {
+                    display: none;
+                }
+            } 
+        }
+    }
+    #id_agency-agency_field {
+        display: none;
+    }
+    .next-prev {
+        height: 70px;
+    }
+    #save-quit-request-btn {
+        @include button-secondary-gray;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    #download-request {
+        @include button-secondary-gray;
+        display: none;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .attachment-controls {
+        position: relative;
+        #fileUploadForm {
+            position: relative;
+            margin-bottom: 15px;
+           .btn {
+                @include button-secondary-gray;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .row {
+        @include zen-clear(); 
+    }
+
+    .textarea {
+        @include zen-grid-item(12,1);
+        @include zen-clear();
+        @include textarea;
+        &.body {
+            height: 120px !important;
+        }
+        &.free-edit {
+            height: 300px !important;
+        }
+        p:first-child {
+            margin-top: 0;
+        }
+        .placeholder {
+            @include placeholder-text;
+        }
+    }
+   
+    .regenerate-button {
+        @include button-secondary-gray;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    #id_body-body_text, #id_preview-body_text {
+        display: none;
+    }
+
+    .prev-btn {
+        float: left;
+        margin-top: 10px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .next-btn, #send-now-btn {
+        float: right;
+        margin-top: 10px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .topline-nav {
+        height: 50px;
+        span {
+            color: #3fa4bd;
+        }
+        #request-generator-btn-guided {
+            float: right;
+            &#request-generator-btn-guided {
+                margin-right: 5px;
+            }
+        }
+    }
+        
+    header {
+        border-bottom: 1px dashed #D9D9D9;
+        padding-bottom: 75px;
+    }
+    
+    .page-title {
+        @include adjust-font-size-to($base-font-size * 1.05882353);
+        @include leader(1.5);
+        @include trailer(1);
+        color: $label-text;
+        text-transform: uppercase;
+        font-weight: normal;
+        margin-top: 0;
+    }
+    
+    .headline {
+        @include adjust-font-size-to($base-font-size * 2.35294118);
+        @include trailer(.3);
+        color: $headline;
+        margin: $zen-gutter-width 0;
+    }
+    
+    .supporting-text {
+        margin-top: 0;
+        padding-top: 0;
+        font-style: italic;
+        color: $support-text;
+        margin-top: -($zen-gutter-width / 2);
+        margin-bottom: $zen-gutter-width * 1.5;
+    }
+    
+    .field-wrap {
+        //@include zen-grid-item(12,1);
+        //@include zen-clear();
+        //@include zen-nested-container();
+        
+        ul,
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .errorlist {
+            padding: 3px 10px;
+        }
+        
+        .small-labels ul {
+            @include zen-clear();
+            padding-top: $zen-gutter-width / 2;
+        }
+        
+        .inline ul {
+            margin-bottom: $zen-gutter-width;
+        }
+        .inline li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        
+        .small-labels label {
+            font-size: $base-font-size;
+            font-weight: bold;
+            cursor: pointer;
+            
+            input {
+                margin-bottom: 10px;
+            }
+        }
+        
+        .context-menu {
+            @include zen-grid-item(12,1);
+            @include zen-clear();
+            font-size: $base-font-size;
+            margin: -$zen-gutter-width 0 $zen-gutter-width 0;
+            background-color: $nav-bg-active + 20;
+            padding-left: ($zen-gutter-width / 2);
+            
+            .contact-checkbox {
+                margin-bottom: 10px;
+            }
+            
+            .label {
+                font-size: $base-font-size * 1.3;
+                margin: 10px 0 5px 0;
+                color: $nav-links;
+            }
+            
+            .suggestion-button:last-child {
+                display: block;
+                margin-bottom: -1px;
+                border-bottom: 1px solid $nav-bg-active - 20;
+                margin-left: -15px;
+                padding-left: 15px;
+                padding-bottom: 10px;
+                margin-right: -15px;
+            }
+            
+            .person:last-child {
+                display: block;
+                margin-bottom: -1px;
+                border-bottom: 1px solid $nav-bg-active - 20;
+                margin-left: -15px;
+                padding-left: 15px;
+                padding-bottom: 10px;
+                margin-right: -15px;
+            }
+        }
+    }
+    
+    label.contact {
+        font-size: $base-font-size;
+        font-weight: normal;
+        cursor: pointer;
+        padding-left: 25px;
+
+        .name {
+            font-weight: bold;
+        }
+        
+        .email {
+            color: $call-to-action;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+        
+    .choose-box {
+        @include zen-clear();
+        position: relative;
+        bottom: 20px;
+    }
+    
+    #request-generator-btn, #who-gets-btn {
+        @include sassy-button;
+        margin-bottom: 10px;
+    } 
+
+}

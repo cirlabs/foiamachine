@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+
+{% block content %}
+    <h4>Your email address has not been confirmed, <a href='{% url "account_update" %}'>please respond to the confirmation email</a>.</h4>
+{% endblock %}

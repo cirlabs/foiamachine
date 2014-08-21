@@ -1,0 +1,363 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% load humanize %}
+{% load bleach_tags %}
+{% load core_extras %}
+
+
+{% block title %}FOIA Machine: {{agency.name}}{% endblock %}
+    
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}
+<link rel="stylesheet" href="{{ STATIC_URL }}css/chosen/chosen.min.css" />
+<link rel="stylesheet" href="{{ STATIC_URL }}css/medium-editor/medium-editor.css" />
+
+{% endblock %}
+{% block page_scripts %}
+<script type ="text/javascript" src="{{ STATIC_URL }}js/chosen.jquery.min.js"></script>
+<script src="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.js"></script>
+<script src="{{ STATIC_URL }}js/medium-editor.min.js"></script>
+<script src="{{ STATIC_URL }}js/backbone-0.9.10-min.js"></script>
+<script src="{{ STATIC_URL }}js/backbone-tastypie.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/backbone-multi-post-fix.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/statute.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/government.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/fee-exemption.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/generic-item-adder.js"></script>
+<script>
+$(document).ready(function() {
+    //$("[title]").qtip();
+    $(".show-more").click(function(e){
+      var type = $(this).attr("data-type");
+      $(".published-text."+type).removeClass("hidden");
+      $(".published-text."+type).removeClass("limit");
+      $(".published-text."+type+":last-child").addClass("limit");
+      $(this).toggle();
+    });
+    var attrs = {
+      id: {{statute.id}},
+      short_title: '{% filter force_escape %}{{statute.get_short_title}}{% endfilter %}',
+      designator: '{% filter force_escape %}{{statute.get_designator}}{% endfilter %}',
+      text: '{% filter force_escape %}{{statute.get_text|safe}}{% endfilter %}',
+      days_till_due: '{{statute.days_till_due}}',
+      governments: [{% for government in governments %} {{government.id}} {% if not forloop.last %}, {% endif %} {% endfor %}],
+      slug: '{{statute.slug}}'
+    };
+    
+    var sv = new StatuteDetailView({
+      modelAttributes: attrs,
+      el: "#statute"
+    });
+    
+    var feeExemptionAttrs = [
+      {% for fee in fees %}
+      {
+        el: "#fee-{{fee.id}}",
+        attrs: {
+          name: '{{fee.get_name}}',
+          id: {{fee.id}},
+          slug: '{{fee.slug}}',
+          description: "{% filter force_escape %}{{fee.get_description|remove_newlines}}{% endfilter %}",
+          source: '{{fee.get_source|safe}}',
+          type: '{{fee.typee}}'
+        }
+      },
+      {% endfor %}
+    ];
+
+    var fv = new FeeOrExemptionListView({statute_id: {{statute.id}}, el: ".fees-container", type: "fee", modelAttributes: feeExemptionAttrs});
+    feeExemptionAttrs = [
+      {% for exemption in exemptions %}
+      {
+        el: "#exemption-{{exemption.id}}",
+        attrs: {
+          name: '{{exemption.get_name}}',
+          id: {{exemption.id}},
+          slug: '{{exemption.slug}}',
+          description: "{% filter force_escape %}{{fee.get_description|remove_newlines}}{% endfilter %}",
+          source: '{{exemption.get_source|safe}}',
+          type: '{{exemption.typee}}'
+        }
+      },
+      {% endfor %}
+    ];
+
+    var fvExemptions = new FeeOrExemptionListView({statute_id: {{statute.id}}, el: ".exemptions-container", type: "exemption", modelAttributes: feeExemptionAttrs});
+
+    sv.coverLongLawText();
+
+    {% if can_edit %}
+    FOIMachine.utils.showUserMsg("You are an editor and have permission to edit fields for this statute. As you hover, editable elements will highlight. Click on an edit button to begin changing this statute.");
+    {% endif %}
+
+    $(".request-item-click").on("click", function(e){
+      var href = $(this).attr("data-href");
+      window.location.href = href;
+    });
+});
+</script>
+{% endblock %}
+
+{% block content %}
+<section id="statute">
+  <div class="top-nav row">
+      <div class="back-container">
+        <span>
+          <a href="{% url "statute_list"  %}" class="btn-back" title="Back to all laws"><i class="fa fa-chevron-circle-left"></i></a>
+        </span>
+      </div>
+      <div class="credit-container">
+        <div class="nfoic">
+          <a target="_blank" href="http://www.nfoic.org/"></a>
+        </div>
+      </div>
+  </div>
+  {% if request.user.is_staff %}
+  <div class="delete-row row">
+    <div class="delete-btn">
+        {% if statute.deleted %}
+        Show this statute
+        {% else %}
+        Hide this statute
+        {% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="short-title-container row {%if can_edit %} editable {% endif %}">
+    <h1><div class="short-title textarea">{{statute.get_short_title|safe}}</div></h1>
+    <span class="save-edit" id=""><i class="fa fa-check-square-o"></i></span>
+    {% if can_edit %}
+    <span class="edit-btn" title="Edit"> <i class="fa fa-pencil-square-o"></i></span>
+    {% endif %}
+
+  </div>
+  <div id="gov-view-wrapper">
+    <div id="gov-view" class="sliding-drawer">
+      <div class="title-bar">
+          <span class="title" id="gov-title">Governments</span>
+          <a href="#" id="close-drawer" class="btn-remove-lg"><i class="remove-icon fa fa-times-circle"></i></a>
+          <a href="#" id="govs-back" class="btn-back"><i class="fa fa-chevron-circle-left"></i> Back</a>
+      </div>
+
+        <div class="addGovernment">
+          <a href="#" class="add-government-btn"><i class="fa fa-plus-circle"></i> Add New Government</a>
+          <div id="addGovernmentDrawer" style="display:none">
+              <div class="error" id="addGovernmentError"></div>
+              <div class="formRow"><label>Government name</label><input id="input_name" placeholder="required"/></div>
+              <div class="formRow"><label>Government level</label>
+                <select id="select_level">
+                    <option value="I">International</option>
+                    <option value="S">Supernational</option>
+                    <option value="0">National</option>
+                    <option value="1" selected>State/Province</option>
+                    <option value="2">County or Similar</option>
+                    <option value="3">City/Municipality</option>
+                </select>
+              </div>
+              <button id="saveNewGovernment" class="btn">Save</button>
+              <button id="cancelNewGovernment" class="btn">Cancel</button>
+          </div>
+
+        </div>
+        <div class="item">
+          <a href="#" class="click-government-button" id="<%= id %>"></a>
+          <span id="request-text-id-<%= id %>">Loading governments</span>
+        </div>
+
+      </div>
+   </div>
+
+  <div class="stats-summary">
+    <span>Stats for agencies and FOI officers under this statute</span>
+  </div>
+  <div class="basic-stats-container row  {%if can_edit %} editable {% endif %}">
+    <div class="stats-row-one">
+      <div class="one">
+        <span>{{request_cnt|intcomma}}</span>
+      </div>
+      <div class="two">
+        <span>{{agency_cnt|intcomma}}</span>
+      </div>
+      <div class="three">
+        <span>{{contacts_cnt|intcomma}}</span>
+      </div>
+      <div class="four">
+        <div class="days-till-due textarea">{% if statute.days_till_due < 0 %} NA {% else %} {{statute.days_till_due}} {% endif %}</div>
+        <span class="save-edit" id=""><i class="fa fa-check-square-o"></i></span>
+        {% if can_edit %}<span class="edit-btn" title="Edit"> <i class="fa fa-pencil-square-o"></i></span>{% endif %}
+      </div>
+    </div>
+    <div class="stats-row-two">
+      <div class="one">Requests out</div>
+      <div class="two">Agencies</div>
+      <div class="three">Contacts</div>
+      <div class="four">Number of days required to respond within</div>
+    </div>
+  </div>
+
+  <div class="gov-text-container row {%if can_edit %} editable {% endif %}">
+    <div class="header">
+        <h3 class="hed">Associated Governments</h3>
+    </div>
+    <div class="published-text">
+        <div class="text">
+            {% if can_edit %} 
+                <span class="gov-add-btn green" title="Add"> <i class="fa fa-plus-square"></i> Add government</span>
+            {% endif %}
+            <div class='gov-container'>
+            {% for government in governments %}
+                <div class="government-listing" id="government-listing-{{government.id}}">
+                {{ government.name }}
+                {% if can_edit %} 
+                    <span data-id="{{government.id}}" class="gov-delete-btn" title="Delete"> <i class="fa fa-times-circle"></i><span>
+                {% endif %}
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+  {% if update or can_edit %}
+  <div class="updates-container row">
+    <div class="header">
+      <h3 class="hed">Updates {% if can_edit %}<span class="add-btn"><i class="fa fa-plus-square"></i></span>{% endif %}</h3>
+    </div>
+    <div class="published-text">
+      <div class="text">
+        <h4 class="hed"> 
+        {% if update %} {{update.headline}} {% else %} None at this time {% endif %}</h4>
+        {% if can_edit %}<span class="edit-btn" title="Edit"> <i class="fa fa-pencil-square-o"></i></span>{% endif %}
+        {% if update %}
+        <p class="byline">By: {{update.author.username}} on {{update.pubbed}}</p>
+        {% endif %}
+        <div class="update-copy">
+          <p>
+            {{update.text}}
+          </p>
+          {% if can_edit %}
+          <p><a href="#">See all updates</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %} 
+
+
+  <div class="fees-container row">
+    <div class="header">
+      <h3 class="hed">Fees {% if can_edit %}</h3><span class="add-btn"><i class="fa fa-plus-square"></i></span>{% endif %}
+    </div>
+    <div class="container">
+    {% if fees %}
+      {% for fee in fees %}
+      <div id="fee-{{fee.id}}" class="published-text fee {% if forloop.counter0 == 1 and not can_edit %} limit {%endif%} {% if forloop.counter0 > 1 and not can_edit%} hidden {%endif%}  {%if can_edit %} editable {% endif %}">
+        <div class="text">
+          {% if can_edit %}
+          <span class="edit-btn" title="Edit"> <i class="fa fa-pencil-square-o"></i></span>
+          <span class="save-edit" id=""><i class="fa fa-check-square-o"></i></span>
+          <span class="remove-btn"><i class="fa fa-times-circle"></i></span>
+          {% endif %}
+          <div class="name textarea" data-field="name">{{fee.get_name|safe}}</div>
+          <div class="description textarea" data-field="description">{{ fee.get_description|bleach }}</div>
+          <a target="_blank" href="{{fee.get_source|safe}}" class="source">Source</a>
+          <div class="source textarea" data-field="description">{{ fee.source|safe }}</div>
+        </div>
+      </div>
+      {% if forloop.counter0 == 1 and not can_edit %}
+        <span class="show-more" data-type="fee">Show all fees</span>
+      {%endif%}
+      {% endfor %}
+    {% else %}
+    <div class="published-text">
+      <div class="text">
+        <p class="no-items-msg">No fees</p>
+      </div>
+    </div>
+    {% endif %}
+    </div>
+  </div>
+
+
+  <div class="exemptions-container row">
+    <div class="header">
+      <h3 class="hed">Exemptions {% if can_edit %}</h3><span class="add-btn"><i class="fa fa-plus-square"></i></span>{% endif %}
+    </div>
+    <div class="container">
+    {% if exemptions %}
+      {% for exemption in exemptions %}
+      <div id="exemption-{{exemption.id}}" class="published-text exemption {% if forloop.counter0 == 1 and not can_edit %} limit {%endif%} {% if forloop.counter0 > 1 and not can_edit %} hidden {%endif%}  {%if can_edit %} editable {% endif %}">
+        <div class="text">
+          {% if can_edit %}
+          <span class="edit-btn" title="Edit"> <i class="fa fa-pencil-square-o"></i></span>
+          <span class="save-edit" id=""><i class="fa fa-check-square-o"></i></span>
+          <span class="remove-btn"><i class="fa fa-times-circle"></i></span>
+          {% endif %}
+          <div class="name textarea" data-field="name">{{exemption.get_name|safe}}</div>
+          <div class="description textarea" data-field="description">{{ exemption.get_description }}</div>
+          <a target="_blank" href="{{exemption.get_source|safe}}" class="source">Source</a>
+          <div class="source textarea" data-field="description">{{ exemption.source|safe }}</div>   
+        </div>
+      </div>
+      {% if forloop.counter0 == 1 and not can_edit%}
+        <span class="show-more" data-type="exemption">Show all exemptions</span>
+      {%endif%}
+      {% endfor %}
+    {% else %}
+    <div class="published-text">
+      <div class="text">
+        <p class="no-items-msg">No exemptions</p>
+      </div>
+    </div>
+    {% endif %}
+    </div>
+  </div>
+    <div class="related-requests requests-container request-list request-list-conatiner row">
+      {% if object_list %}
+      <div class="header-note"><h3>{{ object_list.count }} public requests filed under {{statute.short_title}}</h3></div>
+      <div class="header row">
+          <div class="selectme"><input type="checkbox" id="check_all_requests"/></div>
+          <div class="name">Subject</div>
+          <div class="status">Status</div>
+          <div class="response-due">Response due</div>
+      </div>
+      {% for object in object_list %}
+        {% include 'requests/request_item.html' with object=object%}
+      {% endfor %}
+      {% else %}
+      <h3>No public requests for this law</h3>
+      {% endif %}
+  </div>
+
+  <div class="law-text-container row  {%if can_edit %} editable {% endif %}">
+    <div class="header">
+      <h3 class="hed">Law Text</h3>
+      {% if can_edit %}<span class="edit-btn" title="Edit"> <i class="fa fa-pencil-square-o"></i></span>{% endif %}
+    </div>
+    <div class="published-text">
+      <div class="text">
+        <div class="law-text textarea">
+          {% if can_edit and statute.text == "" %}
+          <span class="placeholder">Enter statute text here</span>
+          {% else %}
+          {{statute.text|safe}}
+          {% endif %}
+        </div>
+        <span class="save-edit" id=""><i class="fa fa-check-square-o"></i></span>
+        <span class="toggle-btn show law-text" id="">Show law text</span>
+        <span class="toggle-btn hide law-text" id="">Hide law text</span>
+      </div>
+    </div>
+  </div>
+
+
+
+</section>
+
+{% endblock %}

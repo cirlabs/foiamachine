@@ -1,0 +1,82 @@
+{% load url from future %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% block title %}FOIA Machine{% endblock %}</title>
+        
+        {% block wrapper_meta %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{% block description %}{% endblock %}">
+        <meta name="author" content="{% block content_author %}FOIA Machine{% endblock %}">
+        {% endblock %}
+
+        
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/overcast/jquery-ui-1.10.0.custom.min.css"/>
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/screen.css">
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/how_it_works.css">
+        
+        
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!--[if lte IE 8]>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/selectivizr-min.js"></script>
+        <![endif]-->
+        
+
+    </head>
+    
+    <body class="{% block body_class %}{% endblock %}">
+        <div class="app-wrap">
+
+<div class="row-fluid, howto-container">
+  <div class="span12">
+	<div class="row-fluid">
+	  <div class="span4">
+		<h3>Creating a request</h3>
+		<p>
+			You have two options when creating a FOI request within FOIA Machine: 	
+			<ul>
+				<li>
+					Use the email-like form. Select an agency and contact(s), fill out the body of the message and send when complete. You can also add contacts and agencies if the applicable government is already in our database. If we're missing that particular government, email <a href="mailto:info@foiamachine.org">info@foiamachine.org</a> and we will do our best to assist you. 
+				</li>
+				<li>
+					Use our guided wizard. The wizard will generate boilerplate language and let you fill in the details specific to your request. You can access contacts from our database. If you don't see the information you are looking for, email <a href="mailto:info@foiamachine.org">info@foiamachine.org</a> and will do our best to assist you. 
+				</li>
+			</ul>
+		</p>
+	  </div>
+	  <div class="span4">
+		<h3>Sending</h3>
+		<p>
+			When you hit send, FOIA Machine emails the contacts you selected. It will also send a copy to the email address you provided when you registered. After you send your request, FOIA Machine expects you to communicate with the FOI officer through whatever channel is most convenient. Generally, this will be via email and/or phone. 
+		</p>
+		<p>
+		        There is another email address CC'ed on all messages sent by FOIA Machine. It's {{ user.username }}@foiamachine.org, the email address created for you to track the status of your requests, agency response times and to aid in keeping a convenient log of your interactions in a central location. This is optional. If you don't want FOIA Machine to keep track of the emails between you and the FOI officer, then remove {{ user.username }}@foiamachine.org from the CC field of all future emails. 
+		</p>
+		<p>	You can update your contact information on the <a href="{% url 'account_update' %}">My Settings<i class="icon-user"></i></a> page, but please note that any emails already sent cannot be updated with your new email address. 
+		</p>
+	  </div>
+	  <div class="span4">
+		<h3>Sharing</h3>
+		<p>
+			When you're creating your request, you can choose to keep it private or make it public. If it's public it will appear in FOIA Machine's listing of public requests and anyone with the url can view your request. <!--You can change the settings at any time and even create a group to share the request with other FOIA Machine users.-->
+		</p>
+		<p>	If you have private requests that have been around for more than {{sunset_time}} {{sunset_unit}}, we will send you a friendly email letting you know we plan to make the request publicly available unless you specify otherwise. We believe a robust database of requests can help the community learn how to navigate FOI laws, and any information turned over by the government in response to your request could help someone else. 
+		</p>
+	  </div>
+	</div>
+  </div>
+</div>
+            
+        </div>
+       
+    </body>
+</html>

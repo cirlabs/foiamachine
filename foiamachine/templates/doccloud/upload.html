@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block content %}
+  <div class="body-content">
+    <a class="btn btn-large" href="{% url 'docs_list' %}">Return to Docs Listing</a>
+    <hr>
+    {% if slug == None %}
+        <form action="{% url 'docs_upload' %}" method="POST" enctype="multipart/form-data">
+    {% else %}
+        <form action="{% url 'docs_request_upload' requestslug=slug %}" method="POST" enctype="multipart/form-data">
+    {% endif %}
+        {% csrf_token %}
+        {{form.errors}}
+        <strong>Select file:</strong> {{form.file}}<br/>
+        <strong>Title:</strong><br> {{form.title}}<br/>
+        <strong>Description:</strong> <br>{{form.description}}<br/>
+        <strong>Access Level:</strong><br> {{form.access_level}}<br/>
+        KEEP ACCESS LEVEL TO PUBLIC FOR NOW<br/><br/> 
+        <input class="btn btn-primary btn-large" type="submit" value="Submit">
+    </form>
+</form></div>
+{% endblock %}

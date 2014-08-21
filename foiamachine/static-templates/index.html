@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>FOIA Machine</title>
+        
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="description" content="">
+    	<meta name="author" content="FOIA Machine">
+
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="../assets/css/screen.css">
+        <link rel="stylesheet" href="../assets/css/fontello.css">
+        <!--[if lte IE 8]>
+        <script type="text/javascript" src="../assets/js/selectivizr-min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- Visual grid example, remove before production 
+        <div class="grid-vis">
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+        </div>-->
+        
+        <div class="app-wrap">
+        
+            <!-- Begin left column -->
+            <div class="left-col">
+                <h1 class="logo"><img src="../assets/img/logo-foia-machine.png" /></h1>
+                <nav class="main-nav">
+                    <ul>
+                        <li class="requests active"><a href="">Requests<i class="icon-doc-text"></i></a></li>
+                        <li class="requests-sub-menu">
+                            <ul class="sub-menu">
+                                <li><a href="">Create new request</a></li>
+                                <li><a href="">My requests</a></li>
+                                <li><a href="">Public requests</a></li>
+                                <li><a href="">View mailbox</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Wiki<i class="icon-chat"></i></a></li>
+                        <li><a href="">Wall of Shame<i class="icon-trophy"></i></a></li>
+                        <li><a href="">About<i class="icon-info"></i></a></li>
+                        <li><a href="">My Settings<i class="icon-user"></i></a></li>
+                        <li class="aux">
+                            Signed in as cjones
+                            <a class="sign-out" href="">Sign out</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <!-- Begin right column -->
+            <div class="right-col">
+                <section class="create-new-request">
+                    <header>
+                        <h1 class="page-title">Create a new request</h1>
+                        <div class="progress-meter">
+                            <div class="track">
+                                <span class="progress"></span>
+                            </div>
+                            <ol class="progress-points">
+                                <li class="progress-point" data-point="1">Government</li>
+                                <li class="progress-point" data-point="2">Topic/Agency</li>
+                                <li class="progress-point" data-point="3">Dates</li>
+                                <li class="progress-point" data-point="4">Types of records</li>
+                                <li class="progress-point" data-point="5">Details</li>
+                                <li class="progress-point" data-point="6">Send</li>
+                            </ol>
+                        </div>
+                    </header>
+                    <h2 class="headline">Is this a public or private request?</h2>
+                    <p class="supporting-text">Please select from one of the following options.</p>
+                    <form class="standard-form">
+                        <label>Text input</label>
+                        <input type="text" />
+                        
+                        <label>Select menu</label>
+                        <select name="one">
+                            <option value="">Select…</option>
+                            <option value="1">Option #1</option>
+                            <option value="2">Option #2</option>
+                            <option value="3">Option #3</option>
+                        </select>
+                        
+                        <label>Text area</label>
+                        <textarea></textarea>
+                        
+                        <label>Radio buttons</label>
+                        <label class="radio" for="radio4"><input name="radio2" type="radio" id="radio4"> Radio Button 1</label>
+                        <label class="radio" for="radio5"><input name="radio2" CHECKED type="radio" id="radio5"> Radio Button 2</label>
+                        <label class="radio last" for="radio6"><input name="radio2" type="radio" id="radio6"> Radio Button 3</label>
+                        
+                        <label>Checkboxes</label>
+                        <label class="check" for="check1"><input name="check1" type="checkbox" id="check1"> Radio Button 1</label>
+                        <label class="check" for="check2"><input name="check2" CHECKED type="checkbox" id="check2"> Radio Button 2</label>
+                        <label class="check last" for="check3"><input name="check3" type="checkbox" id="check3"> Radio Button 3</label>
+                        
+                        <label>Text input</label>
+                        <input type="text" />
+                        
+                        <label>Select menu</label>
+                        <select name="one">
+                            <option value="">Select…</option>
+                            <option value="1">Option #1</option>
+                            <option value="2">Option #2</option>
+                            <option value="3">Option #3</option>
+                        </select>
+                        
+                        <div class="form-controls">
+                            <input class="call-to-action" type="submit" value="Next" />
+                            <a class="cancel" href="">Cancel</a>                        
+                        </div>
+                    </form>
+                </section>
+            </div>
+            <footer class="app-footer">
+                <a href="http://www.cironline.org" target="_blank"><div class="cir-logo">Center for Investigative Reporting</div></a>
+                <div class="copyright">&copy; Center for Investigative Reporting 2013</div>
+            </footer>
+        </div>
+        <script type="text/javascript" src="../assets/js/ext/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/ypg7mil.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script type="text/javascript" src="../assets/js/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="../assets/js/progress-bar.js"></script>
+        <script type="text/javascript" src="../assets/js/helpers.js"></script>
+    </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>FOIA Machine</title>
+        
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="description" content="">
+    	<meta name="author" content="FOIA Machine">
+
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="../assets/css/screen.css">
+        <link rel="stylesheet" href="../assets/css/fontello.css">
+        <!--[if lte IE 8]>
+        <script type="text/javascript" src="../assets/js/selectivizr-min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="page-welcome">
+        <div class="app-wrap">
+        
+            <header class="splash-wrap">
+                <div class="splash">
+                    <img class="splash-logo" src="../assets/img/logo-splash.png" alt="FOIA Machine - Automate your #FOIAs" />
+                    <a class="signup-button" href="#">Sign up!</a>
+                </div>
+                <div class="signup-wrap">
+                    <div class="sign-up">
+                        <!--
+                        <form class="standard-form">
+                            <p class="disclaimer">FOIA Machine is currently in development and not yet open for public use. If you are interested in using FOIA Machine in the future, please fill out the form below. When we're close revealing the project we'll send you an email.</p>
+                            <div class="interest">
+                                <select>
+                                    <option>I'm interested in</option>
+                                    <option>---</option>
+                                    <option>Sending and sharing FOI requests</option>
+                                    <option>Contributing contacts and best practices</option>
+                                    <option>Some other reason...</option>
+                                </select>
+                            </div>
+                            <div class="first-name">
+                                <label>First name</label>
+                                <input type="text" />
+                            </div>
+                            <div class="last-name">
+                                <label>Last name</label>
+                                <input type="text" />
+                            </div>
+                            <div class="email">
+                                <label>Email</label>
+                                <input type="text" />
+                            </div>
+                            <input class="call-to-action" type="submit" value="Send" />
+                        </form>
+                        -->
+                    <form action="." method="POST">
+                        {% csrf_token %}
+                        {{form}}
+                        <br>
+                        <input class='btn' type="submit" value="Sign Up">
+                    </form>  
+                    </div>
+                </div>
+            </header>
+            
+            <section class="features">
+                <div class="submit">
+                    <h1>Submit FOI requests</h1>
+                    <p>Whether you're a professional FOI user or a member of the general public who has never submitted an open records request, we'll help you streamline the process.</p>
+                </div>
+                <div class="track">
+                    <h1>Tracking</h1>
+                    <p>With FOIA Machine, you can track the progress of your requests, keep your efforts organized, set reminders for yourself and more.</p>
+                </div>
+                <div class="social">
+                    <h1>Social Support</h1>
+                    <p>Until now, journalists slaved away in their own misery, swearing their way through the FOIA request process. Now you can gain support from the collective voice of the community.</p>
+                </div>
+            </section>
+        
+            <footer class="app-footer">
+                <div class="knight">
+                    <a href="http://www.knightfoundation.org/"><img src="../assets/img/logo-knight.png" alt="Knight Foundation" /></a>
+                </div>
+                <div class="cir">
+                    <a href="http://www.cironline.org"><img src="../assets/img/logo-cir.png" align="Center for Investigative Reporting" /></a>
+                </div>
+                <div class="rji">
+                    <a href="http://www.rjionline.org/"><img src="{{ STATIC_URL }}img/rji-60.png" align="Reynolds Journalism Institute" /></a>
+                </div>
+            </footer>
+        </div>
+        
+        <script type="text/javascript" src="../assets/js/ext/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/ypg7mil.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script type="text/javascript" src="../assets/js/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="../assets/js/progress-bar.js"></script>
+        <script type="text/javascript" src="../assets/js/helpers.js"></script>
+        
+        <script type="text/javascript">
+            $(".signup-button").click(function(event) {
+                h = $(".sign-up").height() + 50;
+                event.preventDefault();
+                if($(".signup-button").text() === "Maybe later..."){
+                    $(".splash").animate({"top":0},500);
+                    setTimeout(function() {
+                       $(".signup-button").text("Sign up!");
+                    },500);
+                }else{
+                    $(".splash").animate({"top":-h},500);
+                    setTimeout(function() {
+                       $(".signup-button").text("Maybe later...");
+                    },500);
+                }
+            });
+        </script>
+    </body>
+</html>

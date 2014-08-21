@@ -1,0 +1,11 @@
+Dear {{name}},
+
+Help improve FOIA Machine. Please take five minutes to tell us how the platform can be improved by filling out this brief survey.
+
+https://docs.google.com/forms/d/1v2JGkQ6MX8DMCMUuwDhKo6KBho_FUL7AdFxIBR6j0So/viewform
+
+Thank you for your support,
+
+The FOIA Machine Team
+@foiamachine
+https://twitter.com/foiamachine

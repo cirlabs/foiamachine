@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block title %}FOIA Machine: Sign In{% endblock %}
+
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}{% endblock %}
+
+{% block body_class %}page-sign-in{% endblock %}
+
+{% block content %}
+<div class="sign-in">
+    <h1>Sign In</h1>
+    <form class="standard-form" action="/accounts/login/" method="POST">
+        {% csrf_token %}
+        <label for="id_username">Username or email:</label>
+        {{ form.username.errors }}
+        {{ form.username }}
+        
+        <label for="id_password">Password:</label>
+        {{ form.password.errors }}
+        {{ form.password }}
+        
+        <div class="form-controls">
+            <input class="call-to-action" type="submit" value="Sign In" />
+        </div>
+        <p>
+        <a class="call-to-action" href="/accounts/password/reset">I forgot my password</a>
+        </p>
+
+    </form>
+</div>
+<!--
+<div class="sign-up">
+    <p>New to FOIA Machine? <a href="{% url 'registration_register' %}">Sign Up</a></p>  
+</div>
+-->
+{% endblock %}

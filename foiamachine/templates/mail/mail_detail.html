@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+
+{% block title %}Bird Dog: Mail Messages Associated w/ Request{% endblock %}
+    
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}{% endblock %}
+{% block content %}
+
+
+<ul>
+    <li><a id="check-mail" href="#">Check mail</a></li>
+    <li><a id="view-mailbox" href="{% url 'mailbox_mail_view' %}">View mailbox</a></li>
+<ul>
+
+ID: {{mail_message.message_id}}
+<ul>
+    <li>FROM: {{mail_message.email_from}}</li>
+    <li>TO: {% for thisguy in mail_message.to.all %} {{thisguy.address}} <br/>{%endfor%}</li>
+    <li>CC: {% for thisguy in mail_message.cc.all %} {{thisguy.address}} <br/>{%endfor%}</li>
+    <li>SUBJECT: {{mail_message.subject}}</td>
+    <li>BODY: {{mail_message.body|safe}}</li>
+    <li>ATTACHMENTS: {% for attachment in mail_message.attachments.all %}
+        <a href="#">{{attachment.file.name}}</a>{%endfor%}
+    </li>
+    <li>REPLIES: {% for reply in replies %}
+        <ul>
+            <li>FROM: {{reply.email_from}}</li>
+            <li>TO: {% for thisguy in reply.to.all %} {{thisguy.address}} <br/>{%endfor%}</li>
+            <li>CC: {% for thisguy in reply.cc.all %} {{thisguy.address}} <br/>{%endfor%}</li>
+            <li>SUBJECT: {{reply.subject}}</li>
+            <li>BODY: {{reply.body|safe}}</li>
+            <li>ATTACHMENTS: {% for attachment in reply.attachments.all %}
+                <a href="#">{{attachment.file.name}}</a>{%endfor%}
+            </li>
+            <li>ID: {{reply.message_id}}</li>
+        </ul>
+        <br/>REPLY
+        {% endfor %}
+    </li>
+</ul>
+{% endblock %}
+{% block page_scripts %}
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#check-mail").on('click', function(e){
+            var url = "{% url 'check_mail'%}";
+            var success = function(data, textStatus, jqXHR){
+                location.reload();
+            };
+            $.ajax({
+                url: url,
+                success: success,
+            });
+        });
+    });
+</script>
+{% endblock %}

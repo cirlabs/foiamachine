@@ -1,0 +1,53 @@
+.stats-container {
+    #tooltip {
+        display: none;
+        padding: 5px;
+        font-size: 10px;
+        position: absolute;
+
+    }
+    .prevPage {
+        margin-right: 15px;
+
+    }
+    .statsName {
+        font-size: 18px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-weight: bold;
+
+    }
+    #statsHeader {
+        width: 100%;
+        height: 45px;
+    }
+    .statsRow {
+        height: 30px;
+        margin-left: 10px;
+    }
+    .statsField, .statsNum {
+        display: inline;
+    }
+    .statsNum {
+        font-weight: bold;
+
+    }
+    .statsButton {
+        float: left;
+        margin-left: 20px;
+        color: #e15838;
+        cursor: pointer;
+        font-size: 13px;
+    }
+    .statsButton:hover {
+        text-decoration: underline;
+    }
+    .statsButton.selected {
+        font-weight: bold;
+
+    }
+    .arc path {
+        stroke: #fff;
+
+    }
+}
