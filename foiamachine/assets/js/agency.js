@@ -284,8 +284,6 @@ var AgencySelectionView = Backbone.View.extend({
         this.refetch();
     },
     cancelAddAgency: function(e){
-        if(this.agencies.models.length < 1)//we haven't finished loading yet
-            return;
         e.preventDefault();
         $('.addAgency').toggle();
         return false;
