@@ -12,6 +12,13 @@ Requirements
 * libmemcached-dev
 * MySQL
 
+for Ubuntu, some help:
+* sudo apt-get install libmemcached-dev
+* sudo apt-get install mercurial meld
+* sudo apt-get install python-dev libmysqlclient-dev
+
+
+
 
 Getting started
 ---------------
