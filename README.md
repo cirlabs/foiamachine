@@ -58,32 +58,6 @@ Fire up the runserver and take a look at [localhost:8000](http://localhost:8000)
 $ fab rs
 ```
 
-#TEST
-* heroku name = mail-foiamachine
-```
-git remote add test git@heroku.com:mail-foiamachine.git
-```
-
-#Staging
-
-* heroku name = staging-foiamachine
-```
-git remote add staging git@heroku.com:staging-foiamachine.git
-```
-
-#Production
-* heroku name = foia-machine 
-```
-git remote add production git@heroku.com:foia-machine.git
-```
-
-
-#Worker
-* heroku name = foiamachine-worker
-```
-git remote add worker git@heroku.com:foiamachine-worker.git
-```
-
 #SASS Setup
 
 ```
