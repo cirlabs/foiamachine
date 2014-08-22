@@ -1,4 +1,9 @@
-FOIA tracker prototype, based on birddog app from News Hack Day
+FOIAMachine is an open source project to send, organize and share requests for government data and documents. It will help you generate a request and has a crowdsourced database of federal, state and local agencies. You can sign up for a free account at [foiamachine.org](https://foiamachine.org). Please email any questions to info at foiamachine dot org or reach to us on Twitter @FOIAMachine.
+
+While this repository allows you to set up a private instance, it lacks data from [foiamachine.org](https://foiamachine.org). Contact information for government employees at more than 500 agencies and data for all 50 states’ public records request act is not included. The FOIAMachine team believes data will make this project valuable. We encourage you to create an account at [foiamachine.org](https://foiamachine.org) to contribute data and contacts to other users. Additionally, to send requests via a private instance you will need either a [Mailgun](http://www.mailgun.com/) account or new methods to send and receive email.
+
+We welcome pull requests and thank all contributors to the code. 
+
 
 [![Build Status](https://magnum.travis-ci.com/cirlabs/foiamachine.png?token=bGVGgB8ujqt3coFYcr4e&branch=master)](https://magnum.travis-ci.com/cirlabs/foiamachine)
 
