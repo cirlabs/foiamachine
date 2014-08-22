@@ -4,7 +4,7 @@ While this repository allows you to set up a private instance, it lacks data fro
 
 We welcome pull requests and thank all contributors to the code. 
 
-[![Build Status](https://magnum.travis-ci.com/cirlabs/foiamachine.png?token=bGVGgB8ujqt3coFYcr4e&branch=master)](https://magnum.travis-ci.com/cirlabs/foiamachine)
+[![Build Status](https://travis-ci.org/cirlabs/foiamachine.svg?branch=master)](https://travis-ci.org/cirlabs/foiamachine)
 
 Requirements
 ------------
