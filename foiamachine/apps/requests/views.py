@@ -267,6 +267,7 @@ class RequestListView(ListView):
             return default_per_page
 
     def filter_queryset(self, queryset):
+        queries = self.request.GET.copy()
         if self.request.user.username == '':
             return queryset
         form = FilterForm(self.request.user.userprofile, self.request.GET)
@@ -290,6 +291,12 @@ class RequestListView(ListView):
                     queryset = queryset.filter(tags=tag)
             
         self.filterform = form
+
+        if 'order_by' in queries:
+            if queries['order_by'] == "due_date" or queries['order_by'] == "status" or queries['order_by'] == 'title'\
+             or queries['order_by'] == "-due_date" or queries['order_by'] == "-status" or queries['order_by'] == '-title':
+                return queryset.order_by(queries['order_by'])
+
         return queryset
 
     def get_context_data(self, **kwargs):
@@ -301,15 +308,14 @@ class RequestListView(ListView):
         if 'page' in queries:
             del queries['page']
 
-        if 'show' in queries:
-            del queries['show']
-
         context['show_create'] = False
 
         queries_encoded = queries.urlencode()
         context['queries_encoded'] = queries_encoded
         if hasattr(self, 'filterform'):
             context['filterform'] = self.filterform
+
+
 
         return context
 

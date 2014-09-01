@@ -34,15 +34,26 @@
 		text-transform:uppercase;
 		border-bottom: 1px solid #eee;
 		padding-bottom: 5px;
-		.name {
+		text-align: left;
+		.title {
 			@include zen-grid-item(4,1);
 			padding-left: 25px;
+			a {
+				width: 100%;
+			}
 		}
 		.status {
 			@include zen-grid-item(5,5);
+			a {
+				width: 100%;
+				margin-left: 0;
+			}
 		}
 		.response-due {
-			@include zen-grid-item(2,10);	
+			@include zen-grid-item(3,10);	
+		}
+		.hidden {
+			display: none;
 		}
 		&.Public {
 			input {

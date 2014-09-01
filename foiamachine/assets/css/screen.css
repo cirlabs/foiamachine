@@ -6011,9 +6011,10 @@ form {
   text-transform: uppercase;
   border-bottom: 1px solid #eee;
   padding-bottom: 5px;
+  text-align: left;
 }
-/* line 37, ../sass/_request-list.scss */
-.request-list .header .name {
+/* line 38, ../sass/_request-list.scss */
+.request-list .header .title {
   float: left;
   width: 33.33333%;
   margin-left: 0%;
@@ -6032,6 +6033,10 @@ form {
   padding-left: 25px;
 }
 /* line 41, ../sass/_request-list.scss */
+.request-list .header .title a {
+  width: 100%;
+}
+/* line 45, ../sass/_request-list.scss */
 .request-list .header .status {
   float: left;
   width: 41.66667%;
@@ -6049,12 +6054,17 @@ form {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 44, ../sass/_request-list.scss */
+/* line 47, ../sass/_request-list.scss */
+.request-list .header .status a {
+  width: 100%;
+  margin-left: 0;
+}
+/* line 52, ../sass/_request-list.scss */
 .request-list .header .response-due {
   float: left;
-  width: 16.66667%;
+  width: 25%;
   margin-left: 75%;
-  margin-right: -91.66667%;
+  margin-right: -100%;
   padding-left: 15px;
   padding-right: 15px;
   -moz-box-sizing: border-box;
@@ -6067,11 +6077,15 @@ form {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 48, ../sass/_request-list.scss */
+/* line 55, ../sass/_request-list.scss */
+.request-list .header .hidden {
+  display: none;
+}
+/* line 59, ../sass/_request-list.scss */
 .request-list .header.Public input {
   display: none;
 }
-/* line 54, ../sass/_request-list.scss */
+/* line 65, ../sass/_request-list.scss */
 .request-list .header-controls-container {
   float: left;
   width: 100%;
@@ -6091,21 +6105,21 @@ form {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 59, ../sass/_request-list.scss */
+/* line 70, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container {
   position: relative;
   margin-bottom: 5px;
   padding-left: 0;
 }
-/* line 60, ../sass/_request-list.scss */
+/* line 71, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container.Public {
   display: none;
 }
-/* line 66, ../sass/_request-list.scss */
+/* line 77, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container i {
   font-size: 1.5em !important;
 }
-/* line 69, ../sass/_request-list.scss */
+/* line 80, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container .update-controls {
   float: left;
   width: 100%;
@@ -6124,20 +6138,20 @@ form {
   _overflow-y: visible;
   float: none !important;
 }
-/* line 72, ../sass/_request-list.scss */
+/* line 83, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container .update-controls span.request-control-btn {
   padding: 8px 15px 5px 15px;
 }
-/* line 75, ../sass/_request-list.scss */
+/* line 86, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container .update-controls span.request-control-btn:hover {
   cursor: pointer;
 }
-/* line 79, ../sass/_request-list.scss */
+/* line 90, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container .update-controls .add-tag-container {
   display: inline;
   z-index: 35;
 }
-/* line 82, ../sass/_request-list.scss */
+/* line 93, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container .update-controls .add-tag-container .tag-input-container {
   z-index: 35;
   display: none;
@@ -6156,7 +6170,7 @@ form {
   -o-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
 }
-/* line 95, ../sass/_request-list.scss */
+/* line 106, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container .update-controls .request-control-btn {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -6196,15 +6210,15 @@ form {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15) inset;
   background-color: #efefef;
 }
-/* line 98, ../sass/_request-list.scss */
+/* line 109, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container .update-controls #shareSelectedButton, .request-list .header-controls-container .controls-filter-container .update-controls #add-tag-reveal-btn {
   padding: 6px 15px 3px 15px;
 }
-/* line 102, ../sass/_request-list.scss */
+/* line 113, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container .update-controls .filters-toggle-container {
   display: inline;
 }
-/* line 104, ../sass/_request-list.scss */
+/* line 115, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container .update-controls .filters-toggle-container .filter-toggle.show-filters {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -6245,7 +6259,7 @@ form {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15) inset;
   background-color: #efefef;
 }
-/* line 109, ../sass/_request-list.scss */
+/* line 120, ../sass/_request-list.scss */
 .request-list .header-controls-container .controls-filter-container .update-controls .filters-toggle-container .filter-toggle.filters-expanded {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -6287,7 +6301,7 @@ form {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15) inset;
   background-color: #efefef;
 }
-/* line 120, ../sass/_request-list.scss */
+/* line 131, ../sass/_request-list.scss */
 .request-list .filters {
   display: none;
   position: absolute;
@@ -6309,7 +6323,7 @@ form {
   border-radius: 4px 4px 0 0;
   background-color: #faf6ef;
 }
-/* line 134, ../sass/_request-list.scss */
+/* line 145, ../sass/_request-list.scss */
 .request-list .filters .request-control-btn {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -6349,18 +6363,18 @@ form {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15) inset;
   background-color: #efefef;
 }
-/* line 137, ../sass/_request-list.scss */
+/* line 148, ../sass/_request-list.scss */
 .request-list .filters .filterWrapper {
   padding: 5px;
 }
-/* line 139, ../sass/_request-list.scss */
+/* line 150, ../sass/_request-list.scss */
 .request-list .filters .filterWrapper .filter-lbl {
   display: block;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 16px;
 }
-/* line 148, ../sass/_request-list.scss */
+/* line 159, ../sass/_request-list.scss */
 .request-list .fixed-header {
   position: absolute;
   background-color: white;
@@ -6370,19 +6384,19 @@ form {
   z-index: 30;
   margin-top: -90px;
 }
-/* line 154, ../sass/_request-list.scss */
+/* line 165, ../sass/_request-list.scss */
 .request-list .fixed-header .header {
   border-bottom: none;
 }
-/* line 157, ../sass/_request-list.scss */
+/* line 168, ../sass/_request-list.scss */
 .request-list .fixed-header .update-controls {
   margin-top: 0;
 }
-/* line 160, ../sass/_request-list.scss */
+/* line 171, ../sass/_request-list.scss */
 .request-list .fixed-header .filters {
   top: 55px;
 }
-/* line 168, ../sass/_request-list.scss */
+/* line 179, ../sass/_request-list.scss */
 .request-list #action_form {
   float: left;
   width: 100%;
@@ -6403,7 +6417,7 @@ form {
   padding-right: 0;
   width: 95%;
 }
-/* line 173, ../sass/_request-list.scss */
+/* line 184, ../sass/_request-list.scss */
 .request-list #action_form .bulk-actions {
   float: left;
   width: 100%;
@@ -6427,17 +6441,17 @@ form {
   border-top: 1px solid #e5d4b5;
   border-bottom: 1px solid #e5d4b5;
 }
-/* line 182, ../sass/_request-list.scss */
+/* line 193, ../sass/_request-list.scss */
 .request-list #action_form .bulk-actions .label {
   float: left;
   margin: 0 15px 0 0;
   color: #7d6d5e;
 }
-/* line 188, ../sass/_request-list.scss */
+/* line 199, ../sass/_request-list.scss */
 .request-list #action_form .bulk-actions .options {
   float: left;
 }
-/* line 194, ../sass/_request-list.scss */
+/* line 205, ../sass/_request-list.scss */
 .request-list .pagination {
   clear: left;
   float: left;
@@ -6456,7 +6470,7 @@ form {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 197, ../sass/_request-list.scss */
+/* line 208, ../sass/_request-list.scss */
 .request-list .pagination .page-nav.showall {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -6497,11 +6511,11 @@ form {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15) inset;
   background-color: #efefef;
 }
-/* line 204, ../sass/_request-list.scss */
+/* line 215, ../sass/_request-list.scss */
 .request-list .request-list-conatiner.Public input {
   display: none;
 }
-/* line 210, ../sass/_request-list.scss */
+/* line 221, ../sass/_request-list.scss */
 .request-list .request.list-item {
   float: left;
   width: 100%;
@@ -6525,23 +6539,23 @@ form {
   width: 100%;
   border-bottom: 1px solid #eee;
 }
-/* line 214, ../sass/_request-list.scss */
+/* line 225, ../sass/_request-list.scss */
 .request-list .request.list-item:hover {
   background-color: rgba(186, 175, 165, 0.1);
 }
-/* line 217, ../sass/_request-list.scss */
+/* line 228, ../sass/_request-list.scss */
 .request-list .request.list-item .request-item-click {
   background-color: white;
 }
-/* line 219, ../sass/_request-list.scss */
+/* line 230, ../sass/_request-list.scss */
 .request-list .request.list-item .request-item-click a {
   color: black;
 }
-/* line 222, ../sass/_request-list.scss */
+/* line 233, ../sass/_request-list.scss */
 .request-list .request.list-item .request-item-click:hover {
   background-color: rgba(186, 175, 165, 0.1);
 }
-/* line 233, ../sass/_request-list.scss */
+/* line 244, ../sass/_request-list.scss */
 .request-list .request.list-item .title-dates-status-container {
   float: left;
   width: 100%;
@@ -6562,11 +6576,11 @@ form {
   padding-right: 0;
   font-size: 20px;
 }
-/* line 237, ../sass/_request-list.scss */
+/* line 248, ../sass/_request-list.scss */
 .request-list .request.list-item .title-dates-status-container:hover {
   text-decoration: underline;
 }
-/* line 241, ../sass/_request-list.scss */
+/* line 252, ../sass/_request-list.scss */
 .request-list .request.list-item .title-dates-status-container .title {
   float: left;
   width: 33.33333%;
@@ -6585,12 +6599,12 @@ form {
   _overflow-y: visible;
   padding-left: 25px;
 }
-/* line 244, ../sass/_request-list.scss */
+/* line 255, ../sass/_request-list.scss */
 .request-list .request.list-item .title-dates-status-container .title:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-/* line 249, ../sass/_request-list.scss */
+/* line 260, ../sass/_request-list.scss */
 .request-list .request.list-item .title-dates-status-container .status {
   float: left;
   width: 41.66667%;
@@ -6608,16 +6622,16 @@ form {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 251, ../sass/_request-list.scss */
+/* line 262, ../sass/_request-list.scss */
 .request-list .request.list-item .title-dates-status-container .status .status-lbl {
   min-width: 100px;
 }
-/* line 254, ../sass/_request-list.scss */
+/* line 265, ../sass/_request-list.scss */
 .request-list .request.list-item .title-dates-status-container .status:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-/* line 259, ../sass/_request-list.scss */
+/* line 270, ../sass/_request-list.scss */
 .request-list .request.list-item .title-dates-status-container .response-date {
   float: left;
   width: 16.66667%;
@@ -6635,12 +6649,12 @@ form {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 261, ../sass/_request-list.scss */
+/* line 272, ../sass/_request-list.scss */
 .request-list .request.list-item .title-dates-status-container .response-date:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-/* line 268, ../sass/_request-list.scss */
+/* line 279, ../sass/_request-list.scss */
 .request-list .request.list-item .agency-statute-container {
   float: left;
   width: 100%;
@@ -6661,7 +6675,7 @@ form {
   color: #999;
   padding-left: 25px;
 }
-/* line 276, ../sass/_request-list.scss */
+/* line 287, ../sass/_request-list.scss */
 .request-list .request.list-item .misc-container {
   float: left;
   width: 100%;
@@ -6685,7 +6699,7 @@ form {
   font-size: 11px;
   color: #999;
 }
-/* line 285, ../sass/_request-list.scss */
+/* line 296, ../sass/_request-list.scss */
 .request-list .request.list-item .misc-container .date-added {
   float: left;
   width: 33.33333%;
@@ -6704,7 +6718,7 @@ form {
   _overflow-y: visible;
   padding-left: 25px;
 }
-/* line 289, ../sass/_request-list.scss */
+/* line 300, ../sass/_request-list.scss */
 .request-list .request.list-item .misc-container .privacy {
   float: left;
   width: 33.33333%;
@@ -6722,7 +6736,7 @@ form {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 292, ../sass/_request-list.scss */
+/* line 303, ../sass/_request-list.scss */
 .request-list .request.list-item .misc-container .last-viewed {
   float: left;
   width: 33.33333%;
@@ -6740,7 +6754,7 @@ form {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 297, ../sass/_request-list.scss */
+/* line 308, ../sass/_request-list.scss */
 .request-list .request.list-item .tags-container {
   float: left;
   width: 100%;

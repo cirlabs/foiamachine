@@ -16,6 +16,7 @@
 <script src="{{ STATIC_URL }}js/backbone-0.9.10-min.js"></script>
 <script src="{{ STATIC_URL }}js/backbone-tastypie.js"></script>
 <script src="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.js"></script>
+<script src="{{ STATIC_URL }}js/jquery.query-object.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}js/backbone-multi-post-fix.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}js/chosen.jquery.min.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}js/generic-item-adder.js"></script>
@@ -38,26 +39,6 @@ $(document).ready(function() {
             $(".request-list-conatiner").css("margin-top", "0px");
         }
     }
-    /*
-    var requestAttrs = [
-      {% for obj in object_list %}
-      {
-        el: "#request-{{obj.id}}",
-        attrs: {
-          title: '{{obj.title}}',
-          id: {{obj.id}}
-        }
-      },
-      {% endfor %}
-    ];
-    var rlv = new RequestListView({el: '.request-list', modelAttributes: requestAttrs});
-    */
-    /*
-    $(".request-item-click").on("click", function(e){
-        var href = $(this).attr("data-href");
-        window.location.href = href;
-    });
-    */
     $('[title]').qtip();
     $('#request-status').change(function(){
         $("#action_form").submit();
@@ -188,6 +169,33 @@ $(document).ready(function() {
 
     $(".free").on("click", function(e){
         window.location.href = "{% url 'free_request_edit'%}"
+    });
+
+    var order = $.query.get("order_by");
+    var reverse = false;
+    if(order !== ""){
+        if(order.indexOf("-") !== -1){
+            order = order.replace("-", "")
+            var reverse = true;
+        }
+        $(".header.order a i").hide();
+        if(reverse){
+            $("."+order + " i").removeClass("fa-caret-square-o-down");
+            $("."+order + " i").addClass("fa-caret-square-o-up");
+        }
+        $("."+order + " i").show();
+
+    }else{
+        $(".due_date i").show();
+    }
+    $(".header.order a").on("click", function(e){
+        e.preventDefault();
+        var neworder = $(this).attr('class');
+        var loc = $.query.set("order_by", neworder).toString();
+        if(neworder === order && !reverse){
+            loc = $.query.set("order_by", "-"+neworder).toString();
+        }
+        location.href = loc;
     });
 
     {% if not user.userprofile.is_verified %}

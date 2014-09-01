@@ -177,29 +177,6 @@ class Request(models.Model):
 
     tags = TaggableManager(blank=True)
 
-    @staticmethod
-    def get_db_field_names():
-        return [
-            'requests_request.author_id',
-            'requests_request.title',
-            'requests_request.status',
-            'requests_request.government_id',
-            'requests_request.agency_id',
-            'requests_request.text',
-            'requests_request.free_edit_body',
-            'requests_request.private',
-            'requests_request.date_added',
-            'requests_request.date_updated',
-            'requests_request.date_fulfilled',
-            'requests_request.date_fulfilled',
-            'requests_request.scheduled_send_date',
-            'requests_request.request_start_date',
-            'requests_request.request_end_date',
-            'requests_request.fee_waiver',
-            'requests_request.max_cost',
-            'requests_request.due_date'
-        ]
-
     @property
     def get_contacts_with_email(self):
         retval = []
