@@ -21,6 +21,7 @@ FOIMachine.templates.selectContactTemplate = '\
             <span id="<%= id %>"><%= name %></span>\
             <span id="<%= id %>" class="note"><%= email %></span>\
             <span id="<%= id %>" class="note"><%= address %></span>\
+            <span id="<%= id %>" class="note"><%= phone %></span>\
             <% if(notes.trim() !== ""){ %><span id="<%= id %>" class="note">User notes: <%= notes %></span> <% }else{ %><span class="note" id="<%= id %>">No user notes</span> <% } %> \
             <% if (can_edit) { %> \
                 <a href="#" class="edit-contact-btn" id="<%= id %>" data-contactid="<%= id %>">Edit Contact</a>\
@@ -193,6 +194,7 @@ var ContactSummaryView = Backbone.View.extend({
           'id': obj.attributes.id,
           'email': obj.get("emails") !== undefined ? obj.get("emails")[0] : "",
           'address': obj.get("addresses") !== undefined ? obj.get("addresses")[0] : "",
+          'phone': obj.get("phone") !== undefined ? obj.get("phone")[0] : "",
           'can_edit' : obj.get("can_edit"),
           'hidden' : obj.get("hidden"),
           'notes': obj.get("notes").toString()

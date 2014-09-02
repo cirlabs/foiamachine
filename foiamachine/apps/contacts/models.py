@@ -159,6 +159,12 @@ class Contact(BaseData):
         return None
 
     @property
+    def get_first_active_phone(self):
+        if self.get_active_phones().count() > 0:
+            return self.phone_numbers.filter(deprecated=None).all()[0]
+        return None
+
+    @property
     def get_active_emails_t(self):
         return self.emails.filter(deprecated=None)
 

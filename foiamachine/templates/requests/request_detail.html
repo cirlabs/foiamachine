@@ -151,17 +151,16 @@
 
 </form>
 <div class="mail">
-    {% if contacts_sin_email > 0 %}
-        Contacts without emails:
-        <div class="contacts-no-email recipients">
-        {% for contact in object.get_contacts_with_email %}
-            <div class="contact-no-email recipient">
-                <span>{{contact.first_name}} {{contact.last_name}}</span>
-                <span>{{contact.get_first_active_address}}</span>
-            </div>
-        {% endfor %}
+    Contacts:
+    <div class="contacts-no-email recipients">
+    {% for contact in object.get_contacts_with_email %}
+        <div class="contact-no-email recipient">
+            <span>{{contact.first_name}} {{contact.last_name}}</span>
+            <span>{{contact.get_first_active_address}}</span>
+            <span>{{contact.get_first_active_phone}}</span>
         </div>
-    {% endif %}
+    {% endfor %}
+    </div>
 
     {% if object.printed %}
         <a href="{{object.printed.get_public_url}}" target="_blank"><i class="fa fa-cloud-download"></i> Download request</a><br/>
