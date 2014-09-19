@@ -97,7 +97,7 @@ class StatsResource(ModelResource):
 
     def dehydrate(self, bundle):
         bundle.data = {}
-        request_set = bundle.obj.request_set
+        request_set = bundle.obj.request_set.exclude(agency__name='THE TEST AGENCY')
         if 'start_date' in bundle.request.GET:
             try:
                 start_date = bundle.request.GET['start_date']
@@ -114,7 +114,11 @@ class StatsResource(ModelResource):
             except:
                 # Couldn't parse date
                 pass
-            
+        bundle.data['num_sent'] = request_set.filter(scheduled_send_date__lte=datetime.now()).count()
+        bundle.data['total_agencies'] = Agency.objects.all().count()
+        bundle.data['sent_to_feds'] = request_set.filter(scheduled_send_date__lte=datetime.now(), government__name='United States of America').count()
+        bundle.data['num_agencies'] = len(set(request_set.filter(agency__isnull=False, scheduled_send_date__lte=datetime.now()).values_list("agency", flat=True)))
+        bundle.data['num_governments'] = len(set(request_set.filter(government__isnull=False, scheduled_send_date__lte=datetime.now()).values_list("government", flat=True)))
         bundle.data['num_requests_filed'] = request_set.exclude(status='X').exclude(status='I').exclude(status='U').count()
         bundle.data['num_partially_fulfilled'] = request_set.filter(status='P').count()
         bundle.data['num_fulfilled'] = request_set.filter(status='F').count()

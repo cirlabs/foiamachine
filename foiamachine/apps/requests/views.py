@@ -102,7 +102,7 @@ def show_pubprivate_form(wizard):
 
 def overall_stats(request):
     context = {}
-    requests = Request.objects.filter(status__in=['P','F','D','R','S'])
+    requests = Request.objects.filter(status__in=['P','F','D','R','S']).exclude(agency__name='THE TEST AGENCY')
     if 'start_date' in request.GET:
         try:
             start_date = request.GET['start_date']
@@ -120,6 +120,11 @@ def overall_stats(request):
             # Couldn't parse date
             pass
 
+    context['num_sent'] = requests.filter(scheduled_send_date__lte=datetime.now()).count()
+    context['sent_to_feds'] = requests.filter(scheduled_send_date__lte=datetime.now(), government__name='United States of America').count()
+    context['total_agencies'] = Agency.objects.all().count()
+    context['num_agencies'] = len(set(requests.filter(agency__isnull=False, scheduled_send_date__lte=datetime.now()).values_list("agency", flat=True)))
+    context['num_governments'] = len(set(requests.filter(government__isnull=False, scheduled_send_date__lte=datetime.now()).values_list("government", flat=True)))
     context['num_requests_filed'] = requests.exclude(status='X').exclude(status='I').exclude(status='U').count()
     context['num_partially_fulfilled'] = requests.filter(status='P').count()
     context['num_fulfilled'] = requests.filter(status='F').count()

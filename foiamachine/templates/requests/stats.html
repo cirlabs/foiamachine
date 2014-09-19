@@ -9,6 +9,26 @@
             <div class="statsField total">Total requests filed:</div>
             <div class="statsNum total"><%= num_requests_filed %></div>
         </div>
+        <div class="statsRow sent">
+            <div class="statsField num_sent">Total requests sent:</div>
+            <div class="statsNum total"><%= num_sent %></div>
+        </div>
+        <div class="statsRow sent">
+            <div class="statsField num_sent">Total requests sent to Feds:</div>
+            <div class="statsNum total"><%= sent_to_feds %></div>
+        </div>
+        <div class="statsRow sent">
+            <div class="statsField num_sent">Total agencies:</div>
+            <div class="statsNum total"><%= total_agencies %></div>
+        </div>
+        <div class="statsRow sent">
+            <div class="statsField num_sent">Number of agencies w/ sent requests:</div>
+            <div class="statsNum total"><%= num_agencies %></div>
+        </div>
+        <div class="statsRow sent">
+            <div class="statsField num_sent">Number of governments w/ sent requests:</div>
+            <div class="statsNum total"><%= num_governments %></div>
+        </div>
         <div class="statsRow subfield">
             <div class="statsField subfield">Requests fulfilled:</div>
             <div class="statsNum subfield"><%= num_fulfilled %></div>
@@ -113,7 +133,6 @@
             }
             function loadData(){
                 $.getJSON(url, function(data){
-                    
                     var frag = '';
                     if (_.keys(data.objects).length == 0){
                         frag += "<b>No recent data</b>";
