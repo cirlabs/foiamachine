@@ -81,14 +81,14 @@ def contact_is_valid(bundle, request=None):
                     validate_email(email)
                 except ValidationError:
                     return "Please enter a valid email address."
-                if EmailAddress.objects.filter(content=email).count() > 0:
-                    emailobj = EmailAddress.objects.get(content=email)
-                    retstr = 'Already have a contact with that email address'
-                    contacts = Contact.objects.filter(emails__content=emailobj)
-                    if contacts:
-                        retstr += ' in agency ' + contacts[0].agency_related_contacts.all()[0].name
-                        retstr += ". Please use a unique address."
-                        return retstr
+                #if EmailAddress.objects.filter(content=email).count() > 0:
+                    #emailobj = EmailAddress.objects.get(content=email)
+                    #retstr = 'Already have a contact with that email address'
+                    #contacts = Contact.objects.filter(emails__content=emailobj)
+                    #if contacts:
+                        #retstr += ' in agency ' + contacts[0].agency_related_contacts.all()[0].name
+                        #retstr += ". Please use a unique address."
+                        #return retstr
                         #if 'id' in bundle.data and str(contacts[0].id) != bundle.data['id']:
                         #    return retstr
     return ''
@@ -219,7 +219,7 @@ class ContactResource(ModelResource):
             data['dob'] = data['dob'] or None if 'dob' in data.keys() else None # Empty string no good
             agencyId = data['agencyId']
             del data['agencyId']
-            emails = [EmailAddress(content = email) for email in data['emails'] if email]
+            emails = [EmailAddress.get_or_create(email)[0] for email in data['emails'] if email]
             map(lambda x: x.save(), emails)
             notes = [Note(content = data['notes'], user = user)]
             del data['notes']
