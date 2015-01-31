@@ -8,9 +8,30 @@
     @include hover-thread;
 }
 
-.page-request-details {    
+#generateLinkButton, #generateThreadButton {
+    @include button-secondary-gray;
+    padding: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#generateLinkButton {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.page-request-details {
+
+
+
     form {
         display: inherit;        
+    }
+    #subject-update {
+        display: none;
+        float: none;
+        width: 100%;
     }
     .recipient {
         &:first-child {
@@ -37,16 +58,11 @@
                 @include button-secondary-gray;
                 padding: 10px;
             }
-            #generateLinkButton, #generateThreadButton {
-                @include button-secondary-gray;
-                padding: 10px;
-                &:hover {
-                    cursor: pointer;
-                }
-            }
+
         }
         .threading-id-container {
-            padding: 20px;
+            //padding: 20px;
+            //margin-bottom: 10px;
             .thiscode {
                 background-color: $nav-icon;
                 &:hover {

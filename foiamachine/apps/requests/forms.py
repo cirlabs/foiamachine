@@ -207,6 +207,7 @@ class UpdateForm(forms.Form):
     requests_to_modify = forms.ModelMultipleChoiceField(queryset=Request.objects.all(), required=False)
 
     newstatus = forms.ChoiceField(request_statuses, required = False)
+    newsubject = forms.CharField(required = False)
     newduedate = forms.DateTimeField(required = False)
     newupdateddate = forms.DateTimeField(required = False)
     newfulfilleddate = forms.DateTimeField(required = False)

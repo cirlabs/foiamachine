@@ -524,6 +524,8 @@ class RequestDetailView(DetailView):
                 return render_to_response('403.html', {}, context_instance=RequestContext(request))
             if form.cleaned_data['newduedate']:
                 obj.due_date = form.cleaned_data['newduedate']
+            if form.cleaned_data['newsubject']:
+                obj.title = form.cleaned_data['newsubject']
             if form.cleaned_data['newupdateddate']:
                 obj.date_updated = form.cleaned_data['newupdateddate']
             if form.cleaned_data['newfulfilleddate']:

@@ -4,12 +4,24 @@
 {% block body_class %}page-request-details{% endblock %}
 
 {% block content %}
+{% if is_author %}
+<span id="generateLinkButton"><i class="fa fa-share-square"></i> Link to this request</span>
+{% endif %}
 <form id="action_form" action="" method="POST" class="standard-form">
 <input type="hidden" name="requests_to_modify" value="{{ object.id }}" />
 {% csrf_token %}
+
 <div class="header">
     <h1>Request Details</h1>
-    <h2 class="subject">{% if object.title %}{{ object.title }}{% else %} unspecified {% endif %}</h2>
+    <h2 class="subject">
+        {% if can_edit %}
+            <span href="#" id="changesubject"><i class="fa fa-pencil-square-o" title='Update subject'></i></span>
+        {% endif %}
+        {% if object.title %}{{ object.title }}{% else %} unspecified {% endif %}
+    </h2> 
+    {% if can_edit %}
+    <input id="subject-update" type="text" name="newsubject" class="" placeholder="{% if object.title %}{{ object.title }}{% else %} unspecified {% endif %}" />
+    {% endif %}
     {% if can_edit %}
     <div class="threading-id-container">
         <div class="thread-code">
@@ -32,9 +44,6 @@
         {% endif %}
         {% if can_edit and object.scheduled_send_date == None and object.can_send %}
             <a class="send-btn" href="{% url 'send_request' pk=object.pk %}"><i class="fa fa-envelope"></i> Send</a>
-        {% endif %}
-        {% if is_author %}
-        <span id="generateLinkButton"><i class="fa fa-share-square"></i> Link to this request</span>
         {% endif %}
     </div>
 </div>
@@ -294,7 +303,12 @@
             $("#change-duedate-form").show();
             $("#show-update-due-date-btn").hide();
             return false;
-        })
+        });
+        $("#changesubject").on("click", function(e){
+            $("#changesubject").hide();
+            $(".subject").hide();
+            $("#subject-update").show();
+        });
         $("#check-mail").on('click', function(e){
             var url = "{% url 'check_mail'%}";
             var success = function(data, textStatus, jqXHR){
