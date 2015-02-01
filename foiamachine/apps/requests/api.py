@@ -298,7 +298,6 @@ class RequestResource(ModelResource):
         contacts = associate_contacts(bundle, data)
         bundle.obj.contacts = contacts
         bundle.obj.save()
-
         #bundle.data['can_send'] = bundle.obj.can_send
 
         if 'generate_pdf' in bundle.data:
