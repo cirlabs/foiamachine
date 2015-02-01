@@ -52,8 +52,9 @@ Create a MySQL database and create our base tables.
 
 ```bash
 $ echo "create database foiamachine" | mysql -u <your_db_user_here> -p
-$ python foiamachine/manage.py syncdb
+$ python foiamachine/manage.py syncdb --noinput
 $ python foiamachine/manage.py migrate
+$ python foiamachine/manage.py createsuperuser
 ```
 
 Load default data.
