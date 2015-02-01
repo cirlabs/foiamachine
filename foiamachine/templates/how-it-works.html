@@ -59,7 +59,7 @@
 			When you hit send, FOIA Machine emails the contacts you selected. It will also send a copy to the email address you provided when you registered. After you send your request, FOIA Machine expects you to communicate with the FOI officer through whatever channel is most convenient. Generally, this will be via email and/or phone. 
 		</p>
 		<p>
-		        There is another email address CC'ed on all messages sent by FOIA Machine. It's {{ user.username }}@foiamachine.org, the email address created for you to track the status of your requests, agency response times and to aid in keeping a convenient log of your interactions in a central location. This is optional. If you don't want FOIA Machine to keep track of the emails between you and the FOI officer, then remove {{ user.username }}@foiamachine.org from the CC field of all future emails. 
+        There is another email address CC'ed on all messages sent by FOIA Machine. It's {{provisioned_email}}, the email address created for you to track the status of your requests, agency response times and to aid in keeping a convenient log of your interactions in a central location. This is optional. If you don't want FOIA Machine to keep track of the emails between you and the FOI officer, then remove {{provisioned_email}} from the CC field of all future emails. 
 		</p>
 		<p>	You can update your contact information on the <a href="{% url 'account_update' %}">My Settings<i class="icon-user"></i></a> page, but please note that any emails already sent cannot be updated with your new email address. 
 		</p>

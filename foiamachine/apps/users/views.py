@@ -12,6 +12,7 @@ from django.contrib.auth.models import User, Group
 from django.contrib.auth.decorators import login_required
 
 from apps.users.models import InterestedParty, UserProfile
+from apps.mail.models import MailBox
 from apps.users.utils import send_verification_email
 from apps.users.forms import InterestedPartyForm 
 from apps.requests.views import UserRequestListView
@@ -33,6 +34,10 @@ def how_it_works(request, template_name='how-it-works.html'):
     context = {}
     context['sunset_unit'] = settings.SUNSET_CONFIG['units']
     context['sunset_time'] = settings.SUNSET_CONFIG['time']
+    if request.user.is_authenticated():
+        context['provisioned_email'] = MailBox.objects.get(usr=request.user).get_provisioned_email()
+    else:
+        context['provisioned_email'] = 'EMAIL UNAVAILABLE'
     return render_to_response(template_name, context, context_instance=RequestContext(request))
 
 def confirm_email(request, template_name='users/confirm_email.html'):
