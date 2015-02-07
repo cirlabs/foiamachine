@@ -163,11 +163,13 @@ class MailMessage(models.Model):
         content = json.loads(resp.content)
         self.dated = timezone.now()
         logging.info('MESSAGE SEND STATUS:%s' % resp.content)
+        retval = None
         if "id" in content.keys():
             logger.info("SENT MESSAGE message_id=%s" % content['id'])
             self.message_id = content['id']
+            retval = content['id']
         self.save()
-        return resp
+        return retval
 
 
 class MailBox(models.Model):

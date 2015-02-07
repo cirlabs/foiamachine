@@ -318,6 +318,7 @@ var RequestCreationView = Backbone.View.extend({
       this.requestDownloadButton = $(options.downloadRequestButton);
       this.promptedDownloadPrinted = false;
       this.locked = false;
+      this.contacts = [];
 
       var me = this;
 
@@ -364,7 +365,9 @@ var RequestCreationView = Backbone.View.extend({
             me.renderAttachments();
         });
       this.requestDownloadButton.unbind("click").on("click", function(e){
-        me.handleRequestDownload();
+        me.generate_pdf = true;
+        me.updateRequest();
+        //me.handleRequestDownload();
         return false;
       });
       this.sendButton.unbind("click").on("click", function(e){
@@ -465,16 +468,21 @@ var RequestCreationView = Backbone.View.extend({
         this.request.set("private", this.getPrivate());
         this.request.set("free_edit_body", FOIMachine.utils.getMediumHtml(this.textAreaEl).trim());
         this.request.set("title", this.subjectInput.val());
-        FOIMachine.utils.showUserMsg('Saving...');
+        var message = this.sendRequest ? "Saving and sending..." : "Saving...";
+        this.sendButton.removeClass('active');
+        FOIMachine.utils.showUserMsg(message);
         this.request.changed = {
           "private": this.getPrivate(),
           "free_edit_body": FOIMachine.utils.getMediumHtml(this.textAreaEl).trim(),
           "title": this.subjectInput.val(),
           "contacts": this.request.get("contacts"),
-          "attachments": this.request.get("attachments")
+          "attachments": this.request.get("attachments"),
+          "do_send": this.sendRequest,
+          "generate_pdf": this.generate_pdf
         };
         if(this.addAttributes !== undefined)
           this.addAttributes();
+        this.contacts = this.request.get("contacts");
         this.request.save(this.request.changed, {success: _.bind(this.updateViewOnSave, this), patch:true});
       }
       return false;
@@ -499,13 +507,17 @@ var RequestCreationView = Backbone.View.extend({
     },
     handleRequestDownload: function(e){
       //ONLY OPTION IS YES OR CLOSE
+      /*
       var me = this;
       if(me.locked){
         FOIMachine.utils.showUserMsg("Still working to create your request...");
         return false;
       }
-      me.request.set("generate_pdf", true);
-      FOIMachine.utils.showUserMsg("Working to create a printable request...");
+      */
+      //me.request.set("generate_pdf", true);
+      //FOIMachine.utils.showUserMsg("Working to create a printable request...");
+
+      /* 
       this.request.changed = {
         "private": this.getPrivate(),
         "free_edit_body": FOIMachine.utils.getMediumHtml(this.textAreaEl).trim(),
@@ -543,6 +555,7 @@ var RequestCreationView = Backbone.View.extend({
           me.locked = false;
         }
       });
+      */
     },
     showDownloadRequest: function(){
       this.requestDownloadButton.show();
@@ -565,21 +578,40 @@ var RequestCreationView = Backbone.View.extend({
       $("#request-generator-btn").attr("href", "/requests/new#request="+this.request.get("id"));
     },
     updateViewOnSave: function(model, response, options){
+      this.request.set("contacts", this.contacts);
       if(this.request.get("id") === undefined) {
         var location = options.xhr.getResponseHeader("Location").split("/");
         //server doesn't return values on save so let's parse out the id
         this.request.set("id", location[location.length - 2]);
       }
       window.location = '#request=' + this.request.get("id");
+
+      if(this.generate_pdf){
+        this.generate_pdf = false;
+        if(this.request.get("request_download_url") !== undefined){
+          FOIMachine.utils.showUserMsg("Created!");
+          this.requestDownloadButton.show();
+          var url = this.request.get("request_download_url");
+          window.open(url,'_blank');
+        }else{
+          FOIMachine.utils.showUserMsg("There was an error creating a printable request for you.");
+        }
+      }
       this.setGeneratorButton();
       if(this.postSave !== undefined)
         this.postSave();
       if(this.sendRequest){
-        FOIMachine.utils.showUserMsg('Request saved, sending now!');
-        window.location = "/requests/send/" + this.request.get("id") + "/";
-        return false;
+        this.sendRequest = false;
+        if(this.request.get("sent") !== undefined && this.request.get("sent")){
+          FOIMachine.utils.showUserMsg('Request sent!');
+          window.location = "/requests/" + this.request.get("id") + "/";
+          return false;
+        }else{
+          FOIMachine.utils.showUserMsg('There was an error trying to send your request. Please try again.');
+        }
+      }else{
+        FOIMachine.utils.showUserMsg('Request saved!');
       }
-      FOIMachine.utils.showUserMsg('Request saved!');
       if(this.request.hasMailOnlyContact())
         this.showDownloadRequest();
       if(this.request.canSend()){

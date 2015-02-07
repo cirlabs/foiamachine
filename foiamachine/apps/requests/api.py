@@ -177,7 +177,7 @@ class RequestResource(ModelResource):
         allowed_methods = ['get', 'post']
         detail_allowed_methods = ['get', 'post', 'put', 'patch']
         authorization = Authorization()
-        always_return_data = False
+        always_return_data = True
         filtering = {
             'id': ALL,
             'status': ALL,
@@ -296,12 +296,18 @@ class RequestResource(ModelResource):
             else:
                 logger.info('field %s not allowed' % field)
         contacts = associate_contacts(bundle, data)
+
         bundle.obj.contacts = contacts
         bundle.obj.save()
         #bundle.data['can_send'] = bundle.obj.can_send
 
         if 'generate_pdf' in bundle.data:
             bundle.obj.create_pdf_body()
+
+        if 'do_send' in bundle.data and bundle.data['do_send']:
+            #obj sent property will reflect whether it has been sent
+            bundle.obj.send()
+            #bundle.data['sent'] = bundle.obj.sent
         return bundle
 
     def obj_create(self, bundle, **kwargs):

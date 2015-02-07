@@ -42,9 +42,6 @@
                 <a class="edit" href="{% url 'request_new'%}#request={{object.pk}}"><i class="fa fa-pencil-square-o"></i> Edit</a>
             {% endif %}
         {% endif %}
-        {% if can_edit and object.scheduled_send_date == None and object.can_send %}
-            <a class="send-btn" href="{% url 'send_request' pk=object.pk %}"><i class="fa fa-envelope"></i> Send</a>
-        {% endif %}
     </div>
 </div>
 
@@ -160,17 +157,6 @@
 
 </form>
 <div class="mail">
-    Contacts:
-    <div class="contacts-no-email recipients">
-    {% for contact in object.get_contacts_with_email %}
-        <div class="contact-no-email recipient">
-            <span>{{contact.first_name}} {{contact.last_name}}</span>
-            <span>{{contact.get_first_active_address}}</span>
-            <span>{{contact.get_first_active_phone}}</span>
-        </div>
-    {% endfor %}
-    </div>
-
     {% if object.printed %}
         <a href="{{object.printed.get_public_url}}" target="_blank"><i class="fa fa-cloud-download"></i> Download request</a><br/>
     {% endif %}

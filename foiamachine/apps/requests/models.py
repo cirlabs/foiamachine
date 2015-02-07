@@ -525,6 +525,8 @@ class Request(models.Model):
             return None 
 
     def send(self, attachments=[]):
+        if self.sent:
+            return True
         try:
             #avoid circular imports
             from apps.mail.models import MailBox, MailMessage, MSG_DIRECTIONS
@@ -550,15 +552,19 @@ class Request(models.Model):
                     message.attachments.add(attach)
             for attach in self.attachments.all():
                 message.attachments.add(attach)
-            message.send(mailbox.get_provisioned_email())
+            sent = message.send(mailbox.get_provisioned_email())
             mailbox.add_message(message)
             #update status
             self.status = 'S'
             self.scheduled_send_date = timezone.now()
             self.due_date = self.get_due_date
             self.save()
+            if sent is None:
+                return False
+            return True
         except Exception as e:
-            logger.exception(e) 
+            logger.exception(e)
+            return False 
 
     @property
     def privacy_status(self):
