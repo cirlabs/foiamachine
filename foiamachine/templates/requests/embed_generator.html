@@ -381,13 +381,13 @@
 
           if(this.request.get('fee_waiver')){
             cost_graf += ' I am requesting that you waive all applicable fees associated with this request as I believe this request is in the public interest and is not for commercial use. Release of this information is in the public interest because it will contribute significantly to public understanding of government operations and activities. If you deny this request for a fee waiver, please advise me in advance of the estimated charges';
-             if(this.request.get('max_cost') === 0){
+             if(this.request.get('max_cost') == '0'){
                   cost_graf += ' associated with fulfilling this request.'
               }else{
                   cost_graf += ' if they are to exceed $' + this.request.get('max_cost') + ".";
               }
           }else{
-              if(this.request.get('max_cost') == 0){
+              if(this.request.get('max_cost') == '0'){
                 cost_graf += ' Please advise me in advance of the estimated charges associated with fulfilling this request.'
               }else{
                   cost_graf += ' Please advise me in advance of the estimated charges if they are to exceed $' + this.request.get('max_cost')  + '.';
