@@ -106,13 +106,13 @@ class AgencyResource(ModelResource):
     government = fields.ForeignKey(GovernmentResource, 'government')
 
     class Meta:
-        queryset = Agency.objects.filter(creator__isnull=False).order_by('-created').prefetch_related("government", "creator")
+        queryset = Agency.objects.order_by('-created').prefetch_related("government", "creator")
         ordering = ['government','name',]
         resource_name = 'agency'
         allowed_methods = ['get', 'post']
         detail_allowed_methods = ['get', 'post', 'put']
-        authorization = Authorization()
-        authentication = AgencyAuthentication()
+        #authorization = Authorization()
+        #authentication = AgencyAuthentication()
         validation = AgencyValidation()
         always_return_data = True
         paginator_class = AgencyPaginator
@@ -193,7 +193,7 @@ class AgencyResource(ModelResource):
         bundle.data['government_name'] = bundle.obj.government.name
         bundle.data['editor_contact_cnt'] = bundle.obj.editor_contact_cnt
         bundle.data['pub_contact_cnt'] = bundle.obj.pub_contact_cnt
-        bundle.data['created_by'] = bundle.obj.creator.username
+        bundle.data['created_by'] = bundle.obj.creator.username if bundle.obj.creator is not None else "NA"
         return bundle
         
     def hydrate(self, bundle):
@@ -226,6 +226,8 @@ class AgencyResource(ModelResource):
                 raise BadRequest(agency_is_valid(bundle))
             data = associate_government(bundle, data)
             user = bundle.request.user
+            if user.is_anonymous:
+                user = None
             keyvals = {}
             for field in ['name', 'government', 'hidden']:
                 if field in data:
@@ -235,8 +237,9 @@ class AgencyResource(ModelResource):
             theagency.creator = user
             theagency.save()
             bundle.obj = theagency
-            
+
             logger.info("agency %s created" % theagency.id)
         except Exception as e:
             logger.exception(e)
+        print bundle.obj
         return bundle

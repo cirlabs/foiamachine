@@ -26,8 +26,8 @@ class GovernmentResource(ModelResource):
         resource_name = 'governments'
         allowed_methods = ['get', 'post']
         detail_allowed_methods = ['get', 'post', 'put']
-        authorization = Authorization()
-        authentication = Authentication()
+        #authorization = Authorization()
+        #authentication = Authentication()
         filtering = {
             'name' : ALL,
             'slug' : ALL
@@ -45,8 +45,8 @@ class FeeExemptionResource(ModelResource):
         resource_name = 'feeorexemption'
         allowed_methods = ['get', 'post']
         detail_allowed_methods = ['get', 'post', 'put']
-        authorization = Authorization()
-        authentication = StatuteAuthentication()
+        #authorization = Authorization()
+        #authentication = StatuteAuthentication()
         filtering = {
             'id': ALL,
         }
@@ -123,8 +123,8 @@ class StatuteResource(ModelResource):
         resource_name = 'statute'
         allowed_methods = ['get', 'post']
         detail_allowed_methods = ['get', 'put']
-        authorization = Authorization()
-        authentication = StatuteAuthentication()
+        #authorization = Authorization()
+        #authentication = StatuteAuthentication()
         filtering = {
             'id': ALL,
         }

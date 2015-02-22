@@ -10,10 +10,10 @@ from django.utils import timezone
 
 class AgencyManager(models.Manager):
     def all_them(self):
-        return super(AgencyManager, self).get_query_set().filter(deprecated__isnull=True, creator__isnull=False).prefetch_related("government", "creator")
+        return super(AgencyManager, self).get_query_set().filter(deprecated__isnull=True).prefetch_related("government", "creator")
 
     def get_query_set(self):
-        return super(AgencyManager, self).get_query_set().filter(deprecated__isnull=True, creator__isnull=False, hidden=False).prefetch_related("government", "creator")
+        return super(AgencyManager, self).get_query_set().filter(deprecated__isnull=True, hidden=False).prefetch_related("government", "creator")
 
 class Agency(BaseData):
     name = models.CharField(max_length=255)

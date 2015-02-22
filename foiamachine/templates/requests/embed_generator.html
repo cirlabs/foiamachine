@@ -1,0 +1,431 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% load i18n %}
+{% load get_item %}
+
+{% block title %}New request{% endblock %}
+
+{% block wrapper_meta %}{% endblock %}
+
+{% block wrapper_css %}
+<link rel="stylesheet" href="{{ STATIC_URL }}js/jquery.qtip.custom/jquery.qtip.css" />
+<link rel="stylesheet" href="{{ STATIC_URL }}css/overcast/jquery-ui-1.10.0.custom.min.css"/>
+<link rel="stylesheet" href="{{ STATIC_URL }}css/medium-editor/medium-editor.css" />
+<style>
+    .left-col {
+        display: none;
+    }
+    .right-col {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+</style>
+{% endblock %}
+
+{% block body_class %}page-new-request{% endblock %}
+
+
+
+{% block content %}
+
+<section class="create-new-request">
+    <header>
+        <div class='topline-nav'>
+            New Request
+        </div>
+        <div class="progress-meter">
+            <div class="track">
+                <span class="progress"></span>
+            </div>
+            <ol class="progress-points">
+                
+                <li class="progress-point" data-point="1">Start</li>
+                
+                <li class="progress-point" data-point="2">Agency/Contacts</li>
+                
+                <li class="progress-point" data-point="3">Request Description</li>
+                
+                <li class="progress-point" data-point="4">Final Details</li>
+                
+                <li class="progress-point" data-point="5">Preview/Send</li>
+                
+            </ol>
+        </div>
+    </header>
+    <div class="edit-quit">
+        
+        <a style="float: right;" href="#" id="save-request-btn" class=""></a>
+    </div>
+        
+    <div class="step-1 slide standard-form">
+        <h1 class="headline">Welcome to the FOIA Machine Request Generator</h1>
+        <p class="supporting-text">Use this step-by-step form to generate a FOI request.</p>
+        <p class="supporting-text">To get started, enter some basic contact information that we'll put in your request letter. We do not record or store this information.</p>
+        <div>
+          <label>Name</label> <input type="text" name="name" id="userName">
+        </div>
+        <div>
+          <label>Address</label> <input type="text" name="address" id="userAddress">
+        </div>
+        <div>
+          <label>Email</label> <input type="text" name="email" id="userEmail">
+        </div>
+        <div>
+          <label>Phone</label> <input type="text" name="phone" id="userPhone">
+        </div>
+    </div>
+
+    <div class="step-2 slide standard-form">
+        <h1 class="headline">Select contacts</h1>
+        <p class="supporting-text">Browse, create or edit agencies and select associated contacts.</p>
+        {% include 'requests/agency_contact_view.html' %}
+    </div>
+
+    <div class="step-3 slide standard-form">
+        <h1 class="headline">Request Description</h1>
+        <p class="supporting-text">
+            Describe in brief detail the records you are after.<br/>
+            Once you have completed all the steps you will have a chance to preview and make edits to the final text of this request.<br/>
+        </p>
+        <p class="supporting-text body-note" style="display:none"><b>Your request text has been generated, please move to the final step to continue editing. If you'd like to erase your current and generate new text...</b> <span class="regenerate-button btn-small">Click here!</span></p>
+        <div contenteditable="true" id="request-edit-area" class="textarea body editable body-step" style="height: 400px;">
+            <span class="placeholder">
+                Explain briefly and succinctly your request. Double click on text for editing options.
+            </span>
+        </div>
+    </div>
+
+    <div class="step-4 slide standard-form">
+
+        <h1 class="headline">Finishing touches</h1>
+        <p class="supporting-text">Select fee waiver options</p>
+
+        <div class="field-wrap">
+            <label>Do you want to request that search and duplication fees be waived or reduced?</label>
+            <span class="inline small-labels"><ul class='dupe-fees'>
+            <li><label for="id_misc-fee_waiver_field_0"><input type="radio" name="misc-fee_waiver_field" value="1" checked="checked" id="id_misc-fee_waiver_field_0"> Yes</label></li>
+            <li><label for="id_misc-fee_waiver_field_1"><input type="radio" name="misc-fee_waiver_field" value="0" id="id_misc-fee_waiver_field_1"> No</label></li>
+            </ul></span>
+        </div>
+
+        <div class="field-wrap" style="margin-bottom:30px;">
+            <label>Ask the agency to contact you to justify the cost of fulfilling your request if ...</label>
+            <span class="small-labels"><ul class='fee-level'>
+            <li><label for="id_misc-fee_level_field_0"><input type="radio" name="misc-fee_level_field" value="0" checked="checked" id="id_misc-fee_level_field_0"> There will be any cost</label></li>
+            <li><label for="id_misc-fee_level_field_1"><input type="radio" name="misc-fee_level_field" value="25" id="id_misc-fee_level_field_1"> The cost will exceed $25</label></li>
+            <li><label for="id_misc-fee_level_field_2"><input type="radio" name="misc-fee_level_field" value="50" id="id_misc-fee_level_field_2"> The cost will exceed $50</label></li>
+            <li><label for="id_misc-fee_level_field_3"><input type="radio" name="misc-fee_level_field" value="100" id="id_misc-fee_level_field_3"> The cost will exceed $100</label></li>
+            </ul></span>
+        </div>
+
+        <div class="field-wrap" style="margin-bottom:30px;">
+            <label>Do you want to request the agency fulfill your request electronically?</label>
+            <span class="small-labels"><ul>
+            <li><label for="id_misc-prefer_electronic_field_0"><input type="radio" name="misc-prefer_electronic_field" value="1" checked="checked" id="id_misc-prefer_electronic_field_0"> Yes</label></li>
+            <li><label for="id_misc-prefer_electronic_field_1"><input type="radio" name="misc-prefer_electronic_field" value="0" id="id_misc-prefer_electronic_field_1"> No</label></li>
+            </ul></span>
+        </div>
+
+        <div class="field-wrap" style="margin-bottom:30px;">
+            <label>Do you want to request the agency contact you via telephone rather than by mail?</label>
+            <span class="small-labels"><ul>
+            <li><label for="id_misc-prefer_phone_field_0"><input type="radio" name="misc-prefer_phone_field" value="1" checked="checked" id="id_misc-prefer_phone_field_0"> Yes</label></li>
+            <li><label for="id_misc-prefer_phone_field_1"><input type="radio" name="misc-prefer_phone_field" value="0" id="id_misc-prefer_phone_field_1"> No</label></li>
+            </ul></span>
+        </div> 
+    </div>
+
+    <div class="step-5 slide standard-form">
+        <h1 class="headline">Review this request and make final edits</h1>
+        <p class="supporting-text">
+            Double click on text for editing options.
+        </p>
+        <div class="recipients-container">
+            <span class="intention">Mail or email this request to:</span> 
+            <div class="intended-parties"></div>
+        </div>
+        <div contenteditable="true" id="request-edit-area" class="free-edit editable body-step" style="height: 400px;">
+            <span class="placeholder">
+                Loading...
+            </span>
+        </div>
+    </div>
+
+    <div class="next-prev">
+        <span class="call-to-action next-btn">Next</span>
+        <span class="call-to-action prev-btn">Previous</span>
+    </div>
+</div>
+</section>
+{% endblock %}
+
+{% block page_scripts %}
+
+<script src="{{ STATIC_URL }}js/medium-editor.min.js"></script>
+<script src="{{ STATIC_URL }}js/ext/jquery-ui-1.10.0.custom.min.js"></script>
+
+<script src="{{ STATIC_URL }}js/backbone-min-1.1.2.js"></script>
+<script src="{{ STATIC_URL }}js/backbone-tastypie.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/statutes.json"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/backbone-multi-post-fix.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/agency.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/request.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/government.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/contact.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.iframe-transport.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.fileupload.js"></script>
+<script>
+    var RequestWizardView = RequestCreationView.extend({
+        el: '.create-new-request',
+        events: {
+            "click .next-btn": "nextStep",
+            "click .prev-btn": "prevStep",
+            "click .progress-point": "changeProgressPoint",
+            "click #request-generator-btn-guided": "doSwitchContext",
+            "click .regenerate-button": "regenBodyEdit"
+        },
+        doSwitchContext: function(e){
+            e.preventDefault();
+            var target = e.srcElement || e.target;
+            this.switchContext = $("#request-generator-btn-guided").attr("href");
+            if(this.request.get("id") === undefined){
+              window.location = this.switchContext;
+            }else{
+                this.updateRequest();
+            }
+            return false;
+        },
+        initialize: function(options){
+            this.options = options;
+            RequestCreationView.prototype.initialize.apply(this); 
+            var match = window.location.hash.match(/step=\d*/)
+            if(match != null){
+                this.step = parseInt(match[0].split("=")[1]);
+            }else{
+                this.step = 1;
+            }
+            this.maxStep = 5;
+            this.minStep = 1;
+            this.$(".slide").hide();
+            this.$(".step-"+this.step).show();
+            this.bodyEditor = FOIMachine.utils.getMediumEditor(".body");
+            this.activatePoints();
+            this.seenFinal = false;
+            var me = this;
+            if(me.request !== undefined || (me.request.get("free_edit_body") === null || me.request.get("free_edit_body").trim() === "")){
+                $(".free-edit").html(me.request.get("generated_text"));
+            }else{
+                me.removeBodyEdit();
+            }
+        },
+        updateRequest: function(){
+          this.updateAttrs();
+        },
+        changeProgressPoint: function(e){
+            var target = e.srcElement || e.target;
+            this.step = parseInt($(target).attr("data-point"));
+            this.$(".slide").hide();
+            this.$(".step-"+this.step).show();
+            this.updateRequest();
+            this.setStepUrl();
+            this.doStep();
+            this.activatePoints();
+        },
+        activatePoints: function(){
+            $(".progress-point").removeClass("active");
+            for(var i = 0; i <= this.step-1; i++){
+                var ele = $(".progress-point")[i];
+                $(ele).addClass("active");
+            }
+            var pct = (((this.step - 1)/ (this.maxStep - 1))*100).toFixed(0);
+            $(".track").html("<span class='progress' style='width:"+ pct +"%;'></span>");
+        },
+        addAttributes: function(){
+            this.request.changed['text'] = FOIMachine.utils.getMediumHtml(".body").trim();
+            this.request.changed['fee_waiver'] = this.$("#id_misc-fee_waiver_field_0").is(':checked');
+            this.request.changed['phone_contact'] = this.$("#id_misc-prefer_phone_field_0").is(':checked');
+            this.request.changed['prefer_electornic'] = this.$("#id_misc-prefer_electronic_field_0").is(':checked');
+            this.request.changed['max_cost'] = this.$(".fee-level :checked").val();
+        },
+        updateAttrs: function(){
+            this.request.set('text', FOIMachine.utils.getMediumHtml(".body").trim());
+            this.request.set('fee_waiver', this.$("#id_misc-fee_waiver_field_0").is(':checked'));
+            this.request.set('phone_contact', this.$("#id_misc-prefer_phone_field_0").is(':checked'));
+            this.request.set('prefer_electornic', this.$("#id_misc-prefer_electronic_field_0").is(':checked'));
+            this.request.set('max_cost', this.$(".fee-level :checked").val());
+            this.request.set("userName", this.$("#userName").val());
+            this.request.set("userAddress", this.$("#userAddress").val());
+            this.request.set("userEmail", this.$("#userEmail").val());
+            this.request.set("userPhone", this.$("#userPhone").val());
+        },
+        doStep: function(){
+            if(this.step !== this.maxStep){
+                $(".next-btn").show();
+                $("#send-now-btn").hide();
+            }
+            if(this.step === this.maxStep){
+                $(".next-btn").hide();
+                $("#send-now-btn").show();
+
+
+                $(".free-edit").html(this.getRequestText());
+                $(".free-edit").attr("contenteditable", true);
+                $(".free-edit").addClass("textarea");
+                this.paintRecipients();
+            }
+        },
+        nextStep: function(){ 
+            if(this.step === 2 && this.request.get("contacts").length < 1){
+                FOIMachine.utils.showUserMsg("Please select a contact before proceeding");
+                return -1;
+            }
+            if(this.step + 1 === this.maxStep)
+                this.seenFinal = true;
+            if(this.step+1 <= this.maxStep){
+                this.$(".step-"+this.step++).hide();
+                this.$(".step-"+this.step).show();
+                this.activatePoints();
+                this.updateRequest();
+                this.doStep();
+            }
+        },
+        prevStep: function(){
+            if(this.step-1 >= this.minStep){
+                this.$(".step-"+this.step--).hide();
+                this.$(".step-"+this.step).show();
+                this.activatePoints();
+                this.updateRequest();
+                this.doStep();
+            }
+        },
+        setStepUrl: function(){
+            //window.location = "#request=1218" + "&step=" + this.step;
+        },
+        paintRecipients: function(){
+            $(".intended-parties").html('');
+            this.request.get("contacts").forEach(function(contact){
+                var scv = new SelectedContactView({parent: $(".intended-parties"), contact: contact});
+                scv.render();
+            });
+        },
+        postSave: function(){
+            var me = this;
+            if(this.step == this.maxStep && !this.sendRequest/*&& this.seenFinal*/){
+                FOIMachine.utils.showUserMsg("Generating request...");
+                this.request.fetch({error: function(){
+                    FOIMachine.utils.showUserMsg("Error finding object to edit");
+                }, success: function(){
+                    me.request.initRelations();
+                    me.paintRecipients();
+                    if((me.request.get("free_edit_body") === null || me.request.get("free_edit_body").trim() === ""))
+                        $(".free-edit").html(me.request.get("generated_text"));
+              }});
+            }
+            if((me.request.get("free_edit_body") === null || me.request.get("free_edit_body").trim() === "")){
+                $(".free-edit").html(me.request.get("generated_text"));
+                $(".free-edit").attr("contenteditable", true);
+                $(".free-edit").addClass("textarea");
+            }else{
+                me.removeBodyEdit();
+            }
+            if(this.switchContext !== undefined)
+                window.location = this.switchContext;
+        },
+        removeBodyEdit: function(){
+            $(".body").attr("contenteditable", false);
+            $(".body").removeClass("textarea");
+            $(".body").html(this.request.get("free_edit_body"));
+            $(".body-note").show();
+            $(".free-edit").attr("contenteditable", true);
+            $(".free-edit").addClass("textarea");
+        },
+        regenBodyEdit: function(){
+            this.request.set("free_edit_body", "");
+            this.request.set("generated_text", "");
+            $(".body").attr("contenteditable", true);
+            $(".body").addClass("textarea");
+            $(".body").html("");
+            $(".free-edit").html("");
+            $(".free-edit").attr("contenteditable", true);
+            $(".free-edit").addClass("textarea");
+        },
+        setGeneratorButton: function(){
+          $("#request-generator-btn-guided").attr("href", "/requests/free-form/"+this.request.get("id")+"/");
+        },
+        getFinalText: function(){
+            return FOIMachine.utils.getMediumHtml(this.freeEditBody).trim();
+        },
+        getDesciptionText: function(){
+            return FOIMachine.utils.getMediumHtml(this.describe).trim();
+        },
+        getRequestText: function(){
+          var body = '';
+          law_texts = '';
+          totalSlugs = 0;
+          var minDays = 99;
+          this.request.get("contacts").forEach(function(d, index){
+            d.get("statute_slugs").forEach(function(slug, idx){
+              law_texts += totalSlugs > 0 ? ", " + statutes[slug].short_title : statutes[slug].short_title;
+              totalSlugs += 1;
+            });
+          });
+
+          body += '<p>Pursuant to ' + law_texts + ', I hereby request the following records:</p>';
+          body += '<p>' + this.request.get("text") + '</p>';
+
+          var cost_graf = ''
+          if(law_texts.length > 0)
+              cost_graf += 'Under the ' + law_texts + ' the government is allowed to charge only the cost of copying materials.';
+
+          if(this.request.get('fee_waiver')){
+            cost_graf += ' I am requesting that you waive all applicable fees associated with this request as I believe this request is in the public interest and is not for commercial use. Release of this information is in the public interest because it will contribute significantly to public understanding of government operations and activities. If you deny this request for a fee waiver, please advise me in advance of the estimated charges';
+             if(this.request.get('max_cost') === 0){
+                  cost_graf += ' associated with fulfilling this request.'
+              }else{
+                  cost_graf += ' if they are to exceed $' + this.request.get('max_cost') + ".";
+              }
+          }else{
+              if(this.request.get('max_cost') == 0){
+                cost_graf += ' Please advise me in advance of the estimated charges associated with fulfilling this request.'
+              }else{
+                  cost_graf += ' Please advise me in advance of the estimated charges if they are to exceed $' + this.request.get('max_cost')  + '.';
+              }
+          }
+          cost_graf += ' Please send me a detailed and itemized explanation of those charges.'
+          body += "<p>" + cost_graf + "</p>";
+          var misc_graf = ''
+          if(this.request.get("prefer_electornic")){
+            misc_graf += 'In the interest of expediency, and to minimize the research and/or duplication burden on your staff, please send records electronically if possible.  If this is not possible, please notify me before sending to the address listed below.'
+          }
+          body += "<p>" + misc_graf + "</p>";
+          body += "<p>Thank you for your time,</p>";
+          body += "<p>" + this.request.get("userName") + "<br/>";
+          body += "" + this.request.get("userEmail") + "<br/>";
+          body += "" + this.request.get("userPhone") + "<br/>";
+          body += "" + this.request.get("userAddress") + "</p>";
+          return body;
+        },
+        setRequest: function(){
+            var me = this;
+            var match = window.location.hash.match(/request=\d*/)
+            me.request = new Request({});
+            me.request.initRelations();
+        }
+    });
+    var rcv = new RequestWizardView({
+      agencyEl: "#agency-view",
+      saveButton: "#save-request-btn",
+      textArea: ".free-edit",
+      subjectInput: "#id_pub-private-title",
+      sendButton: "#send-now-btn",
+      fileUploadInput: '#fileUploadInput',
+      saveAndQuitButton: "#save-quit-request-btn",
+      attachments: "#attachments",
+      selectedContactsEl: "#contact-selection",
+      downloadRequestButton: "#download-request"
+    });
+</script>
+{% block interview_page_scripts %}{% endblock %}
+{% endblock %}

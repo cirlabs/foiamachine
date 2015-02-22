@@ -7,6 +7,8 @@ FOIMachine.templates.selectedContactTemplate = '\
     <span class="contact" id="selected-contact-id-<%= id %>"> <%= contactInfo %> </span>\
     <span class="agency"><%= agency_names %></span>\
     <span class="name"> <%= name %> </span>\
+    <span class="name"> <%= phone %> </span>\
+    <span class="name"> <%= address %> </span>\
   </div>\
 ';
 FOIMachine.templates.selectContactTemplate = '\
@@ -134,7 +136,9 @@ var SelectedContactView = Backbone.View.extend({
             'id': this.model.get('id'),
             'contactInfo': this.model.get("emails")[0] === undefined ? this.model.get("addresses")[0] : this.model.get("emails")[0],
             'agency_names': this.model.get("agency_names"),
-            'name': name
+            'name': name,
+            'address': this.model.get("addresses")[0],
+            'phone': this.model.get("phone")[0]
         };
         //this.model.set("selected", true);
         me.$el.html(me.template(data));

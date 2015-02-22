@@ -103,8 +103,8 @@ class ContactResource(ModelResource):
         resource_name = 'contact'
         allowed_methods = ['get', 'post', 'put']
         detail_allowed_methods = ['get', 'post', 'put']
-        authorization = Authorization()
-        authentication = ContactAuthentication()
+        #authorization = Authorization()
+        #authentication = ContactAuthentication()
         always_return_data = True
         filtering = {
             'id': ALL,
@@ -122,7 +122,12 @@ class ContactResource(ModelResource):
         bundle.data['phone'] = [e.content for e in bundle.obj.phone_numbers.all()]
         bundle.data['addresses'] = [e.content for e in bundle.obj.addresses.all()]
         bundle.data['can_edit'] = (bundle.request.user.is_superuser or bundle.request.user.is_staff or bundle.request.user == bundle.obj.creator)
-        agencynames = map(lambda x: x.name, bundle.obj.get_related_agencies())
+        agencies = bundle.obj.get_related_agencies()
+        agencynames = map(lambda x: x.name, agencies)
+        bundle.data['statute_slugs'] = []
+        for agency in agencies:
+            for statute in agency.government.statutes.all():
+                bundle.data['statute_slugs'].append(statute.slug)
         bundle.data['agency_names'] = ','.join(agencynames)
         return bundle
 
@@ -214,6 +219,8 @@ class ContactResource(ModelResource):
         try:
             data = bundle.data
             user = bundle.request.user
+            if user.is_anonymous:
+                user = None
             if len(contact_is_valid(bundle)) > 0:
                 raise BadRequest(contact_is_valid(bundle))
             data['dob'] = data['dob'] or None if 'dob' in data.keys() else None # Empty string no good
@@ -234,6 +241,7 @@ class ContactResource(ModelResource):
             addresses = [Address(content = address) for address in data['addresses'] if address]
             map(lambda x: x.save(), addresses)
             del data['addresses']
+            print agencyId
             agency = Agency.objects.get(id=agencyId)
             thecontact = Contact(**data)
             thecontact.save()

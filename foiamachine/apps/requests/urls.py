@@ -24,6 +24,7 @@ urlpatterns = patterns('',
     url(r'free-form/(?P<pk>.+)/$', free_request_edit, name='free_request_edit'),
     url(r'free-form/$', free_request_edit, name='free_request_edit'),
     url(r'stats/$', direct_to_template, {'template' : 'requests/stats.html'}, name="request_stats"),
+    url(r'embed/$', direct_to_template, {'template' : 'requests/embed_generator.html'}, name="embed_generator"),
     url(r'add-support/(?P<pk>.+)/user/(?P<user_id>.+)$', request_add_support, name="request_add_support"),
     url(r'(?P<pk>.+)/$', RequestDetailView.as_view(), name="request_detail"),
 
