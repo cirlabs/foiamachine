@@ -15,31 +15,6 @@ body {
     height: 100%;
 }
 
-/*
-//.grid-vis { // Remove this before production
-//    $zen-column-count: 12;
-//    $zen-gutter-width: 30px;
-//    @include zen-grid-container();
-//    margin: 0;
-//        
-//    .one {
-//        background-color: $logo-bg;
-//        height: 20px;
-//        border-right: 1px solid $logo-bg - 50;
-//        
-//        &:first-child {
-//            border-left: 1px solid $logo-bg - 50;
-//        }
-//
-//    	// This is how to iterate through non-class-specific items
-//    	@for $i from 1 through $zen-column-count {
-//    		&:nth-child(#{$zen-column-count}n+#{$i}) {
-//    			@include zen-grid-item(1, $i);
-//    		}
-//    	}
-//    }
-//}
-*/
 
 .app-wrap { // Container for entire app
     @include zen-grid-container();
@@ -92,6 +67,8 @@ body {
     
     .knight,
     .cir,
+    .rji,
+    .nfoic,
     .hosting {
         display: inline-block;
         vertical-align: middle;
