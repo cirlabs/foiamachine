@@ -12,23 +12,30 @@
 <link rel="stylesheet" href="{{ STATIC_URL }}css/overcast/jquery-ui-1.10.0.custom.min.css"/>
 <link rel="stylesheet" href="{{ STATIC_URL }}css/medium-editor/medium-editor.css" />
 <style>
+    body {
+        background-color: white;
+    }
     .left-col {
         display: none;
     }
     .right-col {
         min-width: inherit;
         overflow-x: hidden;
-        width: 98%;
+        width: 100%;
         float: none;
         margin-left: 0;
         margin-right: 0;
         padding: 0;
         padding-left: 10px !important;
-        padding-right: 30px;
+        padding-right: 10px !important;
     }
     .slide {
-        height: 750px !important;
+        height: 780px !important;
         padding: 5px;
+        overflow-y: auto !important;
+    }
+    #agency-view-wrapper #agency-view {
+        min-width: inherit !important;
     }
 </style>
 {% endblock %}
@@ -42,7 +49,6 @@
 <section class="create-new-request">
     <header>
         <div class='topline-nav'>
-            New Request
         </div>
         <div class="progress-meter">
             <div class="track">
@@ -69,7 +75,7 @@
     </div>
         
     <div class="step-1 slide standard-form">
-        <h1 class="headline">Welcome to the FOIA Machine Request Generator</h1>
+        <h1 class="headline">Welcome to NFOIC's FOIA Machine Request Generator</h1>
         <p class="supporting-text">Use this step-by-step form to generate a FOI request.</p>
         <p class="supporting-text">To get started, enter some basic contact information that we'll put in your request letter. We do not record or store this information.</p>
         <div>
