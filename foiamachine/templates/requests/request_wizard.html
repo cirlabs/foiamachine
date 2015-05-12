@@ -296,7 +296,6 @@
                 FOIMachine.utils.showUserMsg("Generating request...");
                 this.request.fetch({error: function(){
                     FOIMachine.utils.showUserMsg("Error finding object to edit");
-                    console.log("my problem first")
                 }, success: function(){
                     me.request.initRelations();
                     me.paintRecipients();
@@ -305,7 +304,7 @@
               }});
             }
             if((me.request.get("free_edit_body") === null || me.request.get("free_edit_body").trim() === "")){
-                $(".free-edit").html(me.request.get("generated_text"));
+                //$(".free-edit").html(me.request.get("generated_text"));
                 $(".free-edit").attr("contenteditable", true);
                 $(".free-edit").addClass("textarea");
             }else{
@@ -349,7 +348,6 @@
               var id = match[0].split("=")[1];
               me.request = new Request({"id": id});
               this.request.fetch({error: function(){
-                    console.log("my problem")
                   FOIMachine.utils.showUserMsg("Error finding object to edit");
                 }, success: function(){
                   FOIMachine.utils.showUserMsg("Request loaded!");
