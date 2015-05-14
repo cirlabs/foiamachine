@@ -23,7 +23,7 @@ body {
 
 .left-col { // Container for main navigation
     @include zen-grid-item(2,1);
-    min-width: 215px;
+    max-width: 215px;
     padding-left: 0;
     padding-right: 0;
         
@@ -38,6 +38,8 @@ body {
             max-width: 290px;
         }
     }
+    margin-right: 0;
+    width: 19%;
 }
 
 .right-col { // Container for everything else
@@ -45,11 +47,91 @@ body {
     @include zen-nested-container();
     @include box-shadow(rgba(black, .1) -2px 0px 5px);
     height: 100%;
-    min-width: 645px;
+    //min-width: 645px;
     overflow: auto;
-    padding: $zen-gutter-width ($zen-gutter-width * 2);
+    //padding: $zen-gutter-width ($zen-gutter-width * 2);
     background-color: #fff;
+    margin-left: 0;
+    margin-right: 0;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
 }
+.mobile-nav {
+    display: none;
+}
+
+@media (max-width: 870px) {
+    .left-col {
+        display: none;
+        .logo {
+            display: none;
+        }
+        position: absolute;
+        top: 91px;
+        width: 100%;
+        background-color: #FAF6EF;
+        z-index: 40;
+    }
+    .right-col {
+        min-width: 410px;
+        overflow-x: hidden;
+        width: 100% !important;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        //padding: 0;
+        //padding-left: 10px !important;
+        //padding-right: 10px !important;
+        //padding-top: 30px;
+        .header-controls-container.fixed-header {
+            margin-top: -183px;
+        }
+    }
+    .slide {
+        height: 780px !important;
+        padding: 5px;
+        overflow-y: auto !important;
+    }
+    #agency-view-wrapper #agency-view {
+        min-width: inherit !important;
+    }
+    .mobile-nav {
+        display: block;
+        .fa-times {
+            display: none;
+        }
+        padding: 10px 20px;
+        i {
+            font-size: 4em;
+        }
+        .logo {
+            display: inline;
+            img {
+                width: 105px;
+            }
+        }
+        &:hover {
+            cursor: pointer;
+            i {
+                color: #999;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    #agency-view-wrapper #agency-view .title-bar #agency-search-box {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+    #agency-view-wrapper #agency-view .title-bar {
+        padding-bottom: 20px;
+    }
+}
+
 
 .app-footer {
     @include zen-clear();

@@ -28,7 +28,7 @@ $(document).ready(function() {
         $(".filters").css("top", (window.scrollY + 65) + "px");
         $(".request-list-conatiner").css("margin-top", "150px");
     }
-    window.onscroll = function() {
+    var fixHeaderCheck = function() {
         if(window.scrollY > 149){
             $(".header-controls-container").addClass("fixed-header").css("top", window.scrollY  + "px");
             $(".filters").css("top", (window.scrollY + 65) + "px");
@@ -39,6 +39,7 @@ $(document).ready(function() {
             $(".request-list-conatiner").css("margin-top", "0px");
         }
     }
+    $(window).on("scroll", fixHeaderCheck);
     $('[title]').qtip();
     $('#request-status').change(function(){
         $("#action_form").submit();

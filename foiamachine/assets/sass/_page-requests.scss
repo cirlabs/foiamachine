@@ -14,6 +14,9 @@
             @include button-large();
             width: 230px !important;
             font-size: 18px;
+            float: right;
+            margin-left: 0;
+            margin-right: 0;
         }
     }
     .clearfix {

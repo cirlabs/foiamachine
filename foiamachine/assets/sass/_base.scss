@@ -265,23 +265,25 @@ $base-line-height: $base-font-size * 1.3;
 }
 
 .error-msgs {
-    @include border-radius(0 0 4px 4px);
-    @include text-shadow(rgba(black, 0.3) 0px 1px 1px);
-    @include box-shadow(0px 1px 1px rgba(black, 0.15));
     position: fixed;
     z-index: 10;
     top: 0;
-    left: 50%;
-    margin-left: -125px;
-    width: 500px;
-    background-color: rgba(#cb2a2a, .75);
-    border: 1px solid #cb2a2a;
-    color: white;
-    text-align: center;
-    padding: 3px;
-    display: none; // hidden by default
-    #close-msg-btn {
-        color: #FCECBB;
+    width: 100%;
+    #error-msg-container {
+        @include border-radius(0 0 4px 4px);
+        @include text-shadow(rgba(black, 0.3) 0px 1px 1px);
+        @include box-shadow(0px 1px 1px rgba(black, 0.15));
+        width: 50%;
+        margin: 0 auto;
+        background-color: rgba(#cb2a2a, .75);
+        border: 1px solid #cb2a2a;
+        color: white;
+        text-align: center;
+        padding: 3px;
+        display: none; // hidden by default
+        #close-msg-btn {
+            color: #FCECBB;
+        }
     }
 }
 
@@ -297,3 +299,4 @@ $base-line-height: $base-font-size * 1.3;
     width: 160px;
     margin-bottom: 10px;
 }
+

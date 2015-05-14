@@ -49,6 +49,17 @@
     <body class="{% block body_class %}{% endblock %}">
         <div class="app-wrap">
             {% block app_navigation %}
+            <div class="error-msgs" id="error-msg">
+                <div id="error-msg-container">
+                  <span id="callback-msg"></span>
+                  <a href="#" id="close-msg-btn">Close</a>
+                </div>
+            </div>
+            <div class="mobile-nav">
+                <i class="fa fa-bars"></i>
+                <i class="fa fa-times"></i>
+                <h1 class="logo"><img src="{{ STATIC_URL }}img/logo-foia-machine.png" /></h1>
+            </div>
             <!-- Begin left column -->
             <div class="left-col">
                 <h1 class="logo"><a href="{% url 'front_page' %}"><img src="{{ STATIC_URL }}img/logo-foia-machine.png" /></a></h1>
@@ -120,10 +131,6 @@
             
             <!-- Begin right column -->
             <div class="right-col">
-                <div class="error-msgs" id="error-msg">
-                  <span id="callback-msg"></span>
-                  <a href="#" id="close-msg-btn">Close</a>
-                </div>
                 {% block content %}
                 {% endblock %}
                 <footer class="app-footer">
@@ -154,6 +161,31 @@
         <script src="{{ STATIC_URL }}js/ext/jquery-ui-1.10.0.custom.min.js"></script>
         <script src="{{ STATIC_URL }}js/underscore-min.js"></script>
         <script type="text/javascript">
+            var resizeCheck = function(){
+                if(window.innerWidth <= 870){
+                    $(".left-col").hide();
+                    $(".fa-bars").on("click", function(){
+                        $(".left-col").show();
+                        $(".fa-bars").hide();
+                        $(".fa-times").show();
+                    });
+                    $(".fa-times").on("click", function(){
+                        $(".left-col").hide();
+                        $(".fa-bars").show();
+                        $(".fa-times").hide();
+                    });
+                    $(".right-col").on("click", function(){
+                        $(".left-col").hide();
+                        $(".fa-bars").show();
+                        $(".fa-times").hide();
+                    });
+                }else{
+                    $(".left-col").show();
+                }
+            };
+            resizeCheck();
+            $(window).on("resize", resizeCheck);
+
             FOIMachine = {
                 templates: {},
                 userData: {
@@ -161,7 +193,7 @@
                     isEditor: {% if user.is_authenticated %}  {% if user.is_superuser or user.is_staff%} true {% else %} false {% endif %} {% else %} false {%endif %}
                 },
                 utils: {
-                    userMsgDiv: $("#error-msg"),
+                    userMsgDiv: $("#error-msg-container"),
                     closeMsgButton: $("#close-msg-btn"),
                     showUserMsg: function(msg){
                         FOIMachine.utils.userMsgDiv.hide();

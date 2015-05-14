@@ -2155,6 +2155,9 @@ div.formRow {
   text-decoration: none;
   width: 230px !important;
   font-size: 18px;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
 }
 /* line 16, ../sass/_ui.scss */
 .page-requests .header .new-request:hover {
@@ -2167,11 +2170,11 @@ div.formRow {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15) inset;
   background-color: #cd4424;
 }
-/* line 19, ../sass/_page-requests.scss */
+/* line 22, ../sass/_page-requests.scss */
 .page-requests .clearfix {
   clear: left;
 }
-/* line 23, ../sass/_page-requests.scss */
+/* line 26, ../sass/_page-requests.scss */
 .page-requests .choose-your-adventure {
   *position: relative;
   *zoom: 1;
@@ -2186,25 +2189,25 @@ div.formRow {
 .page-requests .choose-your-adventure:after {
   clear: both;
 }
-/* line 28, ../sass/_page-requests.scss */
+/* line 31, ../sass/_page-requests.scss */
 .page-requests .choose-your-adventure .choice-container span {
   display: block;
 }
-/* line 31, ../sass/_page-requests.scss */
+/* line 34, ../sass/_page-requests.scss */
 .page-requests .choose-your-adventure .choice-container .icon {
   font-size: 300px;
 }
-/* line 34, ../sass/_page-requests.scss */
+/* line 37, ../sass/_page-requests.scss */
 .page-requests .choose-your-adventure .choice-container .lbl {
   font-size: 15px;
   width: 30%;
   margin: 0 auto;
 }
-/* line 40, ../sass/_page-requests.scss */
+/* line 43, ../sass/_page-requests.scss */
 .page-requests .choose-your-adventure .choice-container i {
   color: #E15838;
 }
-/* line 43, ../sass/_page-requests.scss */
+/* line 46, ../sass/_page-requests.scss */
 .page-requests .choose-your-adventure .choice-container .guided {
   float: left;
   width: 50%;
@@ -2223,12 +2226,12 @@ div.formRow {
   _overflow-y: visible;
   text-align: center;
 }
-/* line 46, ../sass/_page-requests.scss */
+/* line 49, ../sass/_page-requests.scss */
 .page-requests .choose-your-adventure .choice-container .guided:hover {
   cursor: pointer;
   background-color: #eee;
 }
-/* line 51, ../sass/_page-requests.scss */
+/* line 54, ../sass/_page-requests.scss */
 .page-requests .choose-your-adventure .choice-container .free {
   float: left;
   width: 50%;
@@ -2247,25 +2250,25 @@ div.formRow {
   _overflow-y: visible;
   text-align: center;
 }
-/* line 54, ../sass/_page-requests.scss */
+/* line 57, ../sass/_page-requests.scss */
 .page-requests .choose-your-adventure .choice-container .free:hover {
   cursor: pointer;
   background-color: #eee;
 }
-/* line 64, ../sass/_page-requests.scss */
+/* line 67, ../sass/_page-requests.scss */
 .page-requests .linebreak {
   border-bottom: 1px solid #999;
   margin-bottom: 10px;
   margin-top: 10px;
 }
-/* line 71, ../sass/_page-requests.scss */
+/* line 74, ../sass/_page-requests.scss */
 .page-requests table tr th:first-child {
   padding: 0;
   width: 10px;
   padding-top: 8px;
   padding-left: 15px;
 }
-/* line 77, ../sass/_page-requests.scss */
+/* line 80, ../sass/_page-requests.scss */
 .page-requests table tr td:first-child {
   width: 10px;
   padding: 0;
@@ -2387,7 +2390,6 @@ div.formRow {
   background-color: #fae8cc;
   color: #584b42;
   width: 100%;
-  height: 52px;
 }
 /* line 76, ../sass/_agency_contacts.scss */
 #agency-view-wrapper #agency-view .title-bar span.title {
@@ -7209,6 +7211,13 @@ html {
 
 /* line 267, ../sass/_base.scss */
 .error-msgs {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+}
+/* line 275, ../sass/_base.scss */
+.error-msgs #error-msg-container {
   -moz-border-radius: 0 0 4px 4px;
   -webkit-border-radius: 0;
   border-radius: 0 0 4px 4px;
@@ -7216,12 +7225,8 @@ html {
   -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  left: 50%;
-  margin-left: -125px;
-  width: 500px;
+  width: 50%;
+  margin: 0 auto;
   background-color: rgba(203, 42, 42, 0.75);
   border: 1px solid #cb2a2a;
   color: white;
@@ -7229,12 +7234,12 @@ html {
   padding: 3px;
   display: none;
 }
-/* line 283, ../sass/_base.scss */
-.error-msgs #close-msg-btn {
+/* line 287, ../sass/_base.scss */
+.error-msgs #error-msg-container #close-msg-btn {
   color: #FCECBB;
 }
 
-/* line 288, ../sass/_base.scss */
+/* line 293, ../sass/_base.scss */
 .btn-small {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -7273,7 +7278,7 @@ html {
   background-color: #efefef;
 }
 
-/* line 292, ../sass/_base.scss */
+/* line 297, ../sass/_base.scss */
 .add-btn.new-statute {
   border: 0 none;
   border-radius: 2px 2px 2px 2px;
@@ -7285,7 +7290,7 @@ html {
   width: 160px;
   margin-bottom: 10px;
 }
-/* line 293, ../sass/_base.scss */
+/* line 298, ../sass/_base.scss */
 .add-btn.new-statute:hover {
   cursor: pointer;
 }
@@ -7393,9 +7398,11 @@ body {
   _display: inline;
   _overflow: hidden;
   _overflow-y: visible;
-  min-width: 215px;
+  max-width: 215px;
   padding-left: 0;
   padding-right: 0;
+  margin-right: 0;
+  width: 19%;
 }
 /* line 30, ../sass/screen.scss */
 .left-col .logo {
@@ -7410,7 +7417,7 @@ body {
   max-width: 290px;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .right-col {
   float: left;
   width: 83.33333%;
@@ -7433,13 +7440,106 @@ body {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) -2px 0px 5px;
   box-shadow: rgba(0, 0, 0, 0.1) -2px 0px 5px;
   height: 100%;
-  min-width: 645px;
   overflow: auto;
-  padding: 30px 60px;
   background-color: #fff;
+  margin-left: 0;
+  margin-right: 0;
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
+.mobile-nav {
+  display: none;
+}
+
+@media (max-width: 870px) {
+  /* line 66, ../sass/screen.scss */
+  .left-col {
+    display: none;
+    position: absolute;
+    top: 91px;
+    width: 100%;
+    background-color: #FAF6EF;
+    z-index: 40;
+  }
+  /* line 68, ../sass/screen.scss */
+  .left-col .logo {
+    display: none;
+  }
+
+  /* line 77, ../sass/screen.scss */
+  .right-col {
+    min-width: 410px;
+    overflow-x: hidden;
+    width: 100% !important;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 88, ../sass/screen.scss */
+  .right-col .header-controls-container.fixed-header {
+    margin-top: -183px;
+  }
+
+  /* line 92, ../sass/screen.scss */
+  .slide {
+    height: 780px !important;
+    padding: 5px;
+    overflow-y: auto !important;
+  }
+
+  /* line 97, ../sass/screen.scss */
+  #agency-view-wrapper #agency-view {
+    min-width: inherit !important;
+  }
+
+  /* line 100, ../sass/screen.scss */
+  .mobile-nav {
+    display: block;
+    padding: 10px 20px;
+  }
+  /* line 102, ../sass/screen.scss */
+  .mobile-nav .fa-times {
+    display: none;
+  }
+  /* line 106, ../sass/screen.scss */
+  .mobile-nav i {
+    font-size: 4em;
+  }
+  /* line 109, ../sass/screen.scss */
+  .mobile-nav .logo {
+    display: inline;
+  }
+  /* line 111, ../sass/screen.scss */
+  .mobile-nav .logo img {
+    width: 105px;
+  }
+  /* line 115, ../sass/screen.scss */
+  .mobile-nav:hover {
+    cursor: pointer;
+  }
+  /* line 117, ../sass/screen.scss */
+  .mobile-nav:hover i {
+    color: #999;
+  }
+}
+@media (max-width: 500px) {
+  /* line 125, ../sass/screen.scss */
+  #agency-view-wrapper #agency-view .title-bar #agency-search-box {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  /* line 130, ../sass/screen.scss */
+  #agency-view-wrapper #agency-view .title-bar {
+    padding-bottom: 20px;
+  }
+}
+/* line 136, ../sass/screen.scss */
 .app-footer {
   clear: left;
   float: left;
@@ -7468,7 +7568,7 @@ body {
   padding-right: 0;
   color: #7D6D5E;
 }
-/* line 68, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 .app-footer .knight,
 .app-footer .cir,
 .app-footer .rji,
@@ -7477,21 +7577,21 @@ body {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 77, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .app-footer .cir {
   margin: 0 2%;
 }
-/* line 81, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .app-footer .hosting p {
   margin: 5px 0;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #564B41;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 h1,
 .headline {
   font-size: 2.35294em;
@@ -7500,7 +7600,7 @@ h1,
   margin-top: 0;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 #viewableLink {
   font-size: 8px;
   font-weight: bold;
