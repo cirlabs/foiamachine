@@ -19,6 +19,7 @@ body {
 .app-wrap { // Container for entire app
     @include zen-grid-container();
     position: relative;//height can choose itself
+    min-width: 410px;
 }
 
 .left-col { // Container for main navigation
@@ -36,6 +37,9 @@ body {
         img {
             width: 100%;
             max-width: 290px;
+        }
+        .nfoic-header {
+            margin: 0;
         }
     }
     margin-right: 0;
@@ -112,10 +116,24 @@ body {
                 width: 105px;
             }
         }
-        &:hover {
+        i:hover {
             cursor: pointer;
             i {
                 color: #999;
+            }
+        }
+        h1 {
+            display: inline;
+            pointer-events: none;
+        }
+        .nfoic-header {
+            display: inline-block;
+            min-width: 200px;
+            pointer-events: none;
+            position: absolute;
+            top: 30px;
+            h3 {
+                margin: 0;
             }
         }
     }

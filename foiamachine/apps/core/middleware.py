@@ -115,6 +115,82 @@ class SSLifyMiddleware(object):
             print "2ndURL %s %s" % (url, secure_url)
             return HttpResponsePermanentRedirect(secure_url)
 
+class NFOICMiddleware(object):
+
+    def process_request(self, request):
+        org_names = [
+            'The Alabama Center for Open Government',
+            'The Alaska FOI Coalition',
+            'The First Amendment Coalition of Arizona, Inc.',
+            'The Arkansas Coalition for Open Government',
+            'Californians Aware',
+            'The First Amendment Coalition',
+            'The First Amendment Project',
+            'The Colorado Freedom of Information Council',
+            'The Connecticut Foundation for Open Government',
+            'The New England First Amendment Coalition',
+            'The Delaware Coalition for Open Government',
+            'The D.C. Open Government Coalition',
+            'The Brechner Center for Freedom of Information',
+            'The Florida First Amendment Foundation',
+            'The Marion Brechner First Amendment Project',
+            'The Georgia First Amendment Foundation',
+            'The Media Council Hawaii',
+            'The Open Government Coalition of Hawaii',
+            'The Office of Information Practices',
+            'The Idahoans for Openness in Government',
+            'The Citizen Advocacy Center',
+            'The Illinois First Amendment Center',
+            'The Indiana Coalition for Open Government',
+            'The Iowa Freedom of Information Council',
+            'The Kansas Sunshine Coalition for Open Government',
+            'The Scripps Howard First Amendment Center',
+            'The Louisiana Coalition for Open Government',
+            'The Public Affairs Research Council of Louisiana',
+            'The New Orleans Coalition on Open Governance',
+            'The Maine Freedom of Information Coalition',
+            'The New England First Amendment Coalition',
+            'The Maryland Foundation for Open Government',
+            'The New England First Amendment Coalition',
+            'The Michigan Coalition for Open Government',
+            'The Minnesota Coalition on Government Information',
+            'The Missouri Sunshine Coalition',
+            'The Mississippi Center for Freedom of Information',
+            'The Montana Freedom of Information Hotline, Inc.',
+            'The New England First Amendment Coalition',
+            'The New England First Amendment Coalition',
+            'The New Jersey Foundation for Open Government',
+            'The New Mexico Foundation for Open Government',
+            'Reinvent Albany',
+            'The Tully Center for Free Speech',
+            'The North Carolina Open Government Coalition',
+            'The Ohio Coalition for Open Government',
+            'The Ohio Media Law Center for Ethics and Access',
+            'FOI Oklahoma, Inc.',
+            'The Open Oregon: A Freedom of Information Coalition',
+            'The Pennsylvania Freedom of Information Coalition',
+            'Access/RI',
+            'The New England First Amendment Coalition',
+            'The South Carolina Press Association FOI Committee',
+            'The Tennessee Coalition for Open Government',
+            'The Freedom of Information Foundation of Texas, Inc.',
+            'The Utah Foundation for Open Government',
+            'The New England First Amendment Coalition',
+            'The Virginia Coalition for Open Government',
+            'The Freedom Foundation',
+            'The Washington Coalition for Open Government',
+            'The Wisconsin Freedom of Information Council',
+            'The Lucy Burns Institute',
+            'The West Virginia Open Government Coalition',
+            'The Wyoming Coalition for Open Government'
+        ]
+        try:
+            org_idx = request.GET.get("org")
+            org_name = org_names[int(org_idx)]
+            request.session['org_name'] = org_name
+        except:
+            pass
+
 class TimezoneMiddleware(object):
     """ Set timezone if possible from session """
 

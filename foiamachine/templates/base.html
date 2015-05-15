@@ -59,10 +59,20 @@
                 <i class="fa fa-bars"></i>
                 <i class="fa fa-times"></i>
                 <h1 class="logo"><img src="{{ STATIC_URL }}img/logo-foia-machine.png" /></h1>
+                {% if request.session.org_name %}
+                <div class="nfoic-header">
+                    <h3 class="">+ {{ request.session.org_name }}</h3>
+                </div>
+                {% endif %}
             </div>
             <!-- Begin left column -->
             <div class="left-col">
-                <h1 class="logo"><a href="{% url 'front_page' %}"><img src="{{ STATIC_URL }}img/logo-foia-machine.png" /></a></h1>
+                <div class="logo">
+                    <a href="{% url 'front_page' %}">
+                        <img class="" src="{{ STATIC_URL }}img/logo-foia-machine.png" /> 
+                        {% if request.session.org_name %}<h3 class="nfoic-header">+ {{ request.session.org_name }}</h3>{% endif %}
+                    </a>
+                </div>
                 <nav class="main-nav">
                     <ul>
                         {% url 'request_new' as nr_url %}

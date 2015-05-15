@@ -137,6 +137,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.cache.FetchFromCacheMiddleware',
     'apps.core.middleware.TimezoneMiddleware',
+    'apps.core.middleware.NFOICMiddleware',
     'apps.core.middleware.DisableClientSideCachingMiddleware'
 )
 
