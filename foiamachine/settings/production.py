@@ -23,10 +23,13 @@ DATABASES = {
         'PORT': '3306', # PgBouncer port
         'HOST': env("DBHOST", ""),
         'USER': env("DBUSER", ""),
-        'PASSWORD': env("DBPASS", ""),
-        'OPTIONS': {'ssl': {'ca': '/app/config/amazon-rds-ca-cert.pem'}}
+        'PASSWORD': env("DBPASS", "")
     }
 }
+print "HEY %s" % (env("MYSQL_SSL_PATH", ""))
+if env("MYSQL_SSL_PATH", "") != "":
+    DATABASES['default']['OPTIONS'] = {'ssl': {'ca': env("MYSQL_SSL_PATH", "")}}
+
 MEDIA_URL = env("MEDIA_URL", "")
 STATIC_URL = env("STATIC_URL", "")
 ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
