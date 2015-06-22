@@ -26,6 +26,7 @@ DATABASES = {
         'PASSWORD': env("DBPASS", "")
     }
 }
+DATABASES['default']['OPTIONS'] = {'ssl': {'ca': 'config/amazon-rds-ca-cert.pem'}}
 MEDIA_URL = env("MEDIA_URL", "")
 STATIC_URL = env("STATIC_URL", "")
 ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
