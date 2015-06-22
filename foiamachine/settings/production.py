@@ -24,7 +24,7 @@ DATABASES = {
         'HOST': env("DBHOST", ""),
         'USER': env("DBUSER", ""),
         'PASSWORD': env("DBPASS", ""),
-        'OPTIONS': {'ssl': {'ca': 'config/amazon-rds-ca-cert.pem'}}
+        'OPTIONS': {'ssl': {'ca': '/app/config/amazon-rds-ca-cert.pem'}}
     }
 }
 MEDIA_URL = env("MEDIA_URL", "")
