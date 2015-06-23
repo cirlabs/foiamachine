@@ -28,7 +28,7 @@ DATABASES = {
 }
 
 if env("MYSQL_SSL_PATH", "") != "":
-    DATABASES['default']['OPTIONS'] = {'ssl': {'key': env("MYSQL_SSL_PATH", "")}}
+    DATABASES['default']['OPTIONS'] = {'ssl': {'ca': env("MYSQL_SSL_PATH", "")}}
 
 print DATABASES
 
