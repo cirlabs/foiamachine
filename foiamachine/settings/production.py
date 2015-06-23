@@ -26,6 +26,7 @@ DATABASES = {
         'PASSWORD': env("DBPASS", "")
     }
 }
+
 if env("MYSQL_SSL_PATH", "") != "":
     DATABASES['default']['OPTIONS'] = {'ssl': {'ca': env("MYSQL_SSL_PATH", "")}}
 
