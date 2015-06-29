@@ -431,7 +431,9 @@ class GroupRequestListView(RequestListView):
     template_name = 'requests/request_list.html'
 
     def get_queryset(self):
-        queryset = Request.objects.for_user(self.request.user).filter(private=True).exclude(author=self.request.user).order_by('-date_added')
+        from guardian.shortcuts import get_objects_for_user
+        queryset = get_objects_for_user(self.request.user,  Request.get_permissions_path('view'))
+        #queryset = Request.objects.for_user(self.request.user).filter(private=True).exclude(author=self.request.user).order_by('-date_added')
         return super(GroupRequestListView, self).filter_queryset(queryset)
 
     def get_context_data(self, **kwargs):
