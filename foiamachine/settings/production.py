@@ -19,7 +19,7 @@ MG_ROUTE = env('MG_ROUTE', '')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'foiamachine',
+        'NAME': env("DBNAME", 'foiamachine'),
         'PORT': '3306', # PgBouncer port
         'HOST': env("DBHOST", ""),
         'USER': env("DBUSER", ""),
