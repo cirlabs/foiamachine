@@ -126,7 +126,7 @@ class NFOICMiddleware(object):
             'Californians Aware',
             'The First Amendment Coalition',
             'The First Amendment Project',
-            'The Colorado Freedom of Information Council',
+            'Colorado Freedom of Information Coalition',
             'The Connecticut Foundation for Open Government',
             'The New England First Amendment Coalition',
             'The Delaware Coalition for Open Government',
