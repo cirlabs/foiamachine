@@ -121,7 +121,6 @@ class ContactResource(ModelResource):
         bundle.data['notes'] = ' '.join(notes)
         bundle.data['phone'] = [e.content for e in bundle.obj.phone_numbers.all()]
         bundle.data['addresses'] = [e.content for e in bundle.obj.addresses.all()]
-        print "creator %s" % bundle.obj.creator
         bundle.data['can_edit'] = (bundle.request.user.is_superuser or bundle.request.user.is_staff or bundle.request.user == bundle.obj.creator)
         agencies = bundle.obj.get_related_agencies()
         agencynames = map(lambda x: x.name, agencies)
