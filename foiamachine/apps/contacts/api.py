@@ -121,6 +121,7 @@ class ContactResource(ModelResource):
         bundle.data['notes'] = ' '.join(notes)
         bundle.data['phone'] = [e.content for e in bundle.obj.phone_numbers.all()]
         bundle.data['addresses'] = [e.content for e in bundle.obj.addresses.all()]
+        print "creator %s" % bundle.obj.creator
         bundle.data['can_edit'] = (bundle.request.user.is_superuser or bundle.request.user.is_staff or bundle.request.user == bundle.obj.creator)
         agencies = bundle.obj.get_related_agencies()
         agencynames = map(lambda x: x.name, agencies)
@@ -219,10 +220,11 @@ class ContactResource(ModelResource):
         try:
             data = bundle.data
             user = bundle.request.user
-            if user.is_anonymous:
+            if user.is_anonymous():
                 user = None
             if len(contact_is_valid(bundle)) > 0:
                 raise BadRequest(contact_is_valid(bundle))
+            print "user2 %s" % user
             data['dob'] = data['dob'] or None if 'dob' in data.keys() else None # Empty string no good
             agencyId = data['agencyId']
             del data['agencyId']
@@ -241,7 +243,6 @@ class ContactResource(ModelResource):
             addresses = [Address(content = address) for address in data['addresses'] if address]
             map(lambda x: x.save(), addresses)
             del data['addresses']
-            print agencyId
             agency = Agency.objects.get(id=agencyId)
             thecontact = Contact(**data)
             thecontact.save()
