@@ -1,23 +1,6 @@
 {% load url from future %}
 {% load filter_tags %}
 <section class="request-list">
-
-	<!--
-	<div class="status-filters-container row">
-		<span class="header">Show requests that are:</span>
-		<div class="status-filters">
-			<span class="status-filter selected" data-status="I">incomplete</span>
-			<span class="status-filter" data-status="U">new, unsent</span>
-			<span class="status-filter" data-status="S">filed</span>
-			<span class="status-filter" data-status="R">response received</span>
-			<span class="status-filter" data-status="P">partially fulfilled</span>
-			<span class="status-filter" data-status="F">fulfilled</span>
-			<span class="status-filter" data-status="D">denied</span>
-		</div>
-
-	</div>
-	-->
-
 	<div class="filters row {{scope}}">
 	  <form id="filter-form" class="filters-expanded" method="get">
 	      {{ filterform.non_field_errors }}
@@ -69,7 +52,9 @@
 	  {% csrf_token %}
 
 	  	<div class="header-controls-container row">
-	  		
+  			{% if group %}
+			<h3 class="group-name" style="padding-left: 10px;">{{ group }} requests</h3>
+			{% endif %}	
 		  	<div class="controls-filter-container {{scope}} row">
 				<div class="update-controls">
 				  <span id="shareSelectedButton" title="Share selected requests" class="request-control-btn"><i class="fa fa-share"></i></span>

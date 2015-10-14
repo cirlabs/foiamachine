@@ -214,7 +214,7 @@ $(document).ready(function() {
 
 {% if not show_create %}
 <div class="header">
-    <h1 class="headline">{{scope}} Requests {%if group %} for group {{group.name}} {% endif %}</h1>
+    <h1 class="headline">{{scope}} Requests</h1>
     {% if default_request_creation_free %}
         <a class="new-request" href="{% url 'free_request_edit' %}">Create New Request</a>
     {% else %}
