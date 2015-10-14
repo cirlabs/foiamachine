@@ -223,6 +223,9 @@ $(document).ready(function() {
 
 </div>
 {% include 'requests/request_entries.html' with object_list=object_list%}
+{% if error_msg %}
+   <h3> {{ error_msg }} </h3>
+{% endif %}
 {% else %}
 <div class="header">
     <h1 class="headline">Welcome! Pick one of the options below to start creating a request</h1>

@@ -408,7 +408,7 @@ class SingleGroupRequestListView(RequestListView):
             user = self.request.user
             group = user.groups.get(pk=pk)
             return get_objects_for_group(group, Request.get_permissions_path('view')).filter(~Q(status='X'))
-        except:
+        except Exception as e:
             return Request.objects.none()
 
     def get_context_data(self, **kwargs):
@@ -420,6 +420,7 @@ class SingleGroupRequestListView(RequestListView):
             group = user.groups.get(pk=pk)
             context['group'] = group
         except:
+            context['error_msg'] = "User lacks permission to view group requests. Please request access from the group administrator."
             pass
         return context
 

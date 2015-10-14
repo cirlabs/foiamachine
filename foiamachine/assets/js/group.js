@@ -48,7 +48,7 @@ FOIMachine.templates.groupTemplate = ''+
         '</div>'+
     '</div>'+
     '<div class="requests-container request-list" id="i<%= id %>">'+
-        '<div class="header-note"><span class="">Requests shared with this group</span> <span class="load-all">Show all requests</span></div>'+
+        '<div class="header-note"><span class="group-request-status">STATUS: Loading 5 preview requests...</span> <span class="load-all">Go to all requests</span></div>'+
         '<div class="header row">'+
             '<div class="selectme"><input type="checkbox" id="check_all_requests"/></div>'+
             '<div class="name">Subject</div>'+
@@ -133,11 +133,26 @@ var GroupView = Backbone.View.extend({
         "click .remove-confirm.no": "noConfirm",
         "click .change-access": "changeAccess",
         "click .save-edit": "saveEdit",
-        "click .cancel-edit": "cancelEdit"
+        "click .cancel-edit": "cancelEdit",
+        "click .load-all": "goToGroups"
     },
     initialize: function(){
         this.template = _.template(FOIMachine.templates.groupTemplate);
         this.userTemplate = _.template(FOIMachine.templates.userTemplate);
+        var that = this;
+        FOIMachine.events.on('groupRequestsLoaded', function(data){
+            if(that.model.get("id") == data.groupId)
+                that.$el.find(".group-request-status").html("STATUS: Preview requests loaded.");
+        });
+        FOIMachine.events.on('groupRequestsFailed', function(data){
+            that.$el.find(".group-request-status").html("STATUS: Preview requests failed to load.");
+        });
+    },
+    goToGroups: function(e){
+        e.preventDefault();
+        console.log(this.model.get("id"))
+        window.location = "/requests/group/" + this.model.get("id") + "/";
+        return false;
     },
     editUserPerms: function(e){
         var target = e.srcElement || e.target;
@@ -341,7 +356,5 @@ var GroupCollectionView = Backbone.View.extend({
         });
         $('.addUserSelect').html(selectInnerHTML);
         FOIMachine.utils.showUserMsg("Groups loaded");
-
-
     }
 });

@@ -189,8 +189,7 @@ var RequestItemView = Backbone.View.extend({
 });
 var RequestListView = Backbone.View.extend({
     events: {
-        'click .status-filter': 'filterByStatus',
-        'click .load-all': 'loadAll'
+        'click .status-filter': 'filterByStatus'
     },
     loadAll: function(){
       if(this.loadedAll){
@@ -213,6 +212,7 @@ var RequestListView = Backbone.View.extend({
         this.limit = 5;
         this.curIdx = this.limit;
         this.loadedAll = false;
+        this.groupId = options.groupId;
         var that = this;
         if(options.modelAttributes !== undefined){
           options.modelAttributes.forEach(function(attr){
@@ -223,9 +223,12 @@ var RequestListView = Backbone.View.extend({
           }); 
         }
         if(options.groupId !== undefined){
+          //FOIMachine.utils.showUserMsg("Loading " + this.limit + " requests for group ");
           var callback = _.bind(this.render, this);
           this.groupId = options.groupId;
-          this.items.fetch({data: {"groups__id": options.groupId, "limit": 5},success: callback});
+          this.items.fetch({data: {"groups__id": options.groupId, "limit": 5},success: callback, error: function(){
+            FOIMachine.events.trigger('groupRequestsFailed', {groupId: that.groupId});
+          }});
         }
     },
     filterByStatus: function(e){
@@ -252,12 +255,9 @@ var RequestListView = Backbone.View.extend({
       var that = this;
       if(this.items.models.length < 1){
         this.$el.append("<div class='row'>No requests to show.</div>");
-      }else{
-        this.$(".load-all").show();
       }
-      if(this.loadedAll){
-        this.$(".load-all");
-      }
+      FOIMachine.events.trigger('groupRequestsLoaded', {groupId: that.groupId});
+
       this.items.models.forEach(function(model){
         var view = new RequestItemView({model: model, parent: that});
         view.render();

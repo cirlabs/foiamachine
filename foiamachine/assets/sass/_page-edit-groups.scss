@@ -37,7 +37,8 @@ $group-bg: #F0F0F0;
                 }
             }
             .load-all {
-                display: none;
+                //display: none;
+                @include button-secondary-gray;
             }
             .last-viewed {
                 width: initial;
