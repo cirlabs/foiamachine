@@ -27,7 +27,6 @@ django-storages==1.1.6
 django-taggit==0.9.3
 -e hg+https://bitbucket.org/fabian/django-taggit-autosuggest@ce0382212840c05fd98a12782ea636051fdd04e6#egg=django_taggit_autosuggest-tip
 django-tastypie==0.9.12
-geopy==0.94.2
 greenlet==0.3.4
 gunicorn==0.13.4
 html2text==3.200.3
