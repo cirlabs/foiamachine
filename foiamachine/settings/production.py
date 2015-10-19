@@ -2,6 +2,7 @@ from common import *
 
 
 
+
 STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 DEFAULT_S3_PATH = "media"
