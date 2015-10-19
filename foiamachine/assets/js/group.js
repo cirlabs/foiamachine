@@ -150,7 +150,6 @@ var GroupView = Backbone.View.extend({
     },
     goToGroups: function(e){
         e.preventDefault();
-        console.log(this.model.get("id"))
         window.location = "/requests/group/" + this.model.get("id") + "/";
         return false;
     },
