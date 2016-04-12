@@ -112,11 +112,11 @@ class MailMessage(models.Model):
 
     @property
     def get_to_emails(self):
-        return [to for to in self.to]
+        return [to.content for to in self.to.all()]
 
     @property
     def get_cc_emails(self):
-        return [cc for cc in self.cc]
+        return [cc.content for cc in self.cc.all()]
 
     @property
     def plain_text_body(self):
@@ -188,7 +188,7 @@ class MailBox(models.Model):
     def get_threads(self, request_id):
         #roots = self.messages.filter(request__id=request_id).order_by('dated')
         roots = MailMessage.objects.filter(request__id=request_id).order_by('dated')
-        logger.info("getting threads len=%s request_id=%s" % (roots.count(), request_id))
+        logger.debug("getting threads len=%s request_id=%s" % (roots.count(), request_id))
         if roots.count() <= 0:
             return list()
         if roots.count() > 0:
