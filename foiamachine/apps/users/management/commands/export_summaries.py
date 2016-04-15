@@ -17,8 +17,15 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
 
+        objects = {
+            'requests': [],
+            'governments': [],
+            'agencies': [],
+            'contacts': []
+        }
+
         writer = UnicodeWriter(open('stats/requests.csv', 'wb'))
-        writer.writerow([
+        header = [
             "id",
             "agency_id",
             "status",
@@ -29,20 +36,9 @@ class Command(BaseCommand):
             "private",
             "num_messages",
             "contacts"
-        ])
-        writer_m = UnicodeWriter(open('stats/mail-messages.csv', 'wb'))
+        ]
+        writer.writerow(header)
 
-        writer_m.writerow([
-            "id",
-            "request_id",
-            "sent_by",
-            "dated",#when the message was sent by us
-            "created",#when the message hit our db, is the same as dated if sent by us
-            "direction",#sent or received
-            "was_forward_by_user",#if the user forwarded a thread to associate with this request
-            "is_user_note",
-            "sent_to"#one or more
-        ])
         requests = list(Request.objects.all())
         for i, request in enumerate(requests):
             mb = MailBox.objects.filter(usr=request.author)
@@ -60,35 +56,25 @@ class Command(BaseCommand):
                     str(request.scheduled_send_date),
                     str(request.due_date),
                     str(request.date_fulfilled),
-                    str(request.keep_private),
+                    str(request.private),
                     str(len(threads)),
                     ",".join([str(contact.id) for contact in request.contacts.all()])
                 ]
                 writer.writerow(row)
-
-                for thread in threads:
-                    row = [
-                        str(thread.id),
-                        str(request.id),
-                        str(thread.email_from),
-                        str(thread.dated),
-                        str(thread.created),
-                        str(thread.direction),
-                        str(thread.was_fwded),
-                        str(thread.message_id is None),
-                        str(",".join(thread.get_to_emails))
-                    ]
-                    writer_m.writerow(row)
-
+                obj = {}
+                for i, key in enumerate(header):
+                    obj[key] = row[i]
+                objects['requests'].append(obj)
 
         writer = UnicodeWriter(open('stats/governments.csv', 'wb'))
-        writer.writerow([
+        header = [
             'id',
             'name',
             'slug',
             'created',
             'agencies'
-        ])
+        ]
+        writer.writerow(header)
         for gov in Government.objects.all():
             row = [
                 str(gov.id),
@@ -98,16 +84,21 @@ class Command(BaseCommand):
                 str(Agency.objects.filter(government=gov).count())
             ]
             writer.writerow(row)
+            obj = {}
+            for i, key in enumerate(header):
+                obj[key] = row[i]
+            objects['governments'].append(obj)
 
         writer = UnicodeWriter(open('stats/agencies.csv', 'wb'))
-        writer.writerow([
+        header = [
             'id',
-            'government_id'
+            'government_id',
             'name',
             'slug',
             'created',
             'contacts'
-        ])
+        ]
+        writer.writerow(header)
         for agency in Agency.objects.all():
             row = [
                 str(agency.id),
@@ -118,9 +109,13 @@ class Command(BaseCommand):
                 str(agency.contacts.all().count())
             ]
             writer.writerow(row)
+            obj = {}
+            for i, key in enumerate(header):
+                obj[key] = row[i]
+            objects['agencies'].append(obj)
 
         writer = UnicodeWriter(open('stats/contacts.csv', 'wb'))
-        writer.writerow([
+        header = [
             'id',
             'agency_id',
             'first_name',
@@ -129,7 +124,9 @@ class Command(BaseCommand):
             'address',
             'phone',
             'emails'
-            ])
+        ]
+        writer.writerow(header)
+
         for agency in Agency.objects.all():
             for contact in agency.contacts.all():
                 row = [
@@ -142,4 +139,11 @@ class Command(BaseCommand):
                     ("" if contact.get_first_active_phone is None else contact.get_first_active_phone.content),
                     ("" if contact.get_first_active_email is None else contact.get_first_active_email.content)
                 ]
-                writer.writerow(row) 
+                writer.writerow(row)
+                obj = {}
+                for i, key in enumerate(header):
+                    obj[key] = row[i]
+                objects['contacts'].append(obj)
+
+        with open("stats/data.json", "w") as out:
+            out.write(json.dumps(objects))
