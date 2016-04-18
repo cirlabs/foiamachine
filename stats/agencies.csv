@@ -1,0 +1,1637 @@
+id,government_id,name,slug,created,contacts
+1,1,THE TEST AGENCY,the-test-agency,2013-10-02 02:37:21+00:00,8
+2,1,U. S. Customs & Border Protection (CBP),u-s-customs-border-protection-cbp,2013-10-09 16:21:20+00:00,2
+3,1,United States Postal Service,united-states-postal-service,2013-10-10 02:14:01+00:00,1
+4,1,Securities and Exchange Commission,securities-and-exchange-commission,2013-10-10 02:35:23+00:00,1
+5,1,U.S. Department of Education,us-department-of-education,2013-10-16 04:11:43+00:00,1
+6,16,New York City Department of Education,new-york-city-department-of-education,2013-10-21 04:29:59+00:00,3
+7,16,New York City Fire Department (FDNY),new-york-city-fire-department-fdny,2013-10-21 04:34:56+00:00,1
+8,1,National Security Agency,national-security-agency,2013-11-12 14:51:42+00:00,0
+9,36,National Archives FOIA Service Centers,national-archives-foia-service-centers,2013-11-19 05:35:13+00:00,1
+10,1,Federal Bureau of Investigation,federal-bureau-of-investigation,2013-11-20 19:34:39+00:00,0
+11,32,Boston Police Department,boston-police-department,2013-11-21 18:05:06+00:00,0
+12,1,Los Angeles,los-angeles,2013-11-22 05:29:12+00:00,0
+13,1,Department of Justice ,department-of-justice,2013-11-25 16:33:34+00:00,0
+14,1,Federal Emergency Management Agency (FEMA),federal-emergency-management-agency-fema,2013-12-02 20:46:58+00:00,1
+15,25,New Jersey Department of Environmental Protection(NJ DEP),new-jersey-department-of-environmental-protectionn,2013-12-02 21:33:33+00:00,1
+16,40,University of Alabama,university-of-alabama,2013-12-08 23:10:29+00:00,0
+17,1,Department of State,department-of-state,2013-12-17 23:18:47+00:00,1
+18,1,Department of State,department-of-state-2,2013-12-17 23:18:47+00:00,0
+19,1,Internal Revenue Service,internal-revenue-service,2013-12-29 21:04:33+00:00,1
+20,30,City of Oakland,city-of-oakland,2014-01-14 22:09:27+00:00,0
+21,24,Maine Health and Human Services,maine-health-and-human-services,2014-01-16 22:26:31+00:00,1
+22,14,Centers for Medicare & Medicaid Services Office of the Regional Administrator,centers-for-medicare-medicaid-services-office-of-t,2014-01-17 20:02:33+00:00,1
+23,33,Mississippi State Department of Health ,mississippi-state-department-of-health,2014-01-17 20:45:40+00:00,2
+24,16,New York State Department of Health,new-york-state-department-of-health,2014-01-17 21:24:50+00:00,1
+25,48,"Muskogee, OK Department of Veterans Affairs",muskogee-ok-department-of-veterans-affairs,2014-01-17 21:34:51+00:00,1
+26,52,Metropolitan Police Department,metropolitan-police-department,2014-01-17 22:37:44+00:00,0
+27,1,U.S. Department of Defense,us-department-of-defense,2014-01-17 23:14:11+00:00,1
+28,20,Washington Aging & Long-Term Support Administration,washington-aging-long-term-support-administration,2014-01-22 15:55:03+00:00,1
+29,34,South Carolina Department of Health and Environmental Control,south-carolina-department-of-health-and-environmen,2014-01-22 17:52:26+00:00,4
+30,5,Missouri Department of Health and Senior Services,missouri-department-of-health-and-senior-services,2014-01-23 15:16:50+00:00,1
+31,45,Aging and Disability Services Division,aging-and-disability-services-division,2014-01-23 15:29:56+00:00,1
+32,15,New Hampshire Bureau of Elderly and Adult Services,new-hampshire-bureau-of-elderly-and-adult-services,2014-01-23 15:36:58+00:00,1
+33,36,Maryland Department of Aging,maryland-department-of-aging,2014-01-23 15:48:44+00:00,1
+34,50,South Dakota Department of Health,south-dakota-south-dakota-department-of-health,2014-01-23 16:03:03+00:00,2
+35,47,Ohio Department of Health,ohio-department-of-health,2014-01-23 16:21:14+00:00,1
+36,26,Rhode Island Department of Health,rhode-island-department-of-health,2014-01-23 16:28:23+00:00,1
+37,52,Washington D.C. Office on Aging,washington-dc-office-on-aging,2014-01-23 16:34:00+00:00,1
+38,22,Wisconsin Bureau of Aging and Disability Resources,wisconsin-bureau-of-aging-and-disability-resources,2014-01-23 16:36:45+00:00,1
+39,51,Wyoming Department of Health,wyoming-department-of-health,2014-01-23 16:41:48+00:00,1
+40,4,Colorado Department of Health,colorado-department-of-health,2014-01-23 16:44:52+00:00,1
+41,23,Illinois Community College Board,illinois-community-college-board,2014-01-23 17:48:22+00:00,0
+42,16,New York City Comptroller’s Office,new-york-city-comptrollers-office,2014-01-24 15:15:40+00:00,2
+43,19,Virginia Polytechnic Institute and State University,virginia-polytechnic-institute-and-state-universit,2014-01-24 17:16:08+00:00,1
+44,36,Maryland Department of Health and Mental Hygiene,maryland-department-of-health-and-mental-hygiene,2014-01-24 23:07:41+00:00,1
+45,7,Georgia Department of Community Health,georgia-department-of-community-health,2014-01-28 14:35:08+00:00,1
+46,1,Centers for Medicare & Medicaid Services,centers-for-medicare-medicaid-services,2014-01-28 15:04:51+00:00,1
+47,25,New Jersey Division of Health Facilities Evaluation & Licensing,new-jersey-division-of-health-facilities-evaluatio,2014-01-29 00:18:36+00:00,1
+48,17,Pennsylvania Department of Health,pennsylvania-department-of-health,2014-01-29 02:58:07+00:00,2
+49,1,Environmental Protection Agency Region 5,environmental-protection-agency-region,2014-01-30 05:44:17+00:00,1
+50,1,City of Akron,city-of-akron,2014-01-30 16:04:29+00:00,0
+51,18,Utah Health Facility Licensing & Certification,utah-health-facility-licensing-certification,2014-01-30 18:56:38+00:00,1
+52,52,Metropolitan Police Department,metropolitan-police-department-2,2014-01-30 22:13:09+00:00,3
+53,32,Massachusetts Executive Office of Elder Affairs,massachusetts-executive-office-of-elder-affairs,2014-01-31 16:45:32+00:00,2
+54,23,City of Chicago Business Affairs and Consumer Protection,city-of-chicago-business-affairs-and-consumer-prot,2014-01-31 17:11:59+00:00,1
+55,22,Wisconsin Department of Health Services,wisconsin-department-of-public-health,2014-02-04 20:27:03+00:00,1
+56,1,National Oceanic and Atmospheric Administration,national-oceanic-and-atmospheric-administration,2014-02-05 20:37:50+00:00,0
+57,1,U.S. Food and Drug Administration (FDA),food-and-drug-administration,2014-02-06 23:53:07+00:00,1
+58,16,New York City Department of Finance,new-york-city-department-of-finance,2014-02-10 16:24:36+00:00,1
+59,23,Chicago Public Schools,chicago-public-schools,2014-02-13 06:07:42+00:00,1
+60,16,New York City Office of Payroll Administration,new-york-city-office-of-payroll-administration,2014-02-14 16:37:52+00:00,1
+61,20,Washington State Department of Health,washington-state-department-of-health,2014-02-16 21:28:20+00:00,3
+62,1,Office of Personnel Management (OPM),office-of-personnel-management-opm,2014-02-20 03:00:22+00:00,2
+63,19,Lynchburg Police Department,lynchburg-police-department,2014-02-20 23:58:48+00:00,0
+64,23,Metropolitan Water Reclamation District of Greater Chicago,metropotian-water-reclamation-district,2014-02-21 16:59:25+00:00,1
+65,37,City of Haines City,city-of-haines-city,2014-02-22 01:01:23+00:00,0
+68,1,San Francisco ,san-francisco,2014-02-25 22:31:29+00:00,0
+69,37,Miami-Dade County Medical Examiner Dept,miami-dade-county-medical-examiner-dept,2014-02-26 02:33:05+00:00,1
+70,29,Dallas ISD ,dallas-isd,2014-02-26 17:22:39+00:00,2
+73,1,Bureau of Indian Affairs,bureau-of-indian-affairs,2014-02-26 18:59:58+00:00,1
+74,1,Bureau of Indian Affairs,bureau-of-indian-affairs-2,2014-02-26 19:00:25+00:00,0
+79,1,Ronald Reagan Presidential Library,ronald-reagan-presidential-library,2014-02-26 21:12:20+00:00,0
+80,30,Ronald Reagan Presidential Library,ronald-reagan-presidential-library-2,2014-02-26 21:13:02+00:00,0
+81,11,Baton Rouge Metro Council,baton-rouge-metro-council,2014-02-26 21:32:56+00:00,0
+84,1,NASA,nasa,2014-02-27 05:15:46+00:00,0
+88,52,Department of Homeland Security,department-of-homeland-security,2014-02-27 19:30:11+00:00,1
+89,17,Pennsylvania Treasury,pennsylvania-treasury,2014-02-27 19:30:40+00:00,1
+90,1,"U.S. Department of Homeland Security, National Protection and Programs Directorate",us-department-of-homeland-security,2014-02-27 19:46:27+00:00,1
+91,30,California Department of Toxic Substances Control,california-department-of-toxic-substances-control,2014-02-27 20:00:11+00:00,1
+92,17,Pennsylvania Office of Attorney General,pennsylvania-office-of-attorney-general,2014-02-27 20:11:44+00:00,1
+93,1,National Security Agency,national-security-agency-2,2014-02-28 00:37:12+00:00,0
+94,1,National Security Agency,national-security-agency-3,2014-02-28 00:37:48+00:00,0
+96,1,OSHA,osha,2014-03-02 00:23:47+00:00,0
+97,29,Texas Comptroller of Public Accounts,texas-comptroller-of-public-accounts,2014-03-03 16:41:01+00:00,3
+98,1,U.S. Department of Labor,us-department-of-labor,2014-03-03 16:54:51+00:00,1
+102,5,Columbia Public Schools,columbia-public-schools,2014-03-04 15:35:47+00:00,1
+103,19,College of William & Mary,college-of-william-mary,2014-03-04 16:06:39+00:00,0
+104,19,College of William & Mary,college-of-william-mary-2,2014-03-04 16:07:20+00:00,1
+105,17,Office of the Governor,office-of-the-governor,2014-03-04 19:13:02+00:00,1
+106,1,U.S. Department of Homeland Security,us-department-of-homeland-security-2,2014-03-05 22:28:18+00:00,2
+107,1,"U.S. Environmental Protection Agency, Region 6",us-environmental-protection-agency-region,2014-03-05 22:51:11+00:00,1
+108,17,Pennsylvania Department of Corrections,pennsylvania-department-of-corrections,2014-03-06 19:05:04+00:00,1
+109,17,Pennsylvania Department of Transportation,pennsylvania-department-of-transportation,2014-03-06 19:26:12+00:00,1
+110,17,Pennsylvania Department of Transportation,pennsylvania-department-of-transportation-2,2014-03-06 19:27:55+00:00,1
+111,1,USDA Food and Nutrition Service,usda-food-and-nutrition-service,2014-03-06 20:03:15+00:00,1
+113,17,Pennsylvania Department of Education,pennsylvania-department-of-education-2,2014-03-06 21:03:32+00:00,1
+114,29,University of North Texas System,university-of-north-texas-system,2014-03-07 16:25:59+00:00,6
+115,25,New Jersey Department of Education,new-jersey-department-of-education,2014-03-11 16:06:31+00:00,1
+116,1,USDA Rural Development ,usda-rural-development,2014-03-13 03:25:35+00:00,2
+117,1,Equal Employment Opportunity Commission,equal-employment-opportunity-commission,2014-03-14 19:21:44+00:00,1
+118,7,Georgia Department of Transportation,georgia-department-of-transportation,2014-03-17 14:19:25+00:00,1
+119,7,Georgia Department of Transportation,georgia-department-of-transportation-2,2014-03-17 14:23:47+00:00,0
+120,14,City of Ann Arbor,city-of-ann-arbor,2014-03-17 14:23:53+00:00,1
+121,7,Georgia Department of Transportation,georgia-department-of-transportation-3,2014-03-17 14:26:02+00:00,0
+122,16,New Rochelle Board of Education,new-rochelle-board-of-education,2014-03-17 14:37:39+00:00,0
+123,16,New Rochelle Police Department,new-rochelle-police-department,2014-03-17 14:37:58+00:00,0
+124,16,City of New Rochelle,city-of-new-rochelle,2014-03-17 14:38:10+00:00,0
+125,20,United States Coast Guard,united-states-coast-guard,2014-03-17 16:23:32+00:00,1
+126,30,California Office of Emergency Services,california-office-of-emergency-services,2014-03-17 18:06:12+00:00,3
+127,11,East Baton Rouge Parish Attorney,east-baton-rouge-parish-attorney,2014-03-18 15:46:01+00:00,1
+128,12,Department of Revenue Services,department-of-revenue-services,2014-03-18 16:19:10+00:00,1
+129,38,Minneapolis Police Department Records,minneapolis-police-department-records,2014-03-18 21:06:03+00:00,3
+130,16,NYC Taxi and Limousine Commission,nyc-taxi-and-limousine-commission,2014-03-19 19:24:42+00:00,1
+131,17,Philadelphia Open Records Office,philadelphia-open-records-office,2014-03-19 21:11:00+00:00,2
+132,30,Los Angeles Community College District,los-angeles-community-college-district,2014-03-20 19:15:50+00:00,0
+133,30,Los Angeles Community College District,los-angeles-community-college-district-2,2014-03-20 19:17:53+00:00,2
+134,28,Ball State University,ball-state-university,2014-03-21 02:44:02+00:00,0
+135,28,Ball State University,ball-state-university-2,2014-03-21 02:47:03+00:00,1
+136,1,USDA Farm Service Agency,usda-farm-service-agency,2014-03-21 20:45:12+00:00,1
+137,1,Office of Refugee Resettlement,office-of-refugee-resettlement,2014-03-25 15:22:42+00:00,0
+138,1,"USDA General, USDAFOIA@ocio.usda.gov",usda-general,2014-03-25 23:08:29+00:00,1
+139,16,NYCHA,nycha,2014-03-26 14:19:08+00:00,0
+140,16,NYCHA,nycha-2,2014-03-26 14:20:08+00:00,1
+141,16,New York City Housing Authority,new-york-city-housing-authority,2014-03-26 14:20:43+00:00,1
+142,29,Texas Commission on Environmental Quality,texas-commission-on-environmental-quality,2014-03-27 15:01:29+00:00,1
+144,1,central intelligence agency,central-intelligence-agency,2014-03-27 21:05:33+00:00,1
+145,5,University of Missouri,university-of-missouri,2014-03-30 15:19:05+00:00,2
+146,5,University of Missouri System,university-of-missouri-system,2014-03-30 15:19:15+00:00,2
+147,37,desoto county sheriff,desoto-county-sheriff,2014-03-31 13:53:57+00:00,1
+148,1,U.S. Environmental Protection Agency,us-environmental-protection-agency-3,2014-03-31 15:04:32+00:00,1
+149,42,Tucson Police Department,tucson-police-department,2014-03-31 22:40:45+00:00,2
+150,25,Office of the Governor,office-of-the-governor-2,2014-04-01 20:52:57+00:00,1
+151,29,Texas Department of Transportation ,texas-department-of-transportation,2014-04-01 21:58:45+00:00,0
+152,30,Santa Barbara County Sheriff's Department,santa-barbara-county-sheriffs-department,2014-04-02 19:16:15+00:00,0
+153,30,Santa Barbara County Sheriff's Department,santa-barbara-county-sheriffs-department-2,2014-04-02 19:17:05+00:00,0
+154,29,Texas Department of Transportation ,texas-department-of-transportation-2,2014-04-02 19:50:35+00:00,2
+155,40,Alabama Department of Environmental Management,alabama-department-of-environmental-management,2014-04-03 16:56:13+00:00,1
+156,1,Office of Information Policy,office-of-information-policy,2014-04-03 17:50:44+00:00,2
+157,41,Alaska Department of Environmental Conservation,alaska-department-of-environmental-conservation,2014-04-03 20:03:32+00:00,1
+160,52,District Department of Transportation,district-department-of-transportation,2014-04-06 16:21:40+00:00,1
+161,42,Arizona Department of Environmental Quality,arizona-department-of-environmental-quality,2014-04-08 16:26:33+00:00,1
+162,16,Department of Conservation,department-of-conservation,2014-04-09 13:50:37+00:00,0
+163,16,Department of Environmental Conservation,department-of-environmental-conservation,2014-04-09 13:52:39+00:00,1
+165,16,New York State Education Department,state-education-department,2014-04-09 14:24:53+00:00,1
+166,23,Chicago Fire Department,chicago-fire-department,2014-04-10 13:23:58+00:00,0
+167,23,Chicago Fire Department,chicago-fire-department-2,2014-04-10 13:24:47+00:00,0
+168,23,Chicago Fire Department,chicago-fire-department-3,2014-04-10 13:34:22+00:00,0
+169,1,Department of Treasury,department-of-treasury,2014-04-10 14:23:21+00:00,2
+170,23,Chicago Fire Department,chicago-fire-department-4,2014-04-10 16:38:43+00:00,1
+172,12,State Department of Education,state-department-of-education,2014-04-11 19:53:35+00:00,1
+173,38,Minnesota Department of Public Safety,minnesota-department-of-public-safety,2014-04-14 20:55:57+00:00,1
+174,16,Office of the Governor,office-of-the-governor-3,2014-04-16 17:19:55+00:00,1
+175,43,State Department of Education,state-department-of-education-2,2014-04-16 19:05:00+00:00,2
+176,37,Florida Department of Environmental Protection,florida-department-of-environmental-protection,2014-04-16 21:08:51+00:00,1
+177,7,Georgia Environmental Protection Division,georgia-environmental-protection-division,2014-04-17 14:28:07+00:00,1
+178,16,Police Department,police-department,2014-04-18 18:22:06+00:00,0
+179,16,Office of the Mayor New York City ,office-of-the-mayor-new-york-city,2014-04-21 17:13:39+00:00,2
+180,31,Hawaii Department of Health,hawaii-department-of-health,2014-04-21 19:49:19+00:00,2
+181,16,New York State Department of Transportation (NYSDOT),department-of-transportation,2014-04-22 18:57:17+00:00,1
+183,16,State Department of Transportation,state-department-of-transportation,2014-04-22 18:59:58+00:00,1
+185,49,Multnomah County,multnomah-county,2014-04-24 22:24:28+00:00,1
+186,25,New Jersey Transit ,new-jersey-transit,2014-04-25 20:27:07+00:00,2
+187,1,Department of the Interior,department-of-the-interior,2014-04-28 19:15:01+00:00,0
+188,14,Department of Treasury,department-of-treasury-2,2014-04-29 17:39:56+00:00,1
+189,14,Michigan Department of Treasury,michigan-department-of-treasury,2014-04-29 17:48:39+00:00,1
+190,14,Southeast Michigan Council of Governments,southeast-michigan-council-of-governments,2014-05-01 15:56:53+00:00,1
+194,17,Pennsylvania Department of Environmental Protection,pennsylvania-department-of-environmental-protectio,2014-05-02 19:50:02+00:00,1
+195,7,Georgia Public Broadcasting,georgia-public-broadcasting,2014-05-05 15:40:58+00:00,0
+196,16,Massapequa Park,massapequa-park,2014-05-07 17:11:47+00:00,1
+197,6,New Mexico Corrections Department,new-mexico-corrections-department,2014-05-07 19:14:51+00:00,1
+198,1,Federal Railroad Administration,federal-railroad-administration,2014-05-07 19:19:48+00:00,1
+199,1,Nuclear Regulatory Commission,nuclear-regulatory-commission,2014-05-09 06:14:29+00:00,1
+200,16,New York Police Department,new-york-police-department,2014-05-12 19:40:35+00:00,1
+201,16,Empire State Development,empire-state-development,2014-05-16 16:17:22+00:00,2
+203,29,Harris County,harris-county,2014-05-19 16:03:30+00:00,5
+204,20,City of Tacoma,city-of-tacoma,2014-05-19 20:45:23+00:00,2
+206,30,Los Angeles Police Department Discovery Section,los-angeles-police-department-discovery-section,2014-05-20 17:07:20+00:00,1
+207,29,Travis County Attorney General,travis-county,2014-05-21 15:57:15+00:00,1
+208,1,Federal Communications Commission,federal-communications-commission,2014-05-21 18:05:14+00:00,2
+209,30,"University of California, Santa Cruz",university-of-california-santa-cruz,2014-05-21 18:43:46+00:00,1
+210,30,City of Santa Cruz,city-of-santa-cruz,2014-05-21 18:52:38+00:00,1
+211,30,City of Lemon Grove,city-of-lemon-grove,2014-05-21 19:27:06+00:00,1
+212,30,San Diego State University,san-diego-state-university,2014-05-21 20:03:05+00:00,9
+213,29,Houston ISD,houston-isd,2014-05-25 14:57:06+00:00,1
+214,29,City of Dallas,city-of-dallas,2014-05-25 15:01:02+00:00,3
+215,29,Austin ISD,austin-isd,2014-05-25 17:09:34+00:00,2
+216,29,Cypress-Fairbanks ISD,cypress-fairbanks-isd,2014-05-25 18:23:51+00:00,1
+217,29,Houston Community College,houston-community-college,2014-05-25 18:27:18+00:00,1
+218,29,San Antonio ISD,san-antonio-independent-school-district,2014-05-25 18:32:44+00:00,1
+219,29,Brownsville ISD,brownsville-independent-school-district,2014-05-25 18:35:46+00:00,1
+220,29,Pasadena ISD,pasadena-isd,2014-05-25 18:40:54+00:00,1
+221,29,North East ISD,north-east-isd,2014-05-25 18:42:19+00:00,1
+222,29,City of El Paso,city-of-el-paso,2014-05-25 18:56:11+00:00,2
+223,29,Katy ISD,katy-isd,2014-05-25 21:20:00+00:00,1
+224,29,Aldine ISD,aldine-isd,2014-05-25 21:24:08+00:00,1
+225,29,Round Rock ISD,round-rock-isd,2014-05-25 21:28:57+00:00,1
+226,29,University of Houston,university-of-houston,2014-05-25 21:30:41+00:00,1
+227,29,Plano ISD,plano-isd,2014-05-25 21:31:51+00:00,1
+228,29,Richardson ISD,richardson-isd,2014-05-25 21:33:44+00:00,1
+229,29,Tarrant County,tarrant-county,2014-05-25 21:37:32+00:00,3
+230,29,Austin Community College,austin-community-college,2014-05-25 21:38:54+00:00,1
+231,29,Alamo Colleges,alamo-colleges,2014-05-25 21:41:11+00:00,1
+232,29,Dallas Area Rapid Transit,dallas-area-rapid-transit,2014-05-25 21:43:19+00:00,1
+233,29,Grand Prairie ISD,grand-prairie,2014-05-25 21:45:46+00:00,1
+234,29,Dallas Community College District,dallas-community-college-district,2014-05-25 21:47:58+00:00,1
+235,29,Texas State University,texas-state-university,2014-05-25 21:52:17+00:00,1
+236,29,Beaumont ISD,beaumont-independent-school-district,2014-05-25 21:54:14+00:00,1
+237,29,McKinney ISD,mckinney-independent-school-district,2014-05-25 21:56:22+00:00,1
+238,29,Lower Colorado River Authority,lower-colorado-river-authority,2014-05-25 22:00:02+00:00,1
+239,29,Lone Star College System,lone-star-college-system,2014-05-25 22:01:58+00:00,1
+240,29,Tarrant County College District,tarrant-county-college-district,2014-05-25 22:03:34+00:00,1
+241,29,City of Garland,city-of-garland,2014-05-25 22:05:15+00:00,2
+243,29,Collin County,collin-county,2014-05-25 22:11:34+00:00,1
+244,29,Rockwall ISD,rockwall-independent-school-district,2014-05-25 22:16:05+00:00,1
+245,29,City of Mesquite,city-of-mesquite,2014-05-25 22:21:36+00:00,2
+246,29,Eanes ISD,eanes-isd,2014-05-25 22:23:05+00:00,1
+247,29,City of Grand Prairie,city-of-grand-prairie,2014-05-25 22:24:51+00:00,2
+248,29,City of Galveston,city-of-galveston,2014-05-25 22:34:47+00:00,1
+249,29,City of Brownsville,city-of-brownsville,2014-05-25 22:37:08+00:00,1
+250,8,State Department of Education,state-department-of-education-3,2014-05-27 21:12:32+00:00,2
+251,49,Department of Education,department-of-education,2014-05-27 21:38:09+00:00,1
+252,45,State of Nevada Department of Education,state-of-nevada-department-of-education,2014-05-27 23:52:58+00:00,2
+253,1,VA Greater Los Angeles Healthcare System,va-greater-los-angeles-healthcare-system,2014-05-28 23:35:25+00:00,1
+254,24,Department of Education,department-of-education-2,2014-05-29 00:47:00+00:00,2
+255,2,Agency of Education,agency-of-education,2014-05-29 01:14:37+00:00,1
+256,26,Department of Education,department-of-education-3,2014-05-29 01:59:09+00:00,1
+258,1,National Labor Relations Board,national-labor-relations-board,2014-05-30 15:48:33+00:00,1
+259,29,Office of the Governor,office-of-the-governor-4,2014-05-30 17:22:03+00:00,3
+260,29,Allen ISD,allen-isd,2014-06-01 17:24:30+00:00,1
+261,29,Bastrop ISD,bastrop-isd,2014-06-01 17:26:26+00:00,1
+262,17,Philadelphia Parking Authority,philadelphia-parking-authority,2014-06-04 04:23:59+00:00,0
+263,16,Woodsburgh Village Clerk,woodsburgh-village-clerk,2014-06-04 18:43:42+00:00,1
+264,16,Asharoken Village Clerk,asharoken-village-clerk,2014-06-04 18:44:32+00:00,1
+265,11,LSU,lsu,2014-06-05 15:34:43+00:00,1
+266,16,Williston Park,williston-park,2014-06-05 16:34:32+00:00,1
+267,16,Atlantic Beach,atlantic-beach,2014-06-05 16:34:49+00:00,1
+268,16,Baxter Estates,baxter-estates,2014-06-05 16:52:35+00:00,1
+269,16,Westhampton Beach,westhampton-beach,2014-06-05 16:55:28+00:00,1
+270,16,Bayville,bayville,2014-06-05 17:01:18+00:00,1
+271,16,Westbury,westbury,2014-06-05 17:04:45+00:00,1
+272,16,Westhampton Dunes,westhampton-dunes,2014-06-05 17:13:12+00:00,0
+273,16,West Hampton Dunes,west-hampton-dunes,2014-06-05 17:15:48+00:00,1
+274,16,Bellerose,bellerose,2014-06-05 17:51:49+00:00,1
+275,16,Village of the Branch,village-of-the-branch,2014-06-05 17:51:57+00:00,1
+276,16,Bell Terre,bell-terre,2014-06-05 18:00:06+00:00,1
+277,16,Upper Brookville,upper-brookville,2014-06-05 18:00:10+00:00,1
+278,16,Bellport,bellport,2014-06-05 18:07:20+00:00,1
+279,16,Thomaston,thomaston,2014-06-05 18:09:42+00:00,1
+280,16,Stewart Manor,stewart-manor,2014-06-05 18:15:38+00:00,1
+281,16,Brightwaters,brightwaters,2014-06-05 18:17:55+00:00,1
+282,16,Brookville,brookhaven,2014-06-05 18:22:10+00:00,1
+283,16,Southampton,southampton,2014-06-05 18:22:45+00:00,1
+284,16,South Floral Park,south-floral-park,2014-06-05 18:29:28+00:00,1
+285,16,Cedarhurst,cedarhurst,2014-06-05 18:31:10+00:00,1
+286,16,Shoreham,shoreham,2014-06-05 18:36:01+00:00,1
+287,16,Cove Neck,cove-neck,2014-06-05 18:38:28+00:00,1
+288,16,Dering Harbor,dering-harbor,2014-06-05 18:50:07+00:00,1
+289,16,East Hills,east-hills,2014-06-05 18:59:52+00:00,0
+290,16,East Hills Village,east-hills-village,2014-06-05 19:08:28+00:00,1
+291,16,East Rockaway,east-rockaway,2014-06-05 19:15:13+00:00,1
+292,16,East Williston,east-williston,2014-06-05 19:25:49+00:00,1
+293,16,Sea Cliff,sea-cliff,2014-06-06 14:09:09+00:00,1
+294,16,Saltaire,saltaire,2014-06-06 14:15:52+00:00,1
+295,16,Sagaponack,sagaponack,2014-06-06 14:23:59+00:00,1
+296,16,Sag Harbor,sag-harbor,2014-06-06 14:30:07+00:00,1
+297,16,Saddle Rock,saddle-rock,2014-06-06 14:35:12+00:00,1
+298,16,Farmingdale,farmingdale,2014-06-06 14:38:01+00:00,1
+299,16,Russell Gardens,russell-gardens,2014-06-06 14:41:12+00:00,0
+300,16,Russell Gardens,russell-gardens-2,2014-06-06 14:43:23+00:00,1
+301,16,Roslyn Harbor,roslyn-harbo,2014-06-06 14:49:02+00:00,1
+302,16,Floral Park,floral-park,2014-06-06 14:50:33+00:00,1
+303,16,Flower Hill,flower-hill,2014-06-06 15:00:29+00:00,0
+304,16,Flower Hill Village,flower-hill-village,2014-06-06 15:01:41+00:00,1
+305,16,Roslyn Estates,roslyn-estates,2014-06-06 15:03:59+00:00,1
+306,16,Great Neck,great-neck,2014-06-06 15:06:36+00:00,1
+307,16,Great Neck Estates,great-neck-estates,2014-06-06 15:12:22+00:00,1
+308,16,Roslyn,roslyn,2014-06-06 15:12:42+00:00,1
+309,16,Rockville Centre,rockville-centre,2014-06-06 15:17:37+00:00,1
+310,16,Great Neck Plaza,great-neck-plaza,2014-06-06 15:18:02+00:00,1
+311,16,Greenport,greenport,2014-06-06 15:21:59+00:00,1
+312,16,Port Washington North,port-washington-north,2014-06-06 15:28:45+00:00,1
+313,16,Head of the Harbor,head-of-the-harbor,2014-06-06 15:30:06+00:00,1
+314,16,Hempstead,hempstead,2014-06-06 15:42:38+00:00,1
+315,16,Hewlett Bay Park,marie-velotti,2014-06-06 15:48:37+00:00,0
+316,16,Port Jefferson,port-jefferson,2014-06-06 15:50:26+00:00,1
+317,16,Poquott,poquott,2014-06-06 16:04:59+00:00,1
+318,16,Plandome Manor,plandome-manor,2014-06-06 16:15:08+00:00,1
+319,16,Island Park,island-park,2014-06-06 16:16:53+00:00,1
+320,16,Plandome Heights,plandome-heights,2014-06-06 16:27:16+00:00,1
+321,16,Islandia,islandia,2014-06-06 16:27:54+00:00,1
+322,16,Lake Grove,lake-grove,2014-06-06 16:33:46+00:00,1
+323,16,Plandome,plandome,2014-06-06 16:34:12+00:00,1
+324,16,Patchogue,patchogue,2014-06-06 16:39:24+00:00,0
+325,16,Patchogue,patchogue-2,2014-06-06 16:39:59+00:00,1
+326,16,Old Field,old-field,2014-06-06 16:44:39+00:00,1
+327,16,Northport,northport,2014-06-06 16:51:27+00:00,1
+328,16,North Hills,north-hills,2014-06-06 16:55:50+00:00,1
+329,16,Lattingtown,lattingtown,2014-06-06 16:55:53+00:00,1
+330,16,North Haven,north-haven,2014-06-06 17:02:02+00:00,1
+331,16,Laurel Hollow,laurel-hollow,2014-06-06 17:02:21+00:00,1
+332,16,New Hyde Park,new-hyde-park,2014-06-06 17:06:05+00:00,1
+333,16,Muttontown,muttontown,2014-06-06 18:15:14+00:00,1
+334,16,Lawrence,lawrence,2014-06-06 18:15:50+00:00,1
+335,16,Lindenhurst,lindenhurst,2014-06-06 18:18:17+00:00,0
+336,16,Lindenhurst Village,lindenhurst-village,2014-06-06 18:19:48+00:00,1
+337,16,Munsey Park,munsey-town,2014-06-06 18:20:57+00:00,1
+338,16,Manorhaven,manorhaven,2014-06-06 18:25:16+00:00,1
+339,16,Mineola,mineola,2014-06-06 18:26:27+00:00,1
+340,16,Mastic Beach,mastic-beach,2014-06-06 18:29:06+00:00,0
+341,16,Mastic Beach Village,mastic-beach-village,2014-06-06 18:30:16+00:00,1
+342,16,Matinecock,matinecock,2014-06-06 18:33:44+00:00,1
+343,16,Mill Neck,mill-neck,2014-06-06 18:43:21+00:00,1
+344,16,Sands Point,sands-point,2014-06-06 18:50:11+00:00,1
+345,16,Quogue,quogue,2014-06-06 18:56:22+00:00,1
+346,16,Amityville,amityville,2014-06-06 18:59:02+00:00,1
+347,16,Babylon,babylon,2014-06-06 19:02:40+00:00,1
+348,16,Oyster Bay Cove,oyster-bay-cove,2014-06-06 19:05:29+00:00,1
+349,16,Centre Island,centre-island,2014-06-06 19:07:17+00:00,0
+350,16,Centre Island Village,centre-island-village,2014-06-06 19:07:44+00:00,1
+351,16,Old Westbury,old-westbury,2014-06-06 19:11:55+00:00,1
+352,16,East Hampton,east-hampton,2014-06-06 19:14:09+00:00,1
+353,16,Freeport,freeport,2014-06-06 19:17:06+00:00,0
+354,16,Freeport Village,freeport-village,2014-06-06 19:17:22+00:00,1
+355,16,Garden City,garden-city,2014-06-06 19:22:42+00:00,1
+356,16,Old Brookville,old-brookville,2014-06-06 19:26:19+00:00,1
+357,16,Huntington Bay,huntington-bay,2014-06-06 19:26:41+00:00,1
+358,16,Kensington,kensington,2014-06-06 19:30:06+00:00,0
+359,16,Kensington Village,kensington-village,2014-06-06 19:30:28+00:00,1
+360,16,Ocean Beach,ocean-beach,2014-06-06 19:31:16+00:00,1
+361,16,Kings Point,kings-point,2014-06-06 19:33:08+00:00,1
+362,16,Lake Success,lake-success,2014-06-06 19:39:25+00:00,1
+363,16,Lloyd Harbor,lloyd-harbor,2014-06-06 19:42:36+00:00,1
+364,16,Nissequogue,nissequogue,2014-06-06 19:49:36+00:00,1
+365,42,Phoenix Police Department,phoenix-police-department,2014-06-07 06:59:23+00:00,2
+366,29,Travis County Human Resources,travis-county-human-resources,2014-06-10 16:07:40+00:00,3
+367,11,Shreve Memorial Library,shreve-memorial-library,2014-06-10 18:48:16+00:00,0
+368,11,Shreve Memorial Library,shreve-memorial-library-2,2014-06-10 18:48:37+00:00,0
+369,1,Consumer Financial Protection Bureau,consumer-financial-protection-bureau,2014-06-10 21:04:29+00:00,1
+370,1,Department of Housing and Urban Development,department-of-housing-and-urban-development,2014-06-10 21:22:35+00:00,1
+371,16,Metropolitan Transportation Authority,metropolitan-transportation-authority,2014-06-10 23:36:45+00:00,0
+372,14,Michigan Department of Community Health,michigan-department-of-community-health,2014-06-11 10:18:20+00:00,1
+373,1,The Centers for Medicaid and Medicare Services,cms,2014-06-11 11:35:51+00:00,2
+375,29,Texas Department of Insurance,texas-department-of-insurance,2014-06-11 15:22:28+00:00,3
+376,1,Immigration and Customs Enforcement,immigration-and-customs-enforcement,2014-06-11 22:18:26+00:00,1
+377,29,City of Irving,city-of-irving,2014-06-12 15:11:08+00:00,2
+378,29,City of Richardson,city-of-richardson,2014-06-12 15:18:36+00:00,1
+379,11,Orleans Parish Sheriff's Office,orleans-parish-sheriffs-office,2014-06-13 15:09:48+00:00,1
+380,25,Jersey City Clerk's Office,jersey-city-clerks-office,2014-06-13 18:16:48+00:00,0
+381,29,City of Allen,city-of-allen,2014-06-14 19:47:36+00:00,3
+382,29,City of Beaumont,city-of-beaumont,2014-06-14 19:48:59+00:00,1
+383,29,City of Bryan,city-of-bryan,2014-06-14 19:50:06+00:00,1
+384,29,City of College Station,college-station,2014-06-14 19:51:18+00:00,1
+385,29,City of Edinburg,city-of-edinburg,2014-06-14 19:54:39+00:00,1
+386,29,City of Frisco,city-of-frisco,2014-06-14 19:55:40+00:00,2
+387,29,League City,league-city,2014-06-14 19:57:40+00:00,1
+388,29,City of Lewisville,city-of-lewisville,2014-06-14 19:58:49+00:00,2
+389,29,Missouri City,missouri-city,2014-06-14 20:00:15+00:00,1
+390,29,City of Odessa,city-of-odessa,2014-06-14 20:01:52+00:00,1
+391,29,City of Pearland,city-of-pearland,2014-06-14 20:02:58+00:00,1
+392,29,City of Pharr,city-of-pharr,2014-06-14 20:04:27+00:00,1
+393,29,City of San Angelo,city-of-san-angelo,2014-06-14 20:06:48+00:00,1
+394,29,City of Sugar Land,city-of-sugar-land,2014-06-14 20:07:57+00:00,1
+395,29,City of Temple,city-of-temple,2014-06-14 20:09:13+00:00,0
+396,29,Wichita Falls,wichita-falls,2014-06-14 20:10:08+00:00,1
+397,29,Brazoria County,brazoria-county,2014-06-15 00:28:46+00:00,1
+398,29,Hidalgo County,hidalgo-county,2014-06-15 00:29:58+00:00,1
+399,29,Jefferson County,jefferson-county,2014-06-15 00:31:32+00:00,1
+400,29,Webb County,webb-county,2014-06-15 00:33:05+00:00,1
+401,29,Williamson County,williamson-county,2014-06-15 00:34:20+00:00,3
+402,29,McLennan County,mclennan-county,2014-06-15 00:42:41+00:00,1
+403,29,Smith County,smith-county,2014-06-15 00:45:25+00:00,0
+404,29,Hays County,hays-county,2014-06-15 00:50:41+00:00,3
+405,29,Johnson County,johnson-county,2014-06-15 00:53:58+00:00,1
+406,29,Taylor County,taylor-county,2014-06-15 01:10:26+00:00,1
+408,29,Potter County,pottery-county,2014-06-15 15:02:20+00:00,1
+409,29,Comal County,comal-county,2014-06-15 15:10:23+00:00,1
+411,1,U.S. Department of Health and Human Services Office of the Inspector General,us-department-of-health-and-human-services-office,2014-06-16 20:03:23+00:00,0
+412,46,North Dakota Department of Health,north-dakota-department-of-helath,2014-06-16 23:12:17+00:00,1
+413,23,Chicago Department of Buildings,chicago-department-of-buildings,2014-06-18 17:41:51+00:00,2
+415,11,Southern University System,southern-university-system,2014-06-18 22:45:20+00:00,1
+416,1,Small Business Administration,small-business-administration,2014-06-19 09:29:22+00:00,1
+417,16,Cortland County Health Department Division of Environmental Health,cortland-county-health-department-division-of-envi,2014-06-19 17:02:22+00:00,1
+418,16,Westchester County Department of Health,westchester-county-department-of-health,2014-06-19 17:44:31+00:00,1
+419,47,Ohio EPA Division of Environmental Response and Revitalization,ohio-epa-division-of-environmental-response-and-re,2014-06-19 18:21:13+00:00,1
+420,5,Missouri Department of Natural Resources,missouri-department-of-natural-resources,2014-06-19 19:37:39+00:00,3
+421,9,Kansas Department of Health and Environment,kansas-department-of-health-and-environment,2014-06-19 20:05:12+00:00,1
+422,13,Nebraska Department of Environmental Quality,nebraska-department-of-environmental-quality,2014-06-19 20:49:03+00:00,1
+423,35,Iowa Environmental Enforcement,iowa-environmental-enforcement,2014-06-19 21:16:38+00:00,0
+424,35,Iowa Department of Natural Resources,iowa-environmental-enforcement-2,2014-06-19 21:16:39+00:00,1
+425,38,Minnesota Pollution Control Agency,minnesota-pollution-control-agency,2014-06-19 21:46:21+00:00,1
+426,48,Oklahoma Corporation Commission,oklahoma-corporation-commission,2014-06-19 21:47:00+00:00,1
+427,29,Spring ISD,spring-isd,2014-06-22 14:53:52+00:00,1
+428,29,Nacogdoches County,nacogdoches-county,2014-06-22 14:58:15+00:00,1
+429,29,Harrison County,harrison-county,2014-06-22 14:59:44+00:00,1
+430,29,City of De Soto,city-of-de-soto,2014-06-22 15:32:09+00:00,2
+431,29,Brazos County,brazos-county,2014-06-23 16:11:47+00:00,1
+432,29,City of San Antonio,city-of-san-antonio,2014-06-24 15:00:34+00:00,2
+433,29,City of Austin,city-of-austin,2014-06-24 15:20:22+00:00,1
+434,1,VA Nebraska-Western Iowa Health Care System,va-nebraska-western-iowa-health-care-system,2014-06-24 15:37:18+00:00,1
+435,29,City of Waco,city-of-waco,2014-06-24 15:43:20+00:00,1
+436,29,City of Round Rock,city-of-round-rock,2014-06-24 16:35:50+00:00,1
+437,29,City of Plano,city-of-plano,2014-06-25 15:38:53+00:00,2
+438,29,City of Corpus Cristi,city-of-corpus-cristi,2014-06-25 17:56:10+00:00,1
+439,29,City of Arlington,city-of-arlington,2014-06-25 18:06:15+00:00,2
+441,20,Clark County Sheriff,clark-county-sheriff,2014-06-26 18:07:55+00:00,0
+442,20,Clark County Sheriff,clark-county-sheriff-2,2014-06-26 18:07:56+00:00,1
+443,20,Vancouver Police Department,vancouver-police-department,2014-06-26 18:16:34+00:00,2
+444,20,Vancouver Police Department,vancouver-police-department-2,2014-06-26 18:20:54+00:00,0
+445,49,Portland Police Department,portland-police-department,2014-06-26 18:28:00+00:00,2
+446,49,Multnomah County Sheriff's Office,multnomah-county-sheriffs-office,2014-06-26 18:51:18+00:00,1
+447,20,Skamania County Sheriff,skamania-county-sheriff,2014-06-26 19:01:16+00:00,1
+448,49,Beaverton Police Department,beaverton-police-department,2014-06-26 19:12:10+00:00,1
+449,49,Gresham Police Department,gresham-police-department,2014-06-26 19:15:39+00:00,1
+450,49,Troutdale Police Department,troutdale-police-department,2014-06-26 19:18:42+00:00,1
+451,49,Lake Oswego Police Department,lake-oswego-police-department,2014-06-26 19:20:43+00:00,1
+452,49,Hood River County Sheriff's Office,hood-river-county-sheriffs-office,2014-06-26 19:27:50+00:00,1
+453,20,Pullman Police Department,pullman-police-department,2014-06-26 19:30:48+00:00,1
+454,20,Whitman County Sheriff,whitman-county-sheriff,2014-06-26 19:36:20+00:00,1
+455,8,Moscow Police Department,moscow-police-department,2014-06-26 19:40:41+00:00,1
+456,8,Latah County Sheriff,latah-county-sheriff,2014-06-26 19:44:52+00:00,1
+457,1,U.S. Customs and Border Protection,us-customs-and-border-protection,2014-06-26 20:06:03+00:00,0
+458,33,Mississippi State Department of Health,mississippi-state-department-of-health-2,2014-06-26 22:37:40+00:00,1
+459,1,Executive Office of Immigration Review,executive-office-of-immigration-review,2014-06-26 23:25:21+00:00,1
+460,1,Executive Office of Immigration Review,executive-office-of-immigration-review-2,2014-06-26 23:31:16+00:00,0
+461,1,bureau of prisons,bureau-of-prisons,2014-06-27 00:07:08+00:00,1
+462,1,U.S. Agency for International Development (USAID),usaid,2014-06-27 00:08:56+00:00,1
+463,30,City of Oakland,city-of-oakland-2,2014-06-27 00:53:27+00:00,0
+464,29,Kerr County,kerr-county,2014-06-27 20:42:45+00:00,0
+465,29,Jim Wells County,jim-wells-county,2014-06-27 20:54:37+00:00,1
+466,1,Millennium Challenge Corporation,millennium-challenge-corporation,2014-06-27 21:29:01+00:00,1
+467,25,Newark Public Schools,newark-public-schools,2014-06-27 23:14:11+00:00,1
+468,25,Newark Public Schools,newark-public-schools-2,2014-06-30 16:44:09+00:00,1
+470,29,Smith County Sheriff's Office,smith-county-sheriffs-office,2014-06-30 20:06:24+00:00,1
+471,29,City of Tyler,city-of-tyler,2014-06-30 20:27:41+00:00,1
+472,29,Tyler ISD,tyler-isd,2014-06-30 20:32:48+00:00,1
+473,1,National Personnel Records Center,-4,2014-06-30 21:12:20+00:00,3
+474,40,Office of the Governor,office-of-the-governor-5,2014-06-30 22:18:44+00:00,0
+475,1,US Marshals Service,us-marshals-service,2014-07-01 00:56:34+00:00,1
+476,30,Contra Costa County,contra-costa-county,2014-07-01 03:59:13+00:00,0
+477,30,Contra Costa District Attorney,contra-costa-district-attorney,2014-07-01 04:00:46+00:00,1
+478,29,City of Laredo,city-of-laredo,2014-07-01 15:19:30+00:00,1
+479,29,City of Laredo,city-of-laredo-2,2014-07-01 15:22:12+00:00,0
+480,29,City of Midland,city-of-midland,2014-07-01 15:31:18+00:00,2
+481,29,El Paso County,el-paso-county,2014-07-01 16:24:07+00:00,2
+482,25,New Jersey State Department of Transportation,new-jersey-department-of-transportation,2014-07-01 18:22:36+00:00,1
+483,12,Connecticut Department of Transportation,department-of-transportation-3,2014-07-01 19:32:21+00:00,2
+484,25,Department of Community Affairs,department-of-community-affairs,2014-07-02 14:09:01+00:00,0
+485,29,City of Houston,city-of-houston-human-resources,2014-07-02 15:24:20+00:00,4
+486,39,North Carolina Adminstrative Office of The Courts,north-carolina-adminstrative-office-of-the-courts,2014-07-02 19:40:09+00:00,1
+487,37,Palm Beach County School Board,palm-beach-county-school-board,2014-07-03 21:09:14+00:00,1
+488,27,Shelby County ,shelby-county,2014-07-04 14:45:17+00:00,3
+489,1,USAF,usaf,2014-07-07 01:16:24+00:00,0
+490,16,Department of Motor Vehicles,department-of-motor-vehicles,2014-07-07 15:38:53+00:00,1
+491,21,West Virginia Department of Corrections,west-virginia-department-of-corrections,2014-07-08 05:07:13+00:00,1
+492,25,Newark Public Schools ,newark-public-schools-4,2014-07-08 16:49:47+00:00,0
+493,29,County of Franklin,county-of-franklin,2014-07-08 17:10:22+00:00,1
+494,27,City of Memphis,city-of-memphis,2014-07-09 15:17:10+00:00,1
+495,33,Department of Finance,department-of-finance,2014-07-09 16:12:45+00:00,1
+496,33,DeSoto County Administrative Office ,desoto-county-administrative-office,2014-07-09 16:17:07+00:00,1
+497,27,Shelby County Schools,shelby-county-schools,2014-07-09 16:20:18+00:00,3
+498,3,Arkansas State Police,arkansas-state-police,2014-07-09 16:48:42+00:00,1
+499,3,"Arkansas State Police, Criminal Investigations Division",arkansas-state-police-criminal-investigations-divi,2014-07-09 16:49:08+00:00,1
+500,3,"Arkansas State Police, Info",arkansas-state-police-info,2014-07-09 17:00:31+00:00,1
+501,33,City of Olive Branch,city-of-olive-branch,2014-07-09 18:53:55+00:00,1
+502,33,City of Southaven,city-of-southaven,2014-07-09 18:56:34+00:00,1
+503,5,St. Louis County Police Department,st-louis-county-police-department,2014-07-09 21:57:54+00:00,2
+505,40,Alabama Department of Youth Services,alabama-department-of-youth-services,2014-07-10 00:35:06+00:00,1
+506,33,city of hernanado,city-of-hernanado,2014-07-10 16:05:06+00:00,1
+507,37,Clay County Sheriff's Office,clay-county-sheriffs-office,2014-07-10 17:14:06+00:00,0
+508,1,Centers for Disease Control Prevention,centers-for-disease-control-prevention,2014-07-10 18:40:12+00:00,1
+509,1,Department of State,department-of-state-3,2014-07-10 19:30:34+00:00,1
+510,1,Department of Energy,department-of-energy,2014-07-10 21:39:48+00:00,1
+512,1,FBI,fbi,2014-07-10 23:04:20+00:00,2
+513,1,Federal Bureau of Investigation - HQ,federal-bureau-of-investigation-hq,2014-07-10 23:48:35+00:00,2
+514,33,City of Tupelo,city-of-tupelo,2014-07-11 15:26:40+00:00,0
+515,33,City of Tupelo,city-of-tupelo-2,2014-07-11 15:27:02+00:00,2
+516,33,City of Greenville,city-of-greenville,2014-07-11 16:06:41+00:00,0
+517,33,city of Greenville,city-of-greenville-2,2014-07-11 16:09:56+00:00,0
+518,33,City of Greenville,city-of-greenville-3,2014-07-11 16:15:32+00:00,1
+519,1,healthcare,healthcare,2014-07-11 23:14:03+00:00,0
+520,1,Department of Health and Human Services: Health Resources and Services Administration,department-of-health-and-human-services-health-res,2014-07-11 23:18:37+00:00,2
+521,5,casenet,casenet,2014-07-12 21:47:04+00:00,0
+522,16,New York University,new-york-university,2014-07-13 07:50:28+00:00,0
+523,16,New York University,new-york-university-2,2014-07-13 07:53:40+00:00,3
+524,20,Washington State Department of Transportation,department-of-transportation-4,2014-07-14 23:28:13+00:00,3
+525,20,Washington State Department of Natural Resources,washington-department-of-natural-resources,2014-07-14 23:30:47+00:00,1
+526,25,Jersey City Department of Pubic Safety,jersey-city-department-of-pubic-safety,2014-07-15 12:48:41+00:00,1
+527,30,City of Santa Monica Rent Control Board,city-of-santa-monica-rent-control-board,2014-07-15 17:31:27+00:00,1
+528,37,Florida Department of Corrections (DOC),florida-department-of-corrections,2014-07-15 18:08:00+00:00,6
+529,30,CDCR Press office,cdcr-press-office,2014-07-15 18:44:46+00:00,1
+530,35,Department of Corrections,department-of-corrections,2014-07-15 18:53:28+00:00,1
+531,29,Department of Criminal Justice,department-of-criminal-justice,2014-07-15 19:09:16+00:00,2
+532,25,State Police ,state-police,2014-07-15 19:33:22+00:00,0
+533,49,Portland Revenue Bureau,portland-revenue-bureau,2014-07-15 21:00:38+00:00,1
+534,1,Veterans Benefit Administration,veterans-benefit-administration,2014-07-15 23:18:09+00:00,4
+535,33,Mississippi Dept of Education,mississippi-dept-of-education,2014-07-16 19:25:42+00:00,1
+536,25,Jersey City Board of Education,jersey-city-board-of-education,2014-07-16 21:38:48+00:00,2
+537,33,DeSoto County Schools,desoto-county-schools,2014-07-17 15:17:12+00:00,2
+538,25,Hudson County Prosecutor's Office,hudson-county-prosecutors-office,2014-07-17 15:17:38+00:00,1
+539,25,Jersey City Office of the City Clerk,jersey-city-office-of-the-city-clerk,2014-07-17 15:25:02+00:00,1
+540,25,Hudson County Sheriff's Office,hudson-county-sheriffs-office,2014-07-17 15:38:35+00:00,1
+541,3,West Memphis School District,west-memphis-school-district,2014-07-17 15:59:07+00:00,1
+542,1,National Highway Traffic Safety Administration,national-highway-traffic-safety-administration,2014-07-17 17:15:34+00:00,2
+544,24,USM,usm,2014-07-18 12:11:22+00:00,1
+546,1,National Security Agency,national-security-agency-4,2014-07-18 17:49:00+00:00,1
+547,1,asipress,asipress,2014-07-19 14:29:31+00:00,0
+548,1,U.S. Department of Education,us-department-of-education-2,2014-07-21 15:30:16+00:00,1
+549,24,York County Courthouse,york-county-courthouse,2014-07-21 18:30:45+00:00,1
+550,24,Judicial Branch Service Center,judicial-branch-service-center,2014-07-21 19:41:29+00:00,1
+551,30,SFUSD,sfusd,2014-07-21 20:17:34+00:00,1
+552,42,Arizona Department of Corrections,arizona-department-of-corrections,2014-07-21 21:31:26+00:00,1
+554,8,Idaho Department of Corrections,idaho-department-of-corrections-2,2014-07-21 21:52:10+00:00,1
+555,28,Indiana Department of Corrections,indiana-department-of-corrections,2014-07-22 15:56:44+00:00,1
+556,18,Utah Department of Corrections,utah-department-of-corrections,2014-07-22 16:25:39+00:00,1
+557,14,Michigan Department of Corrections,michigan-department-of-corrections,2014-07-22 17:53:49+00:00,2
+558,25,Perth Amboy Public Schools,perth-amboy-public-schools,2014-07-23 19:42:20+00:00,2
+559,30,Department of Public Health,department-of-public-health,2014-07-23 19:55:48+00:00,1
+560,25,New Jersey Division of Alcoholic Beverage Control,new-jersey-division-of-alcoholic-beverage-control,2014-07-23 22:22:36+00:00,1
+561,16,New York State Liquor Authority,new-york-state-liquor-authority,2014-07-23 23:15:32+00:00,1
+562,1,CIA,cia-2,2014-07-24 01:17:49+00:00,0
+563,25,New Jersey Juvenile Justice Commission,new-jersey-juvenile-justice-commission,2014-07-24 15:52:59+00:00,0
+564,20,Washington DOC,washington-doc,2014-07-24 19:41:54+00:00,1
+565,34,South Carolina DOC,south-carolina-doc,2014-07-24 19:56:42+00:00,1
+566,39,North Carolina DOC,north-carolina-doc,2014-07-24 20:02:39+00:00,2
+567,22,Wisconsin DOC,wisconsin-doc,2014-07-24 20:25:37+00:00,1
+568,32,Department of Transportation,department-of-transportation-5,2014-07-24 20:25:45+00:00,1
+569,27,Millington Municipal Schools,millington-municipal-schools,2014-07-24 21:28:02+00:00,1
+570,27,Millington Municipal Schools,millington-municipal-schools-2,2014-07-24 21:30:20+00:00,0
+571,22,Wisc Senate GOP Caucus,sen-vukmir,2014-07-25 14:27:36+00:00,1
+572,3,Arkansas DOC,arkansas-doc,2014-07-25 20:08:55+00:00,2
+573,43,Deleware DOC,deleware-doc,2014-07-25 20:14:51+00:00,1
+574,12,Connecticut DOC,connecticut-doc,2014-07-25 20:21:28+00:00,2
+575,23,Illinois DOC,illinois-doc,2014-07-25 20:37:06+00:00,2
+576,9,Kansas DOC ,kansas-doc,2014-07-25 20:49:04+00:00,2
+577,40,Alabama Department of Corrections (DOC),alabama-doc,2014-07-25 20:57:35+00:00,4
+578,30,Ventura County Sherriff’s office ,ventura-county-sherriffs-office,2014-07-26 04:07:31+00:00,0
+579,52,U.S. Chemical Safety and Hazard Investigation Board,us-chemical-safety-and-hazard-investigation-board,2014-07-28 16:07:13+00:00,0
+580,10,Kentucky DOC,kentucky-doc,2014-07-28 20:54:45+00:00,1
+581,4,Colorado DOC,colorado-doc,2014-07-28 20:57:42+00:00,2
+582,24,Maine DOC,maine,2014-07-28 21:01:49+00:00,2
+583,29,Wood County Justice of the Peace,wood-county-justice-of-the-peace,2014-07-29 19:13:51+00:00,1
+584,19,Commonwealth Attorney's Office,commonwealth-attorneys-office,2014-07-30 16:07:15+00:00,0
+585,16,Niagra Police Department,niagra-police-department,2014-07-31 13:33:27+00:00,0
+586,16,Erie Police Department,erie-police-department,2014-07-31 13:34:15+00:00,0
+587,27,Memphis Chamber,memphis-chamber,2014-07-31 16:50:26+00:00,1
+588,27,WMC test,wmc-test,2014-07-31 16:53:12+00:00,1
+589,20,Washington State Department of Labor and Industries,washington-state-department-of-labor-and-industrie,2014-08-01 18:22:29+00:00,2
+590,35,Iowa State  University,iowa-state-university,2014-08-04 16:40:38+00:00,1
+591,1,"United States Department of Justice, Office of Professional Responsibility",united-states-department-of-justice-office-of-prof,2014-08-04 19:34:12+00:00,1
+592,25,New Jersey Assembly,new-jersey-assembly,2014-08-04 20:37:13+00:00,1
+593,25,New Jersey Assembly ,new-jersey-assembly-2,2014-08-04 20:43:32+00:00,0
+594,25,New Jersey Senate,new-jersey-senate,2014-08-04 21:01:16+00:00,1
+595,25,New Jersey Senate,new-jersey-senate-2,2014-08-04 21:05:50+00:00,0
+596,31,Hawaii Records,hawaii-records,2014-08-04 21:54:00+00:00,1
+597,7,Georgia Department of Corrections,georgia-department-of-corrections,2014-08-04 21:56:22+00:00,2
+598,48,Ardmore Deptment of Environmental Quality,ardmore-deptment-of-environmental-quality,2014-08-05 04:12:15+00:00,1
+599,27,,city-of-memphis-2,2014-08-05 14:10:58+00:00,1
+600,1,National Science Foundation,national-science-foundation,2014-08-05 14:11:40+00:00,1
+601,27,Memphis Light gas water,city-of-memphis-3,2014-08-05 14:11:43+00:00,0
+602,17,Throop Borough,throop-borough,2014-08-05 16:53:57+00:00,1
+603,38,Minnesota DOC,minnesota-doc,2014-08-05 18:12:15+00:00,1
+604,33,Mississippi DOC,mississippi-doc,2014-08-05 18:15:23+00:00,2
+605,5,Missouri DOC,missouri-doc,2014-08-05 18:17:45+00:00,1
+606,29,Health and Human Services Commission,health-and-human-services-commission,2014-08-05 19:32:41+00:00,5
+608,29,Dept. Family and Protective Services,dept-family-and-protective-services,2014-08-05 19:45:01+00:00,3
+609,29,Dept. of Aging and Disability Services,about-8690000-dept-of-aging-and-disability-service,2014-08-05 19:47:18+00:00,3
+610,29,Dept. of State Health Services,dept-of-state-health-services,2014-08-05 19:48:49+00:00,3
+611,29,Dept. of Assistive and Rehabilitative Services,dept-of-assistive-and-rehabilitative-services,2014-08-05 19:50:52+00:00,2
+612,13,Nebraska DOC,nebraska-doc,2014-08-05 21:20:50+00:00,2
+613,45,Nevada DOC,nevada-doc,2014-08-06 14:12:06+00:00,1
+614,6,New Mexico DOC,new-mexico-doc,2014-08-06 14:15:08+00:00,0
+615,47,Ohio DOC,ohio-doc,2014-08-06 14:26:09+00:00,4
+616,1,Environmental Protection Agency Region 3,environmental-protection-agency-region-3,2014-08-06 14:29:26+00:00,1
+617,48,Oklahoma DOC,oklahoma-doc,2014-08-06 14:39:54+00:00,2
+618,51,Wyoming DOC,wyoming-doc,2014-08-06 14:47:55+00:00,1
+619,50,South Dakota DOC,south-dakota-doc,2014-08-06 14:49:35+00:00,2
+620,21,West Virginia DOC,west-virginia-doc,2014-08-06 15:06:46+00:00,2
+621,21,West Virginia DOC,west-virginia-doc-2,2014-08-06 15:08:01+00:00,0
+622,17,Pennsylvania FOI office,pennsylvania-foi-office,2014-08-06 22:02:10+00:00,0
+623,2,Vermont DOC,vermont-doc,2014-08-06 22:04:26+00:00,1
+624,46,North Dakota DOC,north-dakota-doc,2014-08-06 22:06:19+00:00,2
+625,41,Alaska DOC,alaska-doc,2014-08-06 22:07:54+00:00,1
+626,19,Virginia DOC,virginia-doc,2014-08-06 22:09:28+00:00,1
+627,32,Massachusettes DOC,massachusettes-doc,2014-08-06 22:10:56+00:00,1
+628,16,New York State Department of Labor,new-york-state-department-of-labor,2014-08-07 14:53:34+00:00,0
+629,16,New York State Department of Labor,new-york-state-department-of-labor-2,2014-08-07 14:57:12+00:00,1
+630,47,Cincinnati Police Department ,cincinnati-police-department,2014-08-07 18:47:49+00:00,0
+631,49,Oregon DOC,oregon-doc,2014-08-07 18:52:46+00:00,1
+632,26,Rhode Island DOC,rhode-island-doc,2014-08-07 18:55:45+00:00,3
+633,25,New Jersey Department of Labor,new-jersey-department-of-labor,2014-08-07 20:54:46+00:00,1
+634,25,New Jersey Department of Health,new-jersey-department-of-health,2014-08-07 20:55:42+00:00,1
+635,23,Illinois State Board of Education,illinois-state-board-of-education,2014-08-08 22:54:50+00:00,2
+636,34,Town of Allendale,town-of-allendale,2014-08-09 00:28:00+00:00,1
+637,34,Allendale County Government,allendale-county-government,2014-08-09 00:28:23+00:00,0
+638,34,Allendale County Schools,allendale-county-schools,2014-08-09 00:28:48+00:00,0
+639,34,Town of Fairfax,town-of-fairfax,2014-08-09 00:29:03+00:00,0
+640,34,Town of Ulmer,town-of-ulmer,2014-08-09 00:29:14+00:00,0
+641,34,Town of Sycamore,town-of-sycamore,2014-08-09 00:29:23+00:00,0
+642,39,City of Raleigh,city-of-raleigh-purchasing-dept,2014-08-11 21:22:01+00:00,1
+644,29,Office of the Attorney General,office-of-the-attorney-general,2014-08-11 21:50:09+00:00,5
+645,29,Texas Attorney General,texas-attorney-general,2014-08-11 21:53:48+00:00,1
+646,5,Missouri Auditor,missouri-auditor,2014-08-12 16:18:53+00:00,2
+647,15,New Hampshire DOC,new-hampshire-doc,2014-08-13 15:48:04+00:00,2
+648,25,New Jersey Assembly Clerk,new-jersey-assembly-clerk,2014-08-13 20:24:50+00:00,1
+649,25,New Jersey Senate Clerk,new-jersey-senate-clerk,2014-08-13 20:30:29+00:00,2
+650,1,Environmental Protection Agency (EPA),environmental-protection-agency-epa,2014-08-13 21:33:36+00:00,1
+651,14,Michigan State Police,michigan-state-police,2014-08-14 10:28:09+00:00,3
+652,16, North Tonawanda Police Department,north-tonawanda-police-department,2014-08-14 16:40:19+00:00,1
+653,16,Niagara Police Department,niagara-police-department,2014-08-14 16:41:12+00:00,1
+654,1,Defense Logistics Agency,defense-logistics-agency,2014-08-14 18:14:35+00:00,1
+655,17,Aspinwall Police Department,aspinwall-police-department,2014-08-15 17:22:29+00:00,0
+656,52,Department of Consumer and Regulatory Affairs (DCRA),department-of-consumer-and-regulatory-affairs-dcra,2014-08-15 18:14:08+00:00,0
+657,14,Kent County Clerks Office,kent-county-clerks-office,2014-08-15 18:44:10+00:00,1
+658,52,DC Dept. of Health,dc-dept-of-health,2014-08-15 19:40:07+00:00,1
+659,16,Department of Mental Health,department-of-mental-health,2014-08-15 21:17:16+00:00,0
+661,52,"Washington, DC Police",washington-dc-police,2014-08-18 11:50:44+00:00,3
+662,5,Ferguson Police Department,ferguson-police-department,2014-08-18 14:58:08+00:00,0
+663,5,Missouri Highway Patrol,missouri-highway-patrol,2014-08-19 18:01:19+00:00,0
+664,16,Niagara Falls Police Department,niagara-falls-police-department,2014-08-19 19:57:45+00:00,0
+665,23,Chicago Police Department,chicago-police-department,2014-08-19 22:32:05+00:00,2
+666,23,Chicago City Clerk,chicago-city-clerk,2014-08-19 22:47:03+00:00,1
+667,10,Louisville Metro Police Department,louisville-metro-police-department,2014-08-20 00:23:05+00:00,2
+668,22,Milwaukee Police Department,milwaukee-police-department,2014-08-20 00:46:19+00:00,2
+669,48,Oklahoma City Police Department,oklahoma-city-police-department,2014-08-20 00:50:18+00:00,1
+670,36,Baltimore Police Department,baltimore-police-department,2014-08-20 00:56:33+00:00,2
+671,6,Albuquerque Police Department,albuquerque-police-department,2014-08-20 01:02:43+00:00,1
+672,30,Fresno Police Department,fresno-police-department,2014-08-20 01:10:04+00:00,1
+673,27,Memphis Police Department,memphis-police-department,2014-08-20 01:20:54+00:00,1
+674,30,Cal OES,cal-oes,2014-08-20 17:46:44+00:00,1
+675,23,Village of Schiller Park,village-of-schiller-park,2014-08-21 17:39:36+00:00,1
+676,23,Chicago Department of Administrative Hearings,chicago-department-of-administrative-hearings,2014-08-22 17:36:50+00:00,1
+677,23,Chicago Department of Public Health,chicago-department-of-public-health,2014-08-22 18:18:27+00:00,1
+679,7,DFCS,dfcs,2014-08-25 14:32:11+00:00,1
+680,47,Mentor,mentor,2014-08-26 20:07:54+00:00,1
+681,30,district attorney,district-attorney,2014-08-26 22:00:02+00:00,0
+682,30,Del Norte D.A.,del-norte-da,2014-08-26 22:01:06+00:00,1
+683,23,Illinois Department of Transportation (IDOT),illinois-department-of-transportation,2014-08-27 03:49:43+00:00,1
+684,40,Alabama Emergency Management Agency,alabama-emergency-management-agency,2014-08-27 21:21:20+00:00,1
+685,42,Arizona Emergency Response Commission,arizona-emergency-response-commission,2014-08-27 23:01:59+00:00,1
+686,4,Office of Emergency Management,office-of-emergency-management,2014-08-27 23:18:01+00:00,1
+687,12,Oil & Chemical Spills Division,oil-chemical-spills-division,2014-08-27 23:22:16+00:00,1
+688,43,Delaware Department of Safety & Homeland Security,delaware-department-of-safety-homeland-security,2014-08-27 23:25:23+00:00,0
+689,43,Delaware Emergency Management Agency,delaware-emergency-management-agency,2014-08-27 23:26:23+00:00,1
+690,52,Homeland Security & Emergency Management Agency,homeland-security-emergency-management-agency,2014-08-27 23:30:37+00:00,1
+691,8,Idaho Military Division,idaho-military-division,2014-08-27 23:33:56+00:00,1
+692,23,Illinois Emergency Management Agency,state-emergency-response-commission,2014-08-27 23:36:34+00:00,1
+693,28,Indiana Emergency Response Commission,indiana-emergency-response-commission,2014-08-27 23:43:03+00:00,1
+694,35,Iowa Emergency Response Commission,iowa-emergency-response-commission,2014-08-27 23:46:53+00:00,1
+695,10,Kentucky Emergency Response Commission,kentucky-emergency-response-commission,2014-08-27 23:52:59+00:00,1
+696,24,Maine Emergency Management Agency,maine-emergency-management-agency,2014-08-27 23:57:09+00:00,1
+697,36,Emergency Management Advisor Council,emergency-management-advisor-council,2014-08-28 00:00:53+00:00,1
+698,32,Massachusetts Emergency Management Agency,massachusetts-emergency-management-agency,2014-08-28 00:46:34+00:00,1
+699,14,Department of Environmental Quality,department-of-environmental-quality,2014-08-28 00:49:37+00:00,1
+700,38,Minnesota Homeland Security and Emergency Management,minnesota-homeland-security-and-emergency-manageme,2014-08-28 00:52:39+00:00,1
+701,5,Missouri Emergency Response Commission,missouri-emergency-response-commission,2014-08-28 00:56:13+00:00,1
+702,44,Montana Disaster & Emergency Services,montana-department-of-environmental-quality,2014-08-28 00:59:33+00:00,1
+703,13,Nebraska Emergency Management Agency,nebraska-emergency-management-agency,2014-08-28 01:15:12+00:00,1
+704,45,Nevada SERC,nevada-serc,2014-08-28 01:55:46+00:00,1
+705,15,New Hampshire SERC,new-hampshire-serc,2014-08-28 01:58:40+00:00,1
+706,6,New Mexico Department of Homeland Security and Emergency Management,new-mexico-department-of-homeland-security-and-eme,2014-08-28 02:02:30+00:00,1
+707,16,New York State Emergency Response Commission,new-york-state-emergency-response-commission,2014-08-28 02:06:08+00:00,1
+708,39,North Carolina Department of Public Safety Division of Emergency Management,north-carolina-department-of-public-safety-divisio,2014-08-28 02:09:21+00:00,1
+709,46,North Dakota Department of Emergency Services - Division of Homeland Security,north-dakota-department-of-emergency-services-divi,2014-08-28 02:12:38+00:00,1
+710,47,Ohio Emergency Management Agency,ohio-emergency-management-agency,2014-08-28 02:15:55+00:00,1
+711,49,Office of the State Fire Marshall,office-of-the-state-fire-marshall,2014-08-28 02:18:04+00:00,1
+712,17,Pennsylvania Emergency Management Agency,pennsylvania-emergency-management-agency,2014-08-28 02:51:43+00:00,2
+713,26,Rhode Island Emergency Management Agency,rhode-island-emergency-management-agency,2014-08-28 02:55:37+00:00,2
+714,50,South Dakota Dept. of the Environment & Natural Resources,south-dakota-dept-of-the-environment-natural-resou,2014-08-28 02:58:17+00:00,1
+715,27,Tennessee Emergency Response Agency,tennessee-emergency-response-agency,2014-08-28 03:20:45+00:00,1
+716,29,Texas Division of Emergency Management,texas-division-of-emergency-management,2014-08-28 03:23:39+00:00,2
+717,18,Utah Department of Public Safety,utah-department-of-environmental-quality,2014-08-28 03:26:54+00:00,1
+718,2,Vermont Emergency Management Agency,vermont-emergency-management-agency,2014-08-28 13:15:57+00:00,1
+719,19,Virginia Department of Emergency Services,virginia-department-of-emergency-services,2014-08-28 13:19:33+00:00,1
+720,21,WV Division of Homeland Security and Emergency Management,wv-division-of-homeland-security-and-emergency-man,2014-08-28 13:22:50+00:00,1
+721,22,Wisconsin Emergency Management,wisconsin-emergency-management,2014-08-28 13:26:14+00:00,1
+722,51,Wyoming State Emergency Response Commission,wyoming-state-emergency-response-commission,2014-08-28 13:29:07+00:00,1
+723,3,Arkansas Department of Emergency Management,arkansas-department-of-emergency-management,2014-08-28 13:35:50+00:00,1
+724,37,Florida Division of Emergency Management,florida-division-of-emergency-management,2014-08-28 13:43:31+00:00,4
+725,7,GEMA/Homeland Security,gemahomeland-security,2014-08-28 13:55:51+00:00,1
+726,11,Louisiana State Police - Emergency Services Unit,louisiana-state-police-emergency-services-unit,2014-08-28 14:09:03+00:00,1
+727,33,Mississippi Emergency Management Agency,mississippi-emergency-management-agency,2014-08-28 14:33:50+00:00,1
+728,48,Oklahoma DEQ,oklahoma-deq,2014-08-28 14:55:40+00:00,1
+729,34,South Carolina Emergency Management Division,south-carolina-emergency-management-division,2014-08-28 15:06:12+00:00,1
+730,25,New Jersey Emergency Management Agency,new-jersey-emergency-management-agency,2014-08-28 17:35:23+00:00,1
+731,29,Texas Department of Public Safety,texas-department-of-public-safety,2014-08-28 21:23:20+00:00,4
+732,23,Chicago Department of Business Affairs and Consumer Protection,chicago-department-of-business-affairs-and-consume,2014-08-29 22:19:22+00:00,1
+733,23,Chicago Transportation Department,chicago-transportation-department,2014-08-29 23:07:02+00:00,1
+734,52,NSA,nsa,2014-08-30 22:41:34+00:00,1
+735,49,Oregon Deparment of Revenue,oregon-deparment-of-revenue,2014-09-01 12:45:02+00:00,0
+736,7,Department of Public Safety,department-of-public-safety,2014-09-01 16:04:21+00:00,2
+737,45,Las Vegas Metropolitan Police,las-vegas-metropolitan-police,2014-09-02 07:25:24+00:00,1
+738,20,Tacoma Police Department,tacoma-police-department,2014-09-02 07:31:19+00:00,1
+739,20,Spokane Police Department,spokane-police-department,2014-09-02 07:40:56+00:00,1
+740,23,University of Illinois,university-of-illinois,2014-09-02 14:38:54+00:00,1
+741,14,City of Detroit,city-of-detroit,2014-09-02 15:00:03+00:00,1
+742,14,Michigan State University,michigan-state-university,2014-09-02 17:01:05+00:00,2
+743,32,Boston Police Department,boston-police-department,2014-09-02 19:39:30+00:00,1
+744,20,Washington State Police,washington-state-police,2014-09-02 22:19:33+00:00,1
+745,25,Jersey City Office of the Tax Collector,jersey-city-office-of-the-tax-collector,2014-09-03 00:12:41+00:00,1
+746,40,Alabama Department of Education,alabama-department-of-education,2014-09-03 19:53:06+00:00,1
+747,40,Department of Education,department-of-education-4,2014-09-03 20:40:54+00:00,1
+748,37,Florida Department of Education,florida-department-of-education,2014-09-03 20:46:09+00:00,5
+749,6,New Mexico Governor's Office,new-mexico-governors-office,2014-09-03 22:48:56+00:00,1
+750,6,New Mexico Department of Public Safety,new-mexico-department-of-public-safety,2014-09-03 22:50:14+00:00,1
+751,6,New Mexico Public Education Department,new-mexico-public-education-department,2014-09-03 22:51:53+00:00,1
+752,49,Oregon State Police,oregon-state-police,2014-09-03 23:00:05+00:00,1
+753,8,Idaho State Police,idaho-state-police,2014-09-03 23:07:41+00:00,1
+754,14,Detroit Police Department,detroit-police-department,2014-09-03 23:15:16+00:00,4
+755,39,Charlotte-Mecklenberg Police Department,charlotte-mecklenberg-police-department,2014-09-03 23:18:25+00:00,1
+756,29,El Paso Police Department,el-paso-police-department,2014-09-03 23:26:37+00:00,2
+757,1,United States Preventive Services Task Force,united-states-preventive-services-task-force,2014-09-04 16:16:48+00:00,1
+758,27,Memphis Animal Services ,memphis-animal-services,2014-09-04 19:45:02+00:00,1
+760,11,Louisiana Department of Education,louisiana-department-of-education,2014-09-04 21:31:09+00:00,1
+761,29,Texas Education Agency,texas-education-agency,2014-09-04 21:52:18+00:00,2
+762,27,Tennessee Department of Education,tennessee,2014-09-04 22:26:09+00:00,2
+763,10,Kentucky Department of Education,kentucky-department-of-education,2014-09-04 22:58:12+00:00,1
+764,6,Albuquerque Public Schools,albuquerque-public-schools,2014-09-04 22:59:16+00:00,2
+765,7,Georgia Department of Education,georgia-department-of-education,2014-09-05 15:53:11+00:00,1
+766,41,Alaska Department of Education & Early Development,alaska-department-of-education,2014-09-05 18:25:30+00:00,1
+767,7,Atlanta Public Schools,atlanta-public-schools,2014-09-05 18:53:36+00:00,1
+768,17,The School District of Philadelphia,the-school-district-of-philadelphia,2014-09-05 19:09:32+00:00,1
+769,42,Arizona Department of Education,arizona,2014-09-05 19:10:48+00:00,2
+770,32,Boston Public Schools,boston-public-schools,2014-09-05 19:13:16+00:00,1
+771,3,Arkansas Department of Education,arkansas-department-of-education,2014-09-05 19:17:51+00:00,1
+772,25,Summit Public Schools,summit-public-schools,2014-09-05 19:21:31+00:00,1
+773,47,Cleveland Public Schools,cleveland-public-schools,2014-09-05 19:26:00+00:00,1
+774,30,California Department of Education,california-department-of-education,2014-09-05 19:30:41+00:00,1
+775,4,Colorado Department of Education,colorado-department-of-education,2014-09-05 19:37:43+00:00,4
+776,31,Hawaii,hawaii,2014-09-05 20:13:29+00:00,0
+777,31,Hawaii Department of Education,hawaii-department-of-education,2014-09-05 20:16:01+00:00,1
+778,36,Maryland State Department of Education,maryland-state-department-of-education,2014-09-05 20:40:16+00:00,1
+779,32,Massachusetts Department of Elementary and Secondary Education ,massachusetts-department-of-elementary-and-seconda,2014-09-05 21:16:13+00:00,2
+780,28,Indiana Department of Education,indiana-department-of-education,2014-09-05 22:27:59+00:00,1
+781,35,Iowa Department of Education,iowa-department-of-education,2014-09-05 22:37:50+00:00,1
+782,14,Michigan Department of Education,michigan-department-of-education,2014-09-08 19:40:52+00:00,1
+783,38,Minnesota Department of Education,minnesota-department-of-education,2014-09-08 20:32:26+00:00,1
+784,33,Mississippi Department of Education,mississippi-department-of-education,2014-09-08 20:53:34+00:00,0
+785,5,Missouri Department of Elementary and Secondary Education,missouri-department-of-elementary-and-secondary-ed,2014-09-08 21:10:57+00:00,2
+786,44,Montana Office of Public Instruction,montana-office-of-public-instruction,2014-09-08 21:30:34+00:00,1
+787,36,PG County Office of the County Executive,pg-county-office-of-the-county-executive,2014-09-09 15:49:57+00:00,1
+788,13,Nebraska Department of Education,nebraska-department-of-education,2014-09-09 16:17:32+00:00,1
+789,23,Illnois State Board of Education,illnois-state-board-of-education,2014-09-09 18:47:46+00:00,1
+790,15,New Hampshire Department of Education,new-hampshire-department-of-education,2014-09-09 19:23:50+00:00,1
+791,37,Florida State University,florida-state-university,2014-09-10 02:57:18+00:00,1
+794,39,North Carolina Department of Public Instruction,north-carolina-department-of-public-instruction,2014-09-10 15:52:01+00:00,1
+796,46,North Dakota Department of Public Instruction,north-dakota-department-of-public-instruction,2014-09-10 16:18:28+00:00,1
+797,47,Ohio Department of Education,ohio-department-of-education,2014-09-10 16:29:43+00:00,1
+798,48,Oklahoma State Department of Education,oklahoma-state-department-of-education,2014-09-10 16:45:58+00:00,1
+799,16,New York Department of Health,new-york-department-of-health,2014-09-10 18:38:11+00:00,0
+800,9,Department of Education,department-of-education-5,2014-09-10 20:18:02+00:00,1
+801,52,Office of Information Programs and Services,office-of-information-programs-and-services,2014-09-11 20:26:11+00:00,1
+802,4,Fort Collins Police Department,fort-collins-police-department,2014-09-13 08:31:32+00:00,1
+803,9,Goodland Police Department,goodland-police-department,2014-09-13 08:37:05+00:00,1
+804,4,Burlington Police Department,burlington-police-department,2014-09-13 08:40:04+00:00,1
+805,6,Raton Police Department,raton-police-department,2014-09-13 08:43:19+00:00,1
+806,4,Trinidad Police Department,trinidad-police-department,2014-09-13 08:47:37+00:00,1
+807,51,Cheyenne Police Department,cheyenne-police-department,2014-09-13 08:52:55+00:00,1
+808,16,Health and Hospitals Corporation,health-and-hospitals-corporation,2014-09-14 23:42:19+00:00,1
+809,16,New York City Department of Housing Preservation and Development,new-york-city-department-of-housing-preservation-a,2014-09-15 14:50:05+00:00,2
+810,52,Washington Metropolitan Area Transit Authority,washington-metropolitan-area-transit-authority,2014-09-15 15:54:50+00:00,2
+811,30,California Department off Water Resources,california-department-off-water-resources,2014-09-15 16:06:04+00:00,1
+812,20,City of Bellevue,city-of-bellevue,2014-09-16 01:49:07+00:00,1
+813,52,USCIS,uscis,2014-09-17 01:34:57+00:00,0
+814,38,Cirty of Minneapolis,cirty-of-minneapolis,2014-09-17 20:45:22+00:00,1
+815,11,Louisiana Board of Regents,louisiana-board-of-regents,2014-09-18 16:41:17+00:00,1
+816,25,Jersey City Education Association,jersey-city-education-association,2014-09-18 17:15:30+00:00,0
+817,29,Texas Lottery Commission,texas-lottery-commission,2014-09-18 19:20:10+00:00,1
+818,30,State Controllers Office,state-controllers-office,2014-09-19 16:55:57+00:00,0
+819,1,Office of Special Council,office-of-special-council,2014-09-19 18:56:29+00:00,1
+820,28,Boone County Clerk,boone-county-clerk,2014-09-22 19:49:47+00:00,1
+821,26,Roger Williams University,roger-williams-university,2014-09-22 21:04:09+00:00,0
+822,1,National Forest Service,national-forest-service,2014-09-22 23:26:55+00:00,2
+823,13,Omaha Police Department,omaha-police-department,2014-09-23 06:14:35+00:00,1
+824,19,Virginia Beach Police Department,virginia-beach-police-department,2014-09-23 15:23:42+00:00,1
+825,14,Ionia County Prosecutor's Office,ionia-county-prosecutors-office,2014-09-23 17:16:44+00:00,1
+826,29,Department of Public Safety,department-of-public-safety-2,2014-09-24 21:36:40+00:00,2
+828,34,South Carolina Department of Public Safety,south-carolina-department-of-public-safety,2014-09-25 16:30:58+00:00,1
+830,52,U.S. Department of Defense ,us-department-of-defense,2014-09-26 20:52:22+00:00,0
+831,52,United States Special Operations Command ,united-states-special-operations-command,2014-09-26 20:58:07+00:00,1
+833,36,Prince George's Police Department,prince-georges-police-department,2014-09-29 14:11:12+00:00,2
+834,27,Memphis Light Gas and water,memphis-light-gas-and-water,2014-09-29 17:21:07+00:00,1
+835,1,Drug Enforcement Administration ,drug-enforcement-administration,2014-09-30 12:45:36+00:00,1
+836,22,Wisconsin Department of Education ,wisconsin-department-of-education,2014-09-30 18:57:53+00:00,1
+837,51,Wyoming Department of Education,wyoming-department-of-education,2014-09-30 19:12:00+00:00,1
+838,21,West Virginia Department of Education,west-virginia-department-of-education,2014-09-30 19:19:04+00:00,0
+839,21,West Virginina Department of Education,west-virginina-department-of-education,2014-09-30 19:20:12+00:00,1
+840,20,Washington Office of Superintendent of Public Instruction,washington-office-of-superintendent-of-public-inst,2014-09-30 19:58:59+00:00,2
+841,19,Virginia Department of Education,virginia-department-of-education,2014-09-30 20:28:36+00:00,1
+842,26,South Kingstown Building Inspection,south-kingstown-building-inspection,2014-09-30 20:56:28+00:00,1
+843,18,Utah State Office of Education,utah-state-office-of-education,2014-09-30 21:09:38+00:00,1
+844,50,South Dakota Department of Education,south-dakota,2014-09-30 21:19:52+00:00,1
+845,34,South Carolina State Department of Education,south-carolina-state-department-of-education,2014-09-30 21:30:34+00:00,1
+846,26,Rhode Island Coastal Resources Management Council,rhode-island-coastal-resources-management-council,2014-10-01 13:50:32+00:00,1
+847,1,Animal and Plant Health Inspection Service,animal,2014-10-01 15:33:39+00:00,1
+848,1,U.S. Attorneys,us-attorneys,2014-10-01 16:13:26+00:00,1
+849,1,U.S. Army Medical Research Institute of Chemical Defense,us-army-medical-research-institute-of-chemical-def,2014-10-01 17:59:28+00:00,1
+850,29,University of North Texas Admissions,university-of-north-texas-admissions,2014-10-01 20:17:05+00:00,1
+851,29,University of North Texas,university-of-north-texas,2014-10-01 20:21:24+00:00,3
+852,29,Finance,finance,2014-10-01 20:29:29+00:00,0
+853,29,City of Denton,city-of-denton,2014-10-01 21:07:40+00:00,1
+854,26,Ri Department of Environmental Management,ri-department-of-environmental-management,2014-10-02 13:35:43+00:00,1
+855,23,FSA,fsa,2014-10-02 14:29:00+00:00,1
+856,49,TriMet,trimet,2014-10-02 18:28:28+00:00,1
+857,29,City of San Marcos,city-of-san-marcos,2014-10-02 18:30:46+00:00,2
+858,33,City Clerk of the City of Jackson ,city-clerk-of-jackson,2014-10-02 22:26:18+00:00,1
+859,30,San Diego Unified School District,san-diego-unified-school-districrt,2014-10-02 23:57:06+00:00,1
+860,34,North Charleston Police Department,north-charleston-police-department,2014-10-03 04:02:19+00:00,1
+861,30,Chula Vista Elementary School District,chula-vista-elementary-school-district,2014-10-03 19:24:55+00:00,1
+862,30,Vista Unified School District,vista-unified-school-district,2014-10-03 22:42:31+00:00,1
+863,30,Bonsall School District,bonsall-school-district,2014-10-06 18:07:51+00:00,0
+864,20,Richland School District,richland-school-district,2014-10-06 21:50:41+00:00,1
+865,20,Kennewick School District,kennewick-school-district,2014-10-06 21:52:33+00:00,1
+866,20,Pasco School District,pasco-school-district,2014-10-06 21:52:49+00:00,1
+867,20,Benton PUD,benton-pud,2014-10-06 22:21:15+00:00,1
+868,20,Franklin PUD,franklin-pud,2014-10-06 22:24:53+00:00,1
+869,44,University of Montana,university-of-montana,2014-10-07 21:39:32+00:00,1
+870,30,City of San Carlos,city-of-san-carlos,2014-10-08 16:09:17+00:00,3
+871,3,"Washington County, AR Prosecutor",washington-county-ar-prosecutor,2014-10-08 17:30:41+00:00,1
+872,30,Los Angeles Department of Water and Power,los-angeles-department-of-water-and-power,2014-10-08 18:58:01+00:00,2
+873,9,Kansas Division of Emergency Management,kansas-division-of-emergency-management,2014-10-09 02:44:07+00:00,1
+874,43,Delaware State Treasury,delaware-state-treasury,2014-10-09 13:19:37+00:00,1
+875,30,Sweetwater Unified High School District,sweetwater-unified-high-school-district,2014-10-09 18:26:29+00:00,1
+876,30,Lemon Grove School District ,lemon-grove-school-district,2014-10-09 18:27:36+00:00,1
+877,23,Cook County Sheriff's Office,cook-county-sheriffs-office,2014-10-09 23:37:12+00:00,1
+878,16,Nassau County Department of Law,nassau-county-department-of-law,2014-10-10 17:15:01+00:00,0
+879,21,West Virginia University,west-virginia-university,2014-10-10 18:48:12+00:00,1
+880,44,Montana Kaimin,montana-kaimin,2014-10-11 03:29:36+00:00,1
+881,44,Montana University System,montana-university-system,2014-10-11 03:40:42+00:00,2
+882,16,United States Environmental Protection Agency,united-states-environmental-protection-agency,2014-10-11 22:37:18+00:00,1
+883,30,Fallbrook Union Elementary School District,fallbrook-union-elementary-school-district,2014-10-14 23:03:18+00:00,1
+884,20,South Sound 911,south-sound,2014-10-15 19:25:09+00:00,1
+885,20,Washington State Department of Corrections,wa-dept-of-corrections,2014-10-15 21:01:12+00:00,1
+886,29,Department of State Health Services,department-of-state-health-services,2014-10-16 18:47:28+00:00,2
+887,14,Ionia Public Schools Board of Education,ionia-public-schools-board-of-education,2014-10-17 02:10:06+00:00,1
+888,52,Department of Education,department-of-education-6,2014-10-17 19:17:59+00:00,1
+889,16,New York State Department of Education,department-of-education-7,2014-10-17 19:18:45+00:00,1
+890,11,Louisiana State Police,louisiana-state-police,2014-10-21 15:32:26+00:00,1
+891,30,Borrego Springs Unified School District ,borrego-springs-unified-school-district,2014-10-21 17:13:49+00:00,1
+892,47,Fairfield County Sheriff's,fairfield-county-sheriffs,2014-10-22 15:47:15+00:00,0
+893,30,Rancho Sante Fe School District,rancho-sante-fe-school-district,2014-10-22 18:30:09+00:00,1
+894,23,Chicago Streets and Sanitation,chicago-streets-and-sanitation,2014-10-23 12:11:06+00:00,1
+895,30,Valley Center-Pauma Unified School District ,valley-center-pauma-unified-school-district,2014-10-23 16:45:59+00:00,1
+896,17,Pennsylvania Office of Open Records,pennsylvania-office-of-open-records,2014-10-24 14:24:54+00:00,1
+897,43,New Castle County,new-castle-county,2014-10-24 18:37:07+00:00,1
+898,37,Miami-Dade County Public Schools,miami-dade-county-public-schools,2014-10-24 20:33:30+00:00,2
+899,37,Broward County Public Schools,broward-county-public-schools,2014-10-24 20:54:55+00:00,2
+900,37,Hillsborough County Public Schools,hillsborough-county-public-schools,2014-10-24 21:22:54+00:00,1
+901,37,Orange County Public Schools,orange-county-public-schools,2014-10-24 21:33:43+00:00,1
+902,45,Clark County,clark-county,2014-10-24 21:51:10+00:00,1
+903,29,Dallas Police Department,dallas-police-department,2014-10-26 23:14:09+00:00,1
+904,7,Gwinnett County Public Schools,gwinett-county-public-schools,2014-10-27 16:57:22+00:00,1
+905,1,U.S. EPA Region 5,us-epa-region,2014-10-27 17:38:26+00:00,1
+906,38,St. Paul Police Department,st-paul-police-department,2014-10-27 20:41:31+00:00,1
+907,5,Kansas City Police Department,kansas-city-police-department,2014-10-27 20:47:11+00:00,1
+908,5,St. Louis Metropolitan Police Department,st-louis-metropolitan-police-department,2014-10-27 20:59:53+00:00,1
+909,25,Newark Police Department,newark-police-department,2014-10-27 21:18:39+00:00,2
+910,27,Nashville Police Department,nashville-police-department,2014-10-27 21:22:20+00:00,1
+911,42,Tuscon Police Department,tuscon-police-department,2014-10-27 21:25:53+00:00,0
+912,30,San Francisco Police Department,san-francisco-police-department,2014-10-27 21:27:35+00:00,1
+913,30,San Jose Police Department,san-jose-police-department,2014-10-27 21:28:04+00:00,2
+914,30,Anaheim Police Department,anaheim-police-department,2014-10-27 21:29:23+00:00,2
+915,30,Santa Ana Police Department,santa-ana-police-department,2014-10-27 21:30:34+00:00,1
+916,30,Long Beach Police Department,long-beach-police-department,2014-10-27 21:31:26+00:00,1
+917,30,Riverside Police Department,riverside-police-department,2014-10-27 21:32:06+00:00,1
+918,30,Sacramento Police Department,sacramento-police-department,2014-10-27 21:32:43+00:00,1
+919,30,San Diego Police Department,san-diego-police-department,2014-10-27 21:33:17+00:00,2
+920,4,Denver Police Department,denver-police-department,2014-10-27 21:34:02+00:00,1
+921,31,Honolulu Police Department,honolulu-police-department,2014-10-27 21:34:27+00:00,0
+922,37,Fort Lauderdale Police Department,fort-lauderdale-police-department,2014-10-27 21:35:51+00:00,1
+923,1,United States Secret Service,united-states-secret-service,2014-10-28 13:50:13+00:00,1
+924,9,Leawood,leawood,2014-10-28 20:18:51+00:00,0
+925,19,Fairfax County Public Schools,fairfax-county-public-schools,2014-10-28 22:13:47+00:00,1
+926,30,Los Angeles Unifed School District,los-angeles-unifed-school-district,2014-10-30 21:39:04+00:00,2
+927,16,New York State Office of Information Technology Services,new-york-state-office-of-information-technology-se,2014-10-31 15:15:14+00:00,1
+928,16,New York State Archives,new-york-state-archives,2014-10-31 16:51:20+00:00,1
+931,39,1033 small recipients,1033-small-recipients,2014-10-31 18:42:24+00:00,0
+932,1,U.S. Environmental Protection Agency (EPA) - Region 10,us-environmental-protection-agency-epa-region,2014-11-01 05:21:00+00:00,0
+933,2,The University of Vermont,the-university-of-vermont,2014-11-01 20:47:06+00:00,1
+934,38,Lakeville police,lakeville-police,2014-11-03 18:29:17+00:00,0
+935,16,New York State Thruway Authority,new-york-state-thruway-authority,2014-11-03 20:25:23+00:00,1
+937,16,NYC Department of Transportation,nyc-department-of-transportation,2014-11-05 19:15:45+00:00,1
+938,7,Secretary of State / Elections Division,secretary-of-state-elections-division,2014-11-05 19:39:22+00:00,1
+939,3,Secretary of State / Elections Division,secretary-of-state-elections-division-2,2014-11-05 20:14:03+00:00,1
+940,10,State Board of Elections,state-board-of-elections,2014-11-05 20:20:47+00:00,1
+941,52,United States Patent and Trademark Office,united-states-patent-and-trademark-office,2014-11-06 21:46:32+00:00,1
+943,19,Prince William County,prince-william-county,2014-11-11 14:05:26+00:00,0
+944,29,City of Fort Worth,city-of-fort-worth,2014-11-12 06:02:57+00:00,1
+946,5,Missouri Attorney General,missouri-attorney-general,2014-11-12 17:10:44+00:00,0
+947,16,New York City Department of Transportation,new-york-city-department-of-transportation,2014-11-12 19:31:15+00:00,1
+948,27,Tennessee Department of Health,tennessee-department-of-health,2014-11-12 19:53:35+00:00,1
+950,16,NYC Law Department,nyc-law-department,2014-11-13 15:41:28+00:00,1
+951,1,The White House,the-white-house,2014-11-13 17:56:04+00:00,0
+952,1,DHS Science and Technology,dhs-science-and-technology,2014-11-13 23:11:15+00:00,1
+953,23,Independent Police Review Authority,independent-police-review-authority,2014-11-14 01:05:31+00:00,2
+954,23,Illinois Law Enforcement Training And Standards Board,illinois-law-enforcement-training-and-standards-bo,2014-11-14 01:20:49+00:00,1
+955,11,Southern University System President Search Committee,southern-university-system-president-search-commit,2014-11-14 21:53:16+00:00,2
+956,1,Federal Trade Commission,federal-trade-commission,2014-11-14 21:53:59+00:00,3
+957,29,Department of Information Resources,department-of-information-resources,2014-11-17 22:58:46+00:00,2
+958,12,Department of Social Services,department-of-social-services,2014-11-18 20:35:33+00:00,4
+959,30,Los Angeles City Controller,los-angeles-city-controller,2014-11-20 01:12:25+00:00,1
+960,23,Illinois State Police,illinois-state-police,2014-11-20 01:52:08+00:00,1
+961,16,NYPD,nypd,2014-11-20 16:33:44+00:00,1
+962,30,Santa Clara County,santa-clara-county,2014-11-20 17:49:04+00:00,1
+963,30,Orange County Public Works,orange-county-public-works,2014-11-20 18:06:36+00:00,3
+964,16,New York City Department of Environmental Protection,new-york-city-department-of-environmental-protecti,2014-11-20 19:04:28+00:00,1
+965,16,New York City Department of Information Technology and Telecommunications,new-york-city-department-of-information-technology,2014-11-20 19:07:50+00:00,1
+966,24,Portland Maine Fire Department,portland-maine-fire-department,2014-11-21 20:29:54+00:00,1
+967,30,Office of the Attorney General,attorney-general,2014-11-24 16:01:34+00:00,0
+968,30,UC Office of the President,uc-office-of-the-president,2014-11-24 21:00:28+00:00,1
+969,30,Los Angeles County,los-angeles-county,2014-11-24 22:15:14+00:00,4
+970,30,City of Long Beach,city-of-long-beach,2014-11-25 00:26:52+00:00,4
+971,30,Tulare County,tulare-county,2014-11-25 01:10:09+00:00,1
+972,30,Santa Barbara County,santa-barbara-county,2014-11-25 01:13:36+00:00,1
+973,30,Alpine County,alpine-county,2014-11-25 01:19:05+00:00,1
+974,29,Fort Worth Transit,fort-worth-transit,2014-12-01 18:27:37+00:00,1
+976,29,JPS Health Network,jps-health-network,2014-12-01 18:51:21+00:00,1
+977,29,Tarrant County Elections,tarrant-county-elections,2014-12-01 19:18:36+00:00,1
+978,29,Tarrant Regional Water District,tarrant-regional-water-district,2014-12-01 19:32:13+00:00,1
+979,42,Maricopa County Attorney's Office,maricopa-county-attorneys-office,2014-12-01 22:50:55+00:00,1
+980,30,Madera County,madera-county,2014-12-02 00:52:14+00:00,1
+981,30,Shasta County,shasta-county,2014-12-02 00:53:31+00:00,1
+982,30,El Dorado County,el-dorado-county,2014-12-02 00:54:37+00:00,1
+983,30,Butte County,butte-county,2014-12-02 00:55:43+00:00,1
+984,30,Lassen County,lassen-county,2014-12-02 04:01:21+00:00,1
+985,30,Yuba County,yuba-county,2014-12-02 04:06:27+00:00,1
+986,30,Lake County,lake-county,2014-12-02 04:09:07+00:00,2
+987,30,Kings County,kings-county,2014-12-02 04:23:27+00:00,1
+988,30,San Joaquin County,san-joaquin-county,2014-12-02 05:05:27+00:00,1
+989,30,Stanislaus County,stanislaus-county,2014-12-02 05:11:21+00:00,1
+990,30,Santa Cruz County,santa-cruz-county,2014-12-02 05:19:45+00:00,1
+991,30,Sonoma County,sonoma-county,2014-12-02 05:23:58+00:00,1
+992,30,Tuolumne County,tuolumne-county,2014-12-02 05:29:31+00:00,1
+993,32,Department of Housing and Community Development,department-of-housing-and-community-development,2014-12-03 16:38:29+00:00,0
+994,30,Los Angeles County Metropolitan Transportation Authority,los-angeles-metropolitan-transportation-authority,2014-12-03 19:41:50+00:00,2
+995,7,Columbia County Sheriff's Office,columbia-county-sheriffs-office,2014-12-04 16:42:00+00:00,1
+996,7,"City of Augusta, GA",city-of-augusta-ga,2014-12-04 22:13:48+00:00,6
+997,30,"University of California, Los Angeles",university-of-california-los-angeles,2014-12-04 22:26:33+00:00,1
+998,1,OMB,omb,2014-12-05 19:12:42+00:00,1
+999,1,U.S. Department of Justice,us-department-of-justice,2014-12-05 20:32:18+00:00,2
+1000,20,University of Washington,university-of-washington,2014-12-05 23:03:23+00:00,2
+1001,20,Washington State University,washington-state-university,2014-12-05 23:08:57+00:00,2
+1002,4,University of Colorado,university-of-colorado,2014-12-05 23:09:24+00:00,1
+1003,18,University of Utah,university-of-utah,2014-12-05 23:13:01+00:00,1
+1004,30,"University of California, Berkeley",university-of-california-berkeley,2014-12-05 23:13:42+00:00,1
+1005,42,Arizona State University,arizona-state-university,2014-12-05 23:14:06+00:00,1
+1006,42,University of Arizona,university-of-arizona,2014-12-05 23:14:37+00:00,1
+1007,49,University of Oregon,university-of-oregon,2014-12-05 23:20:18+00:00,1
+1008,49,Oregon State University,oregon-state,2014-12-05 23:20:36+00:00,1
+1009,29,Quality Assurance Team,quality-assurance-team,2014-12-08 16:44:43+00:00,4
+1010,29,Contract Advisory Team,contract-advisory-team,2014-12-08 17:12:31+00:00,1
+1011,48,Oklahoma Health Care Authority,oklahoma-health-care-authority,2014-12-08 17:33:51+00:00,1
+1012,30,Los Angeles Fire Department,los-angeles-fire-department,2014-12-08 19:56:29+00:00,2
+1013,48,CLEET,cleet,2014-12-08 20:24:56+00:00,1
+1015,1,Federal Aviation Administration,federal-aviation-administration,2014-12-13 00:56:04+00:00,2
+1016,29,Fort Worth ISD,fort-worth-isd,2014-12-13 21:51:36+00:00,1
+1017,29,Tarrant County District Attorney's Office,tarrant-county-attorney-generals-office,2014-12-13 22:05:54+00:00,1
+1018,29,Dallas County,dallas-county,2014-12-13 22:32:46+00:00,1
+1019,29,Texas Alcoholic Beverage Commission,texas-alcoholic-beverage-commission,2014-12-13 22:44:04+00:00,1
+1020,29,Texas Department of Criminal Justice,texas-department-of-criminal-justice,2014-12-13 22:52:53+00:00,4
+1021,29,Dallas County Health & Human Services,dallas-county-health-human-services,2014-12-13 23:08:59+00:00,1
+1022,29,Texas Department of Motor Vehicles,texas-department-of-motor-vehicles,2014-12-13 23:15:09+00:00,1
+1023,30,California Virtual Academy ,california-virtual-academy,2014-12-15 17:54:48+00:00,1
+1024,29,Tarrant County Veterans Services,tarrant-county-veterans-services,2014-12-15 22:34:49+00:00,1
+1026,29,Tarrant County MHMR,tarrant-county-mental-health-mental-retardation,2014-12-15 22:41:16+00:00,1
+1027,17,Pennsylvania State Senate,pa-state-senate,2014-12-16 16:15:45+00:00,1
+1028,41,Tax dept.,tax-dept,2014-12-16 20:53:30+00:00,1
+1029,42,Tax,tax,2014-12-16 20:55:45+00:00,1
+1030,3,Ark. Corporate income tax,ark-corporate-income-tax,2014-12-16 20:58:39+00:00,1
+1031,12,Dept. of Revenue,dept-of-revenue,2014-12-16 21:15:42+00:00,1
+1032,43,Dept. of Revnue,dept-of-revnue,2014-12-16 21:18:43+00:00,1
+1033,37,Florida Department of Revenue,dept-of-revenue-2,2014-12-16 21:23:47+00:00,4
+1034,7,Dept. of Revenue,dept-of-revenue-3,2014-12-16 21:28:13+00:00,1
+1035,30,California State Senate,senate,2014-12-16 22:01:06+00:00,1
+1036,1,State Department,state-department,2014-12-17 19:45:36+00:00,1
+1037,16,Department of Taxation and Finance,department-of-taxation-and-finance,2014-12-17 22:37:31+00:00,1
+1038,5,Missouri Board of Probation and Parole ,board-of-probation-and-parole,2014-12-18 16:22:51+00:00,1
+1039,10,Louisville Metro,louisville-metro,2014-12-18 22:14:40+00:00,0
+1040,10,Jefferson County PVA,jefferson-county-pva,2014-12-18 22:14:55+00:00,0
+1041,10,LOJIC,lojic,2014-12-18 22:15:02+00:00,0
+1042,10,KY State Police,ky-state-police,2014-12-18 22:15:26+00:00,0
+1043,19,Madison County,madison-county,2014-12-19 12:54:02+00:00,1
+1044,19,James City County,james-city-county,2014-12-19 17:09:21+00:00,0
+1045,24,Department of Justice,department-of-justice,2014-12-21 13:28:12+00:00,0
+1046,16,Metropolitan Transit Authority,metropolitan-transit-authority,2014-12-22 15:31:17+00:00,2
+1047,1,United States Air Force ,united-states-air-force,2014-12-24 04:27:39+00:00,0
+1048,1,tsa,tsa,2014-12-25 07:27:27+00:00,0
+1049,29,Austin Police Department,austin-police-department,2014-12-26 19:06:35+00:00,2
+1050,29,Hays County sheriff's office,hays-county-sheriffs-office,2014-12-26 19:14:30+00:00,1
+1051,30,Los Angeles County Sheriff's,los-angeles-county-sheriffs,2014-12-26 23:02:35+00:00,2
+1052,1,Department of Transportation,department-of-transportation-6,2014-12-27 01:39:31+00:00,2
+1053,1,United States Department of Housing and Urban Development,united-states-department-of-housing-and-urban-deve,2014-12-30 20:14:52+00:00,0
+1054,51,Rep. Matt Teeters,rep-matt-teeters,2014-12-30 20:18:57+00:00,0
+1055,16,Southern Westchester BOCES,southern-westchester-boces,2015-01-01 18:25:25+00:00,1
+1056,16,Nassau BOCES,nassau-boces,2015-01-01 19:51:40+00:00,1
+1057,16,Ulster BOCES,ulster-boces,2015-01-01 20:01:09+00:00,1
+1058,16,Putnam Northern Westchester BOCES,putnam-northern-westchester-boces,2015-01-01 20:10:46+00:00,1
+1059,16,Rockland BOCES,rockland-boces,2015-01-01 20:23:00+00:00,1
+1060,16,Eastern Suffolk BOCES,eastern-suffolk-boces,2015-01-01 20:28:31+00:00,1
+1061,16,Western Suffolk BOCES,western-suffolk-boces,2015-01-01 20:38:29+00:00,1
+1062,29,Travis County Sheriff's Office,travis-county-sheriffs-office,2015-01-02 19:29:09+00:00,3
+1063,16,NY Office of the State Inspector General,ny-office-of-the-state-inspector-general,2015-01-02 23:11:29+00:00,1
+1064,25,Borough of Emerson,borough-of-emerson,2015-01-02 23:55:26+00:00,1
+1065,1,"Bureau of Alcohol, Tobacco, Firearms and Explosives",bureau-of-alcohol-tobacco-firearms-and-explosives,2015-01-06 10:58:21+00:00,1
+1066,37,Florida Department of Highway Safety and Motor Vehicles (DHSMV),florida-florida-highway-safety-and-motor-vehicles,2015-01-06 22:12:15+00:00,1
+1067,7,Georgia Department of Natural Resources Law Enforcement,georgia-department-of-natural-resources-law-enforc,2015-01-07 15:54:40+00:00,1
+1068,23,Attorney General's Office,attorney-generals-office,2015-01-07 19:32:04+00:00,1
+1069,52,D.C. Office of Motion Picture and Television Development,dc-office-of-motion-picture-and-television-develop,2015-01-07 22:09:18+00:00,1
+1070,29,Texas Juvenile Justice Department,texas-juvenile-justice-department,2015-01-07 22:50:30+00:00,1
+1071,16,New York State Department of State,new-york-state-department-of-state,2015-01-08 17:36:48+00:00,0
+1072,27,CITY OF MEMPHIS 2,city-of-memphis-2-2,2015-01-09 21:26:25+00:00,2
+1073,23,"City of Chicago, Office of the Mayor",city-of-chicago-office-of-the-mayor,2015-01-12 20:04:49+00:00,1
+1074,30,California Department of Alcohol and Beverage Control,california-department-of-alcohol-and-beverage-cont,2015-01-13 22:51:20+00:00,1
+1075,19,Virginia Department of Motor Vehicles,virginia-department-of-motor-vehicles,2015-01-15 14:32:51+00:00,1
+1076,16,NYC Department of Health and Mental Hygiene,nyc-department-of-health-and-mental-hygiene,2015-01-15 17:20:55+00:00,1
+1077,32,Registry of Motor Vehicles,registry-of-motor-vehicles,2015-01-15 21:32:18+00:00,1
+1078,16,Department of Homeless Services,department-of-homeless-services,2015-01-16 17:06:56+00:00,0
+1079,16,New York City Department of Investigation,new-york-city-department-of-investigation,2015-01-16 18:08:43+00:00,1
+1080,16,Office of Administrative Trials and Hearings (OATH),office-of-administrative-trials-and-hearings-oath,2015-01-17 04:55:01+00:00,1
+1082,16,New York City Department of Consumer Affairs,new-york-city-department-of-consumer-affairs,2015-01-20 15:52:00+00:00,1
+1083,1,Region 5 U.S. EPA,region-5-us-epa,2015-01-21 04:59:09+00:00,1
+1084,24,Maine Department of Conservation,maine-department-of-conservation,2015-01-21 17:52:01+00:00,1
+1085,21,West Virginia State Police,west-virginia-state-police,2015-01-22 01:23:47+00:00,0
+1086,20,Washington State Patrol,washington-state-patrol,2015-01-22 03:36:17+00:00,2
+1087,26,Rhode Island Attorney General,rhode-island-attorney-general,2015-01-22 08:42:09+00:00,1
+1088,39,North Carolina State Board of Elections,north-carolina-state-board-of-elections,2015-01-23 22:04:13+00:00,1
+1089,40,Alabama Secretary of State,alabama-secretary-of-state,2015-01-23 22:09:18+00:00,1
+1090,42,Arizona Secretary of State,arizona-secretary-of-state,2015-01-23 23:03:23+00:00,1
+1091,34,South Carolina Elections Commission,south-carolina-elections-commission,2015-01-23 23:13:08+00:00,1
+1092,21,West Virginia Secretary of State,west-virginia-secretary-of-state,2015-01-23 23:39:31+00:00,1
+1093,29,Longview Police Department,longview-police-department,2015-01-26 16:04:42+00:00,1
+1094,29,Tyler Police Department,tyler-police-department,2015-01-26 16:15:52+00:00,1
+1095,36,PG County Council,pg-county-council,2015-01-27 14:15:12+00:00,1
+1097,1,"U.S. Department of Homeland Security, Transportation Security Administration",us-department-of-homeland-security-transportation,2015-01-27 16:55:44+00:00,1
+1098,17,Pennsylvania Game Commission,pennsylvania-game-commission,2015-01-27 19:11:54+00:00,1
+1099,17,Pennsylvania Fish & Boat Commission,pennsylvania-fish-boat-commission,2015-01-27 19:25:43+00:00,1
+1100,30,Compton City Clerk,compton-city-clerk,2015-01-27 23:19:26+00:00,1
+1101,30,Los Angeles Unified School District (LAUSD),los-angeles-unified-school-district-lausd,2015-01-28 01:49:08+00:00,3
+1102,30,Los Angeles Housing and Community Investment Department,los-angeles-housing-and-community-investment-depar,2015-01-28 18:38:03+00:00,2
+1103,16,State Department of Health,new-york-state-department-of-health,2015-01-29 16:56:12+00:00,1
+1104,30,Conejo Valley Unified School District,conejo-valley-unified-school-district,2015-02-01 20:02:02+00:00,1
+1105,20,City of Ruston,city-of-ruston,2015-02-02 19:22:35+00:00,1
+1106,30,Oxnard School District,oxnard-school-district,2015-02-02 20:04:19+00:00,1
+1107,20,Metro Parks Tacoma,metro-parks-tacoma,2015-02-03 16:34:39+00:00,1
+1108,29,Office of Injured Employee Counsel,office-of-injured-employee-counsel,2015-02-03 18:55:18+00:00,1
+1109,16,New York State Assembly,new-york-state-assembly,2015-02-03 19:08:43+00:00,1
+1110,16,New York City Department of Health and Mental Hygiene,new-york-city-department-of-health-and-mental-hygi,2015-02-03 19:22:36+00:00,1
+1111,16,New York State Senate,new-york-state-senate,2015-02-03 20:27:33+00:00,1
+1112,17,York County,york-county,2015-02-03 20:59:01+00:00,2
+1113,17,PA State House,pa-state-house,2015-02-04 21:55:34+00:00,1
+1114,17,Office of Administration,office-of-administration,2015-02-04 22:02:16+00:00,1
+1115,1,"US Department of Justice, Bureau of Alcohol, Tobacco, Firearms and Explosives",us-department-of-justice-bureau-of-alcohol-tobacco,2015-02-04 22:46:33+00:00,1
+1116,43,Delaware Department of Health ,delaware-department-of-health,2015-02-05 18:15:15+00:00,1
+1117,37,Florida Department of Health (DOH),florida-department-of-health,2015-02-05 20:27:58+00:00,2
+1118,7,Georgia Department of Public Health,georgia-department-of-public-health,2015-02-05 20:32:16+00:00,1
+1119,8,Idaho Department of Health,idaho-department-of-health,2015-02-05 22:23:16+00:00,1
+1120,23,Illinois Department of Health,illinois-department-of-health,2015-02-05 22:31:57+00:00,2
+1121,28,Indiana Department of Health,indiana-department-of-health,2015-02-05 22:36:30+00:00,1
+1122,35,Iowa Department of Health,iowa-department-of-health,2015-02-05 22:43:45+00:00,1
+1123,42,Arizona Department of Health Services,arizona-department-of-health-services,2015-02-06 00:35:42+00:00,1
+1124,17,Pennsylvania Department of Human Services,pennsylvania-department-of-human-services,2015-02-06 16:45:55+00:00,1
+1125,12,Department of Public Health,department-of-public-health-2,2015-02-06 17:56:07+00:00,1
+1126,4,Department of Public Health and Evironment,department-of-public-health-and-evironment,2015-02-06 19:16:03+00:00,1
+1127,40,Alabama Public Health,alabama-public-health,2015-02-06 19:26:37+00:00,1
+1128,49,Oregon Dept. of Health,oregon-dept-of-health,2015-02-06 21:00:16+00:00,1
+1129,2,Vermont Department of Health Surveillance,vermont-department-of-health-surveillance,2015-02-08 07:24:36+00:00,1
+1130,18,Utah Department of Health,utah-department-of-health,2015-02-08 07:39:17+00:00,1
+1131,30,Santee School District ,santee-school-district,2015-02-09 19:26:17+00:00,1
+1132,17,York City School District,york-city-school-district,2015-02-09 21:00:45+00:00,1
+1133,17,York City,york-city,2015-02-09 21:16:34+00:00,1
+1134,30,San Diego State University Police Department ,san-diego-state-university-police-department,2015-02-10 00:12:46+00:00,1
+1135,35,Iowa Department of Transportation (DOT),iowa-dot,2015-02-10 00:25:22+00:00,1
+1136,5,"Department of Insurance, Financial Institutions and Professional Registration",department-of-insurance-financial-institutions-and,2015-02-10 16:22:45+00:00,0
+1137,5,Division of Professional Registration,division-of-professional-registration,2015-02-11 16:22:16+00:00,1
+1138,34,James Island Public Service District,james-island-public-service-district,2015-02-12 13:32:04+00:00,1
+1139,17,Department of State,department-of-state,2015-02-12 17:09:57+00:00,1
+1140,41,Department of Health,department-of-health,2015-02-12 17:30:00+00:00,1
+1141,30,Medical Board of California,medical-board-of-california,2015-02-12 22:49:25+00:00,3
+1142,43,Department of State,department-of-state-2,2015-02-13 20:16:06+00:00,2
+1143,17,Central York School District,central-york-school-district,2015-02-13 21:34:32+00:00,1
+1144,17,Dover Area School District,dover-area-school-district,2015-02-13 21:42:34+00:00,1
+1145,52,District of Columbia Deputy Mayor for Planning and Economic Development (DMPED),district-of-columbia-deputy-mayor-for-planning-and,2015-02-17 16:13:40+00:00,1
+1146,17,Northeastern School District,northeastern-school-district,2015-02-17 16:25:45+00:00,1
+1147,30,California Secretary of State,california-secretary-of-state,2015-02-19 01:08:40+00:00,2
+1148,1,Department of Veterans Affairs Office of the Inspector General,department-of-veterans-affairs-office-of-the-inspe,2015-02-20 21:19:04+00:00,1
+1149,1,"Veterans Benefits Administration FOIA Office in Oakland, Calif.",veterans-benefits-administration-foia-office-in-oa,2015-02-20 23:56:05+00:00,1
+1151,17,Pennsylvania Public Utility Commission,pennsylvania-public-utility-commission,2015-02-23 19:42:41+00:00,1
+1152,16,town of huntington,town-of-huntington,2015-02-23 19:55:54+00:00,0
+1153,24,Maine Public Utilities Commission,maine-public-utilities-commission,2015-02-23 22:53:57+00:00,1
+1154,42,Arizona Attorney General,arizona-attorney-general,2015-02-23 23:04:14+00:00,1
+1155,23,Cook County Medical Examiner,cook-county-medical-examiner,2015-02-24 22:26:00+00:00,1
+1156,16,New York Power Authority,new-york-power-authority,2015-02-25 18:27:55+00:00,1
+1157,30,Los Angeles city Personnel Department,los-angeles-city-personnel-department,2015-02-25 18:55:21+00:00,1
+1158,21,West Virginia Department of Environmental Protection,west-virginia-department-of-environmental-protecti,2015-02-25 20:14:25+00:00,1
+1159,16,The Research Foundation for SUNY,the-research-foundation-for-suny,2015-02-26 15:48:03+00:00,1
+1160,29,City of Webster Water Division,city-of-webster-water-division,2015-02-26 19:39:57+00:00,1
+1161,16,New York City Council,new-york-city-council,2015-02-26 19:55:12+00:00,1
+1162,40,secretary of state,secretary-of-state,2015-03-01 23:13:17+00:00,0
+1163,1,Office of the Director of National Intelligence (ODNI),office-of-the-director-of-national-intelligence-od,2015-03-02 16:45:47+00:00,1
+1164,27,iteam,iteam,2015-03-02 21:06:54+00:00,1
+1165,1,U.S. Citizenship and Immigration Services,us-citizenship-and-immigration-services,2015-03-03 14:32:56+00:00,1
+1166,16,Office of the State Comptroller,office-of-the-state-comptroller,2015-03-03 20:06:50+00:00,1
+1167,24,Auburn Mayor's Office,auburn-mayors-office,2015-03-04 15:14:15+00:00,1
+1168,36,PG County DPIE,pg-county-dpie,2015-03-04 16:10:10+00:00,1
+1169,1,United States Department of Interior - Fish and Wildlife Service,united-states-department-of-interior-fish-and-wild,2015-03-04 22:09:26+00:00,1
+1170,29,The Fort Worth Foundation,the-fort-worth-foundation,2015-03-05 01:48:13+00:00,1
+1171,1,Department of the Treasury,department-of-the-treasury,2015-03-06 19:12:59+00:00,1
+1172,1,CFTC,cftc,2015-03-06 21:06:39+00:00,1
+1173,11,New Orleans PD,new-orleans-pd,2015-03-07 14:02:27+00:00,1
+1174,38,Minnesota Department of Human Services,minnesota-department-of-human-services,2015-03-08 20:05:48+00:00,0
+1175,23,Illinois Environmental Protection Agency,illinois-environmental-protection-agency,2015-03-09 14:09:10+00:00,1
+1176,1,U.S. Geological Survey,us-geological-survey,2015-03-09 15:09:27+00:00,1
+1177,1,United States Postal Inspection Service,united-states-postal-inspection-service,2015-03-09 19:07:45+00:00,1
+1178,17,Auditor General,auditor-general,2015-03-09 20:05:58+00:00,1
+1179,20,Seattle Police Department,seattle-police-department,2015-03-16 19:10:47+00:00,0
+1180,37,Florida International University,florida-international-university,2015-03-16 20:22:48+00:00,1
+1181,29,Fort Worth Water Department,fort-worth-water-department,2015-03-16 23:29:49+00:00,0
+1182,25,City of Atlantic City,city-of-atlantic-city,2015-03-23 05:55:54+00:00,1
+1183,30,EZ Books ,ez-books,2015-03-24 21:17:37+00:00,1
+1184,5,Ferguson,ferguson,2015-03-26 15:38:36+00:00,1
+1185,30,Oakland Police Department,oakland-police-department,2015-03-26 18:21:01+00:00,1
+1186,1,United States Centers for Disease Control and Prevention,united-states-centers-for-disease-control-and-prev,2015-03-26 19:42:25+00:00,1
+1187,7,Richmond County Sheriff's Office,richmond-county-sheriffs-office,2015-03-29 18:01:59+00:00,4
+1188,1,CMS,cms-2,2015-03-30 07:50:12+00:00,1
+1189,24,Maine Warden Service,maine-warden-service,2015-03-30 17:22:33+00:00,0
+1190,1,U.S. Navy,us-navy,2015-03-30 17:35:14+00:00,0
+1191,29,Texas Department of Agriculture ,texas-department-of-agriculture,2015-03-30 22:41:47+00:00,1
+1192,30,Department of Industrial Relations,department-of-industrial-relations,2015-03-31 18:42:19+00:00,1
+1193,1,US Citizens and Immigration Services,us-citizens-and-immigration-services,2015-04-02 18:48:40+00:00,1
+1194,25,Port Authority of New York and New Jersey,port-authority-of-new-york-and-new-jersey,2015-04-02 20:36:42+00:00,1
+1195,25,Department of the Treasury,department-of-the-treasury-2,2015-04-02 20:38:44+00:00,1
+1196,16,State Commission of Correction,state-commission-of-correction,2015-04-02 22:48:08+00:00,1
+1197,16,NY State Commission of Correction,ny-state-commission-of-correction,2015-04-02 22:56:27+00:00,1
+1198,16,Nassau County Interim Finance Authority,nassau-county-interim-finance-authority,2015-04-03 15:13:26+00:00,1
+1199,29,Texas Facilities Commission,texas-facilities-commission,2015-04-05 00:55:55+00:00,1
+1200,29,Goforth Special Utility District,goforth-special-utility-district,2015-04-05 01:01:55+00:00,1
+1201,29,test,test,2015-04-05 01:13:44+00:00,1
+1202,29,testagency,testagency,2015-04-05 01:15:04+00:00,1
+1203,5,"City Courts of Ferguson, MO",city-courts-of-ferguson-mo,2015-04-05 20:01:47+00:00,1
+1204,32,City of Brockton Police ,city-of-brockton-police,2015-04-06 17:54:39+00:00,1
+1205,25,Somerset County,somerset-county,2015-04-06 21:21:52+00:00,1
+1206,30,Aztec Shops LTD,aztec-shops-ltd,2015-04-07 21:42:09+00:00,1
+1207,3,Jonesboro Police Department,jonesboro-police-department,2015-04-08 15:14:02+00:00,1
+1208,6,University of New Mexico,university-of-new-mexico,2015-04-09 15:09:15+00:00,1
+1209,40,San Ysidro School District,san-ysidro-school-district,2015-04-09 18:49:42+00:00,1
+1210,30,San Ysidro School District,san-ysidro-school-district-2,2015-04-09 18:58:13+00:00,1
+1211,19,Isle of Wight County Schools,isle-of-wight-county-schools,2015-04-13 19:54:50+00:00,0
+1212,1,USCIS,uscis-2,2015-04-14 02:05:12+00:00,1
+1213,11,Gov. Bobby Jindal,gov-bobby-jindal,2015-04-14 14:35:56+00:00,3
+1214,16,State University of New York,state-university-of-new-york,2015-04-15 15:47:43+00:00,0
+1215,6,Central New Mexico Community College,central-new-mexico-community-college,2015-04-15 16:21:03+00:00,1
+1216,6,Clovis Community College,clovis-community-college,2015-04-15 17:03:39+00:00,1
+1217,6,Eastern New Mexico University,eastern-new-mexico-university,2015-04-15 17:11:19+00:00,1
+1218,6,Mesalands Community College,mesalands-community-college,2015-04-15 17:17:34+00:00,1
+1219,6,New Mexico Highlands University,new-mexico-highlands-university,2015-04-15 17:24:46+00:00,1
+1220,6,New Mexico Independent Community Colleges,new-mexico-independent-community-colleges,2015-04-15 17:29:30+00:00,1
+1221,6,New Mexico Institute of Mining & Technology,new-mexico-institute-of-mining-technology,2015-04-15 18:11:17+00:00,1
+1222,6,New Mexico Junior College District,new-mexico-junior-college-district,2015-04-15 18:16:31+00:00,1
+1223,6,New Mexico State University,new-mexico-state-university,2015-04-15 18:24:21+00:00,1
+1224,6,Northern New Mexico College,northern-new-mexico-college,2015-04-15 18:28:09+00:00,1
+1225,6,San Juan College,san-juan-college,2015-04-15 18:48:55+00:00,1
+1226,6,Santa Fe Community College,santa-fe-community-college,2015-04-15 18:51:26+00:00,1
+1227,14,School District of the City of Saginaw,school-district-of-the-city-of-saginaw,2015-04-15 19:15:18+00:00,1
+1228,6,Otero County,otero-county,2015-04-16 13:45:09+00:00,1
+1229,6,Cibola County,cibola-county,2015-04-16 13:51:23+00:00,1
+1230,6,Luna County,luna-county,2015-04-16 13:57:34+00:00,1
+1231,6,San Miguel County,san-miguel-county,2015-04-16 14:00:16+00:00,1
+1232,6,Sierra County,sierra-county,2015-04-16 14:07:19+00:00,1
+1233,6,Taos County,taos-county,2015-04-16 14:12:16+00:00,1
+1234,6,Curry County,curry-county,2015-04-16 14:24:04+00:00,1
+1235,6,Dona Ana County,dona-ana-county,2015-04-16 14:26:25+00:00,1
+1236,6,Lea County,lea-county,2015-04-16 14:28:33+00:00,1
+1237,6,Los Alamos County,los-alamos-county,2015-04-16 14:30:43+00:00,1
+1238,6,McKinley County,mckinley-county,2015-04-16 14:32:26+00:00,1
+1239,6,Roosevelt County,roosevelt-county,2015-04-16 17:17:04+00:00,1
+1240,6,Santa Fe County,santa-fe-county,2015-04-16 17:28:11+00:00,1
+1241,6,Torrence County,torrence-county,2015-04-16 17:32:12+00:00,1
+1242,6,Union County,union-county,2015-04-16 17:34:02+00:00,1
+1243,6,Catron County,catron-county,2015-04-16 17:55:23+00:00,1
+1244,6,Chaves County,chaves-county,2015-04-16 18:09:06+00:00,1
+1245,6,Colfax County,colfax-county,2015-04-16 18:12:18+00:00,1
+1246,6,Eddy County,eddy-county,2015-04-16 18:27:10+00:00,1
+1247,6,Grant County,grant-county,2015-04-16 18:31:19+00:00,1
+1248,6,Guadalupe County,guadalupe-county,2015-04-16 18:39:41+00:00,1
+1249,6,Hidalgo County,hidalgo-county-2,2015-04-16 18:47:09+00:00,1
+1250,6,Lincoln County,lincoln-county,2015-04-16 18:48:31+00:00,1
+1251,6,Mora County,mora-county,2015-04-16 18:49:44+00:00,1
+1252,6,Quay County,quay-county,2015-04-16 18:51:19+00:00,0
+1253,6,Socorro County,socorro-county,2015-04-16 18:53:56+00:00,1
+1254,6,Valencia County,valencia-county,2015-04-16 18:55:10+00:00,0
+1255,16,Cayuga County Legislature,cayuga-county-legislature,2015-04-17 16:30:50+00:00,1
+1256,14,"Michigan Department of Technology, Management and Budget (DTMB)",michigan-department-of-technology-management-and-b,2015-04-19 11:17:11+00:00,1
+1257,1,Center for Medicare and Medicaid Services,center-for-medicare-and-medicaid-services,2015-04-19 12:11:45+00:00,1
+1258,36,Montgomery County Public Schools,montgomery-county-public-schools,2015-04-20 14:04:46+00:00,0
+1259,6,City of Albuquerque,city-of-albuquerque,2015-04-20 21:10:06+00:00,1
+1260,6,City of Aztec,city-of-aztec,2015-04-20 21:13:40+00:00,1
+1261,6,City of Bloomfield,city-of-bloomfield,2015-04-20 21:16:25+00:00,1
+1262,6,City of Deming,city-of-deming,2015-04-20 21:20:13+00:00,1
+1263,6,City of Farmington,city-of-farmington,2015-04-20 21:23:21+00:00,1
+1264,6,City of Gallup,city-of-gallup,2015-04-20 21:25:20+00:00,1
+1265,6,City of Hobbs,city-of-hobbs,2015-04-20 22:46:16+00:00,1
+1266,6,City of Las Cruces,city-of-las-cruces,2015-04-20 22:48:45+00:00,1
+1267,6,City of Las Vegas,city-of-las-vegas,2015-04-20 22:56:26+00:00,1
+1268,36,montgomery county md,montgomery-county-md,2015-04-21 16:27:29+00:00,1
+1269,6,City of Portales,city-of-portales,2015-04-23 22:04:07+00:00,1
+1270,6,City of Rio Rancho,city-of-rio-rancho,2015-04-23 22:07:27+00:00,1
+1271,6,City of Riodoso Downs,city-of-riodoso-downs,2015-04-23 22:10:17+00:00,1
+1272,6,City of Santa Fe,city-of-santa-fe,2015-04-23 22:12:17+00:00,2
+1273,6,Town of Atrisco Grant Board of Trustees,town-of-atrisco-grant-board-of-trustees,2015-04-23 22:17:43+00:00,1
+1274,6,Town of Red River,town-of-red-river,2015-04-23 22:21:19+00:00,1
+1275,6,Village of Corrales,village-of-corrales,2015-04-23 22:24:19+00:00,1
+1276,6,Village of Cuba,village-of-cuba,2015-04-23 22:30:42+00:00,1
+1277,6,Village of Logan,village-of-logan,2015-04-23 22:33:02+00:00,1
+1278,6,Village of Los Lunas,village-of-los-lunas,2015-04-23 22:34:49+00:00,1
+1279,6,Village of Questa,village-of-questa,2015-04-23 22:49:06+00:00,1
+1280,6,Village of Tularosa,village-of-tularosa,2015-04-23 22:51:44+00:00,1
+1281,6,Village of Wagon Mound,village-of-wagon-mound,2015-04-23 22:54:36+00:00,0
+1282,6,Cesar Chavez Charter School,cesar-chavez-charter-school,2015-04-24 16:05:14+00:00,1
+1283,6,Cien Aguas Green School Project,cien-aguas-green-school-project,2015-04-24 16:08:30+00:00,1
+1284,6,Espanola Public School District,espanola-public-school-district,2015-04-24 16:11:21+00:00,1
+1285,6,Gallup-McKinley County School District,gallup-mckinley-county-school-district,2015-04-24 16:16:58+00:00,1
+1286,6,Gilbert L. Sena Charter High School,gilbert-l-sena-charter-high-school,2015-04-24 16:20:33+00:00,1
+1287,6,Las Cruces Public Schools,las-cruces-public-schools,2015-04-24 16:22:44+00:00,1
+1288,6,Las Vegas City School District,las-vegas-city-school-district,2015-04-24 16:24:45+00:00,1
+1289,6,Mountain Mohogany Community School,mountain-mohogany-community-school,2015-04-24 16:26:36+00:00,1
+1290,6,New Mexico Military Institute,new-mexico-military-institute,2015-04-24 16:30:33+00:00,1
+1291,6,New Mexico School for the Arts,new-mexico-school-for-the-arts,2015-04-24 16:32:51+00:00,1
+1292,6,New Mexico School for the Blind and Visually Impaired,new-mexico-school-for-the-blind-and-visually-impai,2015-04-24 16:47:09+00:00,1
+1293,6,Nuestros Valores Charter School,nuestros-valores-charter-school,2015-04-24 16:51:41+00:00,1
+1294,6,RFK Charter School,rfk-charter-school,2015-04-24 16:53:36+00:00,1
+1295,6,Rio Rancho Public Schools,rio-rancho-public-schools,2015-04-24 16:55:21+00:00,1
+1296,6,The International School at Mesa del Sol,the-international-school-at-mesa-del-sol,2015-04-24 16:58:12+00:00,1
+1297,6,The Montessori Elementary Charter School,the-montessori-elementary-charter-school,2015-04-24 17:00:09+00:00,1
+1298,6,Tierra Encantada Charter School,tierra-encantada-charter-school,2015-04-24 17:01:57+00:00,1
+1299,6,Turquoise Trail Charter School,turquoise-trail-charter-school,2015-04-24 17:03:30+00:00,1
+1300,6,Albuqerque Bernalillo County Water Utility Authority,albuqerque-bernalillo-county-water-utility-authori,2015-04-24 18:19:07+00:00,1
+1301,6,Albuquerque Metropolitan Arroyo Flood Control Authority,albuquerque-metropolitan-arroyo-flood-control-auth,2015-04-24 18:21:21+00:00,1
+1302,6,Eastern Sandoval County Arroyo Flood Control,eastern-sandoval-county-arroyo-flood-control,2015-04-24 18:25:12+00:00,1
+1303,6,New Mexico Association of Conservation Districts,new-mexico-association-of-conservation-districts,2015-04-24 18:32:24+00:00,1
+1304,6,New Mexico Coalition of Conservation Districts,new-mexico-coalition-of-conservation-districts,2015-04-24 18:39:24+00:00,1
+1305,6,New Mexico Department of Agriculture,new-mexico-department-of-agriculture,2015-04-24 18:48:01+00:00,1
+1306,6,"New Mexico Energy, Minerals and Natural Resources",new-mexico-energy-minerals-and-natural-resources,2015-04-24 18:50:52+00:00,1
+1307,6,New Mexico Finance Authority,new-mexico-finance-authority,2015-04-24 18:53:10+00:00,1
+1308,6,New Mexico Gaming Control Board,new-mexico-gaming-control-board,2015-04-24 18:57:22+00:00,1
+1309,6,New Mexico Mortgage Finance Authority,new-mexico-mortgage-finance-authority,2015-04-24 18:59:38+00:00,1
+1310,6,New Mexico Public Defender Department,new-mexico-public-defender-department,2015-04-24 21:40:42+00:00,1
+1311,6,New Mexico State Investment Council,new-mexico-state-investment-council,2015-04-24 21:43:04+00:00,1
+1312,6,New Mexico State Land Office,new-mexico-state-land-office,2015-04-24 21:45:12+00:00,1
+1313,6,North Central Solid Waste Authority,north-central-solid-waste-authority,2015-04-24 21:47:49+00:00,1
+1314,6,PERA New Mexico,pera-new-mexico,2015-04-24 21:50:55+00:00,1
+1315,6,Southern Sandoval County Arroyo Flood Control Authority,southern-sandoval-county-arroyo-flood-control-auth,2015-04-24 21:54:46+00:00,1
+1316,16,Department of Corrections,department-of-corrections-2,2015-04-27 18:28:20+00:00,0
+1317,32,Boston City Council,boston-city-council,2015-04-28 10:27:05+00:00,1
+1318,24,Town of Millinocket,town-of-millinocket,2015-04-28 17:31:28+00:00,2
+1319,29,Big Spring,big-spring,2015-04-28 20:10:10+00:00,1
+1320,29,Secretary of State,secretary-of-state-2,2015-04-29 18:56:17+00:00,1
+1321,20,Tacoma Public Schools,tacoma-public-schools,2015-05-01 00:44:06+00:00,1
+1322,20,Tacoma Public Schools,tacoma-public-schools-2,2015-05-01 00:44:06+00:00,0
+1323,20,Tacoma municipal courts,tacoma-municipal-courts,2015-05-05 00:15:42+00:00,1
+1324,23,Department of Financial & Professional Regulation,department-of-financial-professional-regulation,2015-05-06 21:26:35+00:00,2
+1325,17,Pennsylvania Department of Revenue,pennsylvania-department-of-revenue,2015-05-11 20:44:56+00:00,1
+1326,52,US department of State,us-department-of-state,2015-05-18 14:13:13+00:00,1
+1327,29,DFW International Airport Department of Public Safety,dfw-international-airport-department-of-public-saf,2015-05-18 17:37:10+00:00,1
+1328,7,Atlanta Police Department,atlanta-police-department,2015-05-18 17:54:50+00:00,1
+1329,29,Houston Police Department,houston-police-department,2015-05-18 18:26:33+00:00,2
+1330,1,amtrak,amtrak,2015-05-19 15:43:13+00:00,1
+1331,52,dc department of health,dc-department-of-health,2015-05-20 20:36:51+00:00,0
+1332,23,Big Ten Conference,big-ten-conference,2015-05-21 17:38:59+00:00,0
+1333,30,ymca,ymca,2015-05-26 23:54:09+00:00,0
+1334,23,Cook County Tax Assessor,cook-county-tax-assessor,2015-05-27 18:15:33+00:00,1
+1335,47,City of Findlay,city-of-findlay,2015-05-28 13:57:03+00:00,0
+1336,14,University of Michigan,university-of-michigan,2015-05-28 17:06:54+00:00,1
+1337,13,University of Nebraska,university-of-nebraska,2015-05-28 17:15:30+00:00,1
+1338,25,Jersey City Board of Education (JCBOE),jersey-city-board-of-education-jcboe,2015-05-29 14:35:41+00:00,2
+1339,29,University of Texas,university-of-texas,2015-05-29 21:54:05+00:00,2
+1340,36,Maryland Parole Commission,maryland-parole-commission,2015-06-01 20:02:45+00:00,1
+1341,16,NYC Human Resources Administration,nyc-human-resources-administration,2015-06-02 14:51:44+00:00,1
+1342,16,NYC Department of Buildings,nyc-department-of-buildings,2015-06-02 15:14:40+00:00,2
+1343,7,Georgia Office of Insurance and Safety Fire Commissioner,georgia-office-of-insurance-and-safety-fire-commis,2015-06-02 16:03:16+00:00,1
+1344,18,Utah State University,utah-state-university,2015-06-02 17:08:43+00:00,1
+1345,7,Georgia Regents University GRU,georgia-regents-university-gru,2015-06-03 14:33:16+00:00,2
+1346,4,Department of Education,department-of-education-8,2015-06-03 19:03:31+00:00,0
+1347,16,New York Public Housing Authority,new-york-public-housing-authority,2015-06-04 18:59:56+00:00,1
+1348,52,FAA,faa,2015-06-08 17:24:30+00:00,1
+1349,37,City of St. Petersburg,city-of-st-petersburg,2015-06-10 15:33:38+00:00,0
+1350,29,Texas Ethics Commission,texas-ethics-commission,2015-06-11 19:54:39+00:00,1
+1351,16,Dormitory Authority of the State of New York,dormitory-authority-of-the-state-of-new-york,2015-06-12 19:13:14+00:00,1
+1352,1,Office of Child Support Enforcement,office-of-child-support-enforcement,2015-06-15 21:57:26+00:00,1
+1353,30,The Department of General Services (DGS),the-department-of-general-services-dgs,2015-06-16 00:36:16+00:00,1
+1354,31,test,test-2,2015-06-16 21:23:23+00:00,1
+1355,1,DOE,doe,2015-06-16 22:15:20+00:00,1
+1356,1,NNSA,nnsa,2015-06-16 22:15:34+00:00,2
+1357,30,Los Angeles County District Attorney's Office,los-angeles-county-district-attorneys-office,2015-06-17 18:42:13+00:00,1
+1358,52,District Department of Environment (DDOE),district-department-of-environment-ddoe,2015-06-21 13:58:10+00:00,3
+1359,30,"Department of Veterans Affairs, San Francisco Medical Center",department-of-veterans-affairs-san-francisco-medic,2015-06-22 17:40:57+00:00,0
+1360,52,Washington D.C. Office of Contracting and Procurement,washington-dc-office-of-contracting-and-procuremen,2015-06-24 19:52:45+00:00,1
+1361,30,California Highway Patrol,california-highway-patrol,2015-06-25 08:27:49+00:00,3
+1362,34,City of North Augusta,city-of-north-augusta,2015-06-25 13:28:47+00:00,1
+1363,45,Clark County School District,clark-county-school-district,2015-06-25 15:57:40+00:00,1
+1364,52,DMV,dmv,2015-06-25 16:32:32+00:00,1
+1365,23,City of Chicago Department of Procurement Services,city-of-chicago-department-of-procurement-services,2015-06-25 19:54:41+00:00,1
+1366,29,Office of General Counsel,office-of-general-counsel,2015-06-26 21:07:36+00:00,0
+1367,19,Dumfries Triangle Fire,dumfries-triangle-fire,2015-06-29 19:53:48+00:00,1
+1368,17,Upper Darby School District,upper-darby-school-district,2015-07-02 00:08:44+00:00,1
+1369,34,Aiken County Sheriff's Office,aiken-county-sheriffs-office,2015-07-05 21:31:01+00:00,1
+1370,29,Texas Commission on Law Enforcement,texas-commission-on-law-enforcement,2015-07-07 13:06:39+00:00,1
+1371,29,Travis County medical examiner's office,travis-county-medical-examiners-office,2015-07-07 13:29:38+00:00,1
+1372,30,San Francisco Sheriff's Department,san-francisco-sheriffs-department,2015-07-07 16:59:27+00:00,3
+1373,37,Jacksonville Sheriff's Dept,jacksonville-sheriffs-dept,2015-07-07 18:45:27+00:00,2
+1374,42,Phoenix PD,phoenix-pd,2015-07-09 21:06:03+00:00,1
+1375,41,Alaska Department of Corrections,alaska-department-of-corrections,2015-07-13 15:16:06+00:00,2
+1376,31,Hawaii Department of Public Safety,hawaii-department-of-public-safety,2015-07-13 15:23:48+00:00,1
+1377,44,Montana Department of Corrections,montana-department-of-corrections,2015-07-13 20:46:16+00:00,1
+1378,36,Department of Public Safety & Correctional Services,department-of-public-safety-correctional-services,2015-07-14 17:00:48+00:00,1
+1379,36,Maryland Department of Public Safety & Correctional Services,maryland-department-of-public-safety-correctional,2015-07-14 17:18:54+00:00,1
+1380,25,New Jersey Department of Corrections,new-jersey-department-of-corrections,2015-07-14 17:39:53+00:00,1
+1381,34,Landrum Municipal Court,landrum-municipal-court,2015-07-14 19:56:08+00:00,1
+1382,52,DC Department of Corrections,dc-department-of-corrections,2015-07-14 20:25:49+00:00,1
+1383,30,California Department of Corrections,california-department-of-corrections,2015-07-14 21:16:28+00:00,1
+1384,27,Tennessee Department of Corrections,tennessee-department-of-corrections,2015-07-14 21:56:30+00:00,1
+1385,16,New York DOC,new-york-doc,2015-07-15 19:23:56+00:00,1
+1386,38,Department of Corrections,department-of-corrections-3,2015-07-16 15:30:38+00:00,2
+1387,34,South Carolina Department of Corrections,south-carolina-department-of-corrections,2015-07-16 15:46:20+00:00,1
+1388,25,Bayonne Board of Education,bayonne-board-of-education,2015-07-21 05:04:49+00:00,1
+1389,47,Akron University,akron-university,2015-07-21 17:35:11+00:00,1
+1390,23,Chicago Department of Planning and Development,chicago-department-of-planning-and-development,2015-07-21 19:10:54+00:00,1
+1391,29,Waller County Texas Sheriff's Office,waller-county-texas-sheriffs-office,2015-07-21 19:35:59+00:00,1
+1392,40,U.S. Environmental Protection Agency,us-environmental-protection-agency,2015-07-21 20:03:43+00:00,0
+1393,29,San Antonio Housing Trust,san-antonio-housing-trust,2015-07-22 06:40:56+00:00,0
+1394,7,Cobb County Government,cobb-county-government,2015-07-22 17:09:03+00:00,0
+1395,40,Cobb County Government,cobb-county-government-2,2015-07-22 17:10:15+00:00,0
+1396,1,Department of Commerce ,department-of-commerce,2015-07-24 20:16:49+00:00,0
+1397,41,"Egual Rights Commission, Municipality of Anchorage",egual-rights-commission-municipality-of-anchorage,2015-07-24 21:34:38+00:00,1
+1398,37,Test,test-3,2015-07-25 09:41:21+00:00,1
+1399,47,Cleveland Fire Department,cleveland-fire-department,2015-07-25 17:02:59+00:00,0
+1400,25,court records,court-records,2015-07-25 20:00:02+00:00,0
+1401,1,immigration,immigration,2015-07-27 16:56:36+00:00,0
+1402,1,Environmental Protection Agency,environmental-protection-agency,2015-07-28 19:35:01+00:00,1
+1403,24,DOT,dot,2015-07-28 20:00:46+00:00,1
+1404,24,City of Augusta,city-of-augusta,2015-07-28 20:16:21+00:00,1
+1405,29,City of West Lake Hills,city-of-west-lake-hills,2015-07-28 20:17:55+00:00,1
+1406,8,Idaho Fish and Game Department,idaho-fish-and-game-department,2015-07-29 03:08:57+00:00,1
+1407,8,Idaho Fish and Game,idaho-fish-and-game,2015-07-29 03:10:11+00:00,0
+1408,7,Columbia County,columbia-county,2015-07-29 16:35:48+00:00,1
+1409,13,Ministarstvo Finansija,ministarstvo-finansija,2015-07-31 09:02:32+00:00,0
+1410,17,Chief Clerk of the Pennsylvania Senate,chief-clerk-of-the-pennsylvania-senate,2015-07-31 21:18:17+00:00,1
+1411,17,Comptroller of PA State House,comptroller-of-pa-state-house,2015-07-31 21:32:22+00:00,2
+1412,17,Chief Clerk of PA State House,chief-clerk-of-pa-state-house,2015-07-31 21:33:56+00:00,1
+1413,30,California State Police,california-state-police,2015-08-01 21:15:56+00:00,0
+1414,29,Travis County sheriff's department,travis-county-sheriffs-department,2015-08-05 15:54:48+00:00,2
+1415,20,Washington Department of Agriculture,washington-department-of-agriculture,2015-08-13 01:53:55+00:00,1
+1416,20,Washington Department of Archaeology and Historic Preservation,washington-department-of-archaeology-and-historic,2015-08-13 01:56:37+00:00,1
+1417,20,Washington State Office of the Attorney General,washington-office-of-the-attorney-general,2015-08-13 02:00:31+00:00,1
+1418,20,Washington State Auditor's Office,washington-state-auditors-office,2015-08-13 02:08:49+00:00,1
+1419,20,Bates Technical College,bates-technical-college,2015-08-13 02:12:18+00:00,1
+1420,20,Bellevue College,bellevue-college,2015-08-13 02:17:50+00:00,1
+1421,20,Clark College,clark-college,2015-08-13 02:22:29+00:00,1
+1422,20,Central Washington University,central-washington-university,2015-08-13 02:29:27+00:00,1
+1423,20,Washington State Department of Commerce,washington-state-department-of-commerce,2015-08-13 02:36:36+00:00,1
+1424,20,Washington State Board for Community and Technical Colleges,washington-state-board-for-community-and-technical,2015-08-13 02:39:21+00:00,1
+1425,20,"Washington Department of Community, Trade and Economic Development",washington-department-of-community-trade-and-econo,2015-08-13 02:42:12+00:00,1
+1426,20,Washington State Criminal Justice Training Commission,criminal-justice-training-commission,2015-08-13 02:56:27+00:00,1
+1427,20,Eastern Washington University,eastern-washington-university,2015-08-13 03:00:28+00:00,1
+1428,20,Washington Secretary of State,washington-secretary-of-state,2015-08-13 03:10:14+00:00,1
+1429,20,Washington Economic Development Finance Authority,washington-economic-development-finance-authority,2015-08-13 03:13:20+00:00,1
+1430,20,Washington State Board of Education,washington-state-board-of-education,2015-08-13 03:16:57+00:00,1
+1431,20,Washington State Employment Security Department,washington-state-employment-security-department,2015-08-13 03:20:19+00:00,1
+1432,20,The Evergreen State College,the-evergreen-state-college,2015-08-13 03:23:24+00:00,1
+1433,20,Washington State Department of Enterprise Services,washington-state-department-of-enterprise-services,2015-08-13 03:27:12+00:00,1
+1434,20,Washington State Office of Financial Management,washington-state-office-of-financial-management,2015-08-13 03:45:49+00:00,1
+1435,20,Washington Department of Fish and Wildlife,washington-department-of-fish-and-wildlife,2015-08-13 03:49:32+00:00,1
+1436,20,Washington State Department of Licensing,washington-state-department-of-licensing,2015-08-13 04:06:53+00:00,1
+1437,20,Washington State Lottery,washington-state-lottery,2015-08-13 04:10:11+00:00,1
+1438,20,Washington State Parks and Recreation Commission,washington-state-parks-and-recreation-commission,2015-08-13 04:15:45+00:00,1
+1439,20,Washington State Department of Veterans Affairs,washington-state-department-of-veterans-affairs,2015-08-13 04:22:01+00:00,1
+1440,20,Washington State Department of Revenue,washington-state-department-of-revenue,2015-08-13 04:25:08+00:00,1
+1441,20,Washington State Department of Social and Health Services,washington-state-department-of-social-and-health-s,2015-08-13 04:30:14+00:00,1
+1442,20,Washington State Treasurer,washington-state-treasurer,2015-08-13 04:33:29+00:00,1
+1443,20,Washington State Department of Retirement Systems,washington-state-department-of-retirement-systems,2015-08-13 04:37:22+00:00,1
+1444,20,Washington State Public Disclosure Commission,washington-state-public-disclosure-commission,2015-08-13 04:40:47+00:00,1
+1445,20,Washington State Public Employment Relations Commission,washington-state-public-employment-relations-commi,2015-08-13 04:43:34+00:00,1
+1446,37,Florida Agency for Health Care Administration (AHCA),florida-agency-for-health-care-administration-ahca,2015-08-13 20:07:07+00:00,2
+1447,37,Florida Agency for Persons with Disabilities (APD),florida-agency-for-persons-with-disabilities-apd,2015-08-13 20:10:48+00:00,2
+1448,37,Florida Commission on Ethics (ETHICS),florida-commission-on-ethics-ethics,2015-08-13 20:17:51+00:00,3
+1449,37,Florida Senate,florida-state-senate,2015-08-13 20:22:33+00:00,1
+1450,37,Florida House of Representatives,florida-house-of-representatives,2015-08-13 20:25:26+00:00,1
+1451,37,Florida Commission on Human Relations (CHR),florida-commission-on-human-relations-chr,2015-08-13 20:31:13+00:00,3
+1452,37,Florida Department of Agriculture & Consumer Services (DACS),florida-department-of-agriculture-consumer-service,2015-08-13 20:37:20+00:00,2
+1453,37,Florida Department of Business & Professional Regulation (DBPR),florida-department-of-business-professional-regula,2015-08-13 20:42:07+00:00,4
+1454,37,Florida Department of Children & Families (DCF),florida-department-of-children-families-dcf,2015-08-13 20:45:28+00:00,1
+1455,37,Florida Department of Citrus (CITRUS),florida-department-of-citrus-citrus,2015-08-13 20:55:28+00:00,1
+1456,37,Florida Department of Economic Opportunity (DEO),florida-department-of-economic-opportunity-deo,2015-08-13 20:58:15+00:00,3
+1457,37,Florida Department of Elder Affairs (DOEA),florida-department-of-elder-affairs-doea,2015-08-14 19:01:34+00:00,2
+1458,37,Florida Department of Juvenile Justice (DJJ),florida-department-of-juvenile-justice-djj,2015-08-14 19:12:57+00:00,3
+1459,37,Enterprise Florida (EFI),enterprise-florida-efi,2015-08-14 19:24:15+00:00,1
+1460,37,Florida Department of Financial Services (DFS),florida-department-of-financial-services-dfs,2015-08-14 19:30:55+00:00,1
+1461,37,Florida Office of the Attorney General (OAG),florida-office-of-the-attorney-general-oag,2015-08-14 19:47:34+00:00,2
+1462,37,Florida Office of Financial Regulation (OFR),florida-office-of-financial-regulation-ofr,2015-08-14 19:52:40+00:00,1
+1463,37,Florida Department of Lottery,florida-department-of-lottery,2015-08-16 01:41:04+00:00,3
+1464,37,Florida Office of Insurance Regulation (OIR),florida-office-of-insurance-regulation-oir,2015-08-16 01:48:54+00:00,2
+1465,37,Florida Department of Transportation (FDOT),florida-department-of-transportation-fdot,2015-08-16 01:59:35+00:00,2
+1466,37,Florida Housing Finance Corporation (FHFC),florida-housing-finance-corporation-fhfc,2015-08-16 02:05:14+00:00,2
+1467,4,Academy District 20,academy-district,2015-08-16 08:17:20+00:00,1
+1468,23,Cook County Clerk,cook-county-clerk,2015-08-18 22:10:49+00:00,2
+1469,28,Fayette County Area Planning,fayette-county-area-planning,2015-08-20 02:34:03+00:00,2
+1470,28,Hartford City Library,hartford-city-library,2015-08-21 02:17:40+00:00,1
+1471,10,Western Kentucky University,western-kentucky-university,2015-08-22 01:44:57+00:00,0
+1472,20,Washington Department of Education,washington-department-of-education,2015-08-24 19:44:12+00:00,0
+1473,49,Oregon Department of Education,oregon-department-of-education,2015-08-24 21:59:10+00:00,1
+1474,8,Idaho State Department of Education,idaho-state-department-of-education,2015-08-25 17:00:07+00:00,1
+1475,9,Kansas State Department of Education,kansas-state-department-of-education,2015-08-25 17:49:24+00:00,1
+1476,23,Illinois State Department of Education,illinois-state-department-of-education,2015-08-25 18:15:36+00:00,1
+1477,2,Vermont Agency of Education,vermont-agency-of-education,2015-08-25 19:40:09+00:00,1
+1478,29,Texas Department of State Health Services,texas-department-of-state-health-services,2015-08-27 20:24:43+00:00,1
+1479,16,Department of Financial Services,department-of-financial-services,2015-08-28 15:07:46+00:00,1
+1480,16,State of New York Office of the Attorney General,state-of-new-york-office-of-the-attorney-general,2015-08-31 17:44:47+00:00,1
+1481,4,dept of corrections,dept-of-corrections,2015-09-02 19:18:52+00:00,1
+1482,30,California Fair Political Practices Commission,california-fair-political-practices-commission,2015-09-03 16:32:23+00:00,1
+1483,17,Pennsylvania State Police,pennsylvania-state-police,2015-09-03 18:51:44+00:00,1
+1484,29,Texas Lt. Gov. Dan Patrick,texas-lt-gov-dan-patrick,2015-09-03 20:24:50+00:00,1
+1485,1,CFPB,cfpb,2015-09-10 01:21:22+00:00,1
+1486,36,city of baltimore,city-of-baltimore,2015-09-10 02:25:11+00:00,0
+1487,14,Detroit Public Schools,detroit-public-schools,2015-09-10 15:54:31+00:00,1
+1488,14,Sterling Heights,sterling-heights,2015-09-11 16:39:01+00:00,1
+1489,29,General Land Office,general-land-office,2015-09-14 15:46:36+00:00,2
+1490,1,FAA,faa-2,2015-09-15 20:41:21+00:00,0
+1491,19,Virginia State Police,virginia-state-police,2015-09-16 00:30:58+00:00,0
+1492,1,Bureau of Land Management,bureau-of-land-management,2015-09-17 14:46:50+00:00,1
+1493,24,Office of the Chief Medical Examiner,office-of-the-chief-medical-examiner,2015-09-17 15:58:22+00:00,1
+1494,39,N.C. Department of the Secretary of State,nc-department-of-the-secretary-of-state,2015-09-19 16:20:35+00:00,1
+1495,39,North Carolina Department of Agriculture,north-carolina-department-of-agriculture,2015-09-21 12:31:02+00:00,1
+1496,1,centers for medicare and medicaid services,centers-for-medicare-and-medicaid-services,2015-09-21 16:17:59+00:00,1
+1497,6,DHSEM,dhsem,2015-09-21 20:49:54+00:00,0
+1498,23,Chicago Department of GIS,chicago-department-of-gis,2015-09-25 17:30:01+00:00,1
+1499,16,Department of Corrections and Community Services,department-of-corrections-and-community-services,2015-09-26 14:01:00+00:00,0
+1500,4,Littleton Public Schools,littleton-public-schools,2015-09-28 05:15:53+00:00,10
+1501,32,Salem Public Schools,salem-public-schools,2015-09-28 05:23:21+00:00,5
+1502,19,Virginia Social Services,virginia-social-services,2015-09-28 15:20:05+00:00,2
+1503,19,City of Hampton,city-of-hampton,2015-09-28 15:25:59+00:00,3
+1504,16,New York State Labor Department,new-york-state-labor-department,2015-09-28 20:20:12+00:00,1
+1505,36,Prince George's County Public Schools,prince-georges-county-public-schools,2015-10-01 18:23:44+00:00,1
+1506,1,Centers for Disease Control,centers-for-disease-control,2015-10-06 18:45:24+00:00,1
+1507,4,Division of Finance and Procurement,division-of-finance-and-procurement,2015-10-09 15:01:45+00:00,0
+1508,4,Loveland Police Department,loveland-police-department,2015-10-09 23:16:42+00:00,1
+1509,29,Texas Higher Education Coordinating Board,texas-higher-education-coordinating-board,2015-10-10 14:26:24+00:00,1
+1510,29,Central Texas Regional Mobility Authority,central-texas-regional-mobility-authority,2015-10-10 19:33:59+00:00,1
+1511,29,Cap Metro,cap-metro,2015-10-10 19:34:42+00:00,0
+1512,16,New York Public Service Commission,new-york-public-service-commission,2015-10-11 15:31:51+00:00,1
+1513,16,Office of Mental Health,office-of-mental-health,2015-10-13 02:04:57+00:00,1
+1514,29,Teachers Retirment System,teachers-retirment-system,2015-10-13 17:06:45+00:00,3
+1515,29,Dept. of Public Safety,dept-of-public-safety,2015-10-14 19:51:23+00:00,1
+1516,29,Dept. Of Pubilc Safety,dept-of-pubilc-safety,2015-10-14 20:20:56+00:00,1
+1517,1,Financial Fraud Enforcement Task Force,financial-fraud-enforcement-task-force,2015-10-16 23:10:10+00:00,0
+1518,1,US Department of Justice,us-department-of-justice-2,2015-10-16 23:14:55+00:00,1
+1519,29,Dept of public Safety,dept-of-public-safety-2,2015-10-19 16:48:38+00:00,1
+1520,4,Colorado Economic Development Commission,colorado-economic-development-commission,2015-10-20 16:07:25+00:00,1
+1521,23,Chicago Housing Authority,chicago-housing-authority,2015-10-20 18:18:10+00:00,1
+1522,16,New York City Economic Development Corporation,new-york-city-economic-development-corporation,2015-10-20 21:06:09+00:00,0
+1523,23,Department of State,department-of-state-4,2015-10-21 19:13:47+00:00,1
+1524,16,NY State Assembly,ny-state-assembly,2015-10-21 20:36:15+00:00,1
+1525,4,littleton,littleton,2015-10-21 20:58:38+00:00,0
+1526,47,Ohio Assembly ,ohio-assembly,2015-10-22 02:48:42+00:00,0
+1527,28,Bloomington Police Department,bloomington-police-department,2015-10-26 22:08:14+00:00,0
+1528,4,Denver Public Schools,denver-public-schools,2015-10-27 04:36:29+00:00,1
+1529,4,Colorado Mental Health Institute at Pueblo,colorado-mental-health-institute-at-pueblo,2015-10-28 17:02:02+00:00,1
+1530,14,Warren Police,warren-police,2015-10-28 19:48:36+00:00,0
+1531,4,Durango School District 9-R,durango-school-district-9-r,2015-11-04 05:56:55+00:00,1
+1532,14, Education Achievement Authority,education-achievement-authority,2015-11-09 16:38:36+00:00,1
+1533,7,Armstrong State University ,armstrong-state-university,2015-11-09 16:46:06+00:00,0
+1534,17,Hawkeye Security Solutions,hawkeye-security-solutions,2015-11-09 20:26:59+00:00,1
+1535,30,San Jose State University,san-jose-state-university,2015-11-11 01:36:52+00:00,1
+1536,30,CSU East Bay,csu-east-bay,2015-11-11 01:40:35+00:00,1
+1537,29,Texas State Board of Dental Examiners,texas-state-board-of-dental-examiners,2015-11-11 21:08:52+00:00,2
+1538,34,Aiken County 911 Division,aiken-county-911-division,2015-11-12 15:03:28+00:00,0
+1539,34,Aiken County,aiken-county,2015-11-12 15:06:13+00:00,1
+1540,16,County Attorney Department - Rensselaer County,county-attorney-department-rensselaer-county,2015-11-12 21:04:36+00:00,0
+1541,29,District clerk of Jones county ,district-clerk-of-jones-county,2015-11-14 20:49:13+00:00,0
+1542,23,Chicago Department of Law,chicago-department-of-law,2015-11-17 20:47:16+00:00,1
+1543,30,California Department of Transportation (CalTrans),california-department-of-transportation-caltrans,2015-11-18 00:53:26+00:00,1
+1544,4,Elbert County ,elbert-county,2015-11-19 15:29:50+00:00,1
+1545,16,New York City Department of Correction,new-york-city-department-of-correction,2015-11-22 04:36:29+00:00,2
+1546,20,Seattle Department of Planning and Development,seattle-department-of-planning-and-development,2015-11-25 18:35:20+00:00,1
+1547,20,Seattle Office of Emergency Management,seattle-office-of-emergency-management,2015-11-25 18:35:44+00:00,0
+1548,1,Department of Homeland Security: Office of Inspector General,department-of-homeland-security-office-of-inspecto,2015-11-26 20:30:47+00:00,1
+1549,23,Chicago Office of the Mayor,chicago-office-of-the-mayor,2015-11-29 15:00:51+00:00,1
+1550,47,Shaker Heights Police Department,shaker-heights-police-department,2015-11-29 22:16:05+00:00,5
+1551,20,Office of Emergency Management,office-of-emergency-management-2,2015-11-30 21:41:12+00:00,1
+1552,47,Columbus Police,columbus-police,2015-12-01 02:24:56+00:00,1
+1553,16,New York City Department of Sanitation,new-york-city-department-of-sanitation,2015-12-01 16:08:09+00:00,2
+1554,30,City of Folsom Police Department,city-of-folsom-police-department,2015-12-01 23:08:40+00:00,1
+1555,16,LIRR,lirr,2015-12-02 13:25:48+00:00,0
+1556,16,New York State Gaming Commission,new-york-state-gaming-commission,2015-12-02 15:51:32+00:00,1
+1557,20,Washington Military Department,washington-military-department,2015-12-02 21:52:41+00:00,1
+1558,28,HCPL,hcpl,2015-12-03 23:06:37+00:00,1
+1559,31,Department of Public Safety,department-of-public-safety-3,2015-12-06 20:18:09+00:00,1
+1560,11,Department of Public Safety and Corrections,department-of-public-safety-and-corrections,2015-12-06 20:41:05+00:00,1
+1561,36,Department of Public Safety and Correctional Services,department-of-public-safety-and-correctional-servi,2015-12-06 21:01:39+00:00,1
+1562,16, New York City Departments of Environmental Protection,new-york-city-departments-of-environmental-protect,2015-12-06 23:34:06+00:00,0
+1563,16,New York State Department of Environmental Conservation,new-york-state-department-of-environmental-conserv,2015-12-06 23:38:26+00:00,1
+1564,16,Westchester County Finance,westchester-county-finance,2015-12-08 04:22:02+00:00,1
+1565,16,Monroe County,monroe-county,2015-12-08 14:03:45+00:00,0
+1566,28,Wayne county courthouse,wayne-county-courthouse,2015-12-08 14:35:20+00:00,2
+1567,28,Public Records Officer,public-records-officer,2015-12-08 14:42:55+00:00,1
+1568,20,Washington Governor's Office,washington-governors-office,2015-12-09 00:05:00+00:00,1
+1569,20,Washington State Archives,washington-state-archives,2015-12-09 00:11:52+00:00,0
+1570,22,School District of New Richmond,school-district-of-new-richmond,2015-12-10 02:12:46+00:00,3
+1571,20,Washington State Digital Archives,washington-state-digital-archives,2015-12-10 22:57:39+00:00,1
+1572,37,FOIA Officer,foia-officer,2015-12-12 04:05:55+00:00,0
+1573,37,County Clerk,county-clerk,2015-12-12 04:06:23+00:00,1
+1574,47,Pike County Sheriff's Department,pike-county-sheriffs-department,2015-12-15 18:06:25+00:00,0
+1575,23,Illinois State Library,illinois-state-library,2015-12-16 19:27:37+00:00,1
+1576,30,State Bar of California,state-bar-of-california,2015-12-16 19:37:39+00:00,1
+1577,1,Home UNITED STATES DISTRICT COURT Central District of California,home-united-states-district-court-central-district,2015-12-16 19:59:09+00:00,0
+1578,1,UNITED STATES DISTRICT COURT Central District of California,united-states-district-court-central-district-of-c,2015-12-16 20:00:12+00:00,1
+1579,20,Seattle Office of Housing,seattle-office-of-housing,2015-12-16 23:46:27+00:00,1
+1580,20,Utilities and Transportation Commission,utilities-and-transportation-commission,2015-12-17 23:29:47+00:00,1
+1581,47,Cleveland  Police,cleveland-police,2015-12-18 01:30:29+00:00,1
+1582,52,FEDERAL ENERGY REGULATORY COMMISSION,federal-energy-regulatory-commission,2015-12-18 06:10:29+00:00,1
+1583,36,Baltimore County,baltimore-county,2015-12-21 14:09:40+00:00,0
+1584,47,Shaker Heights Schools,shaker-heights-schools,2015-12-21 16:47:42+00:00,2
+1585,16,NY Governor's Office,ny-governors-office,2015-12-21 18:51:49+00:00,1
+1586,28,Indiana General Assembly,indiana-general-assembly,2015-12-21 19:25:28+00:00,1
+1587,6,House of Representatives,house-of-representatives,2015-12-21 20:18:57+00:00,1
+1588,6,State Senate,state-senate,2015-12-21 20:19:08+00:00,1
+1589,31,State Senate,state-senate-2,2015-12-21 22:34:05+00:00,1
+1590,31,House of Representatives,house-of-representatives-2,2015-12-21 22:34:19+00:00,1
+1591,14,police,police,2015-12-22 20:45:42+00:00,0
+1592,21,West Virginia House of Delegates,west-virginia-house-of-delegates,2015-12-22 21:30:31+00:00,1
+1593,21,West Virginia State Senate,west-virginia-state-senate,2015-12-22 21:34:47+00:00,1
+1594,25,Ocean County Prosecutor's Office,ocean-county-prosecutors-office,2015-12-30 22:42:52+00:00,0
+1595,1,National Institutes of Health,national-institutes-of-health,2015-12-31 19:35:06+00:00,0
+1596,47,Ohio State Auditor's Office,ohio-state-auditors-office,2016-01-02 16:22:01+00:00,1
+1597,14,Pontiac Public Schools,pontiac-public-schools,2016-01-05 15:21:43+00:00,1
+1598,14,Eastern Michigan University,eastern-michigan-university,2016-01-05 15:30:09+00:00,1
+1599,14,Central Michigan University,central-michigan-university,2016-01-05 15:35:54+00:00,1
+1600,14,Ferris State University ,ferris-state-university,2016-01-05 15:41:15+00:00,1
+1601,14,East Lansing Police Department ,east-lansing-police-department,2016-01-05 20:21:32+00:00,0
+1602,23,Chicago Office of Emergency Management & Communications,chicago-office-of-emergency-management-communicati,2016-01-06 21:00:46+00:00,1
+1603,20,Everett City Clerk,everett-city-clerk,2016-01-08 00:35:22+00:00,1
+1604,32,Worcester Police,worcester-police,2016-01-08 15:22:01+00:00,1
+1605,32,City of Springfield,city-of-springfield,2016-01-08 15:52:34+00:00,1
+1606,32,Lynn Police,lynn-police,2016-01-08 17:03:11+00:00,1
+1607,32,Haverhill Police,haverhill-police,2016-01-08 18:06:43+00:00,1
+1608,32,Massachusetts State Police,massachusetts-state-police,2016-01-11 14:58:16+00:00,1
+1609,32,Attleboro Police,attleboro-police,2016-01-11 15:20:36+00:00,1
+1610,32,Salem Police,salem-police,2016-01-11 15:30:16+00:00,1
+1611,47,Carroll-Columbiana-Harrison Joint SWMD ,carroll-columbiana-harrison-joint-swmd,2016-01-12 22:29:15+00:00,0
+1612,23,Chicago Department of Transportation,chicago-department-of-transportation,2016-01-13 20:56:43+00:00,1
+1613,23,Chicago Mayor's Office,chicago-mayors-office,2016-01-13 21:17:56+00:00,1
+1614,20,Office of the Insurance Commissioner,office-of-the-insurance-commissioner,2016-01-13 22:04:21+00:00,1
+1615,7,Atlanta Housing Authority,atlanta-housing-authority,2016-01-14 01:28:12+00:00,0
+1616,17,Philadelphia Housing Authority,philadelphia-housing-authority,2016-01-14 01:43:25+00:00,1
+1617,47,Cuyahoga Metropolitan Housing Authority,cuyahoga-metropolitan-housing-authority,2016-01-14 01:47:36+00:00,1
+1618,14,Detroit Housing Commission,detroit-housing-commission,2016-01-14 01:51:43+00:00,1
+1619,32,Boston Housing Authority,boston-housing-authority,2016-01-14 01:58:38+00:00,1
+1620,52,District of Columbia Housing Authority,district-of-columbia-housing-authority,2016-01-14 02:02:03+00:00,1
+1621,5,St. Louis Housing Authority,st-louis-housing-authority,2016-01-14 02:04:58+00:00,1
+1622,30,Housing Authority of the City of Los Angeles,housing-authority-of-the-city-of-los-angeles,2016-01-14 02:10:29+00:00,1
+1623,16,Commission of Correction,commission-of-correction,2016-01-14 15:57:45+00:00,2
+1624,4,Aurora Public Schools,aurora-public-schools,2016-01-18 03:56:20+00:00,4
+1625,37,UF Health,uf-health,2016-01-22 20:21:39+00:00,0
+1626,29,Texas Commission on Jail Standards,texas-commission-on-jail-standards,2016-01-25 15:18:45+00:00,0
+1627,10,Kentucky Deaprtment of Juvenile Justice,kentucky-deaprtment-of-juvenile-justice,2016-01-29 19:37:50+00:00,1
+1628,29,Texas Forensci Science Commission,texas-forensci-science-commission,2016-02-01 17:21:47+00:00,1
+1629,32,MassDOT,massdot,2016-02-01 19:14:52+00:00,1
+1630,29,Corrections Corporation of America ,corrections-corporation-of-america,2016-02-01 19:36:25+00:00,1
+1631,16,UB Foundation,ub-foundation,2016-02-03 16:26:57+00:00,1
+1632,23,Illinois Criminal Justice Information Authority,illinois-criminal-justice-information-authority,2016-02-05 18:48:12+00:00,1
+1633,30,California Department of Justice,california-department-of-justice,2016-02-05 19:09:39+00:00,1
+1634,37,Florida Department of Law Enforcement,florida-department-of-law-enforcement,2016-02-05 19:25:39+00:00,1
+1635,4,Boulder Valley School District,boulder-valley-school-district,2016-02-05 21:38:36+00:00,0
+1636,29,City of Aransas Pass,city-of-aransas-pass,2016-02-09 13:21:50+00:00,1
+1637,16,New York Division of Criminal Justice Services,new-york-division-of-criminal-justice-services,2016-02-09 20:22:53+00:00,1
+1638,11,Louisiana House,louisiana-house,2016-02-09 20:55:33+00:00,1
+1639,11,Louisiana Senate,louisiana-senate,2016-02-09 21:12:36+00:00,1
+1640,11,Louisiana Division of Administration,louisiana-division-of-administration,2016-02-09 21:19:32+00:00,1
+1641,23,Illinois Guardianship and Advocacy Commission,illinois-guardianship-and-advocacy-commission,2016-02-11 00:48:23+00:00,1
+1642,23,Department of Finance,department-of-finance-2,2016-02-18 21:39:01+00:00,1
+1643,29,City of Flatonia,city-of-flatonia,2016-02-19 17:29:14+00:00,1
+1644,23,Chicago Department of Water Management,chicago-department-of-water-management,2016-02-22 17:55:49+00:00,1
+1645,29,Fayette County Auditor,fayette-county-auditor,2016-02-22 21:44:33+00:00,1
+1646,24,Municipal Review Cmte.,municipal-review-cmte,2016-02-22 21:54:07+00:00,1
+1647,34,Richland County Sheriff's Department,richland-county-sheriffs-department,2016-02-23 20:08:44+00:00,0
+1648,28,Clark County Sheriff's Office,clark-county-sheriffs-office,2016-02-23 20:48:21+00:00,1
+1649,28,city of bloomington,city-of-bloomington,2016-02-27 01:27:58+00:00,0
+1650,28,local government,local-government,2016-02-27 01:28:19+00:00,0
+1651,28,bloomington government,bloomington-government,2016-02-27 01:28:41+00:00,0
+1652,28,government,government,2016-02-27 01:28:56+00:00,0
+1653,40,Department of Mental Health,department-of-mental-health-2,2016-02-27 19:12:51+00:00,0
+1654,4,Larimer County Sherrifs Department,larimer-county-sherrifs-department,2016-02-28 23:48:02+00:00,0
+1655,11,"Department of Public Works, City of New Orleans",department-of-public-works-city-of-new-orleans,2016-02-29 18:20:11+00:00,1
+1656,23,DCFS,dcfs,2016-03-04 04:27:22+00:00,1
+1657,23,Department of Human Services,department-of-human-services,2016-03-04 04:46:38+00:00,1
+1658,1,Centers for Disease Control and Prevention,centers-for-disease-control-and-prevention,2016-03-04 17:12:35+00:00,1
+1659,23,Chicago Park District,chicago-park-district,2016-03-05 16:47:37+00:00,1
+1660,4,Town of Minturn,town-of-minturn,2016-03-08 02:59:29+00:00,0
+1661,4,Douglas County School District ,douglas-county-school-district,2016-03-08 06:10:37+00:00,1
+1662,13,Lincoln Public Schools,lincoln-public-schools,2016-03-08 14:49:45+00:00,1
+1663,4,colorado springs police department,colorado-springs-police-department,2016-03-10 18:07:46+00:00,1
+1664,30,Sacramento Sheriff's Department,sacramento-sheriffs-department,2016-03-11 04:57:30+00:00,3
+1665,40,Montgomery Police Department,montgomery-police-department,2016-03-11 18:57:28+00:00,3
+1666,16,Environmental Protection Agency Region 2,environmental-protection-agency-region-2,2016-03-15 16:38:06+00:00,0
+1667,1,"Bureau of Alcohol, Tobacco, Firearms, and Explosives",bureau-of-alcohol-tobacco-firearms-and-explosive,2016-03-15 19:44:58+00:00,1
+1668,4,Department of Revenue,department-of-revenue,2016-03-16 00:28:42+00:00,0
+1669,23,Chicago Department of Cultural Affairs and Special Events,chicago-department-of-cultural-affairs-and-special,2016-03-16 01:28:27+00:00,1
+1670,17,Philadelphia Police Department,philadelphia-police-department,2016-03-16 17:50:24+00:00,1
+1671,29,Midland ISD,midland-isd,2016-03-16 19:54:22+00:00,0
+1672,23,Illinois Department of Corrections,illinois-department-of-corrections,2016-03-16 21:05:59+00:00,1
+1673,16,NYS Division of Budget,nys-division-of-budget,2016-03-17 20:38:09+00:00,1
+1674,17,Pittsburgh City,pittsburgh-city,2016-03-18 18:13:55+00:00,1
+1675,30,Del Norte County Information Technology,del-norte-county-information-technology,2016-03-21 21:35:52+00:00,1
+1676,23,Board of Election Commissioners for the City of Chicago,board-of-election-commissioners-for-the-city-of-ch,2016-03-21 22:51:32+00:00,1
+1677,30,"California Department of Corrections and Rehabilitation, Board of Parole Hearings",california-department-of-corrections-and-rehabilit,2016-03-25 00:12:04+00:00,1
+1678,1,U.S. General Services Administration,us-general-services-administration,2016-03-25 20:43:31+00:00,1
+1679,40,defensivedrivingdata,defensivedrivingdata,2016-03-28 03:33:40+00:00,0
+1680,47,Ohio State University,ohio-state-university,2016-03-28 18:48:09+00:00,1
+1681,49,Attorney General,attorney-general-2,2016-03-28 19:47:01+00:00,0
+1682,29,Office of Inspector General -HHSC,office-of-inspector-general-hhsc,2016-03-28 22:24:08+00:00,1
+1683,29,Fayette County Elections Administrator,fayette-county-elections-administrator,2016-03-29 15:56:35+00:00,1
+1684,34,Department of Administration,department-of-administration,2016-03-29 20:44:53+00:00,1
+1685,42,Department of Administration,department-of-administration-2,2016-03-30 13:58:09+00:00,1
+1686,10,Department for Environmental Protection,department-for-environmental-protection,2016-03-30 17:16:35+00:00,0
+1687,10,Energy and Environment Cabinet,energy-and-environment-cabinet,2016-03-30 17:19:15+00:00,0
+1688,47,Kent State University,kent-state-university,2016-03-31 02:12:25+00:00,0
+1689,13,Lincoln Police Department,lincoln-police-department,2016-03-31 13:08:20+00:00,2
+1690,13,LPD,lpd,2016-03-31 13:12:35+00:00,2
+1691,3,Arkansas Department of Information Systems,arkansas-department-of-information-systems,2016-03-31 19:04:09+00:00,1
+1692,12,Connecticut Department of Administrative Services,connecticut-department-of-administrative-services,2016-03-31 21:54:07+00:00,1
+1693,41,Alaska Department of Administration,alaska-department-of-administration,2016-04-01 17:51:45+00:00,1
+1694,43,Delaware Department of Technology and Information,delaware-department-of-technology-and-information,2016-04-01 18:04:56+00:00,1
+1695,37,Florida Department of Management Services,florida-department-of-management-services,2016-04-01 20:08:10+00:00,1
+1696,25,New Jersey State Police,new-jersey-state-police,2016-04-01 20:22:02+00:00,0
+1697,14,SMART,smart,2016-04-02 15:13:51+00:00,1
+1698,29,Department of Family and Protective Servcies,department-of-family-and-protective-servcies,2016-04-04 17:10:20+00:00,1
+1699,28,Vanderburgh Sheriff's,vanderburgh-sheriffs,2016-04-05 13:03:37+00:00,1
+1700,31,Hawaii Office of Enterprise Technology Services,hawaii-office-of-enterprise-technology-services,2016-04-08 20:45:37+00:00,1
+1701,23,Illinois Office of the Governor,illinois-office-of-the-governor,2016-04-08 21:13:42+00:00,1
+1702,29,Angelina County Attorney ,angelina-county-attorney,2016-04-09 19:28:22+00:00,1

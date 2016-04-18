@@ -1,0 +1,1776 @@
+id,agency_id,first_name,last_name,created,address,phone,emails
+1,1,shane,shifflett,2013-10-02 02:37:21+00:00,,,shifflett.shane@gmail.com
+2,1,Another,Shane,2013-10-02 02:37:22+00:00,,,sshifflett@cironline.org
+3,1,coulter,jones,2013-10-02 02:37:24+00:00,,,coulterjones@gmail.com
+4,1,mike,corey,2013-10-02 02:37:25+00:00,,,mikejcorey@gmail.com
+5,1,Djordje,Padejski,2013-10-02 02:37:28+00:00,,,djordje.padejski@gmail.com
+6,1,David,Suriano,2013-10-02 02:37:30+00:00,,,dave.suriano@gmail.com
+7,1,Steven,Melendez,2013-10-02 02:37:31+00:00,,,smelendez@gmail.com
+564,1,no address,,2014-08-12 02:02:36+00:00,no address contact,,
+8,2,Sabrina,Burroughs,2013-10-09 16:23:16+00:00,"90 K Street NE, 9th Floor Washington, D.C. 20229-1181",202-325-0150,CBPFOIA@cbp.dhs.gov
+19,2,Shari,Suzuki,2014-01-13 22:19:13+00:00,"800 N. Capitol St. Suite 795, Washington, DC 20002",202-741-5770,SHARI.SUZUKI@CBP.DHS.GOV
+9,3,,,2013-10-10 02:34:56+00:00,,,FOIA@uspsoig.gov
+10,4,John,Livornese,2013-10-10 02:36:20+00:00,,(202) 401-8203,foiapa@sec.gov
+11,5,,,2013-10-16 04:13:29+00:00,"Regulatory Information Management Services 400 Maryland Avenue, SW, LBJ 2W220 Washington, DC 20202-4536",,
+12,6,Joseph,Baranello,2013-10-21 04:31:55+00:00,"52 Chambers St. New York, NY 10007",212-374-6888,FOIL@schools.nyc.gov
+111,6,Will,Mantell,2014-04-01 17:59:45+00:00,,,WMantell@schools.nyc.gov
+869,6,Devora,Kaye,2014-10-28 15:37:59+00:00,,212-374-5141,
+13,7,,,2013-10-21 04:35:18+00:00,,,fdnyopi@fdny.nyc.gov
+14,9,Gary,Stern,2013-11-19 05:36:06+00:00,,301-837-1750,garym.stern@nara.gov
+16,14,,,2013-12-02 20:47:22+00:00,,,FEMA-FOIA@dhs.gov.
+17,15,,,2013-12-02 21:36:10+00:00,"P.O. Box 420 Mail Code 401-06Q 401 East State Street Trenton, NJ 08625-0420",609-341-3121,records.custodian@dep.state.nj.us
+21,17,ads,asd,2014-01-17 14:20:19+00:00,,,ABC@GSDF.COM
+18,19,Bertrand,Tzeng,2013-12-29 21:08:40+00:00,"2385 Chamblee Tucker Road, Stop 211Chamblee, Georgia 30341 ",(202) 821-2207,
+20,21,John,Martins,2014-01-16 22:27:14+00:00,,(207) 287-5012,John.A.Martins@maine.gov
+22,22,Nitza,Correa,2014-01-17 20:05:39+00:00,"233 North Michigan Ave, Suite 600, Chicago Illinois 60601",,Nitza.correa@cms.hhs.gov
+23,23,Kelli,James,2014-01-17 20:46:00+00:00,,,kelli.james@msdh.ms.gov
+301,23,Elizabeth ,Grey,2014-06-10 14:00:58+00:00,,601-576-7677,elizabeth.grey@healthyms.com
+24,24,To whom it may concern,,2014-01-17 21:25:20+00:00,,,foil@health.state.ny.us
+25,25,To whom it may concern,,2014-01-17 21:36:00+00:00,,,FOIA.VBAMUS@va.gov
+26,27,Anh,Trinh,2014-01-19 00:20:17+00:00,,,haffoia.workflow@pentagon.af.mil
+27,28,Lori,Melchiori,2014-01-22 15:55:59+00:00,,,pdd@dshs.wa.gov
+28,29,Ruth,Rush,2014-01-22 17:53:33+00:00,,,rushrf@dhec.sc.gov
+29,29,Margaret,Rummell,2014-01-22 17:56:17+00:00,,,rummelm@dhec.sc.gov
+41,29,Karla,Mew,2014-01-23 20:48:21+00:00,,,mewka@dhec.sc.gov
+1097,29,Cassandra,Harris,2015-02-07 18:41:16+00:00,,,harriscs@dhec.sc.gov
+30,30,NA,NA,2014-01-23 15:17:21+00:00,,,info@health.mo.gov
+31,31,NA,NA,2014-01-23 15:30:22+00:00,,,adsd@adsd.nv.gov
+32,32,NA,,2014-01-23 15:37:10+00:00,,,BEASStateRegistry@dhhs.state.nh.us
+33,33,Linda,Harvey,2014-01-23 15:49:37+00:00,,,linda.harvey@maryland.gov
+34,34,Chris,Qualm,2014-01-23 16:03:53+00:00,,,Chris.Qualm@state.sd.us
+1098,34,Dustin,Ortbahn,2015-02-07 19:16:43+00:00,,605-773-3914,dustin.ortbahn@state.sd.us
+35,35,NA,,2014-01-23 16:21:44+00:00,,,HCComplaints@odh.ohio.gov
+36,36,NA,,2014-01-23 16:28:39+00:00,,,LGrimaldi@dea.ri.gov
+37,37,NA,,2014-01-23 16:34:07+00:00,,,dcoa@dc.gov
+38,38,Monica,Smith,2014-01-23 16:37:19+00:00,,,Monica.Smith@wisconsin.gov
+39,39,NA,,2014-01-23 16:42:02+00:00,,,wyaging@wyo.gov
+40,40,Viki,Manley,2014-01-23 16:45:10+00:00,,,viki.manley@state.co.us
+42,42,,,2014-01-24 15:17:56+00:00,"One Centre Street, Room 602,  Municipal Building New York, NY 10007",,foil@comptroller.nyc.gov
+55,42,Phillip,Hom,2014-02-04 16:30:43+00:00,,212-669-4531,phom@comptroller.nyc.gov
+43,43,Lawrence,Hincker,2014-01-24 17:36:20+00:00,"314 Burruss Hall, Blacksburg, VA, 24061",540-231-5396,unirel@vt.edu
+44,44,NA,,2014-01-24 23:10:26+00:00,,,ohcq.web@maryland.gov
+45,45,NA,,2014-01-28 14:35:24+00:00,,,openrecordsrequest@dch.ga.gov
+46,46,Annette,Culp,2014-01-28 15:06:00+00:00,,,Annette.Culp@cms.hhs.gov
+47,47,William,Conroy,2014-01-29 00:19:29+00:00,,, William.conroy@doh.state.nj.us 
+48,48,Christine,Cronkright,2014-01-29 02:59:10+00:00,,,ccronkrigh@pa.gov
+54,48,Aimee,Tysarczyk,2014-01-31 21:37:14+00:00,,,atysarczyk@pa.gov
+49,49,Mick,Hans,2014-01-30 06:01:40+00:00,,,hans.mick@epa.gov
+50,51,Kimberlee,Jessop,2014-01-30 18:57:28+00:00,,,kljessop@utah.gov
+581,52,Gwendolyn,Crump,2014-08-15 15:02:16+00:00,,,
+596,52,Cathy,Lanier,2014-08-20 01:27:30+00:00,"300 Indiana Avenue, NW, Room 5059, Washington , DC 20001 ", (202) 727-9099,cathy.lanier@dc.gov
+1821,52,Donald ,Kaufman,2016-04-08 18:14:21+00:00,"300 Indiana Avenue, NW, Room 4153, Washington, D.C. 20001",202-727-3721,Donald.Kaufman@dc.gov
+51,53,Martina,Jackson,2014-01-31 16:45:56+00:00,,,Martina.Jackson@state.ma.us
+52,53,Sue,Thomson,2014-01-31 16:46:37+00:00,,,Sue.Thomson@massmail.state.ma.us
+53,54,FOIA Officer,,2014-01-31 17:18:08+00:00,,,BACPfoia@cityofchicago.org
+56,55,Claire,Smith,2014-02-04 20:28:00+00:00,,,ClaireF.Smith@dhs.wisconsin.gov
+1185,57,,,2015-04-07 20:34:53+00:00,"Division of Freedom of Information  Office of the Executive Secretariat, OC  5630 Fishers Lane, Room 1035  Rockville, MD 20857",301-796-3900,
+57,58,Gerald,Koszer,2014-02-10 16:28:29+00:00,,718-403-3625,koszerg@nyc.finance.gov
+58,59,Cassandra,Daniels,2014-02-13 06:10:55+00:00,"125 South Clark Street 7th Floor Chicago, IL 60603",(773) 553-1700,FOIA@cps.k12.il.us
+59,60,Alex,Fisher,2014-02-14 16:40:26+00:00,,212-669-3455,afisher@payroll.nyc.gov
+1472,61,Brett,Lorentson,2015-08-13 03:59:10+00:00,"PO Box 47890 Olympia, WA 98504-7890",360-236-4220,brett.lorentson@doh.wa.gov
+1473,61,Melanee,Auldredge,2015-08-13 04:00:30+00:00,"P.O. Box 47890 Olympia, WA 98504-7890",360-236-4220,prd@doh.wa.gov
+1763,61,Melanee,Auldredge,2016-02-09 21:58:05+00:00,,,melanee.auldredge@doh.wa.gov
+557,62, ,,2014-08-07 21:19:41+00:00,"1900 E Street, N.W. Washington, DC 20415-7900", 202-606-1934,recordsmanagement@opm.gov
+1404,62,,,2015-07-18 22:23:26+00:00,,,foia@opm.gov
+60,64,Helen ,Shields-Wright,2014-02-21 17:08:12+00:00,,312-751-6586,foiarequest@mwrd.org
+61,69,Veronica,Melton-Lamar,2014-02-26 02:35:03+00:00,,305-545-2420,tyr@miamidade.gov
+62,70,Leticia,McGowan,2014-02-26 17:25:11+00:00,,,lcmgowan@dallasisd.org
+999,70,Leticia ,McGowan,2014-12-16 19:51:10+00:00,,,lmcgowan@dallasisd.org
+601,73,Monique,Hartgrove,2014-08-22 21:56:31+00:00,,202-208-4174,foia@bia.gov
+1610,88,Karen ,Neuman,2015-10-13 05:06:04+00:00,"U.S. Department of Homeland Security, 245 Murray Lane SW STOP-0655 Washington, D.C. 20528-0655",,
+70,89,Geraldine,Williams,2014-02-27 19:32:20+00:00,"Room 201 Finance Building Harrisburg, PA 17102-0018",(717) 787-4586,OpenRecordsOfficer@patreasury.gov;
+71,90,Sandy,Ford Page,2014-02-27 19:51:40+00:00,"US Department of Homeland Security, Washington, DC 20528",703-235-2211,NPPD.FOIA@dhs.gov
+72,91,Daniel,Knight,2014-02-27 20:02:30+00:00,"Attn: DTSC's Legal Office, HQ PRA Coordiator, 1001 I Street, MS 23A, Sacramento, CA 95814",916-323-7811,daniel.knight@dtsc.ca.gov
+73,92,,,2014-02-27 20:14:26+00:00,"15th Floor, Strawberry Square Harrisburg, PA 17120",717-783-1111,jpeters@attorneygeneral.gov
+74,97,,,2014-03-03 16:42:53+00:00,,,open.records@cpa.state.tx.us
+718,97,,,2014-09-09 15:21:53+00:00,,,
+1068,97,chris,bryan,2015-02-02 18:23:27+00:00,,,Chris.Bryan@cpa.state.tx.us
+75,98,,,2014-03-03 16:55:11+00:00,,,foiarequest@dol.gov
+76,102,Michelle ,Baumstark,2014-03-04 15:41:51+00:00,,(573) 214-3960,mbaumsta@columbia.k12.mo.us
+77,104,Lillian,Stevens,2014-03-04 16:08:27+00:00,,(757) 221-1189,lhkell@wm.edu
+78,105,,,2014-03-04 19:18:27+00:00,"Office of the Governor, 225 Main Capitol, Harrisburg, PA 17120 ",717.425.5495,RA-GOVRTKL@pa.gov
+79,106,Karen,Neuman,2014-03-05 22:29:57+00:00,The Privacy Office U.S. Department of Homeland Security 245 Murray Lane SW,,foia@hq.dhs.gov
+91,106,Karen,Neuman,2014-03-17 16:24:59+00:00,,,foia@hq.gov
+80,107,Leticia,Lane,2014-03-05 22:52:39+00:00,,214-665-7202,lane.leticia@epa.gov
+81,108,Andrew,Filkosky,2014-03-06 19:08:15+00:00, ,717-728-7763,RA-docrighttoknow@pa.gov
+1079,109,,,2015-02-03 22:25:07+00:00,,,PENNDOT-RightToKnow@pa.gov
+82,110,,,2014-03-06 19:28:20+00:00,,,PENNDOT-RightToKnow@pa.gov
+83,111,Jennifer,Weatherly,2014-03-06 20:05:02+00:00,"3010 Park Center Drive Alexandria, VA 22302",703-605-0773,FOIA@fns.usda.gov
+84,113,Larry,McComsey,2014-03-06 21:04:53+00:00,,717-787-5380,RA-RTK-Education@pa.gov
+85,114,Rebecca,Cormier,2014-03-07 16:26:55+00:00,,(940) 565-2717,rebecca.cormier@untsystem.edu
+781,114,Kerry,Romine,2014-10-01 20:21:58+00:00,,,Kerry.Romine@untsystem.edu
+782,114,Kevin,Roden,2014-10-01 20:22:35+00:00,215 E. McKinney Street,(940) 206-5239,kevin.roden@cityofdenton.com
+784,114,Helen,Bailey,2014-10-01 20:34:35+00:00,,,helen.bailey@unt.edu
+785,114,Ruby ,Raines,2014-10-01 20:36:05+00:00,,,ruby.raines@unt.edu
+786,114,,,2014-10-01 21:05:17+00:00,,,Lindsey.Baker@cityofdenton.com
+86,115,OPRA Custodian ,,2014-03-11 16:07:57+00:00,"100 River View Plaza P.O. Box 500 Trenton, NJ 08625-0500",609-943-4599,opra.custodian@doe.state.nj.us
+87,116,Joseph ,Shunk,2014-03-13 03:27:40+00:00,"1400 Independence Ave., SW, Stop 0706/ Washington, D.C. 20250-0706",202-6905394,ssd.FOIA@wdc.usda.gov
+104,116,Ken ,Stribling,2014-03-27 20:50:53+00:00,,,ken.stribling@ms.usda.gov
+88,117,,,2014-03-14 19:23:43+00:00,,,FOIA@eeoc.gov
+90,118,Lynne,Rhys,2014-03-17 14:32:05+00:00,"600 West Peachtree, Suite 2300, Atlanta, Georgia 30308",4046311477,lrhys@dot.ga.gov
+89,120,,,2014-03-17 14:24:22+00:00,,,cityclerk@a2gov.org
+958,125,,,2014-12-05 01:44:41+00:00,,,EFOIA@uscg.mil
+92,126,Diane,Vaughan,2014-03-17 18:07:02+00:00,"3650 Schriever Ave., Mather, CA 95655",(916) 845-8542,diane.vaughan@calema.ca.gov
+577,126,Russ,Gibson,2014-08-14 16:14:13+00:00,"3650 Schriever Ave, Mather, CA 95655",916-845-8699,Russ.Gibson@CalOES.ca.gov
+608,126,Mark,Ghilarducci,2014-08-27 23:12:50+00:00,,,thomas.e.campbell@caloes.ca.gov
+93,127,,,2014-03-18 15:47:10+00:00,"222 St. Louis St. Baton Rouge, LA 70802",,PublicRecordsRequest@brgov.com
+94,128,Shawn,Sims,2014-03-18 16:21:38+00:00,"25 Sigourney St., Ste 2, Hartford, CT 06106-5032",860-297-5649,shawn.sims@po.state.ct.us
+95,129,,,2014-03-18 21:07:38+00:00,"350 5 th St. S. Room 31, Minneapolis, MN 55415",(612) 673-2961,datapractices@minneapolismn.gov
+845,129,John,Elder,2014-10-27 20:36:43+00:00,,(612) 673-3829,John.elder@minneapolismn.gov
+846,129,Scott,Seroka,2014-10-27 20:37:24+00:00,,(612) 578-4322,scott.seroka@minneapolismn.gov
+100,130,,,2014-03-25 18:59:09+00:00,"NYC TLC, 33 Beaver Street, Legal Department, New York, New York, 10004. Attn.: Records Access Officer",,FOIL@tlc.nyc.gov
+96,131,Open Records/RTK Officer,,2014-03-19 21:15:27+00:00,,,righttoknowlaw@phila.gov
+442,131,,,2014-07-12 21:54:52+00:00,reno nevada,,
+97,133,Jeffrey,Greenman,2014-03-20 19:35:54+00:00,"770 Wilshire Boulevard Los Angeles, CA 90017",(213) 891-2188,GreenmJA@email.laccd.edu
+124,133,,,2014-04-16 02:59:46+00:00,,,dfsf@fsdfa
+98,135,Tony,Proudfoot,2014-03-21 02:48:56+00:00,,,tproudfoot@bsu.edu
+99,136,Isabel,Benemelis,2014-03-21 20:46:48+00:00,"1400 Independence Ave., SW Room 4087-S Washington, D.C. 20250-0518",(202) 720-7809,Isabel.Benemelis@wdc.usda.gov
+101,138,,,2014-03-25 23:09:30+00:00,,,USDAFOIA@ocio.usda.gov
+1359,140,,,2015-06-30 15:27:34+00:00,"250 Broadway, 9th Floor, New York, NY 10007",(212) 306-8680,FOIL@nycha.nyc.gov
+102,141,,,2014-03-26 14:24:11+00:00,"NYCHA, 250 Broadway, 9th Floor, New York, NY 10007",(212) 306-8680,FOIL@nycha.nyc.gov
+103,142,Open records division,,2014-03-27 15:13:30+00:00,"Information Resources Division, MC 197 Attn: Open Records & Reporting Services TCEQ PO Box 13087 Austin TX 78711-3087",512-239-5000,orteam@tceq.texas.gov
+429,144,,,2014-07-10 14:42:15+00:00,"Central Intelligence Agency,  Washington, D.C. 20505",,
+106,145,Christian ,Basi,2014-03-30 15:21:41+00:00,,573-882-4430,basic@missouri.edu
+431,145,Robert,Schwartz,2014-07-10 18:28:44+00:00,,(573) 882-2011,custodianofrecords@umsystem.edu; rschwartz@umsystem.edu
+105,146,John,Fougere,2014-03-30 15:21:18+00:00,,573-882-0601,fougerej@umsystem.edu
+432,146,Robert,Schwartz,2014-07-10 18:42:09+00:00,,,custodianofrecords@umsystem.edu
+108,147,JoAnn,Hall,2014-03-31 14:07:11+00:00,"208 E. Cypress Street Arcadia, Fl. 34266",863-993-4700,jhall@desotosheriff.org
+109,148,Margaret,Gérardin,2014-03-31 15:09:17+00:00,,,gerardin.margaret@epa.gov
+110,149,,,2014-03-31 22:41:18+00:00,,(520) 791-4852,tucsonpdpio@gmail.com
+593,149,Roberto,Villaseñor,2014-08-20 01:08:15+00:00,"270 S Stone Ave, Tucson, AZ 85701",(520) 791-5351,roberto.villasenor@tucsonaz.gov
+112,150,Chris,Christie,2014-04-01 20:57:20+00:00,"PO Box 001, Trenton, NJ 08625",609-292-6000,chris.christie@gov.nj.state.us
+991,154,Office of General Council,,2014-12-13 23:06:11+00:00,"Mailing address: 125 E. 11th St., Austin, TX 78701",(512) 463-8630,Ogc_orr_team@txdot.gov
+1143,154,Veronica ,Beyer,2015-03-04 21:21:37+00:00,,at 512-463-8954,Veronica.Beyer@txdot.gov
+113,155,Public records officer,,2014-04-03 16:59:53+00:00,"P.O. Box 301463, Montgomery, AL 36130-1463.",,records@adem.state.al.us
+114,156,,,2014-04-03 17:51:34+00:00,,,DOJ.OIP.FOIA@usdoj.gov
+441,156,,,2014-07-12 21:53:43+00:00,,,
+115,157,Ty,Keltner,2014-04-03 20:09:36+00:00,"410 Willoughby Ave., Ste. 303, Juneau, AK 99811-1800",(907) 465-5009,ty.keltner@alaska.gov
+116,160,Nana ,Bailey-Thomas,2014-04-06 16:39:38+00:00,"55 M Street, SE, Suite 700 Washington , DC 20003",(202) 673-6593,nana.bailey@dc.gov
+117,161,Eric,Flohr,2014-04-08 16:37:55+00:00,"1110 West Washington Street Phoenix, Arizona 85007",(602) 771-4380,recordscenter@azdeq.gov
+118,163,Records Access,Officer,2014-04-09 13:53:41+00:00,"625 Broadway, Albany, NY 12233-1500",518-402-9522,foil@gw.dec.state.ny.us
+119,165,Records Access,Officer,2014-04-09 14:26:12+00:00,"89 Washington Ave, Room 121 EB,  Albany, NY 12234",518-408-1818,FOIL@mail.nysed.gov
+494,169,FOIA Officer,,2014-07-24 19:53:40+00:00,,(770)234-4374,foia@treasury.gov
+575,169,NO CONTACT,Use https://www.treasury.gov/foia/pages/gofoia.aspx to submit,2014-08-13 21:40:31+00:00,,,
+120,170,,,2014-04-10 16:38:58+00:00,,,CFDFOIA@cityofchicago.org
+122,172,Kelly,Donnelly,2014-04-11 19:55:14+00:00,165 Capitol Ave. Hartford CT 06106-1630,860-713-6525,kelly.donnelly@ct.gov
+123,173,Bruce,Gordon,2014-04-14 20:57:55+00:00,"445 Minnesota Street, Suite 100 St. Paul, MN 55101",(651) 201-7171,bruce.gordon@state.mn.us
+125,174,Sherry,Hwang,2014-04-16 17:23:35+00:00,"Executive Chamber,  State Capitol, Albany, NY 12224",518-408-2303,records.access@exec.ny.gov
+126,175,Alison,May,2014-04-16 19:06:13+00:00,"401 Federal Street, Suite #2 Dover, DE 19901-3639",302-735-4000  x4006,alison.may@doe.k12.de.us
+386,175,,,2014-06-30 15:45:16+00:00,,,
+127,176,,,2014-04-16 21:10:02+00:00,"3900 Commonwealth Blvd., MS 49  Tallahassee, FL 32399",(850) 245-2118,public.services@dep.state.fl.us 
+128,177,Judson,Turner,2014-04-17 14:46:38+00:00,"Georgia Department of Natural Resources Environmental Protection Division 2 Martin Luther King Jr. Drive Suite 1456, East Tower Atlanta, GA 30334",,
+129,179,Lisette,Reisman,2014-04-21 17:15:06+00:00,"City Hall New York, NY 10007",,LReisman@cityhall.nyc.gov
+134,179,Ian,Bassin,2014-04-28 21:13:05+00:00,,,ibassin@cityhall.nyc.gov
+130,180,Janice,Okubo,2014-04-21 20:00:26+00:00,"1250 Punchbowl Street Room 326  Honolulu, HI 96813",(808) 586-4442,janice.okubo@doh.hawaii.gov
+1072,180,Ronald,Blajadia,2015-02-03 18:04:17+00:00,,,ronald.balajadia@doh.hawaii.gov
+1167,181,Mary,Shevlin,2015-04-02 15:41:53+00:00,Albany NY 12232,,MO-RecordsAccess@dot.ny.gov
+131,183,,,2014-04-22 19:00:52+00:00,"NYSDOT, 50 Wolf Road, 6th Floor, Albany, NY 12232",,MO-RecordsAccess@dot.state.ny.us
+133,185,David,Austin,2014-04-24 22:25:40+00:00,,503-803-8616,david.austin@multco.us
+450,186,Joyce, Zuczek ,2014-07-15 02:05:11+00:00,,973-491-7453,jzuczek@njtransit.com
+451,186,Meghan ,Umukoro ,2014-07-15 02:06:19+00:00,,973-491-7115,Mumukoro@njtransit.com
+1710,188,,,2016-01-06 23:59:56+00:00,,,MIStateTreasurer@michigan.gov
+135,189,Terry ,Stanton,2014-04-29 17:55:15+00:00,"430 W. Allegan St.  Lansing, MI 48922",517-335-2167,stantont@michigan.gov
+136,190,Stephanie,Taylor,2014-05-01 16:36:24+00:00,,,taylor@semcog.org
+140,194,Records Access,Officer,2014-05-02 19:51:40+00:00,"PO Box 8473, Harrisburg, PA 17105-8473",717-787-2043,EP-DEP-RTK@pa.gov
+142,196,Peggy,Caltabiano,2014-05-07 17:16:43+00:00,"151 Front Street, Massapequa Park, NY 11762",(516) 798-0244,villadmin@masspk.com
+143,197,Jim,Brewster,2014-05-07 19:16:22+00:00,"PO Box 27116 Santa Fe, NM 87502-0116",505.827.8533 ,nmcd-ipra@state.nm.us
+144,198,Freedom of Information Act,Coordinator,2014-05-07 19:21:26+00:00,"1200 New Jersey Avenue, Stop 10 Washington, D.C. 20590 ",202-493-6039 ,frafoia@dot.gov
+145,199,,,2014-05-09 06:16:00+00:00,,,FOIA.resource@nrc.gov
+156,200,RECORDS ACCESS OFFICER,,2014-05-20 21:30:41+00:00,"NYC POLICE DEPARTMENT  F.O.I.L. UNIT – LEGAL BUREAU  ONE POLICE PLAZA, ROOM 110-C  NEW YORK, NEW YORK 10038",,
+146,201,,,2014-05-16 16:18:08+00:00,"Empire State Development  Records Access Officer 633 3rd Ave 37th Floor New York, NY 10017",,FOIL@esd.ny.gov
+558,201,Jennifer,Chung,2014-08-08 22:26:42+00:00,,,jchung@esd.ny.gov
+151,203,,,2014-05-19 16:03:47+00:00,,,auditor@co.harris.tx.us
+1440,203,,,2015-08-11 21:34:14+00:00,,,mediarelations@harriscountyso.org
+1444,203,Patty,Kenyon,2015-08-12 16:44:00+00:00,,,patty.kenyon@pur.hctx.net
+1445,203,Commissioners,Court,2015-08-12 16:52:39+00:00,,,CommissionersCourt@hctx.net
+1446,203,,,2015-08-12 17:04:55+00:00,,,openrecords@hcdistrictclerk.com
+152,204,Lisa,Anderson,2014-05-19 21:00:52+00:00,"733 Market Street, Room 11,  Tacoma, WA  98402",(253) 591-5188,lisa.anderson@cityoftacoma.org
+568,204,James,Kauffman,2014-08-12 21:40:05+00:00,,(253) 779-7090,JKauffman@ci.tacoma.wa.us
+155,206,,,2014-05-20 17:10:29+00:00,,213-978-2100,discovery@lapd.lacity.org
+157,207,,,2014-05-21 15:57:40+00:00,,,Open.RecordsCA@co.travis.tx.us
+158,208,,,2014-05-21 18:06:50+00:00,"Federal Communications Commission 445 12th Street, S.W., Room 1-A836 Washington, D.C. 20554",,FOIA@fcc.gov
+762,208,Mark,Wigfield,2014-09-26 19:51:40+00:00,"455 12th St., SW, Washington DC, 20554",202-418-0253,mark.wigfield@fcc.gov
+159,209,,,2014-05-21 18:49:35+00:00,"Campus Information Practices Coordinator Chancellor's Office UC Santa Cruz 1156 High Street Santa Cruz, CA 95064-1077",,pra@ucsc.edu
+160,210,Bren,Lehr,2014-05-21 18:53:16+00:00,"809 Center Street, Room 9 Santa Cruz, California 95060",831-420-5038,blehr@cityofsantacruz.com
+161,211,Susan,Garcia,2014-05-21 19:27:45+00:00,"3232 Main St. Lemon Grove, CA 91945",,sgarcia@lemongrove.ca.gov
+162,212,Nance,Lakdawala  ,2014-05-21 20:03:41+00:00,,619-594-5631,nlakdawa@mail.sdsu.edu
+909,212,Elaine ,Rother,2014-11-20 19:53:57+00:00,,(619) 594-6950,erother@mail.sdsu.edu
+910,212,Suzanne,Finch,2014-11-20 20:08:07+00:00,,(619) 594 - 0206,sfinch@mail.sdsu.edu
+911,212,Sandra,Kahn,2014-11-20 20:15:12+00:00,,,skahn@mail.sdsu.edu
+912,212,Jacqueline ,Lane,2014-11-20 20:19:51+00:00,,(619) 594-3480 ,jlane@mail.sdsu.edu
+913,212,Barbara,Gould,2014-11-20 20:23:28+00:00,,(619) 594-6898,bgould@mail.sdsu.edu
+914,212,Christianne,Penunuri,2014-11-20 20:26:28+00:00,,619-594-0125,cpenunuri@mail.sdsu.edu
+915,212,Bettyann,Bernhardt,2014-11-20 20:29:56+00:00,,619.594.6521,bbernhardt@mail.sdsu.edu
+916,212,Stacey,Sinclair,2014-11-20 20:32:58+00:00,,,stacey.sinclair@sdsu.edu
+163,213,,,2014-05-25 14:57:23+00:00,,,PublicInformation@houstonisd.org
+164,214,,,2014-05-25 15:01:24+00:00,,,openrecords@dallascityhall.com
+404,214,Frank ,Librio,2014-07-04 01:42:14+00:00,,214-670-3322,frank.librio@dallascityhal.com
+984,214,Leticia,McGowan,2014-12-12 21:46:37+00:00,"3700 Ross Avenue, Box 74 Dallas, Texas 75204",,lmcgowan@dallasisd.org
+165,215,,,2014-05-25 17:09:42+00:00,,,openrecords@austinisd.org
+1349,215,,,2015-06-18 20:13:15+00:00,,,kurbaszewski@acnnewspapers.com
+166,216,,,2014-05-25 18:24:00+00:00,,,legalservices@cfisd.net
+167,217,,,2014-05-25 18:27:25+00:00,,,recordsrequest@hccs.edu
+168,218,,,2014-05-25 18:33:04+00:00,,,adeleon3@saisd.net
+169,219,,,2014-05-25 18:43:49+00:00,,,dbrown@bisd.us
+170,220,,,2014-05-25 18:44:46+00:00,,,rivy-sims@pasadenaisd.org
+171,221,,,2014-05-25 18:45:37+00:00,,,rclary@neisd.net
+172,222,,,2014-05-25 18:59:30+00:00,,,OpenRecords@elpasotexas.gov
+709,222,,,2014-09-09 15:14:03+00:00,,,
+182,223,,,2014-05-25 21:44:37+00:00,,,publicrecords@katyisd.org
+173,224,,,2014-05-25 21:24:16+00:00,,,pguidry@aldine.k12.tx.us
+174,225,,,2014-05-25 21:29:05+00:00,,,Open_Records@roundrockisd.org
+175,226,,,2014-05-25 21:30:48+00:00,,,publicinfo@uh.edu
+176,227,,,2014-05-25 21:31:58+00:00,,,openrecords@pisd.edu
+177,228,,,2014-05-25 21:34:49+00:00,,,request.publicinformation@risd.org
+178,229,,,2014-05-25 21:37:40+00:00,,,AFourt@tarrantcounty.com
+1441,229,,,2015-08-11 21:56:40+00:00,,,adfourt@tarrantcountytx.gov
+1442,229,,,2015-08-11 22:01:23+00:00,,,TCSO_Records@tarrantcounty.com
+179,230,Dahlia,Anzaldua-Torres,2014-05-25 21:39:45+00:00,"5930 Middle Fiskville Rd., Austin, Texas 78752",512 (223.7595),anzaldua@austincc.edu
+180,231,,,2014-05-25 21:41:20+00:00,,,nkempf1@alamo.edu
+181,232,,,2014-05-25 21:43:26+00:00,,,openrecords@dart.org
+183,233,,,2014-05-25 21:45:53+00:00,,,sam.buchmeyer@gpisd.org
+184,234,Maria,Miller,2014-05-25 21:48:50+00:00,,(214) 378-1702,memiller@dcccd.edu
+185,235,,,2014-05-25 21:52:26+00:00,,,TSUSGenCoun@txstate.edu
+186,236,,,2014-05-25 21:54:25+00:00,,,publicinfo.request@beaumont.k12.tx.us
+187,237,,,2014-05-25 21:56:32+00:00,,,communications@mckinneyisd.net
+188,238,,,2014-05-25 22:00:11+00:00,,,openrecords@lcra.org
+189,239,,,2014-05-25 22:02:13+00:00,,,PublicRecords@LoneStar.edu
+190,240,Terri,Ford,2014-05-25 22:04:01+00:00,,817-515-5242,records@tccd.edu
+191,241,,,2014-05-25 22:05:39+00:00,,,lpalomba@garlandtx.gov
+407,241,Dorothy ,White,2014-07-04 01:45:37+00:00,,214-212-0803,dwhite@garlandtx.gov
+192,243,,,2014-05-25 22:11:40+00:00,,,publicrelations@collincountytx.gov
+193,244,Kassie,Maxwell,2014-05-25 22:17:17+00:00,,972-771-0605,kassie.maxwell@rockwallisd.org
+194,245,,,2014-05-25 22:21:42+00:00,,,sland@cityofmesquite.com
+411,245,Wayne,Larson,2014-07-04 01:49:19+00:00,,214-449-8092,wlarson@cityofmesquite.com
+195,246,,,2014-05-25 22:23:18+00:00,,,OpenRecords@eanesisd.net
+196,247,,,2014-05-25 22:25:07+00:00,,,cdimaggi@gptx.org
+408,247,Amy ,Sprinkles,2014-07-04 01:46:19+00:00,,214-240-2557,
+197,248,,,2014-05-25 22:35:02+00:00,,,openrecords@cityofgalveston.org
+198,249,,,2014-05-25 22:37:19+00:00,,,public.inforequest@cob.us
+199,250,Camille ,Wells,2014-05-27 21:16:19+00:00,"650 West State Street, PO Box 83720 Boise, Idaho 83720-0027",208-332-6818,cwells@sde.idaho.gov
+700,250,Melissa,McGrath,2014-09-05 21:53:05+00:00,,208-332-6818,MRMcGrath@sde.idaho.gov
+200,251,Crystal,Greene,2014-05-27 21:40:28+00:00,"255 Capitol St. NE  Salem, OR 97301",503-947-5650 ,crystal.greene@state.or.us
+201,252,Records Officer,,2014-05-27 23:54:02+00:00,"700 E. Fifth Street, Suite 104 Carson City, NV 89701",775-687-9102,recordrequest@doe.nv.gov
+727,252,,,2014-09-09 19:07:10+00:00,,,ndeinfo@doe.nv.gov
+202,253,,,2014-05-28 23:36:26+00:00,,,glafoia@va.gov
+203,254,Samantha,Warren,2014-05-29 00:49:55+00:00,"Cross Building, 23 State House Station Augusta, ME 04333",207-624-6747,Samantha.Warren@maine.gov
+696,254,Alison,Sucy,2014-09-05 20:08:05+00:00,,,Alison.P.Sucy@maine.gov
+204,255,Trevor,Lewis,2014-05-29 01:17:21+00:00,,802-479-1754,trevor.r.lewis@state.vt.us
+205,256,Elliot,Krieger,2014-05-29 02:00:48+00:00,"255 Westminster Street Providence, RI 02903",401-222-8471,Elliot.Krieger@ride.ri.gov
+206,258,,,2014-05-30 15:50:57+00:00,"819 Taylor Street Room 8A24 Fort Worth, TX 76102-6178",(817) 978-2921,Information.Officer@nlrb.gov
+207,259,Chris,Sterner,2014-05-30 17:32:44+00:00,"General Counsel Division, P.O. Box 12428, Austin, TX 78711  ",,publicrecords@governor.state.tx.us
+717,259,,,2014-09-09 15:21:36+00:00,,,
+1615,259,,,2015-10-14 17:18:44+00:00,,,publicrecords@gov.texas.gov
+208,260,,,2014-06-01 17:24:39+00:00,,,tim_carroll@allenisd.org
+209,261,Donald,Williams,2014-06-01 17:26:41+00:00,,,dwilliams@bisdtx.org
+210,263,Marie,Velotti,2014-06-04 18:44:30+00:00,,(516)-295-1400,villages3@optimum.net
+211,264,Nancy,Rittenhouse,2014-06-04 18:50:57+00:00,,631-261-7098,rittenhousevc@gmail.com
+212,265,F. King,Alexander,2014-06-05 15:36:58+00:00,"3810 W. Lakeshore Dr. Baton Rouge, LA 70808",,drichards@lsu.edu
+213,266,Julie ,Kain,2014-06-05 16:35:28+00:00,,(516)-746-2193,jkain@villageofwillistonpark.org
+214,267,Emily ,Siniscalchi,2014-06-05 16:36:06+00:00,,,plaza56@aol.com
+215,268,Yvonne,Whitcomb,2014-06-05 16:54:17+00:00,315 Main Street,,staff@baxterestates.org
+216,269,Elizabeth ,Lindtvit,2014-06-05 16:57:02+00:00,,(631)-288-1654 ext. 1551,clerk@westhamptonbeach.org
+217,270,Maria,Alfano-Hardy,2014-06-05 17:03:27+00:00,34 School St.,,malfanohardy@bayvilleny.gov
+218,271,Ted,Blach,2014-06-05 17:05:36+00:00,,(516) 334-1700 ext. 111,tblach@villageofwestbury.org
+219,273,Laura ,Dalessandro,2014-06-05 17:16:44+00:00,,(631) 288-6571,clerk@whdunes.org
+220,274,Suzanne,Tangredi,2014-06-05 17:53:08+00:00,50 Superior Road,,villageclerk@bellerosevillage.org
+221,275,Maureen,Hernandez,2014-06-05 17:53:40+00:00,,631-265-3315,villageofbranch@optonline.net
+222,276,Joanne,Raso,2014-06-05 18:00:53+00:00,1 Cliff Road,,btvillageoffice@gmail.com
+223,277,Tracy,Lynch,2014-06-05 18:01:15+00:00,,1-516-624-7715 ext 1,villageclerk@upperbrookville.org
+224,278,Katie ,Mehrkens,2014-06-05 18:09:25+00:00,29 Bellport Lane,,clerk@bellportvillage.org
+225,279,Denise ,Knowland,2014-06-05 18:10:32+00:00,,516-482-3110,vilthomaston@optimum.net
+226,280,Rosemarie,Biehayn,2014-06-05 18:16:52+00:00,,516-354-1800,rbiehayn@stewartmanor.org
+227,281,Christine,O'Shea,2014-06-05 18:18:31+00:00,40 Seneca Drive,,vobwclerk@optonline.net
+228,282,Winsome,Citarella,2014-06-05 18:23:08+00:00,18 Horse Hill Road,,winnie@villageofbrookville.com
+229,283,Stephen,Funsch,2014-06-05 18:24:08+00:00,,631-283-0247 ext. 224,treasurer@southamptonvillage.org
+230,284,Sally ,Ponce,2014-06-05 18:29:51+00:00,,(516) 352-8047 ,villageclerk@southfloralpark.org
+231,285,Salvatore,Evola,2014-06-05 18:32:02+00:00,200 Cedarhurst Ave.,,sal@cedarhurst.gov
+232,286,Cathy,Donahue-Spier,2014-06-05 18:36:44+00:00,,(631) 821-0680 ,shoreham5@aol.com
+233,287,Kathryn,Zoller,2014-06-05 18:39:38+00:00,100 Cove Neck Road,,kz113@aol.com
+234,288,Laura,Hildreth,2014-06-05 18:50:50+00:00,PO Box 3010,,vderingharbor@optimum.net
+235,290,Donna,Gooch,2014-06-05 19:09:15+00:00,209 Harbor Hill Road,,dgooch@villageofeasthills.org
+236,291,James,Alles,2014-06-05 19:15:57+00:00,,,jalles@villageofeastrockaway.org
+241,292,Marie,Kimlicka,2014-06-06 14:32:15+00:00,,,ewillistonclerk@yahoo.com
+237,293,Marianne,Lennon,2014-06-06 14:10:17+00:00,,516.671.0080,mlennon@seacliff-ny.gov
+238,294,Mario,Posillico,2014-06-06 14:17:05+00:00,,(631)583-5566,saltaire@mindspring.com
+239,295,Rosemarie,Winchell,2014-06-06 14:25:29+00:00,,631-537-0017 ,clerk@sagaponackvillage.org
+240,296,Beth,Kamper,2014-06-06 14:30:33+00:00,,631-725-0222,clerk@sagharborny.gov
+242,297,Hinda,Goldman,2014-06-06 14:35:32+00:00,,(516) 482-9400,info@saddlerockny.gov
+243,298,Brian,Harty,2014-06-06 14:38:51+00:00,,,bharty@farmingdalevillage.com
+244,300,Christine,Blumberg,2014-06-06 14:43:57+00:00,,(516) 482-8246,village.clerk@russellgardens.com
+246,301,Valerie,Onorato,2014-06-06 14:53:57+00:00,,(516) 621-0368,Clerk@RoslynHarbor.org
+245,302,Susan,Walsh,2014-06-06 14:51:08+00:00,,,swalsh@fpvillage.org
+247,304,Kathy,Wade,2014-06-06 15:02:12+00:00,,,dclerk@villageflowerhill.org
+248,305,Bryan,Rivera,2014-06-06 15:04:47+00:00,,516-621-3541,villageclerk@villageofroslynestates.com
+249,306,Joe,Gill,2014-06-06 15:07:13+00:00,,,jgill@greatneckvillage.org
+250,307,Kathleen,Santelli,2014-06-06 15:13:11+00:00,,,admin@vgne.com
+251,308,Anita ,Frangella,2014-06-06 15:13:28+00:00,,(516) 621-1961,roslynclerk@optonline.net
+252,309,Keith ,Spadaro,2014-06-06 15:18:05+00:00,,(516)-678-9246,Kspadaro@rvcny.us
+253,310,Patricia,O'Byrne,2014-06-06 15:18:33+00:00,,,obyrnep@greatneckplaza.net
+254,311,Sylvia,Lazzari Pirillo,2014-06-06 15:22:45+00:00,,,spirillo@greenportvillage.org
+255,312,Palma,Torrisi,2014-06-06 15:29:43+00:00,,(516) 883-5900,clerk@portwashingtonnorth.org
+256,313,Margaret ,O'Keefe,2014-06-06 15:30:36+00:00,,,okeeffem@optonline.net
+257,314,Patricia,Perez,2014-06-06 15:43:07+00:00,,,pperez@villageofhempsteadny.gov
+258,316, Don,Pearce,2014-06-06 15:53:35+00:00,,516-473-4724,Treasurer@Portjeff.com
+259,317,Joan,Hubbard,2014-06-06 16:07:58+00:00,,631-476-4043 ext 10,Clerk@Poquott.org
+260,318,Joanna,Palumbo,2014-06-06 16:15:47+00:00,,(516) 627-3701,plandomemanor@optonline.net
+261,319,Constance,Conroy,2014-06-06 16:17:20+00:00,,,clconroy@villageofislandpark.com
+263,320,Arlene ,Drucker,2014-06-06 16:29:13+00:00,,516-627-1136,clerk@plandomeheights-ny.gov
+262,321,Patricia ,Dorman,2014-06-06 16:28:26+00:00,,,pdorman@newvillageofislandia.com
+264,322,Carmela,Constant,2014-06-06 16:34:14+00:00,,,carmelac@lakegroveny.gov
+265,323,Elizabeth,Kaye,2014-06-06 16:35:11+00:00,,(516) 627-1748,clerk@villageofplandome.org
+266,325,Irene,Detmer,2014-06-06 16:40:42+00:00,,(631) 475-4300,IDetmer@patchoguevillage.org
+267,326,Lynda ,Howell,2014-06-06 16:45:58+00:00,,631-941-9412,VillageClerk@oldfieldny.org
+268,327,Donna ,Koch,2014-06-06 16:52:12+00:00,,"(631) 261-7502, x310",nptclerk@optonline.net
+269,328,Marianne,Lobaccaro,2014-06-06 16:57:07+00:00,,(516) 627-3451,villageadministrator@villagenorthhills.com
+270,329,Kathleen,Picoli,2014-06-06 16:57:21+00:00,,,lattvill@optonline.net
+272,330,Georgia ,Welch,2014-06-06 17:02:49+00:00,, (631) 725-1378,nhvclerk@optonline.net
+271,331,Karen,Navin,2014-06-06 17:02:41+00:00,,,clerktreasurer@laurelhollow.org
+273,332,Catherine,Hillmann,2014-06-06 17:06:57+00:00,,516-354-0022,NHPCLERK@VNHP.ORG
+274,333,Lisa,Lolis,2014-06-06 18:15:58+00:00,,516.364.3476,villageclerk@villageofmuttontown.com
+275,334,David,Smollett,2014-06-06 18:16:14+00:00,,,dsmollett@villageoflawrence.org
+276,336,Shawn,Cullinane,2014-06-06 18:20:21+00:00,,,voladmin@optonline.net
+277,337,Barbara,Miller,2014-06-06 18:22:04+00:00,,516-365-7790 ,bcmiller@munseypark.org
+278,338,Liz ,Gaynor,2014-06-06 18:25:29+00:00,,,clerk@manorhaven.org
+279,339,Joseph,Scalero,2014-06-06 18:27:10+00:00,,516-746-0750,info@mineola-ny.gov
+280,341,Sue,Draghi,2014-06-06 18:30:39+00:00,,,sdraghi@masticbeachvillageny.gov
+281,342,William,Simonds,2014-06-06 18:34:12+00:00,,,wsimonds@matinecockvillage.org
+282,343,Donna,Harris,2014-06-06 18:44:12+00:00,,516-922-6722,millneckvillage@optimum.net
+283,344,Randy,Bond,2014-06-06 18:51:07+00:00,,(516) 883-3044,randy@sandspoint.org
+284,345,Marcia,Koziarz,2014-06-06 18:56:56+00:00,,631-653-4498,clerk@villageofquogue.com
+285,346,Diane,Sheridan,2014-06-06 18:59:24+00:00,,,dsheridan@amityville.com
+286,347,Patricia ,Carley,2014-06-06 19:03:12+00:00,,,pcvob@optonline.net
+287,348,Joanne,Casale,2014-06-06 19:06:57+00:00,,(516) 922-1016,OysterBayCove@optonline.net
+288,350,Ann,Vessalico,2014-06-06 19:08:17+00:00,,,centreisland303@gmail.com
+289,351,Kathleen,Sullivan,2014-06-06 19:13:43+00:00,,(516) 626-0800,katsullivan@optonline.net
+290,352,Larry,Cantwell,2014-06-06 19:14:29+00:00,,,lcantwell@easthamptonvillage.org
+291,354,Pamela,Walsh Boenig,2014-06-06 19:17:41+00:00,,,pboening@freeportny.gov
+292,355,Brian,Ridgway,2014-06-06 19:23:04+00:00,,,bridgway@gardencityny.net
+293,356,Sandra,Albro,2014-06-06 19:26:58+00:00,, 516-671-4664,village@oldbrookville.net
+294,357,Gail,Devol,2014-06-06 19:27:04+00:00,,,gdevol@huntingtonbay.org
+295,359,Arlene,Giniger,2014-06-06 19:30:47+00:00,,,villageclerk@villageofkensingtonny.gov
+297,360,Steven,Brautigam,2014-06-06 19:34:08+00:00,,631-583-5940,sbrautigam@villageofoceanbeach.org
+296,361,Gomie,Persaud,2014-06-06 19:33:48+00:00,,,gpersaud@villageofkingspoint.org
+298,362,Akua,Bediako-Hood,2014-06-06 19:40:02+00:00,,,Treasurer@villageoflakesuccess.com
+299,363,Eileen,Schulz,2014-06-06 19:43:08+00:00,,,lhvh@lloydharbor.org
+300,364,Maryjane,Kenney,2014-06-06 19:50:06+00:00,,,nissequoguevcl@optonline.net
+655,365,,,2014-08-29 17:14:15+00:00,,,media.request.ppd@phoenix.gov
+854,365,,,2014-10-27 21:25:33+00:00,,602-262-7177,contactus@phoenix.gov
+302,366,Christopher,DeMers,2014-06-10 16:08:10+00:00,,512-854-4827,Christopher.deMers@co.travis.tx.us
+1628,366,,,2015-10-22 20:54:46+00:00,,,Cynthia.Rodriguez@traviscountytx.gov
+1629,366,,,2015-10-22 20:55:30+00:00,,,Charles.Robinson@traviscountytx.gov
+303,369,Mark,Vugrinovich,2014-06-10 21:06:04+00:00,"1700 G St NW Attention: Chief FOIA Officer Washington, DC 20552",855-444-3642,foia@cfpb.gov
+416,370,,,2014-07-07 17:52:20+00:00,,,
+304,372,,,2014-06-11 10:40:58+00:00,,,MDCH-FOIA@michigan.gov
+305,373,,,2014-06-11 11:42:32+00:00,,,FOIA_Request@cms.hhs.gov
+418,373,Rachel,Maisler,2014-07-08 16:38:02+00:00,,202-690-5649,Rachel.Maisler@cms.hhs.gov
+306,375,,,2014-06-11 15:25:22+00:00,,,Maria.Luna-Rose@tdi.texas.gov
+719,375,,,2014-09-09 15:21:59+00:00,,,
+1789,375,,,2016-03-15 16:12:35+00:00,,,AgencyCounsel@tdi.texas.gov
+307,376,,,2014-06-11 22:21:57+00:00,"500 12th Street, S.W., Stop 5009 Washington, D.C. 20536-5009",(866) 633-1182,ICE-FOIA@dhs.gov
+308,377,,,2014-06-12 15:11:40+00:00,,,
+409,377,Meribeth ,Sloan,2014-07-04 01:47:21+00:00,,214-662-9805,msloan@cityofirving.org
+309,378,Patti,Tschirhart,2014-06-12 15:18:50+00:00,,,
+310,379,,,2014-06-13 15:10:45+00:00,819 South Broad Street,,
+311,381,,,2014-06-14 19:47:47+00:00,,,sgeorge@cityofallen.org
+401,381,Teresa ,Warren,2014-07-04 01:38:14+00:00,,214-684-1158,twarren@cityofallen.org
+402,381,Steve,Terrell,2014-07-04 01:39:26+00:00,,214-868-1472,
+312,382,,,2014-06-14 19:49:05+00:00,,,openrecords@ci.beaumont.tx.us
+313,383,,,2014-06-14 19:50:12+00:00,,,citysecretaryweb@bryantx.gov
+314,384,,,2014-06-14 19:51:29+00:00,,,pubrequest@cstx.gov
+315,385,,,2014-06-14 19:54:46+00:00,,, jrios@cityofedinburg.com
+316,386,,,2014-06-14 19:55:55+00:00,,,CITYSEC@FRISCOTEXAS.GOV
+406,386,Dana,Baird,2014-07-04 01:44:42+00:00,,972-897-1766,dbaird@friscotexas.gov
+317,387,,,2014-06-14 19:57:48+00:00,,,Natasha.hinton@leaguecity.com
+318,388,,,2014-06-14 19:58:56+00:00,,,khageman@cityoflewisville.com 
+410,388,James,Kunke,2014-07-04 01:48:29+00:00,,214-695-5116,
+319,389,,,2014-06-14 20:00:23+00:00,,,mgonzalez@missouricitytx.gov
+320,390,,,2014-06-14 20:02:02+00:00,,,publicinfo@odessa-tx.gov
+321,391,,,2014-06-14 20:03:04+00:00,,,dmata@ci.pearland.tx.us
+322,392,,,2014-06-14 20:04:56+00:00,,,sonia.hinojosa@pharr-tx.gov
+325,393,,,2014-06-14 20:14:25+00:00,,,alicia.ramirez@cosatx.us
+323,394,,,2014-06-14 20:08:04+00:00,,,citysec@sugarlandtx.gov
+324,396,Barry,Levy,2014-06-14 20:10:15+00:00,,,barry.levy@wichitafallstx.gov
+326,397,,,2014-06-15 00:28:51+00:00,,,PIArequest@brazoria-county.com
+327,398,,,2014-06-15 00:30:06+00:00,,,public.info@co.hidalgo.tx.us
+328,399,,,2014-06-15 00:31:44+00:00,,,jbranick@co.jefferson.tx.us
+329,400,,,2014-06-15 00:33:19+00:00,,,webbpio@webbcountytx.gov 
+330,401,,,2014-06-15 00:34:52+00:00,,, cwatson@wilco.org
+1433,401,,,2015-08-11 19:24:10+00:00,,,piarequest@wilco.org
+1434,401,,,2015-08-11 19:48:07+00:00,,,ckoonce@wilco.co.org
+331,402,,,2014-06-15 00:42:54+00:00,,,damon.anderson@co.mclennan.tx.us
+332,404,,,2014-06-15 00:50:47+00:00,,,michael.perkins@co.hays.tx.us
+1431,404,,,2015-08-11 18:27:43+00:00,,,cindym@co.hays.tx.us
+1443,404,,,2015-08-12 15:10:39+00:00,,,michael.moore@co.hays.tx.us
+333,405,,,2014-06-15 00:54:10+00:00,,,countyjudge@johnsoncountytx.org
+334,406,,,2014-06-15 01:11:02+00:00,,,bevill@taylorcountytexas.org
+335,408,,,2014-06-15 15:02:29+00:00,,,davidkemp@co.potter.tx.us 
+336,409,Crystal,Gottfried,2014-06-15 15:11:10+00:00,,830-221-1100,publicrecords@co.comal.tx.us 
+337,412,Marilyn,Mertz,2014-06-16 23:14:55+00:00,"918 E. Divide Ave., 4th Floor Bismarck, ND 58501-1947",,mmertz@nd.gov
+338,413,,,2014-06-18 17:43:39+00:00,"121 N. Lasalle, City Hall Room 900 Chicago, IL 60602",,DOBfoia@cityofchicago.org
+339,413,Mimi,Simon,2014-06-18 18:07:47+00:00,,312.743.7204,mimi.simon@cityofchicago.org
+340,415,Tracie,Woods,2014-06-18 22:46:36+00:00,"4th Floor      J. S. Clark Administration Building     Baton Rouge, LA 70813",225-771-4680,tracie_woods@sus.edu
+341,416,,,2014-06-19 09:29:32+00:00,,,
+342,417,,,2014-06-19 17:04:29+00:00,"60 Central Avenue, Cortland, New York   13045",607-753-5035,
+343,418,,,2014-06-19 17:46:58+00:00,,,foil-doh@westchestergov.com
+344,419,Frank,Robertson,2014-06-19 18:22:06+00:00,"Lazarus Government Center P.O. Box 1049 122 South Front Street Columbus, OH 43216",(614) 644-2306,frank.robertson@epa.ohio.gov
+345,420,Custodian of Records,,2014-06-19 19:38:46+00:00,"P.O. Box 176 Jefferson City, MO 65102",573-522-4293,custodianofrecord@dnr.mo.gov
+443,420,,,2014-07-12 21:56:11+00:00,,,
+444,420,,,2014-07-12 21:56:22+00:00,,,
+346,421,,,2014-06-19 20:06:27+00:00,"1000 SW Jackson, Suite 400                 Topeka, Kansas 66612-1367",(785) 296-1535,KORA_Officer@kdheks.gov
+347,422,,,2014-06-19 20:49:51+00:00,"DEQ Records Management Section 1200 N Street, Suite 400 PO Box 98922 Lincoln, NE 68509-8922.",402-471-3557,ndeq.records@nebraska.gov
+348,424,,,2014-06-19 21:27:52+00:00,,515-281-8973,Ed.Tormey@dnr.iowa.gov
+350,425,,,2014-06-19 21:48:27+00:00,,"218-316-3887, 1-800-657-3864",stephen.mikkelson@state.mn.us
+349,426,Matt,Skinner,2014-06-19 21:47:44+00:00,"2101 North Lincoln - Room 311 - C, Oklahoma City, OK 73105",,m.skinner@occemail.com
+351,427,Julie,Allen,2014-06-22 14:54:18+00:00,,281-891-6370,jallen3@springisd.org
+352,428,,,2014-06-22 14:58:26+00:00,,,cojudge@co.nacogdoches.tx.us
+353,429,Charlene,Graff,2014-06-22 15:00:12+00:00,,903-935-8401,charleneg@co.harrison.tx.us
+354,430,,,2014-06-22 15:32:15+00:00,,,kmorris@desototexas.gov
+405,430,Kathy,Jones,2014-07-04 01:43:39+00:00,,972-978-2352,kathy.jones@desototexas.gov
+355,431,,,2014-06-23 16:12:03+00:00,,,PublicInfo@brazoscountytx.gov
+356,432,,,2014-06-24 15:01:55+00:00,,,Moraima.Montenegro@sanantonio.gov
+1436,432,,,2015-08-11 20:20:50+00:00,,,openrecords@sanantonio.gov
+357,433,,,2014-06-24 15:20:39+00:00,,,public.information@austintexas.gov
+358,434,Will,Ackerman,2014-06-24 15:39:05+00:00,"4101 Woolworth Ave, Omaha, Neb. 68105 ",402-332-6780,will.ackerman@va.gov
+359,435,,,2014-06-24 15:43:27+00:00,,, openrecordsrequest@gotowaco.com
+360,436,,,2014-06-24 16:36:09+00:00,,512-218-5404,swhite@roundrocktexas.gov
+361,437,Billie,Clayton,2014-06-25 15:39:20+00:00,,(972) 941-7222,billiec@plano.gov
+412,437,Steve ,Stoler,2014-07-04 01:50:38+00:00,,972-345-1393,stevest@plano.gov
+362,438,,,2014-06-25 17:56:39+00:00,,,CityOpenRecords@cctexas.com
+363,439,,,2014-06-25 18:07:15+00:00,,817-459-5680,
+403,439,Sana,Syed,2014-07-04 01:40:59+00:00,,817-459-6414,sana.syed@arlingtontx.gov
+365,442,Garry,Lucas,2014-06-26 18:11:12+00:00,"707 West 13th Street, Vancouver, WA 98660",,garry.lucas@co.clark.wa.us
+366,443,James,McElvain,2014-06-26 18:19:13+00:00,"605 E Evergreen Blvd, Vancouver, WA 98661",(360) 487-7400,james.mcelvain@cityofvancouver.us
+367,443,,,2014-06-26 18:24:23+00:00,vanpd@cityofvancouver.us,(360) 487-7400,vanpd@cityofvancouver.us
+368,445,Michael,Reese,2014-06-26 18:31:02+00:00,"1111 S.W. 2nd Avenue, Portland, OR 97204",503-823-0000,michael.reese@portlandoregon.gov
+369,445,John,Brooks,2014-06-26 18:32:48+00:00,"1111 S.W. 2nd Avenue, Portland, OR 97204",503-823-0000,john.brooks@portlandoregon.gov
+370,446,Daniel,Staton,2014-06-26 18:54:23+00:00,"501 SE Hawthorne Blvd, Suite 350  Portland, OR 97214 ",503-988-4300,daniel.staton@mcso.us
+371,447,Dave,Cox,2014-06-26 19:06:02+00:00,"200 Vancouver Avenue Stevenson, WA 98648",509-427-9490,davec@co.skamania.wa.us
+372,448,Geoff ,Spalding,2014-06-26 19:13:48+00:00,"4755 SW Griffith Dr, Beaverton, OR",(503) 526-2260,gspalding@beavertonoregon.gov
+373,449,Craig,Junginger,2014-06-26 19:17:12+00:00,"1333 NW Eastman Parkway Gresham, OR 97030",503-618-2318,craig.Junginger@GreshamOregon.gov
+374,450,Scott,Anderson,2014-06-26 19:19:16+00:00,"234 SW Kendall Court, Troutdale OR",(503) 665-6129,scott.anderson@troutdaleoregon.gov
+375,451,Don,Johnson,2014-06-26 19:22:48+00:00,"380 A Avenue 2nd Floor Lake Oswego, OR 97034",503-635-0250,djohnson@ci.oswego.or.us
+376,452,Matt,English,2014-06-26 19:28:35+00:00,(541) 386-2098,"309 W State St, Hood River, OR 97031",matt.english@co.hood-river.or.us
+377,453,Gary,Jenkins,2014-06-26 19:31:58+00:00,"325 SE Paradise St., Pullman, WA 99163",(509) 334-4555 ,gary.jenkins@pullman-wa.gov
+378,454,Brett,Myers,2014-06-26 19:38:11+00:00,"411 N. Mill Street, Colfax WA 99111",(509) 397-6266,brettm@co.whitman.wa.us
+379,455,David,Duke,2014-06-26 19:42:01+00:00,"118 East Fourth Street  Moscow, Idaho 83843",208.883.7054,dduke@ci.moscow.id
+380,456,Wayne,Rausch,2014-06-26 19:46:17+00:00,"522 S Adams, Moscow, ID 83843",208 882-2216,wrausch@latah.id.us
+381,458,Juanita,Graham,2014-06-26 22:38:44+00:00,"570 East Woodrow Wilson Drive Jackson, MS 39216-4538",601-576-7400,juanita.graham@msdh.ms.gov
+382,459,Office of General Counsel,,2014-06-26 23:33:59+00:00,"5107 Leesburg Pike, Suite 1903 Falls Church, VA 20530",,EOIR.FOIARequests@usdoj.gov 
+458,461,,,2014-07-15 20:01:40+00:00,,,OGC_EFOIA@BOP.GOV
+570,462,Default,FOIA,2014-08-13 19:36:38+00:00,"1300 Pennsylvania Avenue NW Room 2.07C Washington, D.C. 20534",(202) 712-0960,foia@usaid.gov
+383,465,,,2014-06-27 20:55:07+00:00,,,jc.perez@co.jim-wells.tx.us
+384,466,John ,Mantini,2014-06-27 21:30:09+00:00,,,foia@mcc.gov
+385,467,Pamela,Luke,2014-06-27 23:16:34+00:00,,,pluke@nps.k12.nj.us
+387,468,Charlotte ,Hitchcock,2014-06-30 16:45:05+00:00,,,chitchcock@nps.k12.nj.us
+388,470,Jessica,Dison,2014-06-30 20:07:28+00:00,"227 N. Spring, Tyler, TX",, jdison@smith-county.com
+389,471,Serena,Butcher,2014-06-30 20:28:42+00:00,,,sbutcher@tylertexas.com
+390,472,Dawn,Parnell,2014-06-30 20:33:17+00:00,,,Dawn.Parnell@tylerisd.org
+391,473,,,2014-06-30 21:16:31+00:00,"1 Archives Dr. St. Louis, MO 63138-1002",,
+440,473,,,2014-07-12 21:53:05+00:00,,,
+445,473,,,2014-07-12 22:27:33+00:00,,,
+392,475,Stacia,Hylton,2014-07-01 01:00:06+00:00,,,usms.foia@usdoj.gov
+393,477,Mark,Peterson,2014-07-01 04:07:43+00:00,,925-957-2214,mpeterson@contracostada.org
+394,478,,,2014-07-01 15:19:35+00:00,,,dgarza3@ci.laredo.tx.us 
+395,480,Tammi,Casey,2014-07-01 15:31:40+00:00,,(432) 685-7257 ,publicinfo@midlandtexas.gov
+710,480,,,2014-09-09 15:17:58+00:00,,,
+396,481,,,2014-07-01 16:24:50+00:00,,,edion@epcounty.com
+711,481,,,2014-09-09 15:18:24+00:00,,,
+397,482,Official Custodian of Records,,2014-07-01 18:24:49+00:00,"1035 Parkway Avenue, PO Box 600, Trenton, NJ 08625-0600",609.530.8045,NJDOT.OPRA@dot.state.nj.us
+398,483,Robert,Zaffetti,2014-07-01 19:41:28+00:00,"2800 Berlin Tpke, PO BOX 317546, Newington, CT 06131-7546",(860)594-3156,Robert.Zaffetti@po.state.ct.us
+1015,483,Kathy,Ray,2014-12-27 01:27:12+00:00,"1200 New Jersey Ave., SE W94-122 Washington, DC 20590",(202) 366-4542,ost.foia@dot.gov
+399,485,Sheree,McCarty,2014-07-02 15:25:10+00:00,,832.393.6176,hr.openrecords@houstontx.gov
+1437,485,,,2015-08-11 20:48:56+00:00,,,finopenrecordsrequest@houstontx.gov
+1438,485,,,2015-08-11 20:50:46+00:00,,,shannan.nobles@houston.tx.gov
+1439,485,,,2015-08-11 20:58:11+00:00,,,vernita.jones@houstontx.gov
+400,486,,,2014-07-02 19:42:13+00:00,"901 Corporate Center Dr, Raleigh, NC 27607",(919) 890-1000,
+839,487,Will,Williams,2014-10-24 21:43:30+00:00,,561-357-7663 x47663,Willie.Williams@palmbeachschools.org
+413,488,Marcy ,Ingram,2014-07-04 14:48:42+00:00,"160 North Main Memphis, TN 38103",901-222-2100,marcy.ingram@shelbycountytn.gov
+414,488,Herman,Morris,2014-07-04 14:52:49+00:00, 125 N. Main St. Room 336, (901) 636-6614,cityattorney@memphistn.gov
+424,488,Stacy,Taylor,2014-07-09 16:34:41+00:00,,,stacy.taylor@shelbycountytn.gov
+415,490,,,2014-07-07 15:44:10+00:00,"New York State Department of Motor Vehicles FOIL Office 6 Empire State Plaza, Room 222 Albany, NY  12228",,FOIL@dmv.state.ny.us
+417,491,James,Rubenstein,2014-07-08 05:08:27+00:00,"1409 Greenbrier Street, Charleston, WV 25311",(304) 558-2036,James.E.Rubenstein@wv.gov
+419,493,Katie,Stump,2014-07-08 17:10:54+00:00,,,katiered81@yahoo.com
+420,494,Herman,Morris,2014-07-09 15:19:27+00:00,,,OpenRecordsRequests@memphistn.gov
+421,495,Sherri,Hilton,2014-07-09 16:13:33+00:00,"501 North West Street Suite 1301, Woolfolk Building Jackson, Mississippi 39201",,sherri.hilton@dfa.ms.gov
+422,496,Pat,Mcleod,2014-07-09 16:17:46+00:00,"365 Losher Street Hernando, MS 38632  ",,pmcleod@desotocountyms.gov
+423,497,Shawn,Pachucki,2014-07-09 16:20:50+00:00,"160 S. Hollywood Memphis, TN 38112  901/416-5300",,Pachukis@scsk12.org
+491,497,Stephani,Everson,2014-07-24 19:29:34+00:00,,,EVERSONS@scsk12.org
+492,497,Christian,Ross,2014-07-24 19:30:24+00:00,,,ROSSC3@scsk12.org
+1188,498,Bill,Sadler,2015-04-08 17:22:11+00:00,,,bill.sadler@asp.arkansas.gov
+425,499,Henry,La Mar,2014-07-09 16:51:47+00:00,"Criminal Investigations Division at Little Rock State Police Headquarter / 1 State Police Plaza Drive / Little Rock, Arkansas 72209",501-618-8850,henry.lamar@asp.arkansas.gov
+426,500,,,2014-07-09 17:01:27+00:00,,,info@asp.arkansas.gov
+427,501,Tina,Griffith,2014-07-09 18:54:39+00:00,"9200 Pigeon Roost Road Olive Branch, MS 38654",,sjones@obms.us
+428,502,Daniel,Kelly,2014-07-09 18:57:15+00:00,"8710 Northwest Dr. Southaven, MS  38671",,dkelley@southaven.org
+585,503,,,2014-08-18 14:43:39+00:00,"7900 Forsyth Boulevard St. Louis, Missouri 63105 ",(314) 615-4282,
+849,503,B,Schellman,2014-10-27 20:59:30+00:00,,,bschellman@stlouisco.com
+1772,505,Latonya,Bowman,2016-02-26 19:21:46+00:00,"	P.O. BOX 66, MT. MEIGS, AL 36057",334- 215-3839,letonya.bowman@dys.alabama.gov
+430,506,Katie,Harbin,2014-07-10 16:10:54+00:00,"475 West Commerce Street Hernando,MS 38632 ",,kharbin@cityofhernando.org
+433,508,Katherine,Norris,2014-07-10 18:43:13+00:00,"CDC/ATSDR Attn: FOIA Office, MS: D54 1600 Clifton Rd, N.E. Atlanta, GA 30333",(770) 488-6399 ,FOIARequests@cdc.gov
+434,509,Office of Information Programs and Services A/GIS/IPS/RL ,,2014-07-10 19:31:33+00:00,"U. S. Department of State Washington, D. C. 20522-8100",(202) 261-8484,
+890,510,,,2014-11-13 17:42:40+00:00,"FOIA Requester Service Center 1000 Independence Avenue, SW Mail Stop MA-90 Washington, DC 20585",(202) 586-5955,
+438,512,Default FOIA Contact,,2014-07-11 23:15:35+00:00,,,foiparequest@ic.fbi.gov
+1755,512,Arifa,Abrahim,2016-02-07 20:57:22+00:00,,,
+918,513,,,2014-11-24 20:54:01+00:00,,,
+928,513,,,2014-12-01 00:05:32+00:00,"170 Marcel Drive, Winchester, VA 22602-4843",,foiparequest@ic.fbi.gov
+435,515,Ben,Logan,2014-07-11 15:28:14+00:00,"71 East Troy St. Tupelo, MS 38804",,ben.logan@tupeloms.gov
+436,515,Sandy,Shumaker,2014-07-11 15:37:59+00:00,,,sandy.shumaker@tupeloms.gov
+705,518,Quentin,Ransburg,2014-09-08 20:54:01+00:00,,,qransburg@mde.k12.ms.us
+439,520,,,2014-07-11 23:20:29+00:00,"5600 Fishers Lane, Rm. 6C-18 Rockville, Maryland 20857",,foia@hrsa.gov
+446,520,amanda,pyle,2014-07-12 22:31:08+00:00,klamath falls oregon,,
+447,523,Philip,Lentz,2014-07-13 07:56:49+00:00,,212-998-6833,philip.lentz@nyu.edu
+448,523,,,2014-07-13 07:57:26+00:00,,212-998-2400,government.affairs@nyu.edu
+449,523,Tina,Surh,2014-07-13 08:01:02+00:00,,212-998-2371,tina.surh@nyu.edu
+1482,524,John,Milton,2015-08-13 04:28:19+00:00,"PO Box 47418 Olympia, WA 98504-7418",360-704-6363,miltonj@wsdot.wa.gov
+1674,524,,,2015-12-09 17:56:46+00:00,,,publicdisclosurerequests@wsdot.wa.gov
+1756,524,April,BickarPierce,2016-02-08 20:55:30+00:00,,,bickara@wsdot.wa.gov
+1477,525,Debbie,Nelson,2015-08-13 04:13:26+00:00,"PO Box 47014 Olympia, WA 98504-7014",360-902-1542,debbie.nelson@dnr.wa.gov
+452,526,James,Shea,2014-07-15 12:49:41+00:00,,,dps@njjcps.org
+453,527,Neil, Wessel,2014-07-15 17:32:21+00:00,"1685 Main St., Rm 202     	Santa Monica, CA 90401    ",,rentcontrol@smgov.net
+454,528,,,2014-07-15 18:09:20+00:00,"501 South Calhoun Street, Tallahassee, Florida  32399-2500",(850) 717-3605 – Office,CO.PublicRecords@mail.dc.state.fl.us
+1400,528,Martin,Randall,2015-07-16 15:33:01+00:00,,,randall.martin@mail.dc.state.fl.us
+1512,528,Giovanna,Nino,2015-08-13 21:17:50+00:00,,850-717-3068,nino.giovanna@mail.dc.state.fl.us
+1513,528,Donna,Beard,2015-08-13 21:23:16+00:00,,850-717-3625,Beard.Donna@mail.dc.state.fl.us
+1514,528,Jennifer,Parker,2015-08-13 21:25:55+00:00,,850-717-3605,Ridgway.Dorothy@mail.dc.state.fl.us
+1515,528,Dotti,Ridgway,2015-08-13 21:28:59+00:00,,850-717-3605,Ridgway.Dorothy@mail.dc.state.fl.us
+455,529,Jeffrey,Callison,2014-07-15 18:45:15+00:00,,,Jeffrey.Callison@cdcr.ca.gov
+456,530,Fred,Scaletta,2014-07-15 18:53:52+00:00,,,Fred.Scaletta@iowa.gov
+457,531,Robert,Hurst,2014-07-15 19:09:37+00:00,,,Robert.hurst@tdcj.texas.gov
+715,531,,,2014-09-09 15:19:03+00:00,,,
+459,533,Frank,Dufay,2014-07-15 21:02:27+00:00,,503-865-2487,Frank.Dufay@portlandoregon.gov
+460,534,Default FOIA Contact,,2014-07-15 23:19:01+00:00,,,FOIAVBACO@va.gov
+461,534,Kevin,Allen,2014-07-15 23:19:18+00:00,810  Vermont  Avenue  NW Washington DC 20420,(202)  632-8920 ,
+462,534,Chalmer,Rennie,2014-07-15 23:20:18+00:00,810 Vermont Avenue NW Washington DC 20420,(202)  632-8956,
+463,534,Gwendolyn,Smith,2014-07-15 23:20:42+00:00,810 Vermont Avenue NW Washington DC 20420,(202)  632-8928 ,
+474,535,,,2014-07-18 14:49:02+00:00,,,reporting@mde.k12.ms.us
+464,536,John,Chester,2014-07-16 21:40:51+00:00,"346 Claremont Avenue, Jersey City",201-915-6279,jchester@jcboe.org
+583,536,Luiggi,Campana,2014-08-16 22:03:25+00:00,,,lcampana@jcboe.org
+466,537,Floyd,Graham,2014-07-17 15:18:38+00:00,"Hernando, MS 38632",5 E. South Street,floyd.graham@dcsms.org
+472,537,Katherine,Nelson,2014-07-17 22:28:30+00:00,,,katherine.nelson@dsms.org
+465,538,Leo,Rinaldi,2014-07-17 15:18:23+00:00,,,lrinaldi@hcpo.org
+467,539,Robert,Byrne,2014-07-17 15:25:28+00:00,,,rbyrne@jcnj.org
+468,540,Robert,Taino,2014-07-17 15:39:46+00:00,,,rtaino@hcnj.us
+469,541,Billy,Woods,2014-07-17 16:26:37+00:00,301 S. Avalon St West Memphis AR 72301,870-735-1915,bwoods@wmsd.net
+470,542,Mary,Sprague ,2014-07-17 17:18:22+00:00,,202-366-3564,
+471,542,General Contact,,2014-07-17 17:19:39+00:00,"1200 New Jersey Avenue, SE West Building, 41-304 Washington, D.C. 20590",202-366-3564,foia.nhtsa@dot.gov
+473,544,Judie,OMalley,2014-07-18 12:12:31+00:00,,,omalley@usm.maine.edu
+475,546,Cindy,Blacker,2014-07-18 17:50:54+00:00,"9800 Savage Road, Suite 6848; Ft George G Mead, MD 20755-6248",3016884762,foiarsc@nsa.gov
+476,548,Default FOIA Contact,,2014-07-21 15:30:44+00:00,,,EDFOIAManager@ed.gov
+477,549,Justina,McGettigan,2014-07-21 18:31:34+00:00,,,jamcgettigan@co.york.me.us
+478,550,,,2014-07-21 19:41:57+00:00,"PO Box 260, Lewiston Maine, 04243 ",,
+479,551,,,2014-07-21 20:19:17+00:00,"555 Franklin Street, Room 305 ",(415) 241-6565,
+480,552,,,2014-07-21 21:31:41+00:00,,,media@azcorrections.gov 
+482,554,,,2014-07-21 22:01:15+00:00,,,publicrecord@idoc.idaho.gov
+483,555,Bob,Bugher,2014-07-22 15:57:21+00:00,,,rbugher@idoc.in.gov
+484,556,Gina,Proctor,2014-07-22 16:26:05+00:00,,,ginaproctor@utah.gov
+485,557,Andy,Phelps,2014-07-22 17:54:12+00:00,,,phelpsa@michigan.gov
+1664,557,Amiee,Nelson,2015-12-06 21:11:47+00:00,,,NelsonA9@michigan.gov
+486,558,Derek,Jess,2014-07-23 19:49:28+00:00,,,djjess@paps.net
+487,558,Derek,Jess,2014-07-23 19:51:07+00:00,,,derekjess@paps.net
+488,559,Corey,Egel,2014-07-23 19:57:54+00:00,,916-445-5560 ,Corey.Egel@cdph.ca.gov
+489,560,,,2014-07-23 23:03:14+00:00,,,
+490,561,,,2014-07-23 23:15:43+00:00,,,FOIL@sla.ny.gov
+493,564,,,2014-07-24 19:42:07+00:00,,,docpublicdisclosureunit@doc.wa.gov
+495,565,Stephanie ,Givens,2014-07-24 19:57:10+00:00,,,Givens.Stephanie@doc.sc.gov
+496,566,Pamela,Walker,2014-07-24 20:02:56+00:00,,,Pamela.walker@ncdps.gov
+1391,566,Keith ,Acree,2015-07-14 21:33:45+00:00,,,keith.acree@ncdps.gov
+497,567,,,2014-07-24 20:25:48+00:00,,,Joy.staab@wi.gov
+498,568,FOIA Officer,,2014-07-24 20:26:36+00:00,,,
+499,569,David ,Roper,2014-07-24 21:28:46+00:00,,901-873-5680,droper@millingtonschools.org
+500,571,Leah,Vukmir,2014-07-25 14:29:03+00:00,,,Sen.Vukmir@legis.wisconsin.gov
+501,572,Shea,Wilson,2014-07-25 20:09:50+00:00,,,Shea.wilson@arkansas.gov
+1402,572,Cathy,Frye,2015-07-16 16:03:25+00:00,,,cathy.frye@arkansas.gov
+502,573,,,2014-07-25 20:15:11+00:00,,,DOC.Commissioner@state.de.us
+503,574,,,2014-07-25 20:21:40+00:00,,,doc.foi@ct.gov
+1389,574,Craig,Washington,2015-07-14 21:22:51+00:00,,,craig.washington@ct.gov
+504,575,Lisa,Weitekamp,2014-07-25 20:37:24+00:00,,,Lisa.weitekamp@doc.illinois.gov
+1380,575,Nicole,Wilson,2015-07-14 18:23:46+00:00,,(217) 558-2200 x2013,nicole.j.wilson@doc.illinois.gov
+505,576,Sheryl,Cadue,2014-07-25 20:49:27+00:00,,,kdocpub@doc.ks.gov
+1392,576,Adam ,Pfannenstiel,2015-07-14 21:35:34+00:00,,(785) 215-2857,Adam.Pfannenstiel@doc.ks.gov
+1375,577,Bob,Horton,2015-07-14 15:17:35+00:00,,334-353-4053 ,bob.horton@DOC.alabama.gov
+1409,577,Jack,Hawkins,2015-07-22 19:39:54+00:00,,,jhawkins@troy.edu
+1410,577,Ray,White,2015-07-22 19:44:12+00:00,,,grwhite@troy.edu
+1511,577,,,2015-08-13 21:08:11+00:00,"Attn: Research & Planning Division, P.O. Box 301501, Montgomery, Alabama 36130-1501",,public.records@doc.alabama.gov
+507,580,Todd,Henson,2014-07-28 20:55:03+00:00,,,Todd.henson@ky.gov
+508,581,,,2014-07-28 20:58:00+00:00,,,DOC_Open_Records@state.co.us
+1569,581,Rick,Raemisch,2015-09-02 19:28:25+00:00,,719-579-9580,
+509,582,Scott ,Fish,2014-07-28 21:02:30+00:00,,,Scott.Fish@maine.gov
+1382,582,Jody,Breton,2015-07-14 20:02:36+00:00,,(207) 287-4378,jody.l.breton@maine.gov
+510,583,Alice,Tomerlin,2014-07-29 19:15:24+00:00,"P O Box 172 Quitman, Texas 75783-0172",903-763-2713,atomerlin@dco.wood.tx.us
+511,587,,,2014-07-31 16:50:59+00:00,,,
+512,588,Anna,hartman,2014-07-31 16:53:57+00:00,,,annamariehartman@yahoo.com
+514,589,,,2014-08-01 19:24:43+00:00,"Department of Labor and Industries, Public Records Unit, PO Box 44632, Olympia WA 98504",360 - 902 - 5556,PublicRecords@Lni.wa.gov
+1474,589,Angela,Wharton,2015-08-13 04:04:30+00:00,"PO Box 44632 Olympia, WA 98504-4632",360-902-5542,Angela.Wharton@lni.wa.gov
+515,590,Pamela,Elliott Cain,2014-08-04 16:42:31+00:00,"1350 Beardshear Hall / Iowa State University / Ames, IA 50011-2038",,pelliott@iastate.edu
+516,591,Lyn,Hardy,2014-08-04 19:36:15+00:00,"950 Pennsylvania Avenue, N.W., Suite 3529, Washington, D.C.  20530",(202) 514-3365,OPR.FOIA@usdoj.gov
+517,592,Kate,McDonnell,2014-08-04 20:39:15+00:00,,,kmcdonnell@njleg.org
+518,594,Jason,Redd,2014-08-04 21:02:56+00:00,,,jredd@njleg.org
+519,596,,,2014-08-04 21:54:22+00:00,,,shelley.d.nobriga@hawaii.gov
+520,597,,,2014-08-04 21:56:38+00:00,,,hogang00@dcor.state.ga.us
+1390,597,Gwendolyn ,Hogan,2015-07-14 21:28:26+00:00,,(478) 992-5247,gwendolyn.hogan@gdc.ga.gov
+521,598,,,2014-08-05 04:12:31+00:00,,,
+1099,599,Woody ,McMillin,2015-02-07 19:36:04+00:00,,615-741-3446,Woody.McMillin@tn.gov
+522,600,Sandra,Evans,2014-08-05 14:13:08+00:00,,703-292-5065,
+523,602,Robin,Galli,2014-08-05 16:55:07+00:00,,,throopboro@comcast.net 
+524,603,,,2014-08-05 18:12:33+00:00,,,sarah.latuseck@state.mn.us
+525,604,,,2014-08-05 18:15:34+00:00,,,DScott@mdoc.state.ms.us
+1383,604,Grace ,Simmons,2015-07-14 20:07:39+00:00,,(601) 359-5608,gfisher@mdoc.state.ms.us
+526,605,,,2014-08-05 18:17:55+00:00,,,doc.media@doc.mo.gov
+527,606,Enrique,Marquez,2014-08-05 19:34:24+00:00,,(512)424-6951,enrique.marquez@hhsc.state.tx.us
+528,606,Bryan,Black,2014-08-05 19:44:16+00:00,,512-424-6951,bryan.black@hhsc.state.tx.us
+1603,606,Records,,2015-10-09 17:22:47+00:00,,,OpenRecordsRequest@hhsc.state.tx.us
+1604,606,Records,,2015-10-09 17:22:51+00:00,,,OpenRecordsRequest@hhsc.state.tx.us
+1742,606,Chris,Cutrone,2016-01-25 17:50:21+00:00,,,chris.cutrone@hhsc.state.tx.us
+529,608,Patrick,Crimmins,2014-08-05 19:45:56+00:00,,512-438-3112,patrick.crimmins@dfps.state.tx.us
+530,608,Julie,Moody,2014-08-05 19:46:27+00:00,,512-438-3112,julie.moody@dfps.state.tx.us
+713,608,,,2014-09-09 15:18:47+00:00,,,
+531,609,Cecilia,Cavuto,2014-08-05 19:48:06+00:00,,512-438-3056,cecilia.cavuto@dads.state.tx.us
+532,609,Melissa,Gale,2014-08-05 19:48:28+00:00,,512-438-3056,melissa.gale@dads.state.tx.us
+714,609,,,2014-09-09 15:18:57+00:00,,,
+533,610,Carrie,Williams,2014-08-05 19:49:31+00:00,,512-776-7119,carrie.williams@dshs.state.tx.us
+534,610,Christine,Mann,2014-08-05 19:49:55+00:00,,512-776-7119,christine.mann@dshs.state.tx.us
+535,610,Chris,Van Deusen,2014-08-05 19:50:18+00:00,,512-776-7119,chris.vandeusen@dshs.state.tx.us
+536,611,Cassie,Fisher,2014-08-05 19:51:28+00:00,,512-377-0534,cassie.fisher@dars.state.tx.us
+537,611,Erin,Moore,2014-08-05 19:51:58+00:00,,512-377-0534,erin.moore@dars.state.tx.us
+538,612,,,2014-08-05 21:21:03+00:00,,,crystal.prochnow@nebraska.gov
+1397,612,James,Foster,2015-07-15 19:16:03+00:00,,,james.foster@nebraska.gov
+539,613,,,2014-08-06 14:12:26+00:00,,,pio@doc.nv.gov
+540,615,,,2014-08-06 14:26:23+00:00,,,Roger.wilson@odrc.state.oh.us 
+1379,615,JoEllen,Smith,2015-07-14 18:11:32+00:00,,,joellen.smith@odrc.state.oh.us
+1643,615,Jamie,O'Toole,2015-11-18 19:53:51+00:00,,,jamie.otoole@odrc.state.oh.us
+1667,615,,,2015-12-06 21:32:03+00:00,,,drc.publicinfo@odrc.state.oh.us
+541,616,,,2014-08-06 14:32:23+00:00,"1650 Arch Street, Philadelphia PA 19103",(215) 814-5553,
+542,617,,,2014-08-06 14:40:10+00:00,,,jerry.massie@doc.state.ok.us
+1393,617,Terri ,Watkins,2015-07-14 21:52:17+00:00,,(405) 425-2513,terri.watkins@doc.state.ok.us
+543,618,,,2014-08-06 14:48:03+00:00,,,mark.horan@wyo.gov
+544,619,,,2014-08-06 14:50:05+00:00,,,Michael.Winder@state.sd.us
+1668,619,Denny, Kaemingk,2015-12-06 21:56:24+00:00,,,denny.kaemingk@state.sd.us
+545,620,,,2014-08-06 15:06:58+00:00,,,Lawrence.c.messina@wv.gov
+1396,620,Stacy,Nowicki,2015-07-15 14:44:01+00:00,,,stacy.I.nowicki@wv.gov
+546,623,,,2014-08-06 22:04:33+00:00,,,David.Turner@state.vt.us
+547,624,,,2014-08-06 22:06:26+00:00,,,ttausend@nd.gov
+1666,624,Michelle,Linster,2015-12-06 21:29:02+00:00,,,mlinster@nd.gov
+548,625,,,2014-08-06 22:08:23+00:00,,,Richard.schmitz@alaska.gov
+549,626,,,2014-08-06 22:09:50+00:00,,,foia@vadoc.virginia.gov
+550,627,,,2014-08-06 22:11:07+00:00,,,dduarte@doc.state.ma.us
+552,629,,,2014-08-07 15:01:47+00:00,"Records Access Officer New York State Department of Labor, State Office Campus, Building 12, Room 509, Albany, New York 12240 ",Questions: 518-457-3518,
+553,631,,,2014-08-07 18:53:01+00:00,,,Nickie.wilson@doc.state.or.us
+554,632,,,2014-08-07 18:55:55+00:00,,,Kathleen.kelly@doc.ri.gov
+1385,632,Susan,Lamkins,2015-07-14 20:25:12+00:00,,401-462-2905,susan.lamkins@doc.ri.gov
+1386,632,Barry,Weiner,2015-07-14 20:26:31+00:00,,401-462-2905,barry.weiner@doc.ri.gov
+555,633,,,2014-08-07 20:55:32+00:00,,,
+556,634,,,2014-08-07 20:55:51+00:00,,,
+559,635,Matt,Vanover,2014-08-08 22:56:30+00:00,,,mvanover@isbe.net
+560,635,,,2014-08-08 22:56:55+00:00,,,FOIA@isbe.net
+561,636,DeWayne,Ennis,2014-08-09 00:31:35+00:00,P.O. Box 551,,
+562,642,Michael,Williams,2014-08-11 21:23:31+00:00,"310 West Martin St., Room 202 Raleigh, North Carolina 27602",(919) 996-6777,michael.williams@raleighnc.gov
+563,644,Lauren,Bean,2014-08-11 21:51:00+00:00,,,lauren.bean@texasattorneygeneral.gov
+565,644,Public Records,Email,2014-08-12 15:27:01+00:00,,,publicrecords@texasattorneygeneral.gov
+716,644,,,2014-09-09 15:21:29+00:00,,,
+1241,644,Lauren,Downey,2015-04-20 21:17:17+00:00,,,publicrecords@texasattorneygeneral.gov
+1675,644,Katherine,Wise,2015-12-09 19:51:12+00:00,,,katherine.wise@texasattorneygeneral.gov
+1633,645,Lauren ,Downey,2015-11-03 18:13:33+00:00,,,publicrecords@texasattorneygeneral.gov
+566,646,,,2014-08-12 16:19:15+00:00,,,moaudit@auditor.mo.gov
+567,646,,,2014-08-12 16:19:23+00:00,,,media@auditor.mo.gov
+569,647,,,2014-08-13 15:48:10+00:00,,,jlyons@nhdoc.state.nh.us
+1384,647,Jeff,Lyons,2015-07-14 20:14:51+00:00,,(603) 271-5602,jeffrey.lyons@doc.nh.gov
+571,648,Dana,Burley,2014-08-13 20:25:10+00:00,,,dburley@njleg.org
+572,649,Kent,Hicks,2014-08-13 20:30:52+00:00,,,khicks@njleg.org
+573,649,Jennifer,McQuaid,2014-08-13 20:41:41+00:00,,,jmcquaid@njleg.org
+574,650,NO CONTACT,,2014-08-13 21:35:12+00:00,,,
+576,651,Bethany,Goodwin,2014-08-14 10:30:07+00:00,,517-241-1934,MSP-FOI@michigan.gov
+766,651,Jay,Eickholt,2014-09-29 18:46:07+00:00,4000 Collins Road Lansing MI 48909,(517) 333-2749 ,eickholtj1@michigan.gov
+1758,651,,,2016-02-09 20:07:17+00:00,,,MSP-FOI@michigan.gov
+578,652,Captain Timothy ,Waring,2014-08-14 16:52:35+00:00,,716.879.6613,
+579,653,Doreen,Jackson,2014-08-14 17:59:50+00:00,"7105 Lockport Road, Niagara Falls, NY 14305",716.297.2150 x 145,djackson@niagarapolice.com
+580,654,Judith,Mansfield,2014-08-14 18:15:49+00:00,"74 Washington Avenue North Battle Creek, MI 49037-3084",269-961-4513,drmsefoia@dla.mil
+738,657,Mary,Hollinrake ,2014-09-12 13:42:54+00:00,Kent County Courthouse,(616) 632-5480,mary.hollinrake@kentcountymi.gov
+582,658,FOIA OFFICER,,2014-08-15 19:46:23+00:00,,,
+584,661,Theresa,Quon,2014-08-18 11:51:12+00:00,,,
+654,661,,,2014-08-29 15:05:07+00:00,,,foia.admin@dc.gov
+866,661,Teresa,Quon,2014-10-27 21:35:20+00:00,,(202) 727-3721,Teresa.quon@dc.gov
+586,665,,,2014-08-19 22:35:00+00:00,,,CPDfoia@cityofchicago.org
+1660,665,,,2015-12-05 17:24:27+00:00,,,foia@chicagopolice.org
+587,666,Patrick J.,Corcoran,2014-08-19 22:49:07+00:00,"Office of the Chicago City Clerk City Hall 121 North LaSalle Street, Room 107 Chicago, IL 60602",312-744-8590,ClerkFOIA@cityofchicago.org
+588,667,Steven,Conrad,2014-08-20 00:23:59+00:00,"633 W. Jefferson, Louisville, KY 40202",502-574-2450,steve.conrad@louisvilleky.gov
+1721,667,,,2016-01-13 16:09:16+00:00,,,lmpdpio@louisvilleky.gov
+589,668,Edward,Flynn,2014-08-20 00:47:05+00:00,"749 W. State Street, Milwaukee, WI 53233 ",414-933-4444 ,eflynn@milwaukee.gov
+1748,668,,,2016-02-02 19:21:50+00:00,"2333 N 49th St, Milwaukee, WI 53210",414.935.7502,mpdopenrecords@milwaukee.gov
+590,669,William,Citty,2014-08-20 00:52:03+00:00,"701 Colcord Drive, Oklahoma City, OK 73102",405-231-2121,william.citty@okc.gov
+591,670,Anthony,Batts,2014-08-20 00:58:05+00:00,"242 W. 29th St, Baltimore, MD 21211",410-396-2525,anthony.batts@baltimorepolice.org
+1747,670,Wayne,Brooks,2016-02-02 18:50:31+00:00," Baltimore Police Department, c/o Office of Legal Affairs, 242 W. 29th Street, Baltimore, MD 21211",410-637-8684,dcu@baltimorepolice.org
+592,671,Gorden,Eden,2014-08-20 01:03:38+00:00,"400 Roma NW, Albuquerque, NM 87102",(505) 768-2200,geden7@cabq.gov
+594,672,Jerry,Dyer,2014-08-20 01:10:43+00:00,"2323 Mariposa St, Fresno, CA 93721",559-621-2001,jerry.dyer@fresno.gov
+595,673,Toney,Armstrong,2014-08-20 01:21:32+00:00,"7607 Comstock Cove, Memphis, TN 38125",901-299-2479,toney.armstrong@memphistn.gov
+597,674,Ursula,Harelson,2014-08-20 17:48:52+00:00,,(916) 845-8425,ursula.harelson@calema.ca.gov
+598,675,,,2014-08-21 17:43:16+00:00,"9526 W. Irving Park Road  Schiller Park, IL 60176",(847) 678-2550,
+599,676,,,2014-08-22 17:37:23+00:00,"Department of Administrative Hearings 740 North Sedgwick Street, 2nd Floor Chicago, Illinois 60654",,AHfoia@cityofchicago.org
+600,677,,,2014-08-22 18:20:24+00:00,"333 S. State Street, Rm. 200, Chicago, IL 60604",,cdphfoia@cityofchicago.org
+602,679,Customer Service,,2014-08-25 14:32:46+00:00,,,customer_services_dfcs@dhr.state.ga.us
+603,680,William,Wade,2014-08-26 20:08:36+00:00,"6477 CENTER ST,  MENTOR, OH ",(440) 974-5300 ,wade@mentorschools.org
+604,682,Dale,Trigg,2014-08-26 22:01:57+00:00,,,
+605,683,Barbara,Brush,2014-08-27 03:52:02+00:00,"DOT Admin. Bldg., RM 300 Springfield, IL 62764 - 0002",217-782-0692,barbara.brush@illinois.gov
+606,684,Art,Faulkner,2014-08-27 21:21:58+00:00,,,art.faulkner@ema.alabama.gov
+607,685,Mark,Howard,2014-08-27 23:03:19+00:00,5636 East McDowell Road Phoenix AZ 85008-3455 ,602-231-6346,Mark.Howard@azdema.gov
+609,686,Dave,Hard,2014-08-27 23:18:52+00:00,,720-852-6611,dave.hard@state.co.us
+610,687,Mark,DeCaprio,2014-08-27 23:23:12+00:00,,860-424-3024,mark.decaprio@po.state.ct.us
+611,689,Kevin,Kille,2014-08-27 23:27:40+00:00,"State Emergency Operations Center 165 Brick Store Landing Road Smyrna, DE 19977",302-659-3362,kevin.kille@state.de.us
+612,690,Chris,Geldart,2014-08-27 23:31:14+00:00,,202-727-6161,chris.geldart@dc.gov
+613,691,Mary,Marsh,2014-08-27 23:34:41+00:00,,,mmarsh@bhs.idaho.gov
+614,692,Kevin,Sledge,2014-08-27 23:37:28+00:00,,,ema.tier2mgr@illinois.gov
+615,693,Joseph E.,Wainscott,2014-08-27 23:43:59+00:00,,,saratr2@dhs.in.gov
+616,694,Anne,Jackson,2014-08-27 23:47:45+00:00,,515-281-5151,anne.jackson@iwd.iowa.gov
+617,695,SERC Chair,,2014-08-27 23:54:32+00:00,,,KentuckySERC@gmail.com
+618,696,Bruce,Fitzgerald,2014-08-27 23:57:37+00:00,,,bruce.fitzgerald@maine.gov
+619,697,Andy,Lauland,2014-08-28 00:01:37+00:00,,,andy.lauland@maryland.gov
+620,698,Kurt,Schwartz,2014-08-28 00:47:21+00:00,,508-820-2010,kurt.schwartz@state.ma.us
+621,699,Susan,Parker,2014-08-28 00:50:15+00:00,,,parkers5@michigan.gov
+622,700,Kevin,Reed,2014-08-28 00:53:11+00:00,,,kevin.reed@state.mn.us
+623,701,Dawn,Warren,2014-08-28 00:56:42+00:00,,,Dawn.Warren@sema.dps.mo.gov
+624,702,Ed,Tinsley,2014-08-28 00:59:53+00:00,,,edtinsley@mt.gov
+625,703,Tonya,Ngotel,2014-08-28 01:15:44+00:00,,,tonya.ngotel@nebraska.gov
+626,704,Karen,Pabon,2014-08-28 01:56:20+00:00,,,kpabon@dps.state.nv.us
+627,705,Les,Cartier,2014-08-28 01:59:05+00:00,,603-223-4289,leslie.cartier@dos.nh.gov
+628,706,Susan,Walker,2014-08-28 02:03:19+00:00,,,susan.walker@state.nm.us
+629,707,William,Davis,2014-08-28 02:06:39+00:00,,,serc@dhses.ny.gov
+630,708,Patrick,Lake,2014-08-28 02:10:18+00:00,,,patrick.lake@ncdps.gov
+631,709,Greg,Wilz,2014-08-28 02:13:07+00:00,,,nddes@nd.gov
+632,710,Nancy,Dragani,2014-08-28 02:16:24+00:00,,,NDragani@dps.state.oh.us
+633,711,Sue,Otjen,2014-08-28 02:18:29+00:00,,,Sue.otjen@state.or.us
+634,712,John,Rozman,2014-08-28 02:52:32+00:00,,717-651-2121,jrozman@pa.gov
+1123,712,Open Records,Officer,2015-02-20 18:22:32+00:00,"2605 Interstate Drive, Harrisburg, PA 17110 ",,ra-rtk-pema@pa.gov
+635,713,Paul,D'Abbraccio,2014-08-28 02:56:01+00:00,,,pdabbraccio@gov.state.ri.us
+823,713,Jamia,McDonald,2014-10-20 02:21:23+00:00,"645 New London Avenue Cranston, RI 02920",401-946-9996,Jamia.McDonald@governor.ri.gov
+636,714,Trish,Kindt,2014-08-28 02:59:17+00:00,,,Trish.Kindt@state.sd.us
+637,715,Mia,Montega,2014-08-28 03:21:17+00:00,,,epcra@tnema.org
+638,716,Miles,Tollison,2014-08-28 03:24:26+00:00,,,miles.tollison@dps.texas.gov
+722,716,,,2014-09-09 15:25:08+00:00,,,
+639,717,Keith,Squires,2014-08-28 03:27:53+00:00,,,ksquires@utah.gov
+640,718,Randall,Bronson,2014-08-28 13:16:21+00:00,,,rbronson@dps.state.vt.us
+641,719,Jeffrey,Stern,2014-08-28 13:19:59+00:00,,,jeff.stern@vdem.virginia.gov
+642,720,Melissa,Buckley,2014-08-28 13:23:30+00:00,,,Melissa.D.Buckley@wv.gov
+643,721,Brian,Satula,2014-08-28 13:26:55+00:00,,,brian.satula@wisconsin.gov
+644,722,Don,Huber,2014-08-28 13:29:36+00:00,,,dhuber@ccfire.us
+645,723,,,2014-08-28 13:36:53+00:00,,,PublicAffairs@adem.arkansas.gov
+646,724,Bryan,Koon,2014-08-28 13:43:57+00:00,,,Julie.Roberts@em.myflorida.com
+1544,724,Beverly,Byerts,2015-08-16 02:13:53+00:00,,850-922-1618,beverly.byerts@em.myflorida.com
+1545,724,Juan,Matos,2015-08-16 02:16:29+00:00,,850-413-9955,juan.matos@em.myflorida.com
+1546,724,Julie,Roberts,2015-08-16 02:18:40+00:00,,850-413-9839,Julie.Roberts@em.myflorida.com
+647,725,,,2014-08-28 13:56:06+00:00,,,pao@gema.ga.gov
+648,726,,,2014-08-28 14:09:22+00:00,,,TESS.ESU@dps.la.gov
+649,727,Greg,Flynn,2014-08-28 14:34:12+00:00,,,gflynn@mema.ms.gov
+650,728,Tom,Bergman,2014-08-28 14:56:23+00:00,,,tom.bergman@deq.ok.gov
+651,729,Joseph,Farmer,2014-08-28 15:06:39+00:00,,,jrfarmer@emd.sc.gov
+652,730,Mary,Goepfert,2014-08-28 17:36:03+00:00,,,russell@russellgold.net
+653,731,Suzannah,Jones,2014-08-28 21:23:52+00:00,,,OGC.Webmaster@dps.texas.gov
+720,731,,,2014-09-09 15:22:24+00:00,,,
+721,731,,,2014-09-09 15:23:32+00:00,,,
+1083,731,,,2015-02-05 17:35:44+00:00,"P.O. Box 4087 Austin, TX 78773-0170",,OGC.Webmaster@dps.texas.gov
+1422,732,Grace,Cielak,2015-07-31 03:42:10+00:00,"121 NORTH LASALLE STREET, ROOM 805, CHICAGO, ILLINOIS 60602",,BACPfoia@cityofchicago.org
+656,733,,,2014-08-29 23:08:33+00:00,"30 N. LaSalle Street, Suite 1100, Chicago, IL 60602",,CDOTfoia@cityofchicago.org
+1318,734,,,2015-05-27 06:29:09+00:00,,,
+657,736,,,2014-09-01 16:07:55+00:00,"P.O. Box 1456 Atlanta, GA 30371",,
+1338,736,,,2015-06-10 18:24:13+00:00,,,openrecords@gsp.net
+658,737,Susana,McCurdy,2014-09-02 07:25:58+00:00,,,S4478M@lvmpd.com
+659,738,Don,Ramsdell,2014-09-02 07:31:54+00:00,,,don.ramsdell@cityoftacoma.org
+660,739,Frank,Straub,2014-09-02 07:42:28+00:00,,,fstraub@spokanepolice.org
+661,740,Thomas P.,Hardy,2014-09-02 14:40:11+00:00,"108 Henry Administration Building 506 South Wright St, MC-370 Urbana, IL 61801",217-333-6400,foia@uillinois.edu
+662,741,,,2014-09-02 15:02:09+00:00,"Coleman A. Young Municipal Center 2 Woodward Avenue, Suite 500 Detroit, MI  48226",313-224-5505 (Fax),
+663,742,Ellen,Armentrout,2014-09-02 17:04:50+00:00,"426 Auditorium Road, Room 494 East Lansing, MI  48824", 517-353-4706,armentr4@msu.edu
+736,742,Freedom of Information Act Office,,2014-09-10 20:28:44+00:00,117 Olds Hall,517-353-3929,foia@msu.edu
+664,743,,,2014-09-02 19:39:49+00:00,,,mediarelations@pd.boston.gov
+670,744,Chris,Gundermann,2014-09-03 22:56:44+00:00,"Washington State Police, Olympia, WA 98504",(360) 534-2000,chris.gundermann@wsp.wa.gov
+665,745,Maureen,Cosgrove,2014-09-03 00:13:12+00:00,,,Maureen@jcnj.org
+1563,746,,,2015-08-25 18:39:33+00:00,,,comm@alsde.edu
+685,747,Malissa,Valdes-Hubert,2014-09-05 18:05:14+00:00,,334-242-9950,comm@alsde.edu
+666,748,Suzi,Shaw,2014-09-03 20:47:45+00:00,,850-245-9381,Suzan.Shaw@fldoe.org
+830,748,joe,follick,2014-10-24 18:02:39+00:00,,850-245-0413,Joe.Follick@fldoe.org
+1520,748,Lisa,Milton,2015-08-14 18:55:46+00:00,,850-245-5084,lisa.milton@fldoe.org
+1521,748,Tatiana,Fernández,2015-08-14 18:57:54+00:00,,850-245-5144,fernandez.tatiana@fldoe.org
+1523,748,Susan,Shaw,2015-08-14 19:04:18+00:00,,850-245-0507,Suzan.Shaw@fldoe.org
+667,749,Pamela,Cason,2014-09-03 22:49:47+00:00,"490 Old Santa Fe Trail Room 400 Santa Fe, NM 87501",,Pamela.Cason@state.nm.us
+668,750,Regina,Chacon,2014-09-03 22:51:03+00:00,,,dps.ipra@state.nm.us
+669,751,Beverly,Friedman,2014-09-03 22:54:13+00:00,,(505) 827-6661,Bev.Friedman@state.nm.us
+671,752,Richard,"Evans, Jr.",2014-09-03 23:03:15+00:00,"Oregon State Police, 255 Capitol Street, NE 4th Floor Salem, OR 97310",503-934-0275 ,richard.evans@state.or.us
+672,753,Ralph,Powell,2014-09-03 23:08:59+00:00,"700 S. Stratford Drive, Meridian, ID 83642",208.884.7000,ralph.powell@isp.idaho.gov
+673,754,James,Craig,2014-09-03 23:16:33+00:00,"1301 Third Street Detroit, MI  48226",,Craigj@detroitmi.gov
+844,754,Press Office,,2014-10-27 20:23:30+00:00,,,FOIA@detroitmi.gov
+1720,754,,,2016-01-11 15:36:17+00:00,,,policelaw@detroitmi.gov
+1749,754,,,2016-02-02 20:01:33+00:00,"City of Coleman A. Young Municipal Building  2 Woodward Avenue, Suite 500 Detroit, Michigan 48226    ",,dpdfoia@detroitmi.gov
+674,755,Rodney,Monroe,2014-09-03 23:21:19+00:00," 601 E. Trade Street, Charlotte, NC 28202",704-336-7600,rMonroe@cmpd.org
+675,756,Gregory,Allen,2014-09-03 23:29:57+00:00,"911 N. Raynor, El Paso, TX 79903",,allengk@elpasotexas.gov
+712,756,,,2014-09-09 15:18:30+00:00,,,
+676,757,Program Support Center,,2014-09-04 16:18:03+00:00,,(301) 443-3403,foiarequest@psc.hhs.gov
+677,758,,,2014-09-04 19:50:53+00:00,"2350 Appling City Cove Memphis, TN 38133",901-636-7297,MAS@memphistn.gov
+679,760,John,White,2014-09-04 21:40:17+00:00,"PO Box 94065; 1201 N. Third St., Baton Rouge, LA 70802",877-453-2721,john.white@la.gov
+680,761,Debbie,Ratcliffe,2014-09-04 21:56:59+00:00,1701 N. Congress Avenue,(512) 463-3464,pir@tea.state.tx.us
+723,761,,,2014-09-09 15:25:14+00:00,,,
+681,762,Kelli ,Gauthier,2014-09-04 22:30:48+00:00,"710 James Robertson Parkway, Andrew Johnson Tower, 9th Floor, Nashville, TN 37243",(615) 532-7817,Kelli.Gauthier@tn.gov
+1562,762,,,2015-08-25 18:36:22+00:00,,,education.research@tn.gov
+682,763,Kevin ,Brown,2014-09-04 23:02:50+00:00,,,kevin.brown@education.ky.gov
+683,764,Monica,Armenta,2014-09-04 23:03:32+00:00,6500 Uptown Blvd NE Suite 630E,(505) 880-3730,armenta_m@aps.edu
+1261,764,Rigo,Chavez,2015-04-24 16:01:15+00:00,"6400 Uptown Blvd. NE, Albuquerque, NM 87110",,chavez_ri@aps.edu
+684,765,Matt,Cardoza,2014-09-05 15:53:41+00:00,,,mcardoza@doe.k12.ga.us
+686,766,Eric,Fry,2014-09-05 18:33:25+00:00,,907-790-7029,Eric.fry@alaska.gov
+687,767,Kent,Purnell-Johnson,2014-09-05 18:54:20+00:00,,,openrecords@atlanta.k12.ga.us
+688,768,Open Records Officer,,2014-09-05 19:09:59+00:00,,,openrecordsofficer@philasd.org
+689,769,Sally,Stewart,2014-09-05 19:13:13+00:00,,(602) 542-5072,ADEInbox@azed.gov
+1154,769,,,2015-03-17 12:49:49+00:00,,,
+690,770,Lee,McGuire,2014-09-05 19:16:41+00:00,,,lmcguire@bostonpublicschools.org
+693,771,Kimberly ,Friedman,2014-09-05 19:29:15+00:00,,501-682-4788,ADE.Communications@arkansas.gov
+691,772,Lou,Pepe,2014-09-05 19:21:52+00:00,,,lpepe@fc.summit.k12.nj.us
+692,773,Wayne,Belock,2014-09-05 19:27:04+00:00,,,wayne.belock@clevelandmetroschools.org
+694,774,Karen,Worobey,2014-09-05 19:31:12+00:00,,,kworobey@cde.ca.gov
+695,775,Janelle,Asmus,2014-09-05 19:42:09+00:00,,303-866-6822,asmus_j@cde.state.co.us
+1559,775,Dana,Smith,2015-08-25 17:03:12+00:00,,,smith_d@cde.state.co.us
+1653,775,Cami,Anthony,2015-12-01 06:03:33+00:00,,,anthony_c@cde.state.co.us
+1778,775,,,2016-03-08 04:57:16+00:00,,,guerrero_g@cde.state.co.us
+698,777,Donalyn,Dela Cruz,2014-09-05 20:56:11+00:00,,(808) 586-3232,donalyn_dela_cruz@hawaiidoe.org
+697,778,William,Reinhard,2014-09-05 20:40:42+00:00,,,wreinhard@msde.state.md.us
+699,779,Joshua,Varon,2014-09-05 21:17:19+00:00,,,jvaron@doe.mass.edu
+1703,779,,,2015-12-28 17:44:15+00:00,,,ESE.RAO@state.ma.us
+701,780,Daniel,Altman,2014-09-05 22:29:12+00:00,,(317) 232-0550,daltman@doe.in.gov
+702,781,Staci,Hupp,2014-09-05 22:39:05+00:00,,515-281-5651,staci.hupp@iowa.gov
+703,782,David,Head,2014-09-08 19:41:14+00:00,,,headd@michigan.gov
+704,783,Kathryn,Olson,2014-09-08 20:33:00+00:00,,,kathryn.a.olson@state.mn.us
+706,785,,,2014-09-08 21:11:47+00:00,,,counsel@dese.mo.gov
+707,785,Dana,Keilholz,2014-09-08 21:12:29+00:00,,,dana.eilholz@dese.mo.gov
+708,786,Ann ,Gilkey,2014-09-08 21:31:21+00:00,,,agilkey@mt.gov
+724,787,Scott,Peterson,2014-09-09 15:50:30+00:00,,,
+725,788,Betty,VanDeventer,2014-09-09 16:21:08+00:00,,,betty.vandeventer@nebraska.gov
+726,789,Robert,Guffin,2014-09-09 18:48:47+00:00,,,rguffin@ceci.in.gov
+728,790,Mary,Mayo,2014-09-09 19:24:10+00:00,,,mary.mayo@doe.nh.gov
+729,791,Browning,Brooks,2014-09-10 02:58:13+00:00,,850-644-8343,medmonds@fsu.edu
+730,794,Vanessa,Jeter,2014-09-10 15:52:20+00:00,,,vanessa.jeter@dpi.nc.gov
+732,796,Dale,Wetzel,2014-09-10 16:18:43+00:00,,,dewetzel@nd.gov
+733,797,Immy,Singh,2014-09-10 16:30:02+00:00,,,Immy.Singh@education.ohio.gov
+734,798,Kalee ,Isenhour,2014-09-10 16:46:18+00:00,,,openrecordsrequests@sde.ok.gov
+735,800,R. Scott,Gordon,2014-09-10 20:23:13+00:00,,785-296-3204,sgordon@ksde.org
+737,801,,,2014-09-11 20:26:34+00:00,"Office of Information Programs and Services A/GIS/IPS/RL U. S. Department of State Washington, D. C. 20522-8100 ",,
+739,802,John,Hutto,2014-09-13 08:31:58+00:00,,,jhutto@fcgov.com
+740,803,Cliff,Couch,2014-09-13 08:37:40+00:00,"	204 W 11th St, Goodland, KS 67735",(785) 890-4570,cliff.couch@cityofgoodland.org
+741,804,Barry,Romans,2014-09-13 08:40:39+00:00,"480 15th St, Burlington, CO 80807",(785) 890-4570,barry.romans@burlingtoncolo.com
+742,805,John,Garcia,2014-09-13 08:43:54+00:00,"224 Savage Ave. Raton, NM 87740",575-445-2704,jgarcia@cityofraton.com
+743,806,Charles,Glorioso,2014-09-13 08:48:22+00:00,"2309 E Main St, Trinidad, CO 81082",(719) 846-4441,charles.glorioso@trinidad.co.gov
+744,807,Brian,Kozak,2014-09-13 08:55:08+00:00,"2020 Capitol Ave, Cheyenne, WY 82001",(307) 637-6500,bkozak@cheyennepd.org
+745,808,Anna ,Marengo,2014-09-14 23:43:33+00:00,,,Ana.Marengo@nychhc.org
+746,809,Eric,Bederman,2014-09-15 14:51:20+00:00,,,bedermae@hpd.nyc.gov
+899,809,FOIL Officer,,2014-11-19 22:21:40+00:00,,,Foil@hpd.nyc.gov
+747,810,Keysia,Thom,2014-09-15 15:56:02+00:00,"WMATA, 600 Fifth Street, NW, Washington, D.C. 20001",202-962-2058,
+1326,810,Dan,Stessel,2015-06-01 20:51:50+00:00,,,dstessell@wmata.com
+748,811,Joel,Farias,2014-09-15 16:08:34+00:00,"6908 Hwy 20 P.O Box 40  Sutter CA, 95982",530-755-0071 ext. 223,joel.farias@water.ca.gov
+749,812,Kristina ,Thurstonson,2014-09-16 01:52:38+00:00,"City Clerk's Office  P.O. Box 90012  Bellevue, WA 98009 ",425-452-4895,Publicrecords@bellevuewa.gov
+750,814,Casey,Carl,2014-09-17 20:47:19+00:00,350 South 5th Street – Room 304,612.673.2216,records@minneapolismn.gov
+751,815,,,2014-09-18 16:42:34+00:00,"Post Office Box 3677 Baton Rouge, LA 70821-03677",,
+752,817,,,2014-09-18 19:20:55+00:00,,512-344-5131,openrecords@lottery.state.tx.us
+753,819,,,2014-09-19 18:58:28+00:00,,,FOIArequest@osc.gov
+754,820,,Bogan,2014-09-22 19:50:38+00:00,,,pbogan@co.boone.in.us
+755,822,,,2014-09-22 23:28:11+00:00,,707-562-9193,R5_FOIA@fs.fed.us
+1820,822,RALPH,GIFFEN,2016-04-07 19:10:30+00:00,"Yates Building, Washington DC",,rgiffen@fs.fed.us
+756,823,Todd,Schmaderer,2014-09-23 06:16:22+00:00,"505 S 15th St, Omaha, NE  68102",(402) 444-5600,todd.schmaderer@ci.omaha.ne.us
+757,824,,,2014-09-23 15:23:58+00:00,,,vbpdpublicaffairs@vbgov.com
+758,825,Ron,Schafer,2014-09-23 17:17:35+00:00,,,rschafer@ioniacounty.org
+1301,826,Tom,Vinger,2015-04-28 20:08:45+00:00,,512-424-2607,tom.vinger@dps.texas.gov
+1611,826,Records Custodian,,2015-10-13 16:44:24+00:00,,,OGC.Webmaster@dps.texas.gov
+761,828,Sherri,Iacobelli,2014-09-25 16:33:21+00:00,,,
+763,831,,,2014-09-26 21:00:31+00:00,,,FOIA@socom.mil
+764,833,Lt. William,Alexander,2014-09-29 14:16:08+00:00,,301-772-4710,waalexander@co.pg.md.us
+1044,833,,Jordan,2015-01-21 19:18:47+00:00,,301-772-4710,jjordan@co.pg.md.us
+765,834,Amy ,Burch,2014-09-29 17:25:52+00:00,,,aburch@mlgw.org
+767,835,,,2014-09-30 12:58:32+00:00,"West Building, 6th Floor 700 Army Navy Drive Arlington, VA 22202",,dea.foia@usdoj.gov
+768,836,Thomas,McCarthy,2014-09-30 19:00:26+00:00,,608-266-3559,Thomas.McCarthy@dpi.wi.gov
+769,837,Travis,Hoff,2014-09-30 19:13:11+00:00,,307) 777-2053,travis.hoff@wyo.gov
+770,839,Liza,Cordeiro,2014-09-30 19:22:05+00:00,,304-558-2699,lcordeir@k12.wv.us
+771,840,Nathan,Olson,2014-09-30 20:11:31+00:00,,360-725-6015,PublicRecordsRequest@k12.wa.us
+1488,840,Sherri,Jenkins,2015-08-13 04:46:22+00:00,"PO Box 47200 Olympia, WA 98504-7200",360-725-6372,sherri.jenkins@k12.wa.us
+772,841,Charles,Pyle,2014-09-30 20:30:07+00:00,,804-371-2420,Charles.Pyle@doe.virginia.gov
+773,842,Jeffrey,O'Hara,2014-09-30 20:59:25+00:00,"180 High Street, Wakefield, RI 02879",(401) 789-9331 x1225,johara@southkingstownri.com
+774,843,Mark,Peterson,2014-09-30 21:11:08+00:00,"250 East 500 South Salt Lake City, UT 84114",(801) 538-7635,mark.peterson@schools.utah.gov
+775,844,Mary,Stadick Smith,2014-09-30 21:24:34+00:00,,(605) 773-7228,mary.stadicksmith@state.sd.us
+776,845,Don,Cantrell,2014-09-30 21:33:46+00:00,,803-734-3287,DCantrell@ed.sc.gov
+788,846,Grover,Fugate,2014-10-02 13:31:58+00:00,"Coastal Resources Management Council Stedman Government Center - Suite 3 4808 Tower Hill Road Wakefield, RI 02879-1900",(401) 783-3370 ,gfugate@crmc.ri.gov
+777,847,Tonya ,Woods,2014-10-01 15:37:56+00:00,"4700 River Road, Unit 50 Riverdale, MD 20737",301-851-4102,foia.officer@aphis.usda.gov
+778,848,Susan B.,Gerson,2014-10-01 16:15:26+00:00,"Executive Office for United States Attorneys Department of Justice Room 7300, 600 E Street, N.W. Washington, DC 20530-0001",(202) 252-6020,USAEO.FOIA.Requests@usdoj.gov
+779,849,Lloyd,Roberts,2014-10-01 18:02:24+00:00,"3100 Ricketts Point Road, Aberdeen Proving Ground, MD 21010-5400",1-410-436-3276,lloyd.r.roberts4.civ@mail.mil
+780,850,Rebecca,Lothringer ,2014-10-01 20:19:52+00:00,,,rebecca.lothringer@unt.edu
+783,851,Buddy ,Price,2014-10-01 20:24:27+00:00,,940-565-2943,buddy.price@unt.edu
+1296,851,Jonathan,Zerulik,2015-04-25 23:28:03+00:00,,940-565-3824,Jonathan.Zerulik@unt.edu
+1297,851,Elizabeth,With,2015-04-27 01:59:52+00:00,,940-565-4909,Elizabeth.With@unt.edu
+787,853,,,2014-10-01 21:47:22+00:00,,,
+789,854,Janet,Coit,2014-10-02 13:38:14+00:00,"235 Promenade St., Providence, RI 02908-5767 ",401-222-6800,
+790,855,Carl,Burt,2014-10-02 14:29:34+00:00,,,carl.burt@il.usda.gov
+791,856,Christopher,Middleton,2014-10-02 18:30:10+00:00,"1800 SW First Ave., Suite 300",503-962-5654,middletc@trimet.org
+1174,857,Elizabeth,Trevino,2015-04-05 00:46:56+00:00,,,
+1432,857,,,2015-08-11 18:46:26+00:00,,,openrecordsrequest@sanmarcostx.gov
+792,858,,,2014-10-02 22:28:23+00:00,"P.O. Box 17  Jackson, Mississippi 39205-0017",Fax: 601-960-1032; Phone: 601-960-1035,
+793,859,Linda,Zintz,2014-10-03 00:00:53+00:00,,619-725-5568,lzintz@sandi.net
+794,860,Spencer,Pryor,2014-10-03 04:03:09+00:00,,,spencerpryor@northcharleston.org
+795,861,Anthony,Millican,2014-10-03 19:25:43+00:00,,,anthony.millican@cvesd.org
+796,862,Debbie,Riehle,2014-10-03 22:43:32+00:00,,760 726 2164,debbieriehle@vistausd.org
+797,864,Rick,Schulte,2014-10-06 21:59:41+00:00,,,rick.schulte@rsd.edu
+799,865,Dave,Bond,2014-10-06 22:14:40+00:00,,,dave.bond@ksd.org
+798,866,Saundra,Hill,2014-10-06 22:12:13+00:00,,,shill@psd1.org
+800,867,Chad ,Bartram,2014-10-06 22:21:56+00:00,,,bartramc@bentonpud.org
+801,868,Ed,Brost,2014-10-06 22:28:53+00:00,,,generalmanager@franklinpud.com
+802,869,Lucy,France,2014-10-07 21:42:34+00:00,"University Hall 133 Missoula, MT 59812",406-243-6786,lucy.france@umontana.edu
+803,870,Greg ,Rubens,2014-10-08 16:11:00+00:00,"600 Elm Street San Carlos, CA 94070",650 593 3117,grubens@cityofsancarlos.org
+804,870,Crystal ,Mui,2014-10-08 16:45:00+00:00,"600 Elm Street San Carlos, CA 94070",(650) 802-4219,cmui@cityofsancarlos.org
+805,870,Mark,Olbert,2014-10-08 16:46:15+00:00,"600 Elm Street San Carlos, CA 94070",(650) 868-3367,molbert@cityofsancarlos.org
+806,871,Amanda ,Walker,2014-10-08 17:31:41+00:00,,(479) 444-1570,awalker@co.washington.ar.us
+807,872,Michelle,Vargas,2014-10-08 18:58:57+00:00,"111 N Hope St, Los Angeles, CA 90012",(213) 367-1368,michelle.vargas@ladwp.com
+808,872,,,2014-10-08 18:59:27+00:00,"111 N Hope St, Los Angeles, CA 90012",,cpra@ladwp.com
+809,873,Sharon,Watson,2014-10-09 02:51:07+00:00,,,sharon.l.watson20.nfg@mail.mil
+810,874,Kelly,Callahan,2014-10-09 13:24:16+00:00,"820 Silver Lake Boulevard, Suite 100, Dover, DE 19904",302-672-6702,Kelly.Callahan@state.de.us
+811,875,Deanne,Vicedo,2014-10-09 18:27:20+00:00,,,deanne.vicedo@sweetwaterschools.org
+812,876,Bret,Felix,2014-10-09 18:30:12+00:00,,,bfelix@lgsd.k12.ca.us
+813,877,,,2014-10-09 23:37:54+00:00,"Richard J. Daley Center 50 West Washington, Room 704 Chicago, Illinois 60602 ",,ccso.foiaofficer@cookcountyil.gov
+814,879,,,2014-10-10 18:49:07+00:00,,,FOIA@mail.wvu.edu
+815,880,Jessica,Mazur,2014-10-11 03:31:44+00:00,,,jessica.mazur@umontana.edu
+816,881,Christian,Clayton,2014-10-11 03:47:37+00:00,"2500 Broadway St. PO Box 203201, Helena, MT 59620",4064440374,cchristian@montana.edu
+817,881,Amy ,DeMato,2014-10-11 03:49:22+00:00,"2500 Broadway St. PO Box 203201, Helena, MT 59620",4064440374,ademato@montana.edu
+818,882,Kyle,Lee,2014-10-11 22:38:59+00:00,,,
+819,883,Dennis,Bixler,2014-10-14 23:03:58+00:00,,,dbixler@fuesd.org
+820,884,,,2014-10-15 19:25:42+00:00,,,info@southsound911.org
+1459,885,Denise,Vaughan,2015-08-13 02:53:40+00:00,,360-725-8854,dlvaughan@doc1.wa.gov
+821,886,,,2014-10-16 18:48:50+00:00,,,openrecords@dshs.state.tx.us
+1100,886,Christine,Mann,2015-02-07 20:07:32+00:00,,512-776-7511,christine.mann@dshs.state.tx.us
+822,887,Karen,Gregory,2014-10-17 02:11:40+00:00,,616-340-9182,kgregory@ioniaschools.org
+832,888,Donna,Russell,2014-10-24 19:33:15+00:00,,202-442-5000,dcpsfoia@dc.gov
+1556,889,,,2015-08-24 18:08:29+00:00,,,foil@nysed.gov
+824,890,Jennifer,Erwin,2014-10-21 15:32:55+00:00,,,jennifer.erwin@la.gov
+825,891,Lisa ,Zierath,2014-10-21 17:16:34+00:00,,,lzierath@bsusd.net
+826,893,Lindy,Delaney,2014-10-22 18:31:40+00:00,,,ldelaney@rsf.k12.ca.us
+827,894,,,2014-10-23 12:13:07+00:00,,,DSSfoia@cityofchicago.org
+828,895,Mary,Gorsuch,2014-10-23 16:47:39+00:00,,,gorsuch.ma@vcpusd.org
+829,896,George,Spiess,2014-10-24 14:28:45+00:00,"Commonwealth Keystone Building  400 North Street, 4th Floor  Harrisburg, PA 17120-0225",717-346-9903,RTK-OOR@pa.gov
+831,897,Tom,Gordon,2014-10-24 18:38:52+00:00,,,tpgordon@nccde.org
+833,898,Daisy,Gonzalez-Diego,2014-10-24 20:38:16+00:00,,305 - 995 - 2060,DGONZALEZDIEGO@dadeschools.net
+834,898,Daiva,Fernandez,2014-10-24 20:40:31+00:00,,305 - 995 - 2060,dzfernandez@dadeschools.net
+835,899,Tracy ,Clark,2014-10-24 21:06:05+00:00,,754-321-2300,Tracy.Clark@browardschools.com
+836,899,Cathleen,Brennan,2014-10-24 21:07:23+00:00,,754-321-2300,Cathleen.Brennan@browardschools.com
+837,900,Stephen,Hegarty,2014-10-24 21:23:41+00:00,,,shegarty@sdnc.us
+838,901,Kathy,Marsh,2014-10-24 21:34:14+00:00,,,marshk1@ocps.net
+840,902,Cynthia,Smith-Johnson,2014-10-24 22:31:36+00:00,,702-799-5865,publicrecordrequest@interact.ccsd.net
+841,903,Dallas Police Open Records,,2014-10-26 23:16:58+00:00,"1400 S. Lamar Street, Dallas, TX. 75215",,openrecordunit@dpd.ci.dallas.tx.us
+843,904,Jorge,Gomez,2014-10-27 19:56:14+00:00,,678-301-6005,Jorge_Gomez@Gwinnett.k12.ga.us
+842,905,,,2014-10-27 17:38:54+00:00,,,r5foia@epa.gov
+847,906,Paul,Paulos,2014-10-27 20:42:25+00:00,,651-266-5639,paul.paulos@ci.stpaul.mn.us
+848,907,Virginia,Murray,2014-10-27 20:50:32+00:00,,816-234-5170,virginia.murray@kcpd.org
+850,908,Press Office,,2014-10-27 21:00:05+00:00,,,media@slmpd.org
+851,909,Sgt. Ronald,Glover,2014-10-27 21:19:27+00:00,,(973) 733-6007,gloverr@ci.newark.nj.us
+852,909,Det. Carmen,Rivera,2014-10-27 21:19:54+00:00,,(973) 733-6007,riverac@ci.newark.nj.us
+853,910,,,2014-10-27 21:25:01+00:00,,615-862-7306,
+855,912,,,2014-10-27 21:27:49+00:00,,415-553-1651,sfpdmediarelations@sfgov.org
+856,913,Heather,Morales,2014-10-27 21:28:49+00:00,,(408) 277-5339,heather.randol@sanjoseca.gov
+857,913,Albert,Morales,2014-10-27 21:29:09+00:00,,(408) 277-5339,albert.morales@sanjoseca.gov
+858,914,,,2014-10-27 21:29:42+00:00,,714-765-1521,policechief@anaheim.net
+859,914,Ruth,Ruiz,2014-10-27 21:30:17+00:00,,714-765-5060,rruiz@anaheim.net
+860,915,Carlos,Rojas,2014-10-27 21:30:52+00:00,,714-647-5400,crojas@santa-ana.org
+861,916,Jim,McDonnell,2014-10-27 21:31:49+00:00,,(562) 570-5273,jim.mcdonnell@longbeach.gov
+862,917,Phil,Pitchford,2014-10-27 21:32:29+00:00,,951-826-5975,ppitchford@riversideca.gov
+863,918,,,2014-10-27 21:33:00+00:00,,916-808-0808,pio@pd.cityofsacramento.org
+864,919,,Mayer,2014-10-27 21:33:47+00:00,,619-531-2675,kmayer@pd.sandiego.gov
+1733,919,,,2016-01-14 16:46:29+00:00,,,cityclerk@sandiego.gov
+865,920,,,2014-10-27 21:34:11+00:00,,,dpdpio@denvergov.org
+867,922,DeAnna,Greenlaw,2014-10-27 21:36:08+00:00,,,DGreenlaw@fortlauderdale.gov
+868,923,,,2014-10-28 13:51:25+00:00,"245 Murray Lane SW, Building T-5, Washington, DC 20223",202-406-5838,Foia@usss.dhs.gov
+870,925,Brandy ,Reaves,2014-10-28 22:14:23+00:00,,571-423-1223,bereaves@fcps.edu
+871,926,lydia,ramos,2014-10-30 21:43:16+00:00,,,Lydia.Ramos@lausd.net
+1626,926,Shannon ,Haber,2015-10-21 19:55:53+00:00,"333 S. Beaudry Ave., Los Angeles, CA 90017",213-241-6766,shannon.haber@lausd.net
+872,927,FOIL,Officer,2014-10-31 15:24:46+00:00,,,counsel.foilr@cio.ny.gov
+873,928,Jim,Folts,2014-10-31 16:51:39+00:00,,,jim.folts@nysed.gov
+876,933,,,2014-11-01 20:47:37+00:00,,,
+877,935,,,2014-11-03 20:26:44+00:00,"200 Southern Boulevard, Albany, NY 12209",,thruwayfoil@thruway.ny.gov
+878,937,,,2014-11-05 19:16:53+00:00,"New York City Department of Transportation Records Access Officer 55 Water Street, 4th floor New York, NY 10041",,dotfoil@dot.nyc.gov
+879,938,David,Dove,2014-11-05 19:39:58+00:00,,,ddove@sos.ga.gov
+880,939,,,2014-11-05 20:14:12+00:00,,,electionsemail@sos.arkansas.gov
+881,940,Maryellen,Allen,2014-11-05 20:21:20+00:00,,,maryellen.allen@ky.gov
+882,941,,,2014-11-06 21:47:16+00:00,,,
+987,944,Doug,Jones,2014-12-13 22:11:59+00:00,,817-392-8184,
+887,947,,,2014-11-12 19:32:20+00:00,"55 Water Street, 4th floor New York, NY 10041",,dotfoil@dot.nyc.gov
+888,948,Shelley,Walker,2014-11-12 19:56:34+00:00,, (615) 253-5184,shelley.walker@tn.gov
+889,950,Andrea,Fastenberg,2014-11-13 16:12:46+00:00,"100 Church Street, Room 6-244, New York, NY 10007-2601",212-356-2496,afastenb@law.nyc.gov
+891,952,,,2014-11-13 23:11:41+00:00,,(202) 254-6342,STFOIA@hq.dhs.gov
+892,953,,,2014-11-14 01:06:02+00:00,,,FOIA.Officer@iprachicago.org
+1347,953,Winkle,Hong,2015-06-17 15:55:50+00:00,,,winkle.hong@iprachicago.org
+893,954,Larry N.,Smith,2014-11-14 01:21:42+00:00,"4500 South Sixth Street Rd. Room 173 Springfield, IL 62703-6617",,
+894,955,"Rev. Joe R. Gant, Jr.",,2014-11-14 21:54:38+00:00,"PO Box 10878 Baton Rouge, LA 70813",,presidentialsearch@sus.edu
+1032,955,Tracie,Woods,2015-01-09 19:16:49+00:00,,,tracie_woods@sus.edu
+895,956,,,2014-11-14 21:54:58+00:00,,,FOIA@FTC.GOV
+1179,956,Elena,Vera,2015-04-05 17:56:40+00:00,,(202) 326-3368,
+1180,956,John,Fina,2015-04-05 17:57:38+00:00,,(202) 326-3368,
+896,957,Chad ,Lersch,2014-11-17 23:00:09+00:00,,512-475-4700,pio@dir.texas.gov
+1047,957,Priscilla,Pipho,2015-01-22 23:02:10+00:00,,512-936-5848,priscilla.pipho@dir.texas.gov
+897,958,Public,Affairs,2014-11-18 20:36:45+00:00,,,pgr.dss@ct.gov
+898,958,Commissioner,,2014-11-18 20:37:09+00:00,,,commis.dss@ct.gov
+976,958,David,Dearborn,2014-12-08 17:37:30+00:00,,860.424.5024 ,David.dearborn@ct.gov
+977,958,David,Dearborn,2014-12-08 17:37:37+00:00,,860.424.5024 ,David.dearborn@ct.gov
+900,959,Claire,Bartels,2014-11-20 01:13:27+00:00,,,claire.bartels@lacity.org
+901,960,Steve,Lyddon,2014-11-20 01:53:13+00:00,,,FOIA_Officer@isp.state.il.us
+902,961,,,2014-11-20 16:57:16+00:00,"FOIL Unit, Room 110C, One Police Plaza, New York, NY 10038",,
+903,962,,,2014-11-20 17:49:44+00:00,,,gis@isd.sccgov.org
+904,963,John,Hornecker,2014-11-20 18:07:25+00:00,,,Jon.Hornecker@ocpw.ocgov.com
+905,963,James,Estep,2014-11-20 18:08:09+00:00,,,James.Estep@ocpw.ocgov.com
+906,963,Joe,Hunt,2014-11-20 18:08:52+00:00,,,Joe.Hunt@ocpw.ocgov.com
+907,964,FOIL Officer,,2014-11-20 19:04:43+00:00,,,Foil2@dep.nyc.gov
+908,965,Jennifer,Baek,2014-11-20 19:09:09+00:00,255 Greenwich Street 9th Floor New York NY 10007 United States,,jbaek@doitt.nyc.gov
+917,966,Amy,Legere,2014-11-21 20:31:20+00:00,,207-874-8407,akl@portlandmaine.gov
+919,968,,,2014-11-24 21:00:58+00:00,,,pra@ucop.edu
+920,969,Mark,Greninger,2014-11-24 22:15:57+00:00,"350 S. Figueroa Street Suite 188 Los Angeles, CA 90071",213-253-5624,mgreninger@cio.lacounty.gov
+921,969,Doug,Lovejoy,2014-11-25 00:15:33+00:00,,,Clovejoy@counsel.lacounty.gov
+922,969,,,2014-11-25 00:24:01+00:00,,,constituent@auditor.lacounty.gov
+923,969,,,2014-11-25 00:24:30+00:00,,,reply@counsel.lacounty.gov
+924,970,,,2014-11-25 00:29:41+00:00,,,RecordsCoordinator@longbeach.gov
+1182,970,Lei,Ronca,2015-04-06 15:32:28+00:00,,,Lei.Ronca@longbeach.gov
+1183,970,Jacqueline,Medina,2015-04-06 15:32:47+00:00,,,Jacqueline.Medina@longbeach.gov
+1303,970,Theressa,Graham,2015-04-29 01:10:22+00:00,,(562) 570-6782,Theressa.Graham@longbeach.gov
+925,971,,,2014-11-25 01:10:18+00:00,,,RMAPublicRequest@co.tulare.ca.us
+926,972,Tenell,Matlovsky,2014-11-25 01:14:18+00:00,,,tmatlov@co.santa-barbara.ca.us
+927,973,Zach,Wood,2014-11-25 01:19:21+00:00,,,zwood@alpinecountyca.gov
+929,974,Joan ,Hunter,2014-12-01 18:33:10+00:00,"1600 E. Lancaster Fort Worth, Texas 76102",817-215-8973,jhunter@the-t.com
+931,976,J.R.,Labbe,2014-12-01 18:53:04+00:00,"1500 S. Main St. Fort Worth, Texas 76104",817-702-1616,jlabbe@jpshealth.org
+932,977,Patricia,Benavides,2014-12-01 19:22:40+00:00,"2700 Premier St. Fort Worth, Texas 76111",817-831-6454,pvbenavides@tarrantcounty.com
+933,978,Nancy,King,2014-12-01 19:34:29+00:00,"P.O. Box 4508 Fort Worth, Texas 76164",817-335-2491,nancyking@trwd.com
+948,979,,,2014-12-02 21:18:44+00:00,,,mcaocor@mcao.maricopa.gov
+934,980,,,2014-12-02 00:52:24+00:00,,,assessor@madera-county.com
+935,981,,,2014-12-02 00:53:39+00:00,,,giswebmaster@co.shasta.ca.us
+936,982,Jose,Crummett,2014-12-02 00:54:59+00:00,,,jose.crummett@edcgov.us
+937,983,Brian,Lasagna,2014-12-02 00:56:19+00:00,,,blasagna@bcag.org
+938,984,D.,Schlueter,2014-12-02 04:01:50+00:00,,,dschlueter@co.lassen.ca.us
+939,985,,,2014-12-02 04:06:55+00:00,,,yubagis@co.yuba.ca.us
+940,986,Lon,Sharp,2014-12-02 04:09:26+00:00,,,Lon.Sharp@lakecountyca.gov
+941,986,Lon,Sharp,2014-12-02 04:09:33+00:00,,,Lon.Sharp@lakecountyca.gov
+942,987,JoAnna,Walker,2014-12-02 04:24:02+00:00,,,JoAnna.Walker@co.kings.ca.us
+943,988,David,Bollinger,2014-12-02 05:05:54+00:00,,,dbollinger@sjgov.org
+944,989,,,2014-12-02 05:11:45+00:00,,,planning@stancounty.com
+945,990,Paul,Garcia,2014-12-02 05:21:54+00:00,,,paul.garcia@co.santa-cruz.ca.us
+946,991,Shelly,Bianchi-Williamson ,2014-12-02 05:25:48+00:00,,,sbianchi@sonoma-county.org
+947,992,,,2014-12-02 05:29:50+00:00,,,communityresources@tuolumnecounty.ca.gov
+949,994,Kelly,Minta,2014-12-03 19:42:51+00:00,,213-922-4880,MintaK@metro.net
+950,994,,,2014-12-03 19:44:15+00:00,,,rmc@metro.net
+951,995,Steve,Morris,2014-12-04 16:44:04+00:00,"2273 County Camp Rd, Appling, GA 30802",706-541-4050,SMORRIS@columbiacountyso.org
+952,996,Andrew G.,Mackenzie,2014-12-04 22:20:31+00:00,"520 Greene Street, Augusta, Georgia 30901",,AMackenzie@augustaga.gov
+953,996,Kenneth S.,Bray,2014-12-04 22:21:22+00:00,"520 Greene Street, Augusta, Georgia 30901",,KBray@augustaga.gov
+954,996,Rosita,Thomas,2014-12-04 22:22:00+00:00,"520 Greene Street, Augusta, Georgia 30901",,Rosita.Thomas@augustaga.gov
+955,996,Jody M.,Smitherman,2014-12-04 22:22:50+00:00,"520 Greene Street, Augusta, Georgia 30901",,JSmitherman@augustaga.gov
+956,996,Kayla,Cooper,2014-12-04 22:23:16+00:00,"520 Greene Street, Augusta, Georgia 30901",,kcooper@augustaga.gov
+1317,996,,Catherine,2015-05-20 20:53:26+00:00,,,CPlaster@augustaga.gov
+957,997,Robert,Baldridge,2014-12-04 22:27:31+00:00,"10920 Wilshire Boulevard, Suite 530, Los Angeles, CA 90024",(310) 206-0346,rbaldridge@finance.ucla.edu
+959,998,,,2014-12-05 19:13:12+00:00,,,ombfoia@omb.eop.gov
+960,999,Nelson,Hermilla,2014-12-05 20:35:57+00:00,"Department of Justice Room 311, NALC Building Washington, DC 20530",(202) 514-4210,CRT.FOIArequests@usdoj.gov
+1360,999,Susan B.,Gerson,2015-06-30 19:56:23+00:00,"Executive Office for United States Attorneys, Department of Justice, Room 7300, 600 E Street, N.W., Washington DC 20530-0001",(202) 252-6020,USAEO.FOIA.Requests@usdoj.gov
+961,1000,,,2014-12-05 23:08:42+00:00,,,pubrec@uw.edu
+1479,1000,Eliza,Saunders,2015-08-13 04:20:00+00:00,"4311 11th Avenue NE, Suite 360 Seattle, WA 98105",206-543-9180,pubrec@u.washington.edu
+962,1001,Linda,Nelson,2014-12-05 23:09:11+00:00,"Washington State University, P.O. Box 641040, Pullman, WA  99164-1040",(509) 335-3928,wsu.pubrecords@wsu.edu
+1468,1001,Kathryn,Barnard-LaPointe,2015-08-13 03:41:49+00:00,"PO Box 641040 Pullman, WA 99164-1040",509-335-4200 ,wsu.pubrecords@wsu.edu
+963,1002,,,2014-12-05 23:09:35+00:00,,,coracuboulder@colorado.edu
+964,1003,Robert,Payne,2014-12-05 23:13:17+00:00,,,robert.payne@legal.utah.edu
+965,1004,,,2014-12-05 23:13:53+00:00,,,pra@berkeley.edu
+966,1005,,,2014-12-05 23:14:26+00:00,,,ogcmail@asu.edu
+967,1006,Teri,Moore,2014-12-05 23:14:47+00:00,"The University of Arizona, P.O. Box 210066, Tucson, Arizona  85721-0066",(520) 621-1986,terim@email.arizona.edu
+968,1007,,,2014-12-05 23:20:28+00:00,,,pubrec@uoregon.edu
+969,1008,,,2014-12-05 23:20:45+00:00,,,publicrecords@oregonstate.edu
+970,1009,Primary,,2014-12-08 16:45:06+00:00,,,qat@lbb.state.tx.us
+971,1009,Richard,Corbell,2014-12-08 16:45:47+00:00,,,richard.corbell@lbb.state.tx.us
+972,1009,Serra,Tamur,2014-12-08 16:46:36+00:00,,,STamur@sao.state.tx.us
+973,1009,Pj,Vilanilam,2014-12-08 16:47:36+00:00,,,pj.vilanilam@dir.texas.gov
+974,1010,Primary,,2014-12-08 17:12:52+00:00,,,2262contractadvisoryteam@cpa.state.tx.us
+975,1011,Records Custodian,,2014-12-08 17:34:23+00:00,,,legalfax@okhca.org
+978,1012,Peter,Sanders,2014-12-08 19:57:24+00:00,,,peter.sanders@lacity.org
+1370,1012,Jeremy,,2015-07-08 22:18:53+00:00,,(213) 978-3863,Jeremy.oberstein@lacity.org
+979,1013,,,2014-12-08 20:32:07+00:00,"2401 Egypt Road Ada, Oklahoma 74820-0669",,
+1014,1015,Douglas,"Taylor, Ph.D",2014-12-27 00:19:22+00:00,"800 Independence Ave, SW Washington, DC 20591",(202) 267-9165,7-AWA-ARC-FOIA@faa.gov
+1335,1015,Lizett,Culley,2015-06-08 17:29:19+00:00,,202-267-8098,lizett.Culley@faa.gov
+985,1016,Joanna ,Gomez,2014-12-13 21:58:52+00:00,"100 N. University Drive, Fort Worth, TX 76107",817-814-1980,joanna.gomez@fwisd.org
+986,1017,Ashley,Fourt,2014-12-13 22:07:18+00:00,"Tarrant County District Attorney’s Office Tim Curry Criminal Justice Center 401 West Belknap, 9th Floor – Civil Division Fort Worth, Texas 76196-0201",1-877-673-6839,
+988,1018,Darryl,Martin,2014-12-13 22:34:51+00:00,"411 Elm Street, 2nd floor Dallas, Texas 75202",214-653-7327,
+989,1019,Matthew,Cherry,2014-12-13 22:46:06+00:00,"By mail to: Public Information Coordinator Office of General Counsel Texas Alcoholic Beverage Commission P.O. Box 13127 Austin, Texas 78711/In person at: Suite 380 5806 Mesa Drive Austin, Texas 78731 ",(512) 206-3347,open.records@tabc.texas.gov
+990,1020,Robert,Hurst,2014-12-13 22:55:15+00:00,"P.O. Box 99  Huntsville, TX 77340", Phone: 936-437-6052 Fax: 936-437-6055,Robert.Hurst@tdcj.state.tx.us
+1395,1020,Karen,Hall,2015-07-15 14:40:51+00:00,,,karen.hall@tcdj.texas.gov
+1421,1020,,,2015-07-30 21:14:28+00:00,,,exec.services@tdcj.texas.gov
+1669,1020,,,2015-12-06 22:03:26+00:00,,,classify@tdcj.state.tx.us
+992,1021,Zachary S.,Thompson,2014-12-13 23:10:27+00:00,"Mailing address: Zachary S. Thompson 2377 N. Stemmons Freeway, Suite 603 Dallas, Texas 75207",,zthompson@dallascounty.org
+993,1022,Office of General Council,,2014-12-13 23:16:48+00:00,"Mailing address: Open Records Office of General Counsel Texas Department of Motor Vehicles 4000 Jackson Avenue Austin, TX 78731/In person: Attn: Open Records Office of General Counsel Texas Department of Motor Vehicles 4000 Jackson Avenue, Building 1 Austin, Texas 78731",Media line: (512)465-1484 Fax: (512) 302-2292,OGCOpenRecords@TxDMV.gov
+994,1023,Katrina,Abston,2014-12-15 17:57:13+00:00,,,kabston@k12.com
+997,1024,Nancy,Juarez,2014-12-15 23:01:35+00:00,1200 Circle Drive Suite 300 Fort Worth Texas 76119,817-535-5645,njuarez@tarrantcounty.com
+996,1026,Barbara ,Jefferson,2014-12-15 22:44:31+00:00,3840 S. Hulen St. Fort Worth 76107,817-569-4416,publicrelations@mhmrtc.org
+998,1027,Donetta ,D'Innocenzo,2014-12-16 16:17:42+00:00,,,RTKofficer@occ.pasen.gov
+1000,1028,,,2014-12-16 20:53:40+00:00,,,ronald.brown@alaska.gov
+1001,1029,,,2014-12-16 20:56:10+00:00,,,problemresolutionoffice@azdor.gov
+1002,1030,,,2014-12-16 20:58:46+00:00,,,Corporation.Income@dfa.arkansas.gov
+1003,1031,,,2014-12-16 21:15:54+00:00,,,drs@po.state.ct.us
+1004,1032,,,2014-12-16 21:18:50+00:00,,,michael.x.smith@state.de.us
+1005,1033,,,2014-12-16 21:23:58+00:00,,,EMailDOR@dor.state.fl.us
+1547,1033,Sarah,Wachman,2015-08-16 02:21:07+00:00,,850-617-8347,wachmans@dor.state.fl.us
+1548,1033,George,Hamm,2015-08-16 02:22:29+00:00,,850-617-8347,hammg@dor.state.fl.us
+1549,1033,Sarah,Wachman,2015-08-16 02:23:22+00:00,,850-617-8347,wachmans@dor.state.fl.us
+1006,1034,,,2014-12-16 21:28:23+00:00,,,taxpayer.services@dor.ga.gov
+1007,1035,,,2014-12-16 22:01:59+00:00,,,sheron.violini@sen.ca.gov
+1116,1036,,,2015-02-13 20:24:47+00:00,,(202) 261-8484,
+1008,1037,FOIA Records Officer,,2014-12-17 22:38:16+00:00,"NYS Department of Taxation and Finance W.A. Harriman Campus Bldg 9 Room 100 Albany, NY 12227",Fax (518) 435-8548,foil.requests@tax.ny.gov
+1009,1038,Pam,Rogers,2014-12-18 16:23:52+00:00,"3400 Knipp Drive, Jefferson City, MO 65109",573-751-8488,
+1010,1043,Ernie,Hoch,2014-12-19 12:57:00+00:00,,,ehoch@madisonco.virginia.gov
+1011,1046,Denise,Fraser,2014-12-22 15:37:06+00:00,"130 Livingston Plaza, 12th Floor Brooklyn, New York 11201",,
+1234,1046,Juliette,Williams,2015-04-16 20:28:00+00:00,"130 Livingston Plaza, 12th Floor Brooklyn, New York 11201",(718) 694-1098,
+1012,1049,,,2014-12-26 19:07:12+00:00,,,Police3@austintexas.gov
+1428,1049,,,2015-08-05 15:56:02+00:00,,,management.records@austintexas.gov
+1013,1050,,,2014-12-26 19:32:45+00:00,,,da-civil@co.hays.tx.us
+1026,1051,Pam,Vanover,2015-01-05 19:46:14+00:00,,(323) 890-5439,prarequests@lasd.org
+1157,1051,,,2015-03-25 04:33:55+00:00,,,
+1016,1052,Kathy,Ray,2014-12-27 01:40:13+00:00,"1200 New Jersey Ave., SE W94-122 Washington, DC 20590",(202) 366-4542,ost.foia@dot.gov
+1310,1052,,,2015-05-15 18:59:31+00:00,,,frafoia@dot.gov
+1017,1055,Evelyn,McCormack,2015-01-01 18:32:13+00:00,,914-922-3412,emccormack@swboces.org
+1018,1056,Angela,Marshall,2015-01-01 19:52:24+00:00,,,amarshall@nasboces.org
+1019,1057,Charles,Khoury,2015-01-01 20:01:55+00:00,,,ckhoury@ulsterboces.org
+1020,1058,Ellen,Lane,2015-01-01 20:12:02+00:00,,,elane@pnwboces.org
+1021,1059,David,Gleason,2015-01-01 20:24:04+00:00,,,dgleason@rboces.org
+1022,1060,Fran ,Knoedl,2015-01-01 20:29:42+00:00,,,fknoedl@esboces.org
+1023,1061,,,2015-01-01 20:39:08+00:00,,,ssmith@wsboces.org
+1429,1062,,,2015-08-05 16:22:27+00:00,,,tcsor@traviscountytx.gov
+1740,1062,County Attorney,,2016-01-22 22:23:38+00:00,,,Open.RecordsCA@traviscountytx.gov
+1741,1062,DA,,2016-01-22 22:25:13+00:00,,,daopenrecordsrequests@traviscountytx.gov
+1024,1063,,,2015-01-02 23:11:51+00:00,,,foil@ig.state.ny.us
+1025,1064,Joseph,Kolodziej,2015-01-02 23:56:14+00:00,,,clerk@emersonnj.org
+1027,1065,,Default FOIA Contact,2015-01-06 11:01:36+00:00,,,foiamail@atf.gov
+1527,1066,Mike,Alderman,2015-08-14 19:20:54+00:00,,850-617-3101,MikeAlderman@flhsmv.gov
+1028,1067,Mark,McKinnon,2015-01-07 15:57:34+00:00,"2065 Highway 278, S.E., Social Circle, GA 30025",(770) 918-6414,mark.mckinnon@dnr.state.ga.us
+1029,1068,,,2015-01-07 19:32:21+00:00,,,foiaofficer@atg.state.il.us
+1031,1069,Leslie,Green,2015-01-08 18:14:15+00:00,,202-724-2070,leslie.green2@dc.gov
+1030,1070,Jim,Hurley,2015-01-07 22:51:20+00:00,,512-490-7016,jim.hurley@tjjd.texas.gov
+1033,1072,,,2015-01-09 21:31:10+00:00,,,openrecordsrequest@memphistn.gov
+1034,1072,,,2015-01-09 21:32:48+00:00,,,pio@memphistn.gov
+1035,1073,,,2015-01-12 20:26:36+00:00,"Office of the Mayor City Hall - 121 N. LaSalle, Room 507Chicago, IL 60602",312.744.8045,MOfoia@cityofchicago.org
+1036,1074,John,Carr,2015-01-13 22:52:43+00:00,"3927 Lennane Drive, Suite 100, Sacramento, CA 95834",916-419-2525,john.carr@abc.ca.gov
+1037,1075,Vivian,Cheatham,2015-01-15 14:33:23+00:00,"P.O. Office Box 27412  Richmond, VA 23220",,
+1038,1076,,,2015-01-15 17:26:14+00:00,"New York City Department of Health and Mental Hygiene Records Access Officer Gotham Center 42-09 28th Street Floor 14th CN31 Long Island City, NY 11101",,recordsaccess@health.nyc.gov
+1039,1077,,,2015-01-15 21:33:31+00:00,,,
+1040,1079,,,2015-01-16 18:09:11+00:00,,,
+1336,1080,Fidel F.,Del Valle,2015-06-10 02:59:43+00:00,"66 John Street 11th Floor, New York, NY 10038",1-844-OATH-NYC,crmmail@crm.nyc.gov
+1041,1082,Brenda ,Greene,2015-01-20 15:53:13+00:00,,212-436-0285,dcafoil@dca.nyc.gov
+1042,1083,,,2015-01-21 04:59:42+00:00,,,r5foia@epa.gov
+1043,1084,John,Bott,2015-01-21 17:53:30+00:00,, (207) 287-3156,John.C.Bott@maine.gov
+1045,1086,WSP Public Records Manager,,2015-01-22 03:37:49+00:00,"PO Box 42631 Olympia, WA 98504-2631",,pubrecs@wsp.wa.gov
+1471,1086,Gretchen,Dolan,2015-08-13 03:53:54+00:00,"PO Box 42631 Olympia, WA 98504-2631",360-596-4137,Gretchen.dolan@wsp.wa.gov
+1046,1087,Peter,Kilmartin,2015-01-22 08:43:03+00:00,,,
+1048,1088,Josh,Lawson,2015-01-23 22:04:32+00:00,,,joshua.lawson@ncsbe.gov
+1049,1089,Tamara ,Cofield,2015-01-23 22:09:57+00:00,,334-242-7228,tamara.cofield@sos.alabama.gov
+1050,1090,Matthew,Roberts,2015-01-23 23:05:33+00:00,,(602) 542-2228,mroberts@azsos.gov
+1051,1091,Marci,Andino,2015-01-23 23:13:21+00:00,,(803) 734-9060,marci@elections.sc.gov
+1052,1092,Jake,Glance,2015-01-23 23:40:32+00:00,,(304) 558-6000,jglance@wvsos.com
+1053,1093,Kristie,Brian,2015-01-26 16:05:39+00:00,,,kbrian@longviewtexas.gov
+1054,1094,Don,Martin,2015-01-26 16:16:11+00:00,,,dmartin@tylertexas.org
+1055,1095,Karen,Campbell,2015-01-27 14:16:28+00:00,,,kdcampbell@co.pg.md.us
+1057,1097,,,2015-01-27 16:56:48+00:00,"601 South 12th St., Arlington, VA 20598-6033",1-866-364-2872,FOIA@tsa.dhs.gov
+1058,1098,W. Creigh,Martson,2015-01-27 19:19:20+00:00,"Pennsylvania Game Commission, 2001 Elmerton Avenue; Harrisburg PA 17110-9797",717-787-4250,wmartson@pa.gov
+1059,1099,,,2015-01-27 19:26:13+00:00,,,ra-pfbcknow@pa.gov
+1060,1100,Oscar,Ramos,2015-01-27 23:19:47+00:00,,,oramos@comptoncity.org
+1061,1101,William,He,2015-01-28 01:49:31+00:00,,,william.he@lausd.net
+1062,1101,Elizabeth,Ruiz,2015-01-28 01:50:04+00:00,,,elizabeth.ruiz@lausd.net
+1067,1101,Debra,"Duardo, MSW, Ed.D.",2015-02-02 16:54:37+00:00,"333 S. Beaudry Ave. 29th Floor   Los Angeles, CA 90017",213-241-3840,ask-shhs@lausd.net
+1063,1102,Custodian of Records,,2015-01-28 18:38:31+00:00,,,hcidla.custodian@lacity.org
+1064,1102,Renne,Gardner,2015-01-28 18:39:07+00:00,,,renne.gardner@lacity.org
+1065,1103,Records Access Officer,,2015-01-29 16:57:10+00:00,"Corning Tower, Room 2364, Albany, NY 12237-0044",,foil@health.state.ny.us
+1066,1104,Robert,Iezza,2015-02-01 20:03:23+00:00,"1400 E. Janss Road  Thousand Oaks, CA 91362",805.497.9511 ext. 238,biezza@conejousd.org
+1069,1105,Judy,Grams,2015-02-02 19:23:30+00:00,,,townclerk@rustonwa.org
+1070,1106,Dr. Cesar,Morales,2015-02-02 20:06:01+00:00,1051 South A Street Oxnard CA 93030,(805) 385-1501 (Ext. 2032) ,drcmorales@oxnardsd.org
+1071,1107,Jennifer,Bowman,2015-02-03 16:35:15+00:00,,,JenniferB@tacomaparks.com
+1073,1108,Elaine ,Chaney,2015-02-03 18:57:21+00:00," 7551 Metro Center Drive, Suite 100, MS-50 Austin, TX 78744-1609",,elaine.chaney@oiec.texas.gov
+1074,1109,Robin,Marilla,2015-02-03 19:21:02+00:00,,(518) 455-4218,marillar@assembly.state.ny.us
+1075,1110,,,2015-02-03 19:23:48+00:00,"Gotham Center 42-09 28th Street, Floor 14th, CN31 Long Island City, NY 11101",Fax: 347-396-6087,recordsaccess@health.nyc.gov
+1076,1111,,,2015-02-03 20:28:00+00:00,,,
+1077,1112,Carl,Lindquist,2015-02-03 21:00:36+00:00,,(717) 771-9866/840-2915 (office),celindquist@ycdes.org
+1078,1112,Sherry,Baer,2015-02-03 21:02:11+00:00,,(717) 771-9866/840-2915 (office),SLBaer@YorkCountyPA.gov
+1080,1113,Brooke, Wheeler,2015-02-04 21:57:24+00:00,133 Main Capitol Building,717-787-7431,righttoknow@pabmc.net
+1081,1114,,,2015-02-04 22:02:57+00:00,,,ra-RTKOA@pa.gov
+1082,1115,Stephanie ,Boucher,2015-02-05 16:19:01+00:00,"99 New York Avenue, NE, Room 1E 400 Washington, DC, 20226",202-648-8740,foiamail@atf.gov
+1084,1116,Emily,Knearl,2015-02-05 18:16:28+00:00,,302-382-6267,emily.knearl@state.de.us
+1085,1117,Ryan,Ash,2015-02-05 20:28:33+00:00,,(850) 245-4111,Ryan.Ash@flhealth.gov
+1526,1117,Shayla,Cole,2015-08-14 19:15:39+00:00,,850-245-4005,PublicRecordsRequest@flhealth.gov
+1086,1118,Nancy,Nydam,2015-02-05 20:33:27+00:00,,404-657-2462,Nancy.Nydam@dph.ga.gov
+1087,1119,Niki,Forbing-Orr,2015-02-05 22:24:16+00:00,,208-334-0693,forbingn@dhw.idaho.gov
+1088,1120,Melaney,Arnold,2015-02-05 22:34:15+00:00,,(217) 836-6438,Melaney.Arnold@Illinois.gov
+1489,1120,Darlene, Linxwiler,2015-08-13 15:36:28+00:00,"535 W. Jefferson, FL 5 Springfield, IL 62761 - 0001",217-558-3403 ,DPH.FOIA@illinois.gov
+1089,1121,Ken,Severson,2015-02-05 22:37:03+00:00,,,kseverson@isdh.IN.gov
+1090,1122,Polly ,Carver-Kimm,2015-02-05 22:45:03+00:00,,(515) 281-6693,polly.carver-kimm@ivdh.iowa.gov
+1091,1123,,,2015-02-06 00:36:39+00:00,,,laura.oxley@azdhs.gov
+1092,1124,Andrea,Bankes,2015-02-06 16:46:53+00:00,"Department of Human Services Right to Know Law Office P.O. Box 2675 Harrisburg, Pennsylvania 17105-2675",,ra-dpwrtkl@pa.gov
+1093,1125,,,2015-02-06 17:56:48+00:00,,,dph.communications@ct.gov
+1094,1126,,,2015-02-06 19:16:35+00:00,,,jan.stapleman@state.co.us
+1095,1127,,,2015-02-06 19:27:14+00:00,,,arrol.sheehan@adph.state.al.us
+1096,1128,Jonathan,Modie,2015-02-06 21:06:32+00:00,,,
+1101,1129,Heidi,Klein,2015-02-08 07:25:46+00:00,,,Heidi.Klein@state.vt.us
+1102,1130,,,2015-02-08 07:40:06+00:00,,,epi@utah.gov
+1103,1131,Lisa,Arreola,2015-02-09 19:27:30+00:00,,619.258.2304,lisa.arreola@santeesd.net
+1104,1132,Mindy,Wantz,2015-02-09 21:06:05+00:00,,,wantzmin@ycs.k12.pa.us
+1105,1133,Patricia,Siebert,2015-02-09 21:18:00+00:00,,,psiebert@yorkcity.org
+1106,1134, Joshua,Mays,2015-02-10 00:13:24+00:00,,,jmays@mail.sdsu.edu
+1108,1135,Cathy,Mather,2015-02-12 01:11:48+00:00, HWY DIV ADMINISTRATION,515-239-1124,Cathy.Mather@dot.iowa.gov
+1107,1137,Sunshine,Contact,2015-02-11 16:26:09+00:00,,,legal@pr.mo.gov
+1109,1138,Robert,Wise,2015-02-12 13:33:08+00:00,1739 Signal Point Rd.,(843) 795-2345,wiser@jipsd.org
+1110,1139,,,2015-02-12 17:11:36+00:00,"309 North Office Building 401 North Street Harrisburg, PA 17120",717-783-3585,RA-RTK-DOS@pa.gov
+1111,1140,,,2015-02-12 17:30:19+00:00,,,susan.morgan@alaska.gov
+1112,1141,Cassandra,,2015-02-12 22:50:33+00:00,,916-263-2394,Cassandra.Hockenson@mbc.ca.gov
+1113,1141,Chris,Valine,2015-02-12 22:58:37+00:00,,,Chris.Valine@mbc.ca.gov
+1164,1141,,,2015-03-30 08:10:04+00:00,,,WebMaster@mbc.ca.gov
+1114,1142,,,2015-02-13 20:16:43+00:00,,,DOS.FOIA@state.de.us
+1115,1142,Tamara,Stock,2015-02-13 20:18:30+00:00,,302-744-5038,tamara.stock@state.de.us
+1117,1143,Julie,Romig,2015-02-13 21:35:25+00:00,"Central York School District, 775 Marion Road, York, PA, 17406","(717) 846-6789, ext. 1292",jromig@cysd.k12.pa.us
+1118,1144,Belinda,Wallen,2015-02-13 21:44:07+00:00,,,righttoknow@doversd.org
+1119,1145,Ayesha,Abbasi,2015-02-17 16:15:26+00:00,,,Ayesha.abbasi@dc.gov
+1120,1146,,,2015-02-17 16:25:58+00:00,,,openrecordofficer@nesd.k12.pa.us
+1121,1147,Sean,Jensen,2015-02-19 01:09:26+00:00,,,sean.jensen@sos.ca.gov
+1122,1147,Nicole,Winger,2015-02-19 01:09:46+00:00,,,Nicole.Winger@sos.ca.gov
+1124,1148,,,2015-02-20 22:52:45+00:00,"Department of Veterans Affairs Office of Inspector General Release of Information Office (50CI) 810 Vermont Avenue, NW Washington, DC 20420",,vaoigfoia-pa@va.gov
+1125,1149,Roger,Krische,2015-02-21 01:10:40+00:00,"Oakland Fed. Building, 1301 Clay St. Suite 1200N",510-637-6232,roger.krische@va.gov
+1127,1151,"Office of the Secretary,",Open Records Officer,2015-02-23 19:45:13+00:00,"PA Public Utility Commission,  PO Box 3265, Harrisburg PA 17105",,RA-PUCRightToKnow@pa.gov
+1128,1153,Harry,Lanphear,2015-02-23 22:55:19+00:00,,,harry.a.lanphear@maine.gov
+1129,1154,,,2015-02-23 23:04:39+00:00,,,humanresources@azag.gov
+1130,1155,Mary,Marik,2015-02-24 22:26:53+00:00,or try 312-666-0500,312-666-0200,mary.marik@cookcountyil.gov
+1131,1156,FOIL,Officer,2015-02-25 18:28:58+00:00,"123 Main Street, 15-M, White Plains, NY 10601",,FOIL@nypa.gov
+1132,1157,Bruce,Whidden,2015-02-25 18:56:24+00:00,,(213) 473-9106,bruce.whidden@lacity.org
+1133,1158,,,2015-02-25 20:15:00+00:00,,,DEPFOIA@wv.gov
+1134,1159,Peter,Taubkin,2015-02-26 15:49:30+00:00,"The Research Foundation for SUNY, 35 State Street Albany, NY 12207-2826",,FOIL@rfsuny.org
+1135,1160,Miguel,Deldado,2015-02-26 19:41:45+00:00,,281.316.3718,mdelgado@cityofwebster.com
+1136,1161,Danielle,Barbato,2015-02-26 20:27:45+00:00,,,dbarbato@council.nyc.gov
+1137,1163,,,2015-03-02 16:46:51+00:00,,,dni-foia@dni.gov
+1138,1164,iteam,iteam,2015-03-02 21:07:23+00:00,,,iteam@localmemphis.com
+1139,1165,,,2015-03-03 14:33:52+00:00,,,uscis.foia@uscis.dhs.gov
+1140,1166,FOIL,Officer,2015-03-03 20:07:04+00:00,,,FOIL@osc.state.ny.us
+1141,1167,Jonathan,LaBonte,2015-03-04 15:17:30+00:00,"Auburn Hall, 60 Court Street, Auburn, Maine 04210",207.333.6601 ext. 1216,jlabonte@auburnmaine.gov
+1142,1168,Susan,Hubbard,2015-03-04 16:10:58+00:00,,,SDHubbard@co.pg.md.us
+1144,1169,Melissa,Allen,2015-03-04 22:10:38+00:00,"MS-IRTM 5275 Leesburg Pike Falls Church, VA 22041",(703) 358-2470,fwhq_foia@fws.gov
+1145,1170,,,2015-03-05 01:49:10+00:00,,817-887-9207,info@thefortworthfoundation.org
+1146,1171,,,2015-03-06 19:15:50+00:00,,(202) 622-0930,
+1147,1172,,,2015-03-06 21:07:50+00:00,,202-418-5105,
+1148,1173,,,2015-03-07 14:02:53+00:00,,,NOPDPRR@nola.gov.
+1149,1175,Kim,Biggs,2015-03-09 14:10:17+00:00,,,kim.biggs@illinois.gov
+1150,1176,Brian,May,2015-03-09 15:10:35+00:00,"U.S. Geological Survey Department of the Interior 5522 Research Park Drive Baltimore, MD 21228 ",443-498-5521,foia@usgs.gov
+1151,1177,,,2015-03-09 19:09:20+00:00,,(202) 268-7004,foia@uspis.gov
+1152,1178,,,2015-03-09 20:06:58+00:00,,,RTKOfficer@auditorgen.state.pa.us
+1153,1180,Kristina,Raattama,2015-03-16 20:23:18+00:00,,,kraattam@fiu.edu
+1155,1182,Monica,Webb,2015-03-23 05:58:37+00:00,,,mwebb@cityofatlanticcity.org
+1156,1183,Mad,Hops,2015-03-24 21:17:55+00:00,,,
+1158,1184,Megan,Asikainen,2015-03-26 15:40:03+00:00,,,measikainen@fergusoncity.com
+1159,1185,,,2015-03-26 18:21:14+00:00,,,OPDPublicRecordsRequest@oaklandnet.com
+1160,1186,Laura,Baldwin,2015-03-26 21:29:18+00:00,,,Lbz7@cdc.gov
+1161,1187,Allan,Rollins,2015-03-29 18:03:18+00:00,,706-825-9381,arollins@augustaga.gov
+1162,1187,Shane,McDaniel,2015-03-29 18:04:13+00:00,,,MMcDaniel@augustaga.gov
+1316,1187,PIO,,2015-05-20 20:32:45+00:00,,,publicinformationofficer@augustaga.gov
+1362,1187,PIO 2,,2015-07-05 18:37:33+00:00,,,PIO@augustaga.gov
+1163,1188,Frank,Kernan,2015-03-30 07:50:58+00:00,,415-744-3502,SFCMSFOIA@cms.hhs.gov
+1165,1191,,,2015-03-30 22:44:12+00:00,,,Pub.Info@TexasAgriculture.gov
+1166,1192,Christine,Baker,2015-03-31 18:50:58+00:00,"1515 Clay Street, 15th Floor, Suite 1540, Oakland CA 94612",510-286-1161,PRA@dir.ca.gov
+1168,1193,,,2015-04-02 18:48:51+00:00,,,uscis.foia@uscis.dhs.gov
+1169,1194,Danny,Ng,2015-04-02 20:37:45+00:00,4 World Trade Center,,dng@panynj.gov
+1170,1195,Cyntha,Jablonski,2015-04-02 20:39:08+00:00,,,
+1171,1196,,,2015-04-02 22:48:41+00:00,,,foil@scoc.ny.gov
+1172,1197,,,2015-04-02 22:56:39+00:00,,,foil@scoc.ny.gov
+1173,1198,Jeremy,Wise,2015-04-03 15:14:22+00:00,,,jeremy.wise@nifa.ny.gov
+1175,1199,,,2015-04-05 00:56:41+00:00,,,openrecords@tfc.state.tx.us
+1176,1200,Leonard,Dougal,2015-04-05 01:02:31+00:00,,,ldougal@jw.com
+1177,1201,,,2015-04-05 01:14:08+00:00,,,sean.collins.walsh@gmail.com
+1178,1202,,,2015-04-05 01:15:18+00:00,,,sean.collins.walsh@gmail.com
+1181,1203,,,2015-04-05 20:02:39+00:00,"110 Church St. Ferguson, MO 63135",314-521-7721,
+1714,1204,,,2016-01-08 16:43:56+00:00,,,BrocktonPolice@brocktonpolice.com
+1184,1205,Kathryn,Quick,2015-04-06 21:22:54+00:00,,,FreeholdersOffice@co.somerset.nj.us
+1186,1206,Ben ,Eisenstein,2015-04-07 21:44:48+00:00,,,ben.eisenstein@darth.sdsu.edu
+1187,1207,Paul,Holmes,2015-04-08 15:15:11+00:00,,,PHolmes@jonesboro.org
+1189,1208,Kenedi ,Hubbard,2015-04-09 15:11:53+00:00,"1 University of New Mexico, MSC05 3300 Albuquerque, NM 87131-0001",505277-1540,unmipra@unm.edu
+1190,1209,Edward,Velasquez,2015-04-09 18:57:30+00:00,,,edward.velasquez@sysd.k12.ca.us
+1191,1210,Edward,Velasquez,2015-04-09 18:58:34+00:00,,,edward.velasquez@sysd.k12.ca.us
+1192,1212,,"National Records Center, FOIA/PA Office",2015-04-14 02:06:26+00:00,,,uscis.foia@uscis.dhs.gov
+1193,1213,Thomas,Enright,2015-04-14 14:36:32+00:00,,,Thomas.Enright@la.gov
+1194,1213,Mike,Reed,2015-04-14 14:37:17+00:00,,,mike.reed@la.gov
+1195,1213,Kyle,Plotkin,2015-04-14 14:37:44+00:00,,,kyle.plotkin@la.gov
+1196,1215,Samantha,Sengel,2015-04-15 16:25:20+00:00,"President's Office, 525 Buena Vist Dr., S.E., Albuquerque, NM 87106",505-224-3452,ipra@cnm.edu
+1197,1216,Lisa,Spencer,2015-04-15 17:04:27+00:00,"417 Schepps Blvd., Clovis, NM 88101",575-769-4115,lisa.spencer@clovis.edu
+1198,1217,Dr. Patrice,Caldwell,2015-04-15 17:12:11+00:00,"Station 2, 1500 S. Ave. K, Portales, NM 88130",,patrice.caldwell@enmu.edu
+1199,1218,Kimberly,Hanna,2015-04-15 17:18:27+00:00,"911 S. 10th St., Tucumcari, NM 88401",575-461-4413 ext 138,kimberlyh@mesalands.edu
+1200,1219,Sean,Weaver,2015-04-15 17:25:17+00:00,"Box 9000, Las Vegas NM 87701",,universityrelations@nmhu.edu
+1201,1220,Clayton,Abbey,2015-04-15 17:31:13+00:00,"3406 Indian School Road NE #A, Albuquerque, NM 81706",505-239-8821,cabbey@nmicc.org
+1202,1221,Director of Finance,,2015-04-15 18:12:01+00:00,"Wells Hall Room 106A, 801 Leroy Place, Socorro, NM 87801",575-835-5162,foi@admin.nmt.edu
+1203,1222,Susan,Fine,2015-04-15 18:17:05+00:00,"1 Thunderbird Circle, Hobbs, NM 88240",575-492-2781,sfine@nmjc.edu
+1204,1223,Controller,,2015-04-15 18:25:02+00:00,"New Mexico State University P.O. Box 30001 MSC 3AA Las Cruces, NM 88003",575-646-2431,boffice@nmsu.edu
+1205,1224,Brandi,Cordova,2015-04-15 18:44:14+00:00,"921 Paseo D Onate, Espanola, NM 87532",505-747-2170,bcordova@nnmc.edu
+1206,1225,Renee,Lucero,2015-04-15 18:49:40+00:00,"4601 College Blvd., Farmington, NM 87402",505-566-3202,luceror@sanjuancollege.edu
+1207,1226,Janet,Wise,2015-04-15 18:52:14+00:00,"6401 Richards Ave., Santa Fe, NM 87508",505-428-1217,janet.wise@sfcc.edu
+1208,1227,Kelley,Peatross,2015-04-15 19:18:14+00:00,"550 Millard, Saginaw, MI 48601",989-399-6500,Kpeatross@spsd.net
+1209,1228,Sylvia,Tillbrook,2015-04-16 13:46:10+00:00,"1101 New York Ave., Alamogordo, NM 88310-6935",575-437-7427,stillbrook@co.otero.nm.us
+1210,1229,Bob,Gallahgher,2015-04-16 13:52:05+00:00,"515 W. High St., Grants, NM 87020",505-287-9431,feedback@co.cibola.nm.us
+1211,1230,Glory,Johnson,2015-04-16 13:58:09+00:00,"700 S. Silver Ave., Deming, NM 88030",575-546-0494,glory_johnson@lunacountynm.us
+1212,1231,Les,Montoya,2015-04-16 14:00:46+00:00,"500 W. National Ave., Suite 200, Las Vegas, NM 87701",505-425-9333,smcmanager@smcounty.net
+1213,1232,Bruce,Swingle,2015-04-16 14:08:06+00:00,"855 Van Patten, Truth or Consequences, NM 87901",575-894-6215,bswingle@sierraco.org
+1214,1233,Stephen,Archuleta,2015-04-16 14:12:56+00:00,"105 Albright St., Suite G, Taos, NM 87571",575-737-6300,stephen.archuleta@taoscounty.org
+1215,1234,Lance,Pyle,2015-04-16 14:24:41+00:00,"700 N. Main Suite 10, Clovis, NM 88101",575-763-6016,lpyle@currycounty.org
+1216,1235,Jess,Williams,2015-04-16 14:27:00+00:00,"845 N. Motel Blvd., Las Cruces, NM 88007",575-525-5801,jessw@donaanacounty.org
+1217,1236,Mike,Gallagher,2015-04-16 14:29:11+00:00,"100 N. Main, Lovington, NM 88260",575-396-8601,mgallagher@leacounty.net
+1218,1237,Barb,Ricci,2015-04-16 14:31:11+00:00,"100 Central Ave., Suite 190, Room 188, Los Alamos, NM ",505-663-1778,inspect-records@lacnm.us
+1219,1238,Michelle,Esquibel,2015-04-16 14:33:13+00:00,"207 W. Hill St., Gallup, NM 87301",505-722-3868,mesquibel@co.mckinley.nm.us
+1220,1239,Amber,Hamilton,2015-04-16 17:17:51+00:00,"109 W. First St., Portales, NM 88130",575-356-5307,ahamilton@rooseveltcounty.com
+1221,1240,Robin,Gurule,2015-04-16 17:30:02+00:00,"102 Grant Ave., Santa Fe, NM 87504",(505) 986-6279,rgurule@santafecountynm.gov
+1222,1241,Joy,Ansley,2015-04-16 17:32:55+00:00,"PO BOX 48, 205 Ninth St., Estancia, NM 87016",(505) 246-4752,jansley@tcnm.us
+1223,1242,Angie,Gonzales,2015-04-16 17:34:39+00:00,"P.O. Box 430, Clayton, NM 88415",575-374-8896,countymgr@unionnm.us
+1224,1243,Kate,Fletcher,2015-04-16 18:01:13+00:00,"P.O. Box 507, Reserve, NM 87830",575-533-6423,kate.fletcher@catroncountynm.gov
+1225,1244,Stanton,Riggs,2015-04-16 18:09:38+00:00,"1 St. Mary's Place, Roswell, NM 88203",575-624-6602,sriggs@co.chaves.nm.us
+1226,1245,Patricia,Gonzales,2015-04-16 18:12:54+00:00,"230 N. Third St., Raton, NM 87740",(575)445-9661,pgonzales@co.colfax.nm.us
+1227,1246,Rick,Rudometkin,2015-04-16 18:27:44+00:00,"101 W. Greene St., Carlsbad, NM 88220",575-887-9511,rrudometkin@co.eddy.nm.us
+1228,1247,Abigail,Robinson,2015-04-16 18:32:07+00:00,"1400 U.S. 180, Silver City, NM 88062",575-574-0008,arobinson@grantcountynm.com
+1229,1248,George,Dodge,2015-04-16 18:40:10+00:00,,575-472-3306,gdodge@guadco-nm.us
+1230,1249,Bob,Hill,2015-04-16 18:47:37+00:00,"305 Pyramid St., Lordsburg, NM 88045",575-542-9428,countymanager@hidalgocounty.org
+1231,1250,Nita,Taylor,2015-04-16 18:48:59+00:00,"300 Central Ave., Carrizozo, NM 88301",575-648-2385,ntaylor@lincolncountynm.gov
+1232,1251,Doris,Casados,2015-04-16 18:50:21+00:00,"P.O. Box 580, Mora, NM 87732",575-387-5277,dcasados@countyofmora.com
+1233,1253,Delilah,Walsh,2015-04-16 18:54:26+00:00,"210 Park St., Socorro, NM 87801",,dwalsh@co.socorro.nm.us
+1235,1255,Sheila,Smith,2015-04-17 16:37:45+00:00,"160 Genesee Street, Auburn, NY  13021",315-253-1498,ssmith@cayugacounty.us
+1236,1256,Kelly,Hamilton,2015-04-19 11:38:48+00:00,,(517) 284-7024 ,Dmb-purchfoia@michigan.gov
+1237,1257,,,2015-04-19 12:14:05+00:00,,,FOIA_Request@cms.hhs.gov
+1238,1259,Tina,Gurule,2015-04-20 21:11:02+00:00,"600 2nd Street NW, 7th Floor, Albuquerque, NM 87102",(505) 924-3657,cityclerk@cabq.gov
+1239,1260,Karla,Sayler,2015-04-20 21:14:26+00:00,"201 W. Chaco St., Aztec, NM 87410 ",(505) 334-7603,ksayler@aztecnm.gov
+1240,1261,Jamie,Thomas,2015-04-20 21:17:13+00:00,"915 N. First St., Bloomfield, NM  87413",(505) 632-6304 ,jthomas@bloomfieldnm.com
+1242,1262,Sera,Aaron,2015-04-20 21:20:59+00:00,"309 South Gold Avenue, Deming, New Mexico 88031",575-546-8848 x 147,saaron@cityofdeming.org
+1243,1263,Dianne,Smylie,2015-04-20 21:24:04+00:00,"800 Municipal Drive, Farmington, NM 87401",505-599-1106,dsmylie@fmtn.org
+1244,1264,Alfred,Abeita,2015-04-20 21:26:08+00:00,"110 West Aztec Avenue, Gallup, New Mexico 87301",(505) 863-1254,pio@gallupnm.gov
+1245,1265,Jan,Fletcher,2015-04-20 22:47:21+00:00,"200 EAST BROADWAY HOBBS, NM 88240",(575) 397-9208,jfletcher@hobbsnm.org
+1246,1266,Esther,Martinez-Carrillo,2015-04-20 22:49:31+00:00,"700 N. Main Street, Las Cruces, NM 88001",(575) 541-2115,cityclerk@las-cruces.org
+1247,1267,Casandra, Fresquez,2015-04-20 22:57:14+00:00,"1700 N Grand Ave., Las Vegas, NM",505-454-1401,cfresquez@lasvegasnm.gov
+1248,1268,,,2015-04-21 16:28:06+00:00,,,
+1249,1269,Joan,Martinez-Terry,2015-04-23 22:04:52+00:00,"100 W 1st St, Portales, NM 88130",(575) 356-6662 x 1012,jterry@portalesnm.gov
+1250,1270,Stephen,Ruger,2015-04-23 22:08:34+00:00,"3200 Civic Center Circle NE, Rio Rancho, NM 87144",505-891-5004,clerk@ci.rio-rancho.nm.us
+1251,1271,Carol,Virden,2015-04-23 22:11:05+00:00,"123 Downs Drive, Ruidoso Downs, NM 88346",575.378.4422,cvirden@ruidosodowns.us
+1252,1272,Yolanda,Vigil,2015-04-23 22:12:55+00:00,"200 Lincoln Avenue, Room 215, Santa Fe, NM  87504-0909",(505) 955-6521,yyvigil@santafenm.gov
+1337,1272,Bernadette,Romero,2015-06-10 16:08:55+00:00,"200 Lincoln Avenue, Room 215, Santa Fe, NM  87504-0909",(505) 955-6643,bbromero@ci.santa-fe.nm.us
+1253,1273,Jerome,Padilla,2015-04-23 22:19:39+00:00,,,info@atriscolandgrant.com
+1254,1274,Renee,Lucero,2015-04-23 22:22:00+00:00,"400 Camino de la Placita Taos, NM 87571",(575) 751-2005,rlucero@taosgov.com
+1255,1275,,,2015-04-23 22:25:48+00:00,"4324 Corrales Rd, Corrales, NM 87048",(505) 897-0502 ,jhise@corrales-nm.org
+1256,1276,Donna,Atencio,2015-04-23 22:31:34+00:00,"PO Box 426 Cuba, NM 87013",(575) 289-3758,vpcasados@gmail.com
+1257,1277,,,2015-04-23 22:33:34+00:00,"108 Highway 54, Logan, NM 88462",575-487-2234,loganvillage@plateautel.net
+1258,1278,Gregory ,Martin,2015-04-23 22:35:29+00:00,"P.O. Box 1209, Los Lunas, NM  87031",(505) 839-3840,marting@loslunasnm.gov
+1259,1279,Renee,Martinez,2015-04-23 22:50:29+00:00,"PO Box 260, Questa, NM 87556",575-586-0694,rmartinez@villageofquesta.org
+1260,1280,Dianna,Brusuelas,2015-04-23 22:52:26+00:00,"705 St. Francis Dr., Tularosa, NM 88352", (575) 585-2771,diannabrusuelas@tularosa.net
+1262,1282,Caryl ,Thomas,2015-04-24 16:05:48+00:00,"1325 Palomas DriveSE, Albuquerque, NM 87109",505-877-0558,cthomas@cesarchavezcharter.net
+1263,1283,Michael,Rodriguez,2015-04-24 16:09:10+00:00,"2000 Randolph SE, Albuquerque, NM 87106",505-255-0001,mrodriguez@cienaguas.org
+1264,1284,Jeannette,Trujillo,2015-04-24 16:12:23+00:00,"714 Calle Don Diego, Espnola, NM 87352",505-367-3318,jeanette.trujillo@k12espanola.org
+1265,1285,Kim,Brown,2015-04-24 16:17:38+00:00,"640 S. Boardman Drive, Gallup, NM 87305",505-721-1072,kbrown@gmcs.k12.nm.us
+1266,1286,Nadine ,Torres,2015-04-24 16:21:20+00:00,"69 Hotel Circle NE, Albuquerque, NM 87123",505-237-2374,ntorres@senahigh.com
+1267,1287,Terry ,Dean,2015-04-24 16:23:21+00:00,"505 S. Main St. Ste.249, Las Cruces, NM 88001",575-527-5837,tdean@lcps.k12.nm.us
+1268,1288,Ruben,Cordova,2015-04-24 16:25:22+00:00,"901 Douglas Avenue, Las Vegas, NM 87701",(505) 454-5721,rubencordova@cybercardinal.com
+1269,1289,Baylor,Del Rosario,2015-04-24 16:27:19+00:00,"5014 Fourth St. NW, Albuquerque, NM 87102",505-341-1424,b.delrosario@mountainmahogany.org
+1270,1290,Frank,Coggins,2015-04-24 16:31:16+00:00,"101 West College Blvd., Roswell, NM 88201",575-624-8014,coggins@nmmi.edu
+1271,1291,Cindy,Montoya,2015-04-24 16:36:35+00:00,"275 E. Alameda, Santa Fe, NM 87501",505-310-4194,cmontoya@nmschoolforthearts.org
+1272,1292,John,Williams,2015-04-24 16:49:00+00:00,"801 Stephen Moody St SE, Albuquerque, NM 87123",505-271-3067,jwilliams@nmsbvi.k12.nm.us
+1273,1293,Monica,Aguilar,2015-04-24 16:52:17+00:00,"6900 Gonzales Rd SW, Albuquerque, NM 87121",505-873-7758,monica@nvcharter.com
+1274,1294,Robert,Baade,2015-04-24 16:54:04+00:00,"4300 Blake Rd SW, Albuquerque, NM 87121",505-243-1118,rbaade@rfkcharter.net
+1275,1295,Traci,Kasten,2015-04-24 16:55:52+00:00,"500 Laser Rd N., Rio Ranco, NM 87124",505-896-0667 ext 179,tkasten@rrps.net
+1276,1296,Sean,Joyce,2015-04-24 16:58:48+00:00,"2660 Eastman Crossing SE, Albuquerque, NM 87106",505-508-3295,sjoyce@tisnm.org
+1277,1297,Mary Jane,Besante,2015-04-24 17:00:43+00:00,"1730 Montano Blvd NW, Albuquerque, NM 87107",505-796-0149,mbesante@tmesnm.com
+1278,1298,Veronica,Torres,2015-04-24 17:02:24+00:00,"1511 Central Ave NE, Albuquerque, NM 87106",505-967-4720,vtorres@tierraadentronm.org
+1279,1299,Ray,Griffin,2015-04-24 17:03:56+00:00,"13-! San Marcos Loop, Santa Fe, NM 87508",505-467-1700,rgriffin@sfps.info
+1280,1300,P,Jenkins,2015-04-24 18:19:55+00:00,"P.O. Box 568, Albuquerque, NM 87103-056",(505) 289-3100,pjenkins@abcwua.org
+1281,1301,Jerry,Lovato,2015-04-24 18:21:49+00:00,"2600 Prospect Avenue NE, Albuquerque, NM 87107",,jlovato@amafca.org
+1282,1302,Sal,Reyes,2015-04-24 18:29:06+00:00,,,sreyes@escafca.com
+1283,1303,Debbie,Hughes,2015-04-24 18:34:04+00:00,,(575) 981-2400,conserve@hughes.net
+1284,1304,David,King,2015-04-24 18:40:33+00:00,"P.O. Box 1050 , Moriarty, NM 87035",505-832-1111,WK344@gmail.com
+1285,1305,,,2015-04-24 18:48:31+00:00,"P.O. Box 30005, Las Cruces, NM 88003",575-646-3007,publicrecords@nmda.nmsu.edu
+1286,1306,Beth,Wojahn,2015-04-24 18:51:27+00:00,,(505) 476-3226,beth.wojahn@state.nm.us
+1287,1307,,,2015-04-24 18:53:44+00:00,"207 Shelby St., Santa Fe, NM 87501",(505) 984-1454,custodianofrecords@nmfa.net
+1288,1308,Raechelle,Camecho,2015-04-24 18:58:02+00:00,"4900 Alameda Blvd NE, Albuquerque, NM 87113",505-274-4334,raechelle.camacho@state.nm.us
+1289,1309,Marjorie,Martin,2015-04-24 19:00:10+00:00,"344 4th St SW, Albuquerque, NM 87102",,mmartin@housingnm.org
+1290,1310,Jorge,Alvarado,2015-04-24 21:41:13+00:00,"301 Guadalupe, Santa Fe, NM 87501",505-395-2888,jorge.alvarado@lopdnm.us
+1291,1311,Charles,Wollmann,2015-04-24 21:43:42+00:00,"41 Plaza la Prensa, Santa Fe, NM 87507",(505) 231-3334,charles.wollmann@state.nm.us
+1292,1312,Lucille,Sisneros,2015-04-24 21:45:51+00:00,"310 Old Santa Fe Trail, Santa Fe, NM 87504",505-827-5721,lsisneros@slo.state.nm.us
+1293,1313,Gina,Romero,2015-04-24 21:48:17+00:00,"1101 Industrial Park Road, Espanola, NM 87532",505-747-8459,ncswa@valornet.com
+1294,1314,Gabriel,Baca,2015-04-24 21:51:36+00:00,"33 Plaza La Prensa, Santa Fe, NM 87507",,Gabriel.Baca@state.nm.us
+1295,1315,Charles,Thomas,2015-04-24 21:55:30+00:00,"1041 Commercia Drive SE, Rio Ranco, NM 87124",505-892-7246,cthomas@sscafca.com
+1298,1317,Michelle,Wu,2015-04-28 10:29:38+00:00,1 City Hall Square Suite 550 / Boston MA 02201-2043,617-635-3115,michelle.wu@boston.gov
+1299,1318,John,Davis,2015-04-28 17:32:30+00:00,,207-723-7000,manager@millinocket.org
+1300,1318,Roxanne,Johnson,2015-04-28 17:45:00+00:00,,207-723-7007,townclerk@millinocket.org
+1302,1319,Todd,Darden,2015-04-28 20:10:39+00:00,,,tdarden@mybigspring.com
+1304,1320,Alicia,Pierce,2015-04-29 18:56:53+00:00,,512-463-6116,apierce@sos.texas.gov
+1305,1321,Dan,Voelpel,2015-05-01 00:44:31+00:00,,,dvoelpe@tacoma.k12.wa.us
+1306,1323,Michelle ,Petrich,2015-05-05 00:16:29+00:00,,,mpetrich@cityoftacoma.org
+1307,1324,,,2015-05-06 21:27:36+00:00,,,IL.Banks@illinois.gov
+1308,1324,,,2015-05-08 17:41:14+00:00,,,FPR.FOIA@illinois.gov
+1309,1325,Pamela,McGranaghan,2015-05-11 20:46:39+00:00,,,RTK-Revenue@pa.gov
+1311,1326,,,2015-05-18 14:14:45+00:00,,,
+1312,1327,,,2015-05-18 17:39:07+00:00,"DFW International Airport Department of Public Safety Records Section  P.O. Drawer 610687 DFW Airport, TX 75261 ",,dfwairportpolice@dfwairport.com
+1313,1328,,,2015-05-18 17:55:40+00:00,"Public Affairs Unit 226 Peachtree St SW Atlanta, Georgia 30303",404-546-6873,APDOpenRecords@AtlantaGa.Gov
+1314,1329,,,2015-05-18 18:27:20+00:00,"HPD, Public Affairs Division, 1200 Travis, Houston, TX 77002",,hpd.openrecords@houstonpolice.org
+1750,1329,,,2016-02-02 21:40:15+00:00,,,legal.publicrecords@houstontx.gov
+1315,1330,,,2015-05-19 15:43:26+00:00,,,foiarequests@amtrak.com
+1319,1334,Mark,Kos,2015-05-27 18:17:08+00:00,"CCAO Freedom of Information Officer, 118 North Clark Street, Chicago, Illinois 60602",(312) 603- 5307,MKos@cookcountytaxassessor.com
+1320,1336,Lee,Doyle,2015-05-28 17:07:29+00:00,,,foia-email@umich.edu
+1321,1337,John,Bender,2015-05-28 17:16:00+00:00,,,jbender1@unl.edu
+1322,1338,Luigi,Campana,2015-05-29 14:36:09+00:00,,,lcampana@jcboe.org
+1323,1338,John,Chester,2015-05-29 14:36:26+00:00,,,jchester@jcboe.org
+1324,1339,Mary,Knight,2015-05-29 21:54:50+00:00,,,cfo@www.utexas.edu
+1403,1339,Remi,Demarest,2015-07-16 22:16:10+00:00,,(512) 499-4462,rdemarest@utsystem.edu
+1325,1340,Tanya,Smith,2015-06-01 20:04:41+00:00,"6776 Reisterstown Rd., Baltimore MD 21215",410 585 3300 ,
+1327,1341,,,2015-06-02 14:53:05+00:00,"Office of Legal Affairs, Human Resources Administration, 4 World Trade Center, 150 Greenwich St., 38th floor, NY, NY, 10007",,FOIL@HRA.nyc.gov
+1328,1342,Angela,White,2015-06-02 15:16:51+00:00,"280 Broadway, 7th Floor, New York, NY, 10007",(212) 393-2096,awhite@buildings.nyc.gov
+1329,1342,Anita,Adams,2015-06-02 15:17:42+00:00,"280 Broadway, 7th Floor, New York, NY, 10007",(212) 393-2032,AAdams@buildings.nyc.gov
+1330,1343,,,2015-06-02 16:04:45+00:00,"2 Martin Luther King Jr. Drive West Tower Suite 920 Atlanta, GA 30334",,engineering@sfm.ga.gov
+1331,1344,,,2015-06-02 17:10:33+00:00,,,hrinfo@usu.edu
+1332,1345,,,2015-06-03 14:33:28+00:00,,,openrecords-academic@gru.edu
+1739,1345,Christen,Carter,2016-01-22 15:37:18+00:00,,706-721-5733,chrcarter@gru.edu
+1333,1347,,,2015-06-04 19:00:26+00:00,,,FOIL@nycha.nyc.gov
+1334,1348,Lizett,Culley,2015-06-08 17:25:10+00:00,,202-267-8098,lizett.Culley@faa.gov
+1339,1350,Lovern,Grant,2015-06-11 19:55:06+00:00,,,lovern.grant@ethics.state.tx.us
+1340,1351,FOIL,Officer,2015-06-12 19:27:51+00:00,,,foil@dasny.org
+1341,1352,Records Custodian,,2015-06-15 21:57:42+00:00,,,FOIA@acf.hhs.gov
+1342,1353,Brian,Ferguson,2015-06-16 03:28:36+00:00,,,brian.ferguson@dgs.ca.gov
+1343,1354,a,person,2015-06-16 21:24:30+00:00,,,testfoia@bobmail.info
+1346,1355,Public Affairs Office,,2015-06-16 22:19:07+00:00,,,DOENews@hq.doe.gov
+1344,1356,Michael,Padilla,2015-06-16 22:17:08+00:00,,,michael.padilla@nnsa.doe.gov
+1345,1356,Toni,Chiri,2015-06-16 22:18:15+00:00,,,Toni.Chiri@nnsa.doe.gov
+1348,1357,Shannon ,Presby,2015-06-17 18:43:22+00:00,"210 West Temple Street Los Angeles, CA 90012-3210",213-974-3888,SPresby@da.lacounty.gov
+1350,1358,,,2015-06-21 13:59:59+00:00,"1200 First Street NE, Washington, DC 20002 ",,
+1351,1358,,,2015-06-21 14:01:13+00:00,"1200 First Street NE, Washington, DC 20002 ",(202) 535-2600,DDOE@dc.gov
+1418,1358,Ibrahim,Bullo,2015-07-28 20:25:20+00:00,,,ibrahim.bullo@dc.gov
+1352,1360,Linda,Givens,2015-06-24 20:53:33+00:00,"One Judiciary Square, 441 4th Street NW., Suite 700S Washington, DC 20001",(202) 724-4196,
+1353,1361,Custodianof,Records,2015-06-25 08:28:31+00:00,,,
+1427,1361,Jonathan S.,Rothman,2015-08-01 21:20:27+00:00,"601 North 7th Street, Sacramento, CA 95811",(916) 843-3050,jrothman@chp.ca.gov
+1579,1361,,,2015-09-17 18:14:48+00:00,,,PRA@chp.ca.gov
+1354,1362,Todd,Glover,2015-06-25 13:29:16+00:00,,,TGlover@northaugusta.net
+1355,1363,Cynthia,Smith-Johnson,2015-06-25 15:58:32+00:00,,702-799-5865,csmith-johnson@interact.ccsd.net
+1356,1364,Merrick,Cosey,2015-06-25 16:34:09+00:00,"95 M Street, SW",(202) 729-7012,Merrick.Cosey2@dc.gov
+1357,1365,FOIA,Officer,2015-06-25 19:56:33+00:00,"Department of Procurement Services 121 N. LaSalle St., Room 806 Chicago, IL 60602",312.744.0010,DPSfoia@cityofchicago.org
+1358,1367,Thomas,Jarman,2015-06-29 19:58:42+00:00,,,tjarman@pwcgov.org
+1361,1368,Edward J.,Smith,2015-07-02 00:11:44+00:00,"Upper Darby School District 4611 Bond Avenue Drexel Hill, PA 19026",(610) 789-7200 ext. 3231,rtkl@upperdarbysd.org
+1363,1369,Eric,Abdullah,2015-07-05 21:31:31+00:00,,,EAbdullah@aikencountysc.gov
+1364,1370,,,2015-07-07 13:07:09+00:00,,,open_records@tcole.texas.gov
+1365,1371,,,2015-07-07 13:29:46+00:00,,,merequests@co.travis.tx.us
+1366,1372,Kenya,Briggs,2015-07-07 17:00:24+00:00,,(415) 554-7247,kenya.briggs@sfgov.org
+1367,1372,Freya,Horne,2015-07-07 17:01:04+00:00,,(415) 554-4334,freya.horne@sfgov.org
+1368,1372,Ross,Mirkarimi,2015-07-07 17:06:06+00:00,,(415) 553-7225,ross.mirkarimi@sfgov.org
+1369,1373,Anissa ,Martin,2015-07-07 18:46:15+00:00,,904-630-7196 Ext. 6600,Anissa.Martin@jaxsheriff.org
+1765,1373,,,2016-02-12 19:15:23+00:00,,,Public.Records@jaxsheriff.org
+1371,1374,Trent,Crump,2015-07-09 21:10:01+00:00,,,trent.crump@phoenix.gov
+1372,1375,Sherrie,Daigle,2015-07-13 15:17:56+00:00,,,sherrie.daigle@alaska.gov
+1816,1375,Corey ,Allen Young,2016-04-01 22:57:14+00:00,"550 W 7th Ave Ste 1800 Anchorage, AK 99501",,corey.allenyoung@alaska.gov
+1373,1376,Shelley,Nobriga,2015-07-13 15:24:37+00:00,,,shelley.d.nobriga@hawaii.gov
+1374,1377,Judy,Beck,2015-07-13 20:47:55+00:00,,406-444-0409,jbeck@mt.gov
+1376,1378,Melvin,Measley,2015-07-14 17:01:18+00:00,,,mmeasley@dpscs.state.md.us
+1377,1379,Melvin,Easley,2015-07-14 17:19:17+00:00,,,mmeasley@dpscs.state.md.us
+1378,1380,,,2015-07-14 17:40:03+00:00,,,OPRA-RecordCustodian@doc.nj.gov
+1381,1381,,,2015-07-14 19:58:38+00:00,"100 North Shamrock Avenue, Landrum, SC 29356",,
+1387,1382,Oluwasegun,Obebe,2015-07-14 20:26:38+00:00,,(202) 671-2055,segun.obebe@dc.gov
+1388,1383,Dana,Simas,2015-07-14 21:17:24+00:00,,916 445 4950,dana.simas@cdcr.ca.gov
+1394,1384, Neysa,Taylor,2015-07-14 21:58:33+00:00,,(615) 253-8144,Neysa.Taylor@tn.gov
+1398,1385,Chad,Powell,2015-07-15 19:24:13+00:00,,,chad.powell@doccs.ny.gov
+1399,1386,Kevin,Kirch,2015-07-16 15:31:06+00:00,,(651) 643-3588,
+1665,1386,,,2015-12-06 21:17:31+00:00,,,co-records.doc@state.mn.us
+1401,1387,Stephanie,Givens,2015-07-16 15:46:38+00:00,,,Givens.Stephanie@doc.sc.gov
+1405,1388,Gary R.,Maita,2015-07-21 05:11:59+00:00,"Administration Building 669 Avenue A Bayonne, New Jersey 07002",(201) 858-5801,gmaita@bboed.org
+1406,1389,Scott,Campbell,2015-07-21 17:37:37+00:00,"302 Buchtel Hall, Rexford Suite 63, Akron, Ohio 44325",,smc4@uakron.edu
+1407,1390,,,2015-07-21 19:19:28+00:00,"DPD FOIA Officer 121 N. LaSalle St. #1000 Chicago, IL 60602",,DPDFOIA@cityofchicago.org
+1408,1391,Jaime ,Burnside ,2015-07-21 19:36:31+00:00,,,jaime.burnside@wallercounty.us
+1412,1397,,,2015-07-24 21:39:32+00:00,"632 W. 6th Ave. Suite 110  Anchorage, AK 99501",907-343-4342,barcelonana@muni.org
+1413,1398,Joel,Chandler,2015-07-25 09:41:59+00:00,,,joelchandler@mac.com
+1414,1402,,,2015-07-28 19:35:23+00:00,,,OIG_FOIA@epa.gov
+1415,1403,Toni,Kemmerle,2015-07-28 20:01:37+00:00,,,Toni.Kemmerle@maine.gov
+1416,1404,Bill,Bridgeo,2015-07-28 20:16:42+00:00,,,william.bridgeo@augustamaine.gov
+1417,1405,Lacie,Hale,2015-07-28 20:18:24+00:00,,,lhale@westlakehills.org
+1419,1406,,,2015-07-29 03:13:08+00:00,,,recordsrequest@idfg.idaho.gov
+1420,1408,Calie,Cook,2015-07-29 16:36:39+00:00,,706-504-1665,CCOOK@columbiacountyga.gov
+1423,1410,Donetta M.,D'Innocenzo,2015-07-31 21:19:20+00:00,,,chiefclerk@occ.pasen.gov
+1424,1411,Alexis,Brown,2015-07-31 21:33:32+00:00,,,abrown@pabmc.net
+1426,1411,Alexis,Brown,2015-07-31 21:34:28+00:00,,,abrown@pabmc.net
+1425,1412,Anthony,Barbush,2015-07-31 21:34:24+00:00,,,abarbush@pabmc.net
+1430,1414,,,2015-08-05 16:49:25+00:00,,,cyd.grimes@traviscounty.tx.gov
+1435,1414,,,2015-08-11 19:52:07+00:00,,,Elizabeth.Winn@traviscountytx.gov
+1447,1415,Pamela,Potwin,2015-08-13 01:55:14+00:00,,360-902-1935,publicdisclosure@agr.wa.gov
+1448,1416,Rick,Anderson,2015-08-13 01:57:35+00:00,,360-586-3065,Rick.Anderson@dahp.wa.gov
+1449,1417,LaDona,Jensen,2015-08-13 02:04:41+00:00,"P.O. Box 40100 Olympia, WA 98504-0100",360-586-2533,publicrecords@atg.wa.gov
+1450,1418,Mary,Leider,2015-08-13 02:10:25+00:00,"P.O. Box 40021 Olympia, WA 98504-0021",360-902-0379,leiderm@sao.wa.gov
+1451,1419,Vickie,Lackman,2015-08-13 02:14:36+00:00,"1101 S Yakima Avenue Tacoma, WA 98405",253-680-7180,vlackman@bates.ctc.edu
+1453,1420,Kathi,Hutchins,2015-08-13 02:20:03+00:00,"3000 Landerholm Circle S.E. Bellevue, WA 98007-6484",425-564-2451,
+1454,1421,Bob,Williamson,2015-08-13 02:25:42+00:00,"1933 Fort Vancouver Way Vancouver, WA 98663",360-992-2289,bwilliamson@clark.edu
+1455,1422,Sandra,Colson,2015-08-13 02:34:49+00:00,"400 E. University Way Ellensburg, WA 98926-750",509-963-2156,colsons@cwu.edu
+1456,1423,Shannon,Goudy,2015-08-13 02:37:42+00:00,"PO Box 42525 Olympia, WA 98504",360-725-2706,shannon.goudy@commmerce.wa.gov
+1457,1424,Julie,Walter,2015-08-13 02:40:44+00:00,"PO Box 42495 Olympia, WA 98504-2495",360-704-4313,jwalter@sbctc.ctc.edu
+1458,1425,Karen,Dunn,2015-08-13 02:43:33+00:00,"PO Box 42525 Olympia, WA 98504-2525",360-725-4021,Karend@cted.wa.gov
+1460,1426,Sonja,Hirsch,2015-08-13 02:59:44+00:00,"19010 1st Avenue South Burien, WA 98148",206-835-7356,shirsch@cjtc.state.wa.us
+1461,1427,Roxann,Dempsey,2015-08-13 03:03:39+00:00,"307 Showalter Hall Cheney, WA 99004",509-359-4210,roxann.dempsey@mail.ewu.edu
+1462,1428,Brenda,Galarza,2015-08-13 03:11:41+00:00,"PO Box 40224 Olympia, WA 98504-0224",360-704-5220,Brenda.galarza@sos.wa.gov
+1463,1429,Lura,Harrison,2015-08-13 03:14:48+00:00,"1000 2nd Avenue, Suite 2700 Seattle, WA 98104",206-254-5373,lura.harrison@wshfc.org
+1464,1430,Janet,Culik,2015-08-13 03:18:09+00:00,"600 Washington St. SE Olympia, WA 98504",360-725-4475,janet.culik@k12.wa.us
+1465,1431,Robert,Page,2015-08-13 03:21:51+00:00,"PO Box 9046 Olympia, WA 98507-9046",360-586-2132,rpage@esd.wa.gov
+1466,1432,Anieska,Timms,2015-08-13 03:24:41+00:00,"2700 Evergreen Parkway N.W., L3200B Olympia, WA 98505",360-867-6914,timmsa@evergreen.edu
+1467,1433,Harold,Goldes,2015-08-13 03:28:50+00:00,"PO Box 42445 Olympia, WA 98504-2445",360-407-8768,publicdisclosure@des.wa.gov
+1469,1434,Kate,Lykins Brown,2015-08-13 03:47:15+00:00,"PO Box 43113 Olympia, WA 98504-3113",360-902-0619,Kate.LykinsBrown@gov.wa.gov
+1470,1435,Theresa,Gibbs,2015-08-13 03:50:49+00:00,"600 Capitol Way North Olympia, WA 98501-1091",360-902-2623,theresa.gibbs@dfw.wa.gov
+1475,1436,Terence,Artz,2015-08-13 04:08:26+00:00,"8005-A River Dr. SE Tumwater, WA 98501-6869",360-359-4017,publicrecords@dol.wa.gov
+1476,1437,Jana,Jones,2015-08-13 04:11:02+00:00,"PO Box 43000 Olympia, WA 98504-3000",360-664-4833,jjones@walottery.com
+1478,1438,Karen,Clevenger,2015-08-13 04:16:24+00:00,"PO Box 42650 Olympia, WA 98504-2650",360-902-8514,Karen.Clevenger@parks.wa.gov
+1480,1439,Heidi,Audette,2015-08-13 04:23:04+00:00,"PO Box 41150 Olympia, WA 98504-1150",360-725-2154,heidia@dva.wa.gov
+1481,1440,Marta,Carlo,2015-08-13 04:26:19+00:00,"PO Box 47478 Olympia, WA 98504-7478",360-705-6619,MartaC@dor.wa.gov
+1483,1441,Kristal,Wiitala,2015-08-13 04:31:30+00:00,"PO Box 45135 Olympia, WA 98504-5135",360-902-8484,DSHSPublicDisclosure@dshs.wa.gov
+1484,1442,Johnna,Craig,2015-08-13 04:34:37+00:00,"PO Box 40202 Olympia, WA 98504-0202",360-902-8912,Johnna.Craig@tre.wa.gov
+1485,1443,Priscilla,Min,2015-08-13 04:39:44+00:00,"PO Box 48380 Olympia, WA 98504-8380",360-664-8380,pdr@drs.wa.gov
+1486,1444,Jon,Ammons,2015-08-13 04:42:08+00:00,"PO Box 40908 Olympia, WA 98504-0908",360-753-1111,pdc@pdc.wa.gov
+1487,1445,David,Gedrose,2015-08-13 04:44:48+00:00,"112 N.E. Henry Street, Suite 300 Olympia, WA 98504-0919",360-570-7322,david.gedrose@perc.wa.gov
+1490,1446,William,Roberts,2015-08-13 20:09:00+00:00,,850-412-3664,william.roberts@ahca.myflorida.com
+1491,1446,Richard,Shoop,2015-08-13 20:09:55+00:00,,850-412-3671,richard.shoop@ahca.myflorida.com
+1492,1447,Richard,Tritschler,2015-08-13 20:11:46+00:00,,850-414-8052,Richard.Tritschler@apdcares.org
+1493,1447,Liesl,Ramos,2015-08-13 20:14:14+00:00,,850-487-4842,Liesl.ramos@apdcares.org
+1494,1448,Kerrie,Stillman,2015-08-13 20:19:21+00:00,,850-488-7864,stillman.kerrie@leg.state.fl.us
+1495,1448,Virlindia,Doss,2015-08-13 20:20:46+00:00,,850-488-7864,doss.virlindia@leg.state.fl.us
+1498,1448,Chris,Anderson,2015-08-13 20:30:16+00:00,,850-488-7864,Anderson.chris@leg.state.fl.us
+1496,1449,Laquisha,Persak,2015-08-13 20:23:19+00:00,,850-487-5270,publicrecordsrequests@flsenate.gov
+1497,1450,Scottie,Howell,2015-08-13 20:26:05+00:00,,850-717-5650,Scott.Howell@myfloridahouse.gov
+1499,1451,John ,Godwin,2015-08-13 20:32:04+00:00,,850-488-7082 Ext.1020,john.godwin@fchr.myflorida.com
+1500,1451,Michelle,Wilson,2015-08-13 20:33:42+00:00,,850-488-7082,michelle.wilson@fchr.myflorida.com
+1501,1451,Brittany,Thomas,2015-08-13 20:35:33+00:00,,850-488-7082,brittany.thomas@fchr.myflorida.com
+1502,1452,Lorena,Holley,2015-08-13 20:38:41+00:00,,850-245-1000,Lorena.Holley@FreshfromFlorida.com
+1503,1452,Sherman,Wilhelm,2015-08-13 20:40:12+00:00,,850-245-1000,Sherman.wilhelm@freshfromflorida.com
+1504,1453,Yvette,Pressley,2015-08-13 20:43:04+00:00,,850-717-1242,yvette.pressley@myfloridalicense.com
+1506,1453,Keneidra,Williams,2015-08-13 20:48:46+00:00,,850-717-1185,legalpublicrecords@myfloridalicense.com
+1507,1453,Ronda,Bryan,2015-08-13 20:51:22+00:00,,850-717-1186,ronda.bryan@myfloridalicense.com
+1508,1453,Yvette,Lawson-Proctor,2015-08-13 20:54:07+00:00,,850-717-1186,Yvette.lawson@dbpr.state.fl.us
+1505,1454,John,Jackson,2015-08-13 20:46:28+00:00,,850-413-0782,john_jackson@dcf.state.fl.us
+1509,1455,Treasa,Mclean,2015-08-13 20:56:09+00:00,,863-537-3999,tmclean@citrus.myflorida.com
+1510,1456,Kandra,Bell,2015-08-13 20:59:05+00:00,,850-245-7398,Kandra.Bell@deo.myflorida.com
+1516,1456,Katie,Zimmer,2015-08-13 21:32:58+00:00, ,850-245-7150,Katie.Zimmer@deo.myflorida.com
+1517,1456,Craig,Thomas,2015-08-13 21:37:33+00:00,,850-245-7150,Craig.Thomas@deo.myflorida.com
+1522,1457,Ashley,Marshall,2015-08-14 19:02:18+00:00,,850-414-2000,marshalla@elderaffairs.org
+1524,1457,Jason,Nelson,2015-08-14 19:06:13+00:00,,850-414-2129,doeapublicrecords@elderaffairs.org
+1525,1458,Elisa,Watson,2015-08-14 19:13:12+00:00,,850-921-4129,elisa.watson@djj.state.fl.us
+1528,1458,Kimberly,Ward,2015-08-14 19:22:28+00:00,,850-921-4129,kimberly.ward@djj.state.fl.us
+1530,1458,Amy,Greenwald,2015-08-14 19:27:39+00:00,,850-717-2570,amy.greenwald@djj.state.fl.us
+1529,1459,Sean,Helton,2015-08-14 19:24:46+00:00,,407-956-5630,shelton@eflorida.com
+1531,1460,Cornelia,Collins,2015-08-14 19:32:03+00:00,,850-413-3149,publicrecordsrequest@myfloridacfo.com
+1532,1461,Leslie,Jacobs,2015-08-14 19:48:03+00:00,,850-245-0140,Leslie.Jacobs@myfloridalegal.com
+1533,1461,Pat,Gleason,2015-08-14 19:49:22+00:00,,850-245-0140,Pat.Gleason@myfloridalegal.com
+1534,1462,Brian,Hermeling,2015-08-14 19:52:59+00:00,,850-410-9784,brian.hermeling@flofr.com
+1535,1463,Julia,Parada,2015-08-16 01:42:12+00:00,,850-487-7787,paradaj@flalottery.com
+1536,1463,Connie,Barnes,2015-08-16 01:43:37+00:00,,850-487-7727,barnesc@flalottery.com
+1537,1463,Louisa,Warren,2015-08-16 01:45:03+00:00,,850-487-7724,warrenl@flalottery.com
+1538,1464,Eddie,Ealy,2015-08-16 01:50:09+00:00,,850-413-4223,publicrecord@floir.com
+1539,1464,Joan,Batton,2015-08-16 01:52:31+00:00,,850-413-4223,publicrecord@floir.com
+1540,1465,Dick,Kane,2015-08-16 02:00:40+00:00,,850-414-4595,dick.kane@dot.state.fl.us
+1541,1465,Jason,Watts,2015-08-16 02:02:34+00:00,,850-414-5356,Jason.Watts@dot.state.fl.us
+1542,1466,Wellington,Meffert,2015-08-16 02:06:22+00:00,,850-488-4197,wellington.meffert@floridahousing.org
+1543,1466,Ashley,Black,2015-08-16 02:07:46+00:00,,850-488-4198 Ext. 118,ashley.black@floridahousing.org
+1550,1467,Robert ,Cohn,2015-08-16 08:25:26+00:00,719-234-1719,,bob.cohn@asd20.org
+1551,1468,Manuel,Perez,2015-08-18 22:12:33+00:00,"Cook County Clerk’s Office Attention: FOIA Officer Manuel Perez Suite 500 69 West Washington Street Chicago, Illinois 60602",,Manuel.Perez@cookcountyil.gov
+1552,1468,David,Orr,2015-08-18 22:15:09+00:00,"Cook County Clerk’s Office Attention: FOIA Officer David Orr Suite 500 69 West Washington Street Chicago, Illinois 60602",,D.Orr@cookcountyil.gov
+1553,1469,,,2015-08-20 02:35:26+00:00,,,
+1554,1469,Bill,McDaniel,2015-08-20 02:36:22+00:00,,7658259808,
+1555,1470,,,2015-08-21 02:18:29+00:00,,,info@hartfordcitylibrary.com
+1557,1473,Beth,Laduca,2015-08-24 21:59:40+00:00,,,beth.laduca@state.or.us
+1558,1474,,,2015-08-25 17:00:27+00:00,,,FOIArequests@sde.idaho.gov
+1560,1475,Scott,Gordon,2015-08-25 17:49:44+00:00,,,sgordon@ksde.org
+1561,1476,,,2015-08-25 18:15:48+00:00,,,FOIA@isbe.net
+1564,1477,Judy,Cutler,2015-08-25 19:40:22+00:00,,,judy.cutler@vermont.gov
+1565,1478,,,2015-08-27 20:25:35+00:00,,,openrecords@dshs.state.tx.us
+1566,1479,Records Access Officer,,2015-08-28 15:18:32+00:00,"New York State Department of Financial Services, Office of General Counsel, Attn: Records Access Officer, One State Street, 20th Floor, New York, NY 10004",(800) 342-3736,Recordsaccessofficer@dfs.ny.gov
+1567,1480,,,2015-08-31 17:46:07+00:00,"FOIL Office, Office of the Attorney General, Capitol, Albany, NY 12224",,foil@ag.ny.gov
+1568,1481,Rick,Raemisch,2015-09-02 19:22:51+00:00,,1-719-579-9580,
+1570,1482,Request Public Records,N/A,2015-09-03 16:35:11+00:00,"Fair Political Practices Commission 428 J Street, Suite 620 Sacramento, CA 95814",916-445-2772,cpra@fppc.ca.gov
+1571,1483,William,Rozier,2015-09-03 19:29:20+00:00,"Pennsylvania State Police, Bureau of Records & Identification, 1800 Elmerton Avenue, Harrisburg, PA 17110",,RA-psprighttoknow@pa.gov
+1572,1484,Alejandro ,Garcia ,2015-09-03 20:25:49+00:00,,,Alejandro.Garcia@ltgov.state.tx.us
+1573,1485,Mark,Vugrinovich,2015-09-10 01:24:54+00:00,"1700 G Street, NW Washington, DC 20552",8554443642,foia@cfpb.gov
+1574,1487,FOIA Coordinator,,2015-09-10 15:54:51+00:00,,,foia.request@detroitk12.org
+1575,1488,Mark, Carufel,2015-09-11 16:41:58+00:00,,,mcarufel@sterling-heights.net
+1576,1489,Brittany,Eck,2015-09-14 15:46:59+00:00,,,Brittany.Eck@GLO.TEXAS.GOV
+1593,1489,Hadassah,Schloss,2015-10-01 18:41:51+00:00,,,PIALegal@GLO.TEXAS.GOV
+1577,1492,Chris,Joyner,2015-09-17 14:49:30+00:00,2815 H Rd. Grand Junction 81506,9702102126,cbjoyner@blm.gov
+1578,1493,Mark,Belserene,2015-09-17 16:00:17+00:00,,207-624-7180,mark.belserene@maine.gov
+1580,1494,Elaine,Marshall,2015-09-19 16:21:33+00:00,,,corpinfo@sosnc.com
+1581,1495,Jen,Kendrick,2015-09-21 12:41:35+00:00,"1001 Mail Service Center, Raleigh NC 27699-1001",,Jennifer.Kendrick@ncagr.gov
+1582,1496,,,2015-09-21 16:18:36+00:00,,,FOIA_Request@cms.hhs.gov
+1583,1498,,,2015-09-25 17:30:13+00:00,,,GISFOIA@cityofchicago.org
+1584,1500,,,2015-09-28 05:16:50+00:00,,,mstevens@lps.k12.co.us
+1595,1500,,,2015-10-05 02:18:51+00:00,,,
+1596,1500,,,2015-10-05 02:21:27+00:00,,,BEwert@lps.k12.co.us
+1597,1500,,,2015-10-05 02:24:37+00:00,,,JReutzel@lps.k12.co.us
+1598,1500,,,2015-10-05 02:25:13+00:00,,,KAmbron@lps.k12.co.us
+1599,1500,,,2015-10-05 02:25:39+00:00,,,MDillman@lps.k12.co.us
+1600,1500,,,2015-10-05 03:20:21+00:00,,,mlindstone@lps.k12.co.us
+1601,1500,,,2015-10-05 03:27:37+00:00,,,mporter@lps.k12.co.us
+1618,1500,Robert,Reichardt,2015-10-15 03:55:41+00:00,,,robert@robertforeducation.com
+1630,1500,Diane ,Leiker,2015-10-27 04:19:36+00:00,,,dleiker@lps.k12.co.us
+1585,1501,,,2015-09-28 05:23:49+00:00,,,margaritaruiz@salemk12.org
+1586,1501,,,2015-09-28 05:25:11+00:00,,,debbie.amaral@comcast.net
+1587,1501,,,2015-09-28 05:25:52+00:00,,,kdriscoll@salem.com
+1619,1501,Eileen ,Sacco,2015-10-16 03:46:42+00:00,,,eileensacco@salemk12.org
+1620,1501,Jill,Conrad,2015-10-16 03:47:20+00:00,,,jillconrad@salemk12.org
+1588,1502,Joanne,Plancell,2015-09-28 15:22:49+00:00,,804-726-7934,
+1791,1502,,,2016-03-15 21:37:40+00:00,,,citizen.services@dss.virginia.gov
+1589,1503,Robin ,McCormick,2015-09-28 15:27:55+00:00,,757.728.3276,rmccormick@hampton.gov
+1590,1503,Angie,Pase,2015-09-28 15:30:16+00:00,,(757) 727-6127,foia@hampton.gov
+1591,1503,Angie,Pase,2015-09-28 15:30:52+00:00,,(757) 727-6127,apase@hampton.gov
+1592,1504,Mongthu ,Zago,2015-09-28 20:22:57+00:00,, (518) 408-2303,records.access@exec.ny.gov
+1594,1505,,,2015-10-01 19:05:48+00:00,,,demetria.tobias@pgcps.com
+1602,1506,Katherine,Norris,2015-10-06 22:37:32+00:00,"CDC/ATSDR Attn: FOIA Office, MS: D54 1600 Clifton Rd, N.E. Atlanta, GA 30333",(770) 488-6399 ,FOIARequests@cdc.gov
+1605,1508,,,2015-10-09 23:17:35+00:00,,,Terry.Andrews@cityofloveland.org
+1606,1509,William,Franz,2015-10-10 14:29:32+00:00,"Texas Higher Education Coordinating Board P.O. Box 12788 Austin, TX  78711",,william.franz@thecb.state.tx.us
+1607,1510,,,2015-10-10 19:37:12+00:00,"3300 N Interstate 35 Frontage Rd #300, Austin, TX 78705",(512) 996-9778,
+1608,1512,Donna,Giliberto,2015-10-11 15:34:50+00:00,"Three Empire State Plaza Albany, New York 12223",(518) 486-2661,recordsaccessofficer@dps.ny.gov
+1609,1513,,,2015-10-13 02:08:09+00:00,"44 Holland Avenue, Albany, New York 12229",518-473-7863,
+1612,1514,Howard, Goldman,2015-10-13 17:07:04+00:00,,,howard.goldman@trs.texas.gov
+1613,1514,Juliana ,Fernandez Helton,2015-10-13 17:07:43+00:00,,,juliana.helton@trs.texas.gov
+1614,1514,Rhonda, Price ,2015-10-13 17:08:09+00:00,,,rhonda.price@trs.texas.gov
+1616,1515,,,2015-10-14 19:55:03+00:00,,,OGC.Webmaster@dps.texas.gov
+1617,1516,,,2015-10-14 20:21:35+00:00,,,OGC.Webmaster@dps.texas.gov
+1621,1518,Mary ,Snyder Barry,2015-10-16 23:15:48+00:00,,,USTPFoia.Requests@usdoj.gov
+1622,1519,,,2015-10-19 16:50:32+00:00,,,OGC.Webmaster@dps.texas.gov
+1623,1520,Jeff,Kraft,2015-10-20 16:07:46+00:00,,,jeff.kraft@state.co.us
+1624,1521,,,2015-10-20 18:18:30+00:00,,,foiarequest@thecha.org
+1625,1523,,,2015-10-21 19:14:05+00:00,,,dleonard@ilsos.net.
+1627,1524,Robin,Marilla,2015-10-21 20:36:40+00:00,,,marillar@assembly.state.ny.us
+1631,1528,Stacy,Wheeler,2015-10-27 04:37:15+00:00,,,STACY_WHEELER@dpsk12.org.
+1632,1529,John,Musso,2015-10-28 17:09:47+00:00,,,john.musso@state.co.us
+1634,1531,,,2015-11-04 05:57:25+00:00,,,
+1635,1532,FOIA COORDINATOR,,2015-11-09 16:40:42+00:00,,(313) 456-3011 ,
+1636,1534,,,2015-11-09 20:27:21+00:00,,,info@hawkeyesecuritysolutions.com
+1637,1535,,,2015-11-11 01:37:13+00:00,,,chrichelle.mccloud@sjsu.edu
+1638,1536,Brad,Wells,2015-11-11 01:40:55+00:00,,,brad.wells@csueastbay.edu
+1639,1537,Records custodian,,2015-11-11 21:09:06+00:00,,,openrecords@tsbde.texas.gov
+1647,1537,Lara,Anton,2015-11-23 23:53:14+00:00,,,lanton@tsbde.texas.gov
+1640,1539,,,2015-11-12 15:06:27+00:00,,,publicinfo@aikencountysc.gov
+1641,1542,,,2015-11-17 20:47:25+00:00,,,LAWfoia@cityofchicago.org
+1642,1543,Marcy,Freer,2015-11-18 00:54:24+00:00,,(916) 654-3644,marcy.freer@dot.ca.gov
+1644,1544,Dallas,Schroeder,2015-11-19 15:32:40+00:00,"215 Commanche Street, Kiowa, 80117",303-621-3116,dallas.schroeder@elbertcounty-co.gov
+1645,1545,,,2015-11-22 04:37:53+00:00,"Records Access Officer  New York City Department of Correction Legal Division 75-20 Astoria Blvd  East Elmhurst, New York 11370",,Recordsaccess@doc.nyc.gov
+1646,1545,Nadene,Pinnock,2015-11-22 04:56:51+00:00,"New York City Department of Correction Legal Division 75-20 Astoria Blvd  East Elmhurst, New York 11370",,
+1648,1546,,,2015-11-25 18:41:47+00:00,,,josy.rush@seattle.gov
+1649,1548,OIG,Office of Counsel,2015-11-26 20:32:36+00:00,"245 Murray Lane SW Mail Stop - 0305 Washington, D.C. 20528-0305",202-254-4001,FOIA.OIG@OIG.DHS.GOV
+1650,1549,,,2015-11-29 15:01:13+00:00,,,MOfoia@cityofchicago.org
+1688,1550,D. Scott,Lee,2015-12-21 16:43:50+00:00,3555 Lee Road,216-491-1240,scott.lee@shakeronline.com
+1689,1550,Michael ,Schwarber,2015-12-21 16:44:46+00:00,3555 Lee Road,216-491-1225,michael.schwarber@shakeronline.com
+1690,1550,John,Cole,2015-12-21 16:45:35+00:00,3555 Lee Road,216-491-1261,john.cole@shakeronline.com
+1691,1550,Jeffrey ,DeMuth,2015-12-21 16:46:23+00:00,3555 Lee Road,216-491-1245,jeffrey.demuth@shakeronline.com
+1692,1550,Martin ,Dunn,2015-12-21 16:47:12+00:00,3555 Lee Road,216-491-2525,martin.dunn@shakeronline.com
+1651,1551,,,2015-11-30 21:41:41+00:00,,,spdpdr@seattle.gov
+1652,1552,Dispch,,2015-12-01 02:25:22+00:00,,614-645-4545,
+1656,1553,,,2015-12-02 16:21:02+00:00,,,dsnyfoil@dsny.nyc.gov
+1657,1553,Ellen,Cooper,2015-12-02 16:51:44+00:00,,,ecooper@dsny.nyc.gov
+1654,1554,,,2015-12-01 23:09:15+00:00,,,folsompolicepio@folsom.ca.us
+1655,1556,Michelle,Barbetta,2015-12-02 15:52:49+00:00,"One Broadway Center PO Box 7500 Schenectady, NY 12305",518-388-3400,Foil-Request@gaming.ny.gov
+1658,1557,Chris,Barnes,2015-12-02 21:53:39+00:00,,,public.records@mil.wa.gov
+1659,1558,,,2015-12-05 04:09:58+00:00,,,director@hartfordcity.lib.in.us
+1661,1559,Alan,Asato,2015-12-06 20:20:28+00:00,,,psd.office.of.the.director@hawaii.gov
+1662,1560,Pam,Laborde,2015-12-06 20:41:56+00:00,,,plaborde@corrections.state.la.us
+1663,1561,Renata,Seergae,2015-12-06 21:02:41+00:00,,,rseergae@dpscs.state.md.us
+1670,1563,Records Access Officer,,2015-12-06 23:39:39+00:00,, (518) 402-9522,access.records@dec.ny.gov
+1671,1564,FIOA,Officer,2015-12-08 04:23:08+00:00,,,FOIL-Finance@westchestergov.com
+1781,1566,,Richmond Police Department ,2016-03-08 18:18:01+00:00,,,
+1782,1566,Wayne County Emergency Management and Communications ,,2016-03-08 18:34:20+00:00,"401 East Main Street, Richmond, IN 47374",,
+1672,1567,Beth,Fields,2015-12-08 14:45:32+00:00,,7659739237,bfields@co.wayne.in.us
+1673,1568,Tip,Wonhoff,2015-12-09 00:08:56+00:00,,(360) 092-4132,taylor.wonhoff@gov.wa.gov
+1676,1570,Patrick,Olson,2015-12-10 02:15:28+00:00,,,POlson@newrichmond.k12.wi.us
+1677,1570,Deborah,Newman,2015-12-10 02:18:16+00:00,,,DNewman@newrichmond.k12.wi.us
+1678,1570,Linda,Kukacka,2015-12-10 02:21:29+00:00,,,LKukacka@newrichmond.k12.wi.us
+1679,1571,,,2015-12-10 22:57:59+00:00,,,digitalarchives@sos.wa.gov
+1680,1573,FOIA Officer,,2015-12-12 04:06:48+00:00,,,clerksoffice@miamidade.gov
+1681,1575,Lawren,Tucker,2015-12-16 19:29:18+00:00,"Illinois State Library Gwendolyn Brooks Building 300 S. Second St. Springfield, IL 62701?1796",217-782-2994,ltucker@ilsos.net
+1682,1576,,,2015-12-16 19:40:53+00:00,,,
+1683,1578,,,2015-12-16 20:00:58+00:00,,,
+1684,1579,Todd,Burley,2015-12-16 23:47:20+00:00,,,todd.burley@seattle.gov
+1685,1580,,,2015-12-17 23:32:51+00:00,,,records@utc.wa.gov
+1686,1581,FOIA Officer,,2015-12-18 01:30:54+00:00,,,policerecords@city.cleveland.oh.us
+1687,1582,FOIA Officer,,2015-12-18 06:10:44+00:00,,,foia-ceii@ferc.gov
+1693,1584,Board of Education,,2015-12-21 16:51:49+00:00,,216-295-4322,board@shaker.org
+1694,1584,Scott,Stephens,2015-12-21 16:53:11+00:00,15600 Parkland Dr,216-295-4309,stephens_s@shaker.org
+1695,1585,,,2015-12-21 18:52:00+00:00,,,records.access@exec.ny.gov
+1696,1586,Caroline,Spotts,2015-12-21 19:28:18+00:00,200 W. Washington St. Indianapolis IN 46204,(317) 232-9608,Caroline.Spotts@iga.in.gov
+1697,1587,Chief Clerk of the House,,2015-12-21 20:19:40+00:00,"Chief Clerk of the House Room 100 State Capitol Santa Fe, NM 87501",(505) 986-4751,house@nmlegis.gov
+1698,1588,Chief Clerk of the Senate,,2015-12-21 20:32:38+00:00,"Chief Clerk of the Senate Room 115 State Capitol Santa Fe, NM 87501",(505) 986-4714,senate@nmlegis.gov
+1699,1589,Carol,Taniguchi,2015-12-21 22:35:22+00:00,,808-586-6720,c.taniguchi@capitol.hawaii.gov
+1700,1590,Chief Clerk of the House of Representatives,,2015-12-22 15:43:34+00:00,,,hclerk@capitol.hawaii.gov
+1701,1592,Steve,Harrison,2015-12-22 21:34:32+00:00,"Room 212M, Bldg. 1 State Capitol Complex Charleston, West Virginia 25305",(304) 340-3200 ,house.clerk@wvhouse.gov
+1702,1593,Clark,Barnes,2015-12-22 21:38:29+00:00,"Room 211M, Bldg. 1 State Capitol Complex, Charleston, West Virginia 25305",(304) 357-7800 ,senate.clerk@wvsenate.gov
+1704,1596,Dave ,Yost,2016-01-02 16:23:41+00:00,"88 E. Broad St., 9th Floor Columbus, Ohio 43215","(800) 282-0370, (614) 466-2929",ogu@ohioauditor.gov
+1705,1597,,,2016-01-05 15:24:26+00:00,,,foia.coordinator@pontiacschools.org
+1706,1598,,,2016-01-05 15:30:22+00:00,,,foia.coordinator@emich.edu
+1707,1599,,,2016-01-05 15:36:07+00:00,,,foiarequest@cmich.edu
+1708,1600,,,2016-01-05 15:41:36+00:00,,,milespostema@ferris.edu
+1709,1602,,,2016-01-06 21:02:23+00:00," 1411 W. Madison St., Chicago, IL 60607",,OEMCfoia@cityofchicago.org
+1711,1603,Anna,Pankevich,2016-01-08 00:36:05+00:00,,,apankevich@everettwa.gov
+1712,1604,,,2016-01-08 15:22:09+00:00,,,wpd@worcesterma.gov
+1713,1605,,,2016-01-08 15:52:55+00:00,,,publicrecords@springfieldcityhall.com
+1715,1606,,,2016-01-08 17:03:46+00:00,,,records@lynnpolice.org
+1716,1607,,,2016-01-08 18:06:58+00:00,,,policechief@haverhillpolice.com
+1717,1608,,,2016-01-11 14:58:23+00:00,,,MediaRelations@MassMail.State.MA.US
+1718,1609,,,2016-01-11 15:20:54+00:00,,,kheagney@attleboropolice.org
+1719,1610,,,2016-01-11 15:30:37+00:00,,,admin@salempd.net
+1722,1612,,,2016-01-13 20:56:58+00:00,,,CDOTfoia@cityofchicago.org
+1723,1613,,,2016-01-13 21:18:06+00:00,,,MOfoia@cityofchicago.org
+1724,1614,Kelly,Cairns,2016-01-13 22:04:59+00:00,,,KellyC@oic.wa.gov
+1725,1616,Ashley,McGuire,2016-01-14 01:44:15+00:00,"12 South 23rd Street, 6th Floor, Philadelphia, PA 19103",215-684-4132,RTK@pha.phila.gov
+1726,1617,Cortney,Crockett,2016-01-14 01:48:10+00:00,,,crockettc@cmha.net
+1727,1618,,,2016-01-14 01:52:30+00:00,"1301 E. Jefferson, Detroit, Michigan 48207",,FOIACoordinator@dhcmi.org
+1728,1619,,,2016-01-14 01:59:25+00:00,"52 Chauncy Street, Boston, MA 02111, Attn: Public Records Paralegal, 10th floor",,legal@bostonhousing.org
+1729,1620,Qwendolyn,Brown,2016-01-14 02:03:02+00:00,"Office of the General Counsel, District of Columbia Housing Authority, 1133 North Capitol Street, NE, Suite 210, Washington, DC 20002",202-535-2835,qbrown@dchousing.org
+1730,1621,Frederick,Toelle,2016-01-14 02:06:08+00:00,"3520 Page Blvd., St. Louis, MO 63106",(314) 286-4231,ftoelle@slha.org
+1731,1622,Kevin,Wong,2016-01-14 02:10:56+00:00,,(213) 252-5497,Kevin.Wong@hacla.org
+1732,1623,Deborah ,Slack-Bean,2016-01-14 16:11:52+00:00,,(518) 485-2346,foil@scoc.ny.gov
+1734,1623,Janine ,Kava,2016-01-15 22:04:37+00:00,,518-457-8906,janine.kava@dcjs.ny.gov
+1735,1624,Rico,Munn,2016-01-18 03:57:15+00:00,,,supt@aps.k12.co.us
+1736,1624,Dr. Lisa,Escarcega,2016-01-18 03:59:10+00:00,,,LAEscarcega@aps.k12.co.us
+1737,1624,Anthony,Sturges,2016-01-18 04:00:34+00:00,,,AWSturges@aps.k12.co.us
+1738,1624,Dr. Georgia ,Duran,2016-01-18 04:01:49+00:00,,,GRDuran@aps.k12.co.us
+1743,1627,Lisa,Lamb,2016-01-29 19:38:03+00:00,,,
+1744,1628,,,2016-02-01 17:22:10+00:00,,,info@fsc.texas.gov
+1745,1629,,,2016-02-01 19:15:07+00:00,,,massdot.rao@state.ma.us
+1746,1630,,,2016-02-01 19:42:49+00:00,,,recreq@cca.com
+1751,1631,Edward,Schneider,2016-02-03 16:29:17+00:00,,(716) 645-3013  ,schneide@buffalo.edu
+1752,1632,FOIA Officer,,2016-02-05 18:48:28+00:00,"300 W. Adams St., Suite 200, Chicago, IL 60606",(312) 793-8550,
+1753,1633,,,2016-02-05 19:10:53+00:00,"P.O. Box 944255-2550, Sacramento, CA 95814",(916) 445-4069 ,
+1754,1634,,,2016-02-05 19:26:45+00:00,"P.O. Box 1489 Tallahassee, FL 32302 ",850-410-7676,publicrecords@fdle.state.fl.us
+1757,1636,City ,Secretary,2016-02-09 13:22:43+00:00,,361-758-5301,citysecretary@aransaspasstx.gov
+1759,1637,,,2016-02-09 20:23:22+00:00,,,foil@dcjs.ny.gov
+1760,1638,Alfred,Speer,2016-02-09 20:56:15+00:00,,,speera@legis.la.gov
+1761,1639,Glenn ,Koepp,2016-02-09 21:13:33+00:00,,,Koeppg@legis.la.gov
+1762,1640,Commissioner,of Administration,2016-02-09 21:20:19+00:00,,,doapublicrecords@la.gov
+1764,1641,Kenya,Jenkins-Wright,2016-02-11 00:50:13+00:00,"160 N. LaSalle, Suite S-500  Chicago, IL 60601-3115",312-793-5900,Kenya.Jenkins-Wright@illinois.gov
+1766,1642,,,2016-02-18 21:39:23+00:00,,,DOFfoia@cityofchicago.org
+1767,1643,Melissa,Brunner,2016-02-19 17:30:56+00:00,"125 E. South Main, Flatonia, Texas",361-865-3548,mbrunner@ci.flatonia.tx.us
+1768,1644,,,2016-02-22 17:56:15+00:00,,,DWMfoia@cityofchicago.org
+1769,1645,Kathy,Kleiber,2016-02-22 21:45:27+00:00,"230 W. Colorado, La Grange, Texas  78945",(979) 968-3055,kathy.kleiber@co.fayette.tx.us
+1770,1646,Greg,Lounder,2016-02-22 21:55:21+00:00,"395 State St., Ellsworth, ME 04605",207-664-1700,glounder@mrcmaine.org
+1771,1648,Scott,Maples,2016-02-23 20:48:44+00:00,,,smaples@clarkcosheriff.com
+1773,1655,Cheryn,Roble,2016-02-29 18:22:21+00:00,"1300 Perdido Street | Rm 6w03 | New Orleans, LA 70112",504.658.8046,crobles@nola.gov
+1774,1656,Bret,Angelos,2016-03-04 04:28:34+00:00,"160 N. LaSalle, 6th Floor Chicago, IL 60601",,bret.angelos@illinois.gov
+1775,1657,Patricia,Brown,2016-03-04 04:48:05+00:00,"James R. Thompson Center 100 West Randolph, Suite 6-400 Chicago, Illinois 60601",,DHS.FOIAOfficer@illinois.gov
+1776,1658,Katherine ,Norris,2016-03-04 17:15:03+00:00,"1600 Clifton Rd, N.E., Atlanta, GA 30333",(770) 488-6399,FOIARequests@cdc.gov
+1777,1659,,,2016-03-05 16:49:23+00:00,"541 N. Fairbanks Court Chicago, Illinois 60611",,foia@chicagoparkdistrict.com
+1779,1661,,,2016-03-08 06:17:42+00:00,,,elizabeth.fagen@dcsdk12.org
+1780,1662,Mary,Kay Roth,2016-03-08 15:00:21+00:00,"5905 O St, Lincoln, NE 68510",402-436-1609,mkroth@lps.org
+1796,1663,,,2016-03-17 23:08:51+00:00,"705 S Nevada Avenue                  Colorado Springs, CO 80903",719-444-7000 ,chiefoff@ci.colospgs.co.us
+1783,1664,Tony,Turnbull,2016-03-11 04:59:23+00:00,711 G Street,916-874-5601,tturnbull@sacsheriff.com
+1784,1664,,,2016-03-11 05:00:52+00:00,711 G Street,916-874-5601,info@sacsheriff.com
+1785,1664,Scott,Jones,2016-03-11 05:01:39+00:00,711 G Street,916-874-5601,sheriff@sacsheriff.com
+1786,1665,Carlton,Cook,2016-03-11 18:58:13+00:00,,334-625-2813,ccook@montgomeryal.gov
+1787,1665,Carlton,Cook,2016-03-11 18:58:31+00:00,,334-625-2813,ccook@montgomeryal.gov
+1788,1665,Denise,Barnes,2016-03-11 18:59:31+00:00,,334-625-2822,dbarnes@montgomeryal.gov
+1790,1667,,,2016-03-15 19:45:29+00:00,,,foiamail@atf.gov
+1792,1669,Mary,May,2016-03-16 01:28:52+00:00,"78 E. Washington St., Rm. 410, Chicago, IL 60602",,DCASEFOIA@cityofchicago.org
+1793,1670,,,2016-03-16 17:50:38+00:00,,,police.righttoknow@phila.gov
+1794,1672,Lisa,Weitekamp,2016-03-16 21:06:39+00:00,,217-558-2200 ext. 4166,Lisa.weitekamp@doc.illinois.gov
+1795,1673,Alan,Leibowitz,2016-03-17 20:38:42+00:00,,518-474-6300,foil@budget.ny.gov
+1797,1674,Celia ,Behrend Liss,2016-03-18 18:15:08+00:00,"313 City-County Building, 414 Grant Street, Pittsburgh, PA 15219",412-255-2285,openrecords@city.pittsburgh.pa.us
+1798,1675,Dan,McCorkle,2016-03-21 21:38:14+00:00,"981 H Street, Suite 240 Crescent City, CA 95531",(707) 464-7207,
+1799,1676,John,Agnew,2016-03-22 22:22:52+00:00,"Office of the General Counsel Chicago Election Board 69 W. Washington St., Ste. 800 Chicago IL 60602",1-312-269-7934,FOIAOfficer@chicagoelections.net
+1800,1677,,,2016-03-25 00:16:55+00:00,"1515 K Street, 6th Floor, Sacramento, CA, 95814",(916) 445-4072,
+1801,1678,Audrey ,Corbett Brooks,2016-03-25 20:49:55+00:00,,(202) 205-5912,audrey.brooks@gsa.gov
+1802,1680,,,2016-03-28 18:48:32+00:00,,,publicrecords@osu.edu
+1803,1682,Patricia,Vojack,2016-03-28 22:24:53+00:00,,,patricia.vojack@hhsc.state.tx.us
+1804,1683,Dina,Bell,2016-03-29 15:57:33+00:00,"P.O. Box 605, La Grange, TX  78945",(979) 968-6563,dina.bell@co.fayette.tx.us
+1805,1684,,,2016-03-29 20:45:18+00:00,,,information@admin.sc.gov
+1806,1685,Megan,Rose,2016-03-30 13:58:39+00:00,,,megan.rose@azdoa.gov
+1809,1689,Tonya,Peters,2016-03-31 13:35:04+00:00,,,TPeters@lincoln.ne.gov
+1810,1689,Brian,Jackson,2016-03-31 13:36:04+00:00,"575 South 10th Street, Lincoln, NE 68508",,LPD742@cjis.lincoln.ne.gov
+1807,1690,Tonya,Peters,2016-03-31 13:32:35+00:00,,,TPeters@lincoln.ne.gov
+1808,1690,Brian,Jackson,2016-03-31 13:33:48+00:00,"575 S 10th St., Lincoln, NE 68508",402-441-7204,TPeters@lincoln.ne.gov
+1811,1691,Janet,Wilson,2016-03-31 19:04:34+00:00,,501.683.1791,Janet.Wilson@arkansas.gov
+1812,1692,,,2016-03-31 21:54:17+00:00,,,DAS.FOIA@ct.gov
+1813,1693,,,2016-04-01 17:51:53+00:00,,,doa.publicinforequest@alaska.gov
+1814,1694,Elayne,Starkey,2016-04-01 18:05:32+00:00,,302.739.9631,elayne.starkey@state.de.us
+1815,1695,,,2016-04-01 20:08:19+00:00,,,Communications@dms.MyFlorida.com
+1817,1697,,,2016-04-02 15:14:44+00:00,"535 Griswold Street, Suite 600 Detroit, MI 48226",,foia@smartbus.org
+1818,1698,Patrick,Crimmins,2016-04-04 17:11:20+00:00,,512-438-3112,patrick.crimmins@dfps.state.tx.us
+1819,1699,Dave,Wedding,2016-04-05 13:05:50+00:00,,812-421-6201,
+1822,1700,,,2016-04-08 20:45:45+00:00,,,ets@hawaii.gov
+1823,1701,Christina ,McClernon,2016-04-08 21:14:27+00:00,, 312-814-5154 ,Christina.McClernon@illinois.gov
+1824,1702,Ed,Jones,2016-04-09 19:29:58+00:00,,,Ejones@angelinacounty.net
