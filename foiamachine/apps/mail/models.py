@@ -143,7 +143,7 @@ class MailMessage(models.Model):
 
     def send(self, provisioned_address, references=None):
         data = {"from": self.email_from,
-            "to": [addr.get_email for addr in self.to.all()] + [provisioned_address],
+            "to": [addr.get_email for addr in self.to.all()] + ([provisioned_address] if hasattr(settings, 'MG_ROUTE') else []),
             "subject": self.subject,
             #"h:reply-to": self.reply_to,
             "html": self.body
