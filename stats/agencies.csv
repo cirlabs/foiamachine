@@ -9,12 +9,11 @@ id,government_id,name,slug,created,contacts
 8,1,National Security Agency,national-security-agency,2013-11-12 14:51:42+00:00,0
 9,36,National Archives FOIA Service Centers,national-archives-foia-service-centers,2013-11-19 05:35:13+00:00,1
 10,1,Federal Bureau of Investigation,federal-bureau-of-investigation,2013-11-20 19:34:39+00:00,0
-11,32,Boston Police Department,boston-police-department,2013-11-21 18:05:06+00:00,0
 12,1,Los Angeles,los-angeles,2013-11-22 05:29:12+00:00,0
 13,1,Department of Justice ,department-of-justice,2013-11-25 16:33:34+00:00,0
 14,1,Federal Emergency Management Agency (FEMA),federal-emergency-management-agency-fema,2013-12-02 20:46:58+00:00,1
 15,25,New Jersey Department of Environmental Protection(NJ DEP),new-jersey-department-of-environmental-protectionn,2013-12-02 21:33:33+00:00,1
-16,40,University of Alabama,university-of-alabama,2013-12-08 23:10:29+00:00,0
+16,40,University of Alabama,university-of-alabama,2013-12-08 23:10:29+00:00,2
 17,1,Department of State,department-of-state,2013-12-17 23:18:47+00:00,1
 18,1,Department of State,department-of-state-2,2013-12-17 23:18:47+00:00,0
 19,1,Internal Revenue Service,internal-revenue-service,2013-12-29 21:04:33+00:00,1
@@ -84,8 +83,7 @@ id,government_id,name,slug,created,contacts
 97,29,Texas Comptroller of Public Accounts,texas-comptroller-of-public-accounts,2014-03-03 16:41:01+00:00,3
 98,1,U.S. Department of Labor,us-department-of-labor,2014-03-03 16:54:51+00:00,1
 102,5,Columbia Public Schools,columbia-public-schools,2014-03-04 15:35:47+00:00,1
-103,19,College of William & Mary,college-of-william-mary,2014-03-04 16:06:39+00:00,0
-104,19,College of William & Mary,college-of-william-mary-2,2014-03-04 16:07:20+00:00,1
+104,19,College of William & Mary,college-of-william-mary,2014-03-04 16:07:20+00:00,2
 105,17,Office of the Governor,office-of-the-governor,2014-03-04 19:13:02+00:00,1
 106,1,U.S. Department of Homeland Security,us-department-of-homeland-security-2,2014-03-05 22:28:18+00:00,2
 107,1,"U.S. Environmental Protection Agency, Region 6",us-environmental-protection-agency-region,2014-03-05 22:51:11+00:00,1
@@ -114,8 +112,7 @@ id,government_id,name,slug,created,contacts
 131,17,Philadelphia Open Records Office,philadelphia-open-records-office,2014-03-19 21:11:00+00:00,2
 132,30,Los Angeles Community College District,los-angeles-community-college-district,2014-03-20 19:15:50+00:00,0
 133,30,Los Angeles Community College District,los-angeles-community-college-district-2,2014-03-20 19:17:53+00:00,2
-134,28,Ball State University,ball-state-university,2014-03-21 02:44:02+00:00,0
-135,28,Ball State University,ball-state-university-2,2014-03-21 02:47:03+00:00,1
+135,28,Ball State University,ball-state-university,2014-03-21 02:47:03+00:00,3
 136,1,USDA Farm Service Agency,usda-farm-service-agency,2014-03-21 20:45:12+00:00,1
 137,1,Office of Refugee Resettlement,office-of-refugee-resettlement,2014-03-25 15:22:42+00:00,0
 138,1,"USDA General, USDAFOIA@ocio.usda.gov",usda-general,2014-03-25 23:08:29+00:00,1
@@ -124,7 +121,7 @@ id,government_id,name,slug,created,contacts
 141,16,New York City Housing Authority,new-york-city-housing-authority,2014-03-26 14:20:43+00:00,1
 142,29,Texas Commission on Environmental Quality,texas-commission-on-environmental-quality,2014-03-27 15:01:29+00:00,1
 144,1,central intelligence agency,central-intelligence-agency,2014-03-27 21:05:33+00:00,1
-145,5,University of Missouri,university-of-missouri,2014-03-30 15:19:05+00:00,2
+145,5,University of Missouri,university-of-missouri,2014-03-30 15:19:05+00:00,3
 146,5,University of Missouri System,university-of-missouri-system,2014-03-30 15:19:15+00:00,2
 147,37,desoto county sheriff,desoto-county-sheriff,2014-03-31 13:53:57+00:00,1
 148,1,U.S. Environmental Protection Agency,us-environmental-protection-agency-3,2014-03-31 15:04:32+00:00,1
@@ -172,7 +169,7 @@ id,government_id,name,slug,created,contacts
 199,1,Nuclear Regulatory Commission,nuclear-regulatory-commission,2014-05-09 06:14:29+00:00,1
 200,16,New York Police Department,new-york-police-department,2014-05-12 19:40:35+00:00,1
 201,16,Empire State Development,empire-state-development,2014-05-16 16:17:22+00:00,2
-203,29,Harris County,harris-county,2014-05-19 16:03:30+00:00,5
+203,29,Harris County,harris-county,2014-05-19 16:03:30+00:00,6
 204,20,City of Tacoma,city-of-tacoma,2014-05-19 20:45:23+00:00,2
 206,30,Los Angeles Police Department Discovery Section,los-angeles-police-department-discovery-section,2014-05-20 17:07:20+00:00,1
 207,29,Travis County Attorney General,travis-county,2014-05-21 15:57:15+00:00,1
@@ -180,7 +177,7 @@ id,government_id,name,slug,created,contacts
 209,30,"University of California, Santa Cruz",university-of-california-santa-cruz,2014-05-21 18:43:46+00:00,1
 210,30,City of Santa Cruz,city-of-santa-cruz,2014-05-21 18:52:38+00:00,1
 211,30,City of Lemon Grove,city-of-lemon-grove,2014-05-21 19:27:06+00:00,1
-212,30,San Diego State University,san-diego-state-university,2014-05-21 20:03:05+00:00,9
+212,30,San Diego State University,san-diego-state-university,2014-05-21 20:03:05+00:00,11
 213,29,Houston ISD,houston-isd,2014-05-25 14:57:06+00:00,1
 214,29,City of Dallas,city-of-dallas,2014-05-25 15:01:02+00:00,3
 215,29,Austin ISD,austin-isd,2014-05-25 17:09:34+00:00,2
@@ -194,7 +191,7 @@ id,government_id,name,slug,created,contacts
 223,29,Katy ISD,katy-isd,2014-05-25 21:20:00+00:00,1
 224,29,Aldine ISD,aldine-isd,2014-05-25 21:24:08+00:00,1
 225,29,Round Rock ISD,round-rock-isd,2014-05-25 21:28:57+00:00,1
-226,29,University of Houston,university-of-houston,2014-05-25 21:30:41+00:00,1
+226,29,University of Houston,university-of-houston,2014-05-25 21:30:41+00:00,3
 227,29,Plano ISD,plano-isd,2014-05-25 21:31:51+00:00,1
 228,29,Richardson ISD,richardson-isd,2014-05-25 21:33:44+00:00,1
 229,29,Tarrant County,tarrant-county,2014-05-25 21:37:32+00:00,3
@@ -203,7 +200,7 @@ id,government_id,name,slug,created,contacts
 232,29,Dallas Area Rapid Transit,dallas-area-rapid-transit,2014-05-25 21:43:19+00:00,1
 233,29,Grand Prairie ISD,grand-prairie,2014-05-25 21:45:46+00:00,1
 234,29,Dallas Community College District,dallas-community-college-district,2014-05-25 21:47:58+00:00,1
-235,29,Texas State University,texas-state-university,2014-05-25 21:52:17+00:00,1
+235,29,Texas State University,texas-state-university,2014-05-25 21:52:17+00:00,3
 236,29,Beaumont ISD,beaumont-independent-school-district,2014-05-25 21:54:14+00:00,1
 237,29,McKinney ISD,mckinney-independent-school-district,2014-05-25 21:56:22+00:00,1
 238,29,Lower Colorado River Authority,lower-colorado-river-authority,2014-05-25 22:00:02+00:00,1
@@ -693,7 +690,7 @@ id,government_id,name,slug,created,contacts
 739,20,Spokane Police Department,spokane-police-department,2014-09-02 07:40:56+00:00,1
 740,23,University of Illinois,university-of-illinois,2014-09-02 14:38:54+00:00,1
 741,14,City of Detroit,city-of-detroit,2014-09-02 15:00:03+00:00,1
-742,14,Michigan State University,michigan-state-university,2014-09-02 17:01:05+00:00,2
+742,14,Michigan State University,michigan-state-university,2014-09-02 17:01:05+00:00,3
 743,32,Boston Police Department,boston-police-department,2014-09-02 19:39:30+00:00,1
 744,20,Washington State Police,washington-state-police,2014-09-02 22:19:33+00:00,1
 745,25,Jersey City Office of the Tax Collector,jersey-city-office-of-the-tax-collector,2014-09-03 00:12:41+00:00,1
@@ -741,7 +738,7 @@ id,government_id,name,slug,created,contacts
 788,13,Nebraska Department of Education,nebraska-department-of-education,2014-09-09 16:17:32+00:00,1
 789,23,Illnois State Board of Education,illnois-state-board-of-education,2014-09-09 18:47:46+00:00,1
 790,15,New Hampshire Department of Education,new-hampshire-department-of-education,2014-09-09 19:23:50+00:00,1
-791,37,Florida State University,florida-state-university,2014-09-10 02:57:18+00:00,1
+791,37,Florida State University,florida-state-university,2014-09-10 02:57:18+00:00,3
 794,39,North Carolina Department of Public Instruction,north-carolina-department-of-public-instruction,2014-09-10 15:52:01+00:00,1
 796,46,North Dakota Department of Public Instruction,north-dakota-department-of-public-instruction,2014-09-10 16:18:28+00:00,1
 797,47,Ohio Department of Education,ohio-department-of-education,2014-09-10 16:29:43+00:00,1
@@ -795,7 +792,7 @@ id,government_id,name,slug,created,contacts
 848,1,U.S. Attorneys,us-attorneys,2014-10-01 16:13:26+00:00,1
 849,1,U.S. Army Medical Research Institute of Chemical Defense,us-army-medical-research-institute-of-chemical-def,2014-10-01 17:59:28+00:00,1
 850,29,University of North Texas Admissions,university-of-north-texas-admissions,2014-10-01 20:17:05+00:00,1
-851,29,University of North Texas,university-of-north-texas,2014-10-01 20:21:24+00:00,3
+851,29,University of North Texas,university-of-north-texas,2014-10-01 20:21:24+00:00,5
 852,29,Finance,finance,2014-10-01 20:29:29+00:00,0
 853,29,City of Denton,city-of-denton,2014-10-01 21:07:40+00:00,1
 854,26,Ri Department of Environmental Management,ri-department-of-environmental-management,2014-10-02 13:35:43+00:00,1
@@ -813,7 +810,7 @@ id,government_id,name,slug,created,contacts
 866,20,Pasco School District,pasco-school-district,2014-10-06 21:52:49+00:00,1
 867,20,Benton PUD,benton-pud,2014-10-06 22:21:15+00:00,1
 868,20,Franklin PUD,franklin-pud,2014-10-06 22:24:53+00:00,1
-869,44,University of Montana,university-of-montana,2014-10-07 21:39:32+00:00,1
+869,44,University of Montana,university-of-montana,2014-10-07 21:39:32+00:00,3
 870,30,City of San Carlos,city-of-san-carlos,2014-10-08 16:09:17+00:00,3
 871,3,"Washington County, AR Prosecutor",washington-county-ar-prosecutor,2014-10-08 17:30:41+00:00,1
 872,30,Los Angeles Department of Water and Power,los-angeles-department-of-water-and-power,2014-10-08 18:58:01+00:00,2
@@ -823,7 +820,7 @@ id,government_id,name,slug,created,contacts
 876,30,Lemon Grove School District ,lemon-grove-school-district,2014-10-09 18:27:36+00:00,1
 877,23,Cook County Sheriff's Office,cook-county-sheriffs-office,2014-10-09 23:37:12+00:00,1
 878,16,Nassau County Department of Law,nassau-county-department-of-law,2014-10-10 17:15:01+00:00,0
-879,21,West Virginia University,west-virginia-university,2014-10-10 18:48:12+00:00,1
+879,21,West Virginia University,west-virginia-university,2014-10-10 18:48:12+00:00,3
 880,44,Montana Kaimin,montana-kaimin,2014-10-11 03:29:36+00:00,1
 881,44,Montana University System,montana-university-system,2014-10-11 03:40:42+00:00,2
 882,16,United States Environmental Protection Agency,united-states-environmental-protection-agency,2014-10-11 22:37:18+00:00,1
@@ -934,18 +931,18 @@ id,government_id,name,slug,created,contacts
 994,30,Los Angeles County Metropolitan Transportation Authority,los-angeles-metropolitan-transportation-authority,2014-12-03 19:41:50+00:00,2
 995,7,Columbia County Sheriff's Office,columbia-county-sheriffs-office,2014-12-04 16:42:00+00:00,1
 996,7,"City of Augusta, GA",city-of-augusta-ga,2014-12-04 22:13:48+00:00,6
-997,30,"University of California, Los Angeles",university-of-california-los-angeles,2014-12-04 22:26:33+00:00,1
+997,30,"University of California, Los Angeles",university-of-california-los-angeles,2014-12-04 22:26:33+00:00,3
 998,1,OMB,omb,2014-12-05 19:12:42+00:00,1
 999,1,U.S. Department of Justice,us-department-of-justice,2014-12-05 20:32:18+00:00,2
-1000,20,University of Washington,university-of-washington,2014-12-05 23:03:23+00:00,2
-1001,20,Washington State University,washington-state-university,2014-12-05 23:08:57+00:00,2
+1000,20,University of Washington,university-of-washington,2014-12-05 23:03:23+00:00,3
+1001,20,Washington State University,washington-state-university,2014-12-05 23:08:57+00:00,3
 1002,4,University of Colorado,university-of-colorado,2014-12-05 23:09:24+00:00,1
-1003,18,University of Utah,university-of-utah,2014-12-05 23:13:01+00:00,1
-1004,30,"University of California, Berkeley",university-of-california-berkeley,2014-12-05 23:13:42+00:00,1
-1005,42,Arizona State University,arizona-state-university,2014-12-05 23:14:06+00:00,1
-1006,42,University of Arizona,university-of-arizona,2014-12-05 23:14:37+00:00,1
-1007,49,University of Oregon,university-of-oregon,2014-12-05 23:20:18+00:00,1
-1008,49,Oregon State University,oregon-state,2014-12-05 23:20:36+00:00,1
+1003,18,University of Utah,university-of-utah,2014-12-05 23:13:01+00:00,3
+1004,30,"University of California, Berkeley",university-of-california-berkeley,2014-12-05 23:13:42+00:00,3
+1005,42,Arizona State University,arizona-state-university,2014-12-05 23:14:06+00:00,3
+1006,42,University of Arizona,university-of-arizona,2014-12-05 23:14:37+00:00,2
+1007,49,University of Oregon,university-of-oregon,2014-12-05 23:20:18+00:00,2
+1008,49,Oregon State University,oregon-state,2014-12-05 23:20:36+00:00,3
 1009,29,Quality Assurance Team,quality-assurance-team,2014-12-08 16:44:43+00:00,4
 1010,29,Contract Advisory Team,contract-advisory-team,2014-12-08 17:12:31+00:00,1
 1011,48,Oklahoma Health Care Authority,oklahoma-health-care-authority,2014-12-08 17:33:51+00:00,1
@@ -1112,7 +1109,7 @@ id,government_id,name,slug,created,contacts
 1177,1,United States Postal Inspection Service,united-states-postal-inspection-service,2015-03-09 19:07:45+00:00,1
 1178,17,Auditor General,auditor-general,2015-03-09 20:05:58+00:00,1
 1179,20,Seattle Police Department,seattle-police-department,2015-03-16 19:10:47+00:00,0
-1180,37,Florida International University,florida-international-university,2015-03-16 20:22:48+00:00,1
+1180,37,Florida International University,florida-international-university,2015-03-16 20:22:48+00:00,3
 1181,29,Fort Worth Water Department,fort-worth-water-department,2015-03-16 23:29:49+00:00,0
 1182,25,City of Atlantic City,city-of-atlantic-city,2015-03-23 05:55:54+00:00,1
 1183,30,EZ Books ,ez-books,2015-03-24 21:17:37+00:00,1
@@ -1140,7 +1137,7 @@ id,government_id,name,slug,created,contacts
 1205,25,Somerset County,somerset-county,2015-04-06 21:21:52+00:00,1
 1206,30,Aztec Shops LTD,aztec-shops-ltd,2015-04-07 21:42:09+00:00,1
 1207,3,Jonesboro Police Department,jonesboro-police-department,2015-04-08 15:14:02+00:00,1
-1208,6,University of New Mexico,university-of-new-mexico,2015-04-09 15:09:15+00:00,1
+1208,6,University of New Mexico,university-of-new-mexico,2015-04-09 15:09:15+00:00,3
 1209,40,San Ysidro School District,san-ysidro-school-district,2015-04-09 18:49:42+00:00,1
 1210,30,San Ysidro School District,san-ysidro-school-district-2,2015-04-09 18:58:13+00:00,1
 1211,19,Isle of Wight County Schools,isle-of-wight-county-schools,2015-04-13 19:54:50+00:00,0
@@ -1155,7 +1152,7 @@ id,government_id,name,slug,created,contacts
 1220,6,New Mexico Independent Community Colleges,new-mexico-independent-community-colleges,2015-04-15 17:29:30+00:00,1
 1221,6,New Mexico Institute of Mining & Technology,new-mexico-institute-of-mining-technology,2015-04-15 18:11:17+00:00,1
 1222,6,New Mexico Junior College District,new-mexico-junior-college-district,2015-04-15 18:16:31+00:00,1
-1223,6,New Mexico State University,new-mexico-state-university,2015-04-15 18:24:21+00:00,1
+1223,6,New Mexico State University,new-mexico-state-university,2015-04-15 18:24:21+00:00,3
 1224,6,Northern New Mexico College,northern-new-mexico-college,2015-04-15 18:28:09+00:00,1
 1225,6,San Juan College,san-juan-college,2015-04-15 18:48:55+00:00,1
 1226,6,Santa Fe Community College,santa-fe-community-college,2015-04-15 18:51:26+00:00,1
@@ -1268,7 +1265,7 @@ id,government_id,name,slug,created,contacts
 1333,30,ymca,ymca,2015-05-26 23:54:09+00:00,0
 1334,23,Cook County Tax Assessor,cook-county-tax-assessor,2015-05-27 18:15:33+00:00,1
 1335,47,City of Findlay,city-of-findlay,2015-05-28 13:57:03+00:00,0
-1336,14,University of Michigan,university-of-michigan,2015-05-28 17:06:54+00:00,1
+1336,14,University of Michigan,university-of-michigan,2015-05-28 17:06:54+00:00,3
 1337,13,University of Nebraska,university-of-nebraska,2015-05-28 17:15:30+00:00,1
 1338,25,Jersey City Board of Education (JCBOE),jersey-city-board-of-education-jcboe,2015-05-29 14:35:41+00:00,2
 1339,29,University of Texas,university-of-texas,2015-05-29 21:54:05+00:00,2
@@ -1276,7 +1273,7 @@ id,government_id,name,slug,created,contacts
 1341,16,NYC Human Resources Administration,nyc-human-resources-administration,2015-06-02 14:51:44+00:00,1
 1342,16,NYC Department of Buildings,nyc-department-of-buildings,2015-06-02 15:14:40+00:00,2
 1343,7,Georgia Office of Insurance and Safety Fire Commissioner,georgia-office-of-insurance-and-safety-fire-commis,2015-06-02 16:03:16+00:00,1
-1344,18,Utah State University,utah-state-university,2015-06-02 17:08:43+00:00,1
+1344,18,Utah State University,utah-state-university,2015-06-02 17:08:43+00:00,3
 1345,7,Georgia Regents University GRU,georgia-regents-university-gru,2015-06-03 14:33:16+00:00,2
 1346,4,Department of Education,department-of-education-8,2015-06-03 19:03:31+00:00,0
 1347,16,New York Public Housing Authority,new-york-public-housing-authority,2015-06-04 18:59:56+00:00,1
@@ -1359,7 +1356,7 @@ id,government_id,name,slug,created,contacts
 1424,20,Washington State Board for Community and Technical Colleges,washington-state-board-for-community-and-technical,2015-08-13 02:39:21+00:00,1
 1425,20,"Washington Department of Community, Trade and Economic Development",washington-department-of-community-trade-and-econo,2015-08-13 02:42:12+00:00,1
 1426,20,Washington State Criminal Justice Training Commission,criminal-justice-training-commission,2015-08-13 02:56:27+00:00,1
-1427,20,Eastern Washington University,eastern-washington-university,2015-08-13 03:00:28+00:00,1
+1427,20,Eastern Washington University,eastern-washington-university,2015-08-13 03:00:28+00:00,3
 1428,20,Washington Secretary of State,washington-secretary-of-state,2015-08-13 03:10:14+00:00,1
 1429,20,Washington Economic Development Finance Authority,washington-economic-development-finance-authority,2015-08-13 03:13:20+00:00,1
 1430,20,Washington State Board of Education,washington-state-board-of-education,2015-08-13 03:16:57+00:00,1
@@ -1403,7 +1400,7 @@ id,government_id,name,slug,created,contacts
 1468,23,Cook County Clerk,cook-county-clerk,2015-08-18 22:10:49+00:00,2
 1469,28,Fayette County Area Planning,fayette-county-area-planning,2015-08-20 02:34:03+00:00,2
 1470,28,Hartford City Library,hartford-city-library,2015-08-21 02:17:40+00:00,1
-1471,10,Western Kentucky University,western-kentucky-university,2015-08-22 01:44:57+00:00,0
+1471,10,Western Kentucky University,western-kentucky-university,2015-08-22 01:44:57+00:00,2
 1472,20,Washington Department of Education,washington-department-of-education,2015-08-24 19:44:12+00:00,0
 1473,49,Oregon Department of Education,oregon-department-of-education,2015-08-24 21:59:10+00:00,1
 1474,8,Idaho State Department of Education,idaho-state-department-of-education,2015-08-25 17:00:07+00:00,1
@@ -1467,7 +1464,7 @@ id,government_id,name,slug,created,contacts
 1532,14, Education Achievement Authority,education-achievement-authority,2015-11-09 16:38:36+00:00,1
 1533,7,Armstrong State University ,armstrong-state-university,2015-11-09 16:46:06+00:00,0
 1534,17,Hawkeye Security Solutions,hawkeye-security-solutions,2015-11-09 20:26:59+00:00,1
-1535,30,San Jose State University,san-jose-state-university,2015-11-11 01:36:52+00:00,1
+1535,30,San Jose State University,san-jose-state-university,2015-11-11 01:36:52+00:00,3
 1536,30,CSU East Bay,csu-east-bay,2015-11-11 01:40:35+00:00,1
 1537,29,Texas State Board of Dental Examiners,texas-state-board-of-dental-examiners,2015-11-11 21:08:52+00:00,2
 1538,34,Aiken County 911 Division,aiken-county-911-division,2015-11-12 15:03:28+00:00,0
@@ -1530,8 +1527,8 @@ id,government_id,name,slug,created,contacts
 1595,1,National Institutes of Health,national-institutes-of-health,2015-12-31 19:35:06+00:00,0
 1596,47,Ohio State Auditor's Office,ohio-state-auditors-office,2016-01-02 16:22:01+00:00,1
 1597,14,Pontiac Public Schools,pontiac-public-schools,2016-01-05 15:21:43+00:00,1
-1598,14,Eastern Michigan University,eastern-michigan-university,2016-01-05 15:30:09+00:00,1
-1599,14,Central Michigan University,central-michigan-university,2016-01-05 15:35:54+00:00,1
+1598,14,Eastern Michigan University,eastern-michigan-university,2016-01-05 15:30:09+00:00,3
+1599,14,Central Michigan University,central-michigan-university,2016-01-05 15:35:54+00:00,3
 1600,14,Ferris State University ,ferris-state-university,2016-01-05 15:41:15+00:00,1
 1601,14,East Lansing Police Department ,east-lansing-police-department,2016-01-05 20:21:32+00:00,0
 1602,23,Chicago Office of Emergency Management & Communications,chicago-office-of-emergency-management-communicati,2016-01-06 21:00:46+00:00,1
@@ -1612,7 +1609,7 @@ id,government_id,name,slug,created,contacts
 1677,30,"California Department of Corrections and Rehabilitation, Board of Parole Hearings",california-department-of-corrections-and-rehabilit,2016-03-25 00:12:04+00:00,1
 1678,1,U.S. General Services Administration,us-general-services-administration,2016-03-25 20:43:31+00:00,1
 1679,40,defensivedrivingdata,defensivedrivingdata,2016-03-28 03:33:40+00:00,0
-1680,47,Ohio State University,ohio-state-university,2016-03-28 18:48:09+00:00,1
+1680,47,Ohio State University,ohio-state-university,2016-03-28 18:48:09+00:00,3
 1681,49,Attorney General,attorney-general-2,2016-03-28 19:47:01+00:00,0
 1682,29,Office of Inspector General -HHSC,office-of-inspector-general-hhsc,2016-03-28 22:24:08+00:00,1
 1683,29,Fayette County Elections Administrator,fayette-county-elections-administrator,2016-03-29 15:56:35+00:00,1
@@ -1620,7 +1617,7 @@ id,government_id,name,slug,created,contacts
 1685,42,Department of Administration,department-of-administration-2,2016-03-30 13:58:09+00:00,1
 1686,10,Department for Environmental Protection,department-for-environmental-protection,2016-03-30 17:16:35+00:00,0
 1687,10,Energy and Environment Cabinet,energy-and-environment-cabinet,2016-03-30 17:19:15+00:00,0
-1688,47,Kent State University,kent-state-university,2016-03-31 02:12:25+00:00,0
+1688,47,Kent State University,kent-state-university,2016-03-31 02:12:25+00:00,2
 1689,13,Lincoln Police Department,lincoln-police-department,2016-03-31 13:08:20+00:00,2
 1690,13,LPD,lpd,2016-03-31 13:12:35+00:00,2
 1691,3,Arkansas Department of Information Systems,arkansas-department-of-information-systems,2016-03-31 19:04:09+00:00,1
@@ -1635,3 +1632,215 @@ id,government_id,name,slug,created,contacts
 1700,31,Hawaii Office of Enterprise Technology Services,hawaii-office-of-enterprise-technology-services,2016-04-08 20:45:37+00:00,1
 1701,23,Illinois Office of the Governor,illinois-office-of-the-governor,2016-04-08 21:13:42+00:00,1
 1702,29,Angelina County Attorney ,angelina-county-attorney,2016-04-09 19:28:22+00:00,1
+1703,4,Academy District 20 Board of Education,academy-district-20-board-of-education,2016-04-12 15:08:51+00:00,1
+1704,13,Nebraska Department of Correctional Services,nebraska-department-of-correctional-services,2016-04-13 00:21:49+00:00,0
+1705,13,Nebraska Department of Corrections,nebraska-department-of-corrections,2016-04-13 00:23:17+00:00,1
+1706,13,Nebraska State Patrol,nebraska-state-patrol,2016-04-13 00:34:44+00:00,2
+1707,28,Indiana Family and Social Services Administration,indiana-family-and-social-services-administration,2016-04-14 20:51:36+00:00,1
+1708,13,City of Lincoln,city-of-lincoln,2016-04-14 23:02:58+00:00,1
+1709,29,Texas Governor,texas-governor,2016-04-15 17:54:41+00:00,1
+1710,13,Bellevue Police Department,bellevue-police-department,2016-04-15 20:01:59+00:00,1
+1711,13,University Of Nebraska Lincoln Police Department,university-of-nebraska-lincoln-police-department,2016-04-15 20:07:07+00:00,1
+1712,13,Kearney Police Department,kearney-police-department,2016-04-15 20:32:30+00:00,1
+1713,4,Bennett 29J School District,bennett-29j-school-district,2016-04-18 15:57:07+00:00,1
+1714,8,Idaho Attorney General,idaho-attorney-general,2016-04-20 18:21:12+00:00,1
+1715,23,Illinois Department of Central Management Services,illinois-department-of-central-management-services,2016-04-20 19:21:23+00:00,1
+1716,10,Kentucky Finance and Administration Cabinet,kentucky-finance-and-administration-cabinet,2016-04-20 20:05:31+00:00,1
+1717,29,Parks & Wildlife Department,parks-wildlife-department,2016-04-20 20:29:47+00:00,1
+1718,24,Maine Department of Administrative and Financial Services,maine-department-of-administrative-and-financial-s,2016-04-20 20:49:02+00:00,1
+1719,36,Maryland Department of Information Technology,maryland-department-of-information-technology,2016-04-20 20:57:31+00:00,1
+1720,16,"University at Albany, SUNY",university-at-albany-suny,2016-04-20 21:09:31+00:00,2
+1721,16,Binghamton University,binghamton-university,2016-04-20 21:09:31+00:00,2
+1722,24,University of Maine,university-of-maine,2016-04-20 21:09:31+00:00,2
+1723,36,"University of Maryland, Baltimore County",university-of-maryland-baltimore-county,2016-04-20 21:09:32+00:00,2
+1724,32,"University of Massachusetts, Lowell",university-of-massachusetts-lowell,2016-04-20 21:09:32+00:00,2
+1725,15,University of New Hampshire,university-of-new-hampshire,2016-04-20 21:09:32+00:00,2
+1726,16,Stony Brook University,stony-brook-university,2016-04-20 21:09:32+00:00,2
+1727,2,University of Vermont,university-of-vermont,2016-04-20 21:09:32+00:00,2
+1728,37,University of Central Florida,university-of-central-florida,2016-04-20 21:09:32+00:00,2
+1729,47,University of Cincinnati,university-of-cincinnati,2016-04-20 21:09:32+00:00,2
+1730,12,University of Connecticut,university-of-connecticut,2016-04-20 21:09:33+00:00,2
+1731,39,East Carolina University,east-carolina-university,2016-04-20 21:09:33+00:00,2
+1732,37,University of South Florida,university-of-south-florida,2016-04-20 21:09:33+00:00,2
+1733,19,George Mason University,george-mason-university,2016-04-20 21:09:33+00:00,2
+1734,32,University of Massachusetts Amherst,university-of-massachusetts-amherst,2016-04-20 21:09:33+00:00,2
+1735,26,University of Rhode Island,university-of-rhode-island,2016-04-20 21:09:33+00:00,2
+1736,19,Virginia Commonwealth University,virginia-commonwealth-university,2016-04-20 21:09:34+00:00,2
+1737,34,Clemson University,clemson-university,2016-04-20 21:09:34+00:00,2
+1738,7,Georgia Institute of Technology,georgia-institute-of-technology,2016-04-20 21:09:34+00:00,2
+1739,10,University of Louisville,university-of-louisville,2016-04-20 21:09:34+00:00,2
+1740,39,University of North Carolina at Chapel Hill,university-of-north-carolina-at-chapel-hill,2016-04-20 21:09:34+00:00,2
+1741,39,North Carolina State University,north-carolina-state-university,2016-04-20 21:09:34+00:00,2
+1742,17,University of Pittsburgh,university-of-pittsburgh,2016-04-20 21:09:34+00:00,2
+1743,19,University of Virginia,university-of-virginia,2016-04-20 21:09:34+00:00,2
+1744,19,Virginia Tech,virginia-tech,2016-04-20 21:09:35+00:00,2
+1745,37,Florida Gulf Coast University,florida-gulf-coast-university,2016-04-20 21:09:35+00:00,2
+1746,7,Kennesaw State University,kennesaw-state-university,2016-04-20 21:09:35+00:00,2
+1747,10,Northern Kentucky University,northern-kentucky-university,2016-04-20 21:09:35+00:00,2
+1748,37,University of North Florida,university-of-north-florida,2016-04-20 21:09:35+00:00,2
+1749,34,University of South Carolina Upstate,university-of-south-carolina-upstate,2016-04-20 21:09:35+00:00,2
+1750,35,Iowa State University,iowa-state-university-2,2016-04-20 21:09:35+00:00,2
+1751,9,University of Kansas,university-of-kansas,2016-04-20 21:09:35+00:00,2
+1752,9,Kansas State University,kansas-state-university,2016-04-20 21:09:35+00:00,2
+1753,48,University of Oklahoma,university-of-oklahoma,2016-04-20 21:09:36+00:00,2
+1754,48,Oklahoma State University - Stillwater,oklahoma-state-university-stillwater,2016-04-20 21:09:36+00:00,2
+1755,29,University of Texas at Austin,university-of-texas-at-austin,2016-04-20 21:09:36+00:00,2
+1756,29,Texas Tech University,texas-tech-university,2016-04-20 21:09:36+00:00,2
+1757,30,"California State University, Sacramento",california-state-university-sacramento,2016-04-20 21:09:36+00:00,2
+1758,8,University of Idaho,university-of-idaho,2016-04-20 21:09:36+00:00,2
+1759,8,Idaho State University,idaho-state-university,2016-04-20 21:09:37+00:00,2
+1760,44,Montana State University,montana-state-university,2016-04-20 21:09:37+00:00,2
+1761,46,University of North Dakota,university-of-north-dakota,2016-04-20 21:09:37+00:00,2
+1762,42,Northern Arizona University,northern-arizona-university,2016-04-20 21:09:37+00:00,2
+1763,4,University of Northern Colorado,university-of-northern-colorado,2016-04-20 21:09:37+00:00,2
+1764,49,Portland State University,portland-state-university,2016-04-20 21:09:37+00:00,2
+1765,18,Southern Utah University,southern-utah-university,2016-04-20 21:09:38+00:00,2
+1766,18,Weber State University,weber-state-university,2016-04-20 21:09:38+00:00,2
+1767,34,Coastal Carolina University,coastal-carolina-university,2016-04-20 21:09:38+00:00,2
+1768,19,Longwood University,longwood-university,2016-04-20 21:09:38+00:00,1
+1769,39,University of North Carolina at Asheville,university-of-north-carolina-at-asheville,2016-04-20 21:09:38+00:00,2
+1770,19,Radford University,radford-university,2016-04-20 21:09:38+00:00,2
+1771,34,Winthrop University,winthrop-university,2016-04-20 21:09:38+00:00,2
+1772,23,University of Illinois at Urbana - Champaign,university-of-illinois-at-urbana-champaign,2016-04-20 21:09:39+00:00,2
+1773,28,Indiana University,indiana-university,2016-04-20 21:09:39+00:00,2
+1774,35,University of Iowa,university-of-iowa,2016-04-20 21:09:39+00:00,2
+1775,36,"University of Maryland, College Park",university-of-maryland-college-park,2016-04-20 21:09:39+00:00,2
+1776,38,University of Minnesota,university-of-minnesota,2016-04-20 21:09:39+00:00,2
+1777,13,University of Nebraska - Lincoln,university-of-nebraska-lincoln,2016-04-20 21:09:39+00:00,2
+1778,17,Pennsylvania State University,pennsylvania-state-university,2016-04-20 21:09:39+00:00,2
+1779,28,Purdue University,purdue-university,2016-04-20 21:09:39+00:00,2
+1780,25,Rutgers University,rutgers-university,2016-04-20 21:09:40+00:00,2
+1781,22,University of Wisconsin - Madison,university-of-wisconsin-madison,2016-04-20 21:09:40+00:00,2
+1782,30,"University of California, Davis",university-of-california-davis,2016-04-20 21:09:40+00:00,2
+1783,30,"University of California, Irvine",university-of-california-irvine,2016-04-20 21:09:40+00:00,2
+1784,30,California Polytechnic State University,california-polytechnic-state-university,2016-04-20 21:09:40+00:00,2
+1785,30,"University of California, Riverside",university-of-california-riverside,2016-04-20 21:09:40+00:00,2
+1786,30,"University of California, Santa Barbara",university-of-california-santa-barbara,2016-04-20 21:09:40+00:00,2
+1787,30,"California State University, Fullerton",california-state-university-fullerton,2016-04-20 21:09:40+00:00,2
+1788,30,"California State University, Long Beach",california-state-university-long-beach,2016-04-20 21:09:41+00:00,2
+1789,31,University of Hawaii at Manoa,university-of-hawaii-at-manoa,2016-04-20 21:09:41+00:00,2
+1790,34,College of Charleston,college-of-charleston,2016-04-20 21:09:41+00:00,2
+1791,19,James Madison University,james-madison-university,2016-04-20 21:09:41+00:00,2
+1792,39,University of North Carolina at Wilmington,university-of-north-carolina-at-wilmington,2016-04-20 21:09:41+00:00,2
+1793,36,Towson University,towson-university,2016-04-20 21:09:41+00:00,2
+1794,40,University of Alabama at Birmingham,university-of-alabama-at-birmingham,2016-04-20 21:09:42+00:00,2
+1795,37,Florida Atlantic University,florida-atlantic-university,2016-04-20 21:09:42+00:00,2
+1796,11,Louisiana Tech University,louisiana-tech-university,2016-04-20 21:09:42+00:00,2
+1797,21,Marshall University,marshall-university,2016-04-20 21:09:42+00:00,2
+1798,27,Middle Tennessee State University,middle-tennessee-state-university,2016-04-20 21:09:42+00:00,2
+1799,39,University of North Carolina at Charlotte,university-of-north-carolina-at-charlotte,2016-04-20 21:09:42+00:00,2
+1800,19,Old Dominion University,old-dominion-university,2016-04-20 21:09:43+00:00,2
+1801,33,University of Southern Mississippi,university-of-southern-mississippi,2016-04-20 21:09:43+00:00,2
+1802,29,University of Texas at El Paso,university-of-texas-at-el-paso,2016-04-20 21:09:43+00:00,2
+1803,29,University of Texas at San Antonio,university-of-texas-at-san-antonio,2016-04-20 21:09:43+00:00,2
+1804,47,Cleveland State University,cleveland-state-university,2016-04-20 21:09:43+00:00,2
+1805,23,University of Illinois at Chicago,university-of-illinois-at-chicago,2016-04-20 21:09:44+00:00,2
+1806,14,Oakland University,oakland-university,2016-04-20 21:09:44+00:00,2
+1807,22,University of Wisconsin - Green Bay,university-of-wisconsin-green-bay,2016-04-20 21:09:44+00:00,2
+1808,22,University of Wisconsin - Milwaukee,university-of-wisconsin-milwaukee,2016-04-20 21:09:44+00:00,2
+1809,47,Wright State University,wright-state-university,2016-04-20 21:09:44+00:00,2
+1810,47,Youngstown State University,youngstown-state-university,2016-04-20 21:09:44+00:00,2
+1811,25,New Jersey Institute of Technology,new-jersey-institute-of-technology,2016-04-20 21:09:44+00:00,2
+1812,47,University of Akron,university-of-akron,2016-04-20 21:09:45+00:00,2
+1813,47,Bowling Green State University,bowling-green-state-university,2016-04-20 21:09:45+00:00,2
+1814,16,University at Buffalo,university-at-buffalo,2016-04-20 21:09:45+00:00,2
+1815,47,Miami University,miami-university,2016-04-20 21:09:46+00:00,2
+1816,23,Northern Illinois University,northern-illinois-university,2016-04-20 21:09:46+00:00,2
+1817,47,Ohio University,ohio-university,2016-04-20 21:09:46+00:00,2
+1818,47,University of Toledo,university-of-toledo,2016-04-20 21:09:46+00:00,2
+1819,14,Western Michigan University,western-michigan-university,2016-04-20 21:09:46+00:00,2
+1820,36,Coppin State University,coppin-state-university,2016-04-20 21:09:46+00:00,2
+1821,43,Delaware State University,delaware-state-university,2016-04-20 21:09:46+00:00,2
+1822,37,Florida A&M University,florida-am-university,2016-04-20 21:09:47+00:00,2
+1823,36,University of Maryland Eastern Shore,university-of-maryland-eastern-shore,2016-04-20 21:09:47+00:00,2
+1824,36,Morgan State University,morgan-state-university,2016-04-20 21:09:47+00:00,2
+1825,19,Norfolk State University,norfolk-state-university,2016-04-20 21:09:47+00:00,2
+1826,39,North Carolina Agricultural and Technical State University,north-carolina-agricultural-and-technical-state-un,2016-04-20 21:09:47+00:00,2
+1827,39,North Carolina Central University,north-carolina-central-university,2016-04-20 21:09:47+00:00,2
+1828,7,Savannah State University,savannah-state-university,2016-04-20 21:09:47+00:00,2
+1829,34,South Carolina State University,south-carolina-state-university,2016-04-20 21:09:48+00:00,2
+1830,23,Illinois State University,illinois-state-university,2016-04-20 21:09:48+00:00,2
+1831,28,Indiana State University,indiana-state-university,2016-04-20 21:09:48+00:00,2
+1832,5,Missouri State University,missouri-state-university,2016-04-20 21:09:48+00:00,2
+1833,35,University of Northern Iowa,university-of-northern-iowa,2016-04-20 21:09:48+00:00,2
+1834,23,Southern Illinois University Carbondale,southern-illinois-university-carbondale,2016-04-20 21:09:48+00:00,2
+1835,9,Wichita State University,wichita-state-university,2016-04-20 21:09:48+00:00,2
+1836,8,Boise State University,boise-state-university,2016-04-20 21:09:49+00:00,2
+1837,30,"California State University, Fresno",california-state-university-fresno,2016-04-20 21:09:49+00:00,2
+1838,4,Colorado State University,colorado-state-university,2016-04-20 21:09:49+00:00,2
+1839,45,"University of Nevada, Las Vegas",university-of-nevada-las-vegas,2016-04-20 21:09:49+00:00,2
+1840,45,"University of Nevada, Reno",university-of-nevada-reno,2016-04-20 21:09:49+00:00,2
+1841,4,United States Air Force Academy (Air Force),united-states-air-force-academy-air-force,2016-04-20 21:09:50+00:00,2
+1842,51,University of Wyoming,university-of-wyoming,2016-04-20 21:09:50+00:00,2
+1843,12,Central Connecticut State University,central-connecticut-state-university,2016-04-20 21:09:50+00:00,2
+1844,27,Austin Peay State University,austin-peay-state-university,2016-04-20 21:09:50+00:00,2
+1845,23,Eastern Illinois University,eastern-illinois-university,2016-04-20 21:09:50+00:00,2
+1846,10,Eastern Kentucky University,eastern-kentucky-university,2016-04-20 21:09:51+00:00,2
+1847,40,Jacksonville State University,jacksonville-state-university,2016-04-20 21:09:51+00:00,2
+1848,10,Morehead State University,morehead-state-university,2016-04-20 21:09:51+00:00,2
+1849,10,Murray State University,murray-state-university,2016-04-20 21:09:51+00:00,2
+1850,5,Southeast Missouri State University,southeast-missouri-state-university,2016-04-20 21:09:51+00:00,2
+1851,23,Southern Illinois University Edwardsville,southern-illinois-university-edwardsville,2016-04-20 21:09:51+00:00,2
+1852,27,University of Tennessee at Martin,university-of-tennessee-at-martin,2016-04-20 21:09:51+00:00,2
+1853,27,Tennessee State University,tennessee-state-university,2016-04-20 21:09:52+00:00,2
+1854,27,Tennessee Technological University,tennessee-technological-university,2016-04-20 21:09:52+00:00,2
+1855,4,University of Colorado Boulder,university-of-colorado-boulder,2016-04-20 21:09:52+00:00,2
+1856,16,United States Military Academy (Army),united-states-military-academy-army,2016-04-20 21:09:53+00:00,2
+1857,36,United States Naval Academy (Navy),united-states-naval-academy-navy,2016-04-20 21:09:53+00:00,2
+1858,3,University of Arkansas,university-of-arkansas,2016-04-20 21:09:53+00:00,2
+1859,40,Auburn University,auburn-university,2016-04-20 21:09:53+00:00,2
+1860,37,University of Florida,university-of-florida,2016-04-20 21:09:53+00:00,2
+1861,7,University of Georgia,university-of-georgia,2016-04-20 21:09:53+00:00,2
+1862,10,University of Kentucky,university-of-kentucky,2016-04-20 21:09:54+00:00,2
+1863,11,Louisiana State University,louisiana-state-university,2016-04-20 21:09:54+00:00,2
+1864,33,University of Mississippi,university-of-mississippi,2016-04-20 21:09:54+00:00,2
+1865,34,University of South Carolina,university-of-south-carolina,2016-04-20 21:09:54+00:00,2
+1866,29,Texas A&M University,texas-am-university,2016-04-20 21:09:54+00:00,2
+1867,34,The Citadel,the-citadel,2016-04-20 21:09:54+00:00,2
+1868,27,East Tennessee State University,east-tennessee-state-university,2016-04-20 21:09:54+00:00,2
+1869,39,University of North Carolina at Greensboro,university-of-north-carolina-at-greensboro,2016-04-20 21:09:55+00:00,2
+1870,27,University of Tennessee at Chattanooga,university-of-tennessee-at-chattanooga,2016-04-20 21:09:55+00:00,2
+1871,19,Virginia Military Institute,virginia-military-institute,2016-04-20 21:09:55+00:00,2
+1872,39,Western Carolina University,western-carolina-university,2016-04-20 21:09:55+00:00,2
+1873,3,University of Central Arkansas,university-of-central-arkansas,2016-04-20 21:09:55+00:00,2
+1874,29,Lamar University,lamar-university,2016-04-20 21:09:55+00:00,2
+1875,11,McNeese State University,mcneese-state-university,2016-04-20 21:09:55+00:00,2
+1876,11,University of New Orleans,university-of-new-orleans,2016-04-20 21:09:56+00:00,2
+1877,11,Nicholls State University,nicholls-state-university,2016-04-20 21:09:56+00:00,2
+1878,11,Northwestern State University,northwestern-state-university,2016-04-20 21:09:56+00:00,2
+1879,29,Sam Houston State University,sam-houston-state-university,2016-04-20 21:09:56+00:00,2
+1880,11,Southeastern Louisiana University,southeastern-louisiana-university,2016-04-20 21:09:56+00:00,2
+1881,29,Stephen F. Austin State University,stephen-f-austin-state-university,2016-04-20 21:09:56+00:00,2
+1882,29,Texas A&M University - Corpus Christi,texas-am-university-corpus-christi,2016-04-20 21:09:57+00:00,2
+1883,40,Alabama Agricultural and Mechanical University,alabama-agricultural-and-mechanical-university,2016-04-20 21:09:57+00:00,2
+1884,40,Alabama State University,alabama-state-university,2016-04-20 21:09:57+00:00,2
+1885,33,Alcorn State University,alcorn-state-university,2016-04-20 21:09:57+00:00,2
+1886,3,University of Arkansas at Pine Bluff,university-of-arkansas-at-pine-bluff,2016-04-20 21:09:57+00:00,2
+1887,11,Grambling State University,grambling-state-university,2016-04-20 21:09:57+00:00,2
+1888,33,Jackson State University,jackson-state-university,2016-04-20 21:09:57+00:00,2
+1889,33,Mississippi Valley State University,mississippi-valley-state-university,2016-04-20 21:09:58+00:00,2
+1890,29,Prairie View A&M University,prairie-view-am-university,2016-04-20 21:09:58+00:00,2
+1891,11,Southern University,southern-university,2016-04-20 21:09:58+00:00,2
+1892,29,Texas Southern University,texas-southern-university,2016-04-20 21:09:58+00:00,2
+1893,39,Appalachian State University,appalachian-state-university,2016-04-20 21:09:58+00:00,2
+1894,3,University of Arkansas at Little Rock,university-of-arkansas-at-little-rock,2016-04-20 21:09:58+00:00,2
+1895,3,Arkansas State University,arkansas-state-university,2016-04-20 21:09:58+00:00,2
+1896,7,Georgia Southern University,georgia-southern-university,2016-04-20 21:09:59+00:00,2
+1897,7,Georgia State University,georgia-state-university,2016-04-20 21:09:59+00:00,2
+1898,11,University of Louisiana at Lafayette,university-of-louisiana-at-lafayette,2016-04-20 21:09:59+00:00,2
+1899,11,University of Louisiana at Monroe,university-of-louisiana-at-monroe,2016-04-20 21:09:59+00:00,2
+1900,40,University of South Alabama,university-of-south-alabama,2016-04-20 21:09:59+00:00,2
+1901,29,University of Texas at Arlington,university-of-texas-at-arlington,2016-04-20 21:09:59+00:00,2
+1902,40,Troy University,troy-university,2016-04-20 21:10:00+00:00,2
+1903,28,Indiana University  -  Purdue University Fort Wayne,indiana-university-purdue-university-fort-wayne,2016-04-20 21:10:00+00:00,2
+1904,28,Indiana University  -  Purdue University Indianapolis,indiana-university-purdue-university-indianapolis,2016-04-20 21:10:00+00:00,2
+1905,13,"University of Nebraska, Omaha",university-of-nebraska-omaha,2016-04-20 21:10:00+00:00,2
+1906,46,North Dakota State University,north-dakota-state-university,2016-04-20 21:10:00+00:00,2
+1907,50,University of South Dakota,university-of-south-dakota,2016-04-20 21:10:00+00:00,2
+1908,50,South Dakota State University,south-dakota-state-university,2016-04-20 21:10:01+00:00,2
+1909,23,Western Illinois University,western-illinois-university,2016-04-20 21:10:01+00:00,2
+1910,30,"California State University, Bakersfield",california-state-university-bakersfield,2016-04-20 21:10:01+00:00,2
+1911,23,Chicago State University,chicago-state-university,2016-04-20 21:10:01+00:00,2
+1912,5,University of Missouri - Kansas City,university-of-missouri-kansas-city,2016-04-20 21:10:01+00:00,2
+1913,29,University of Texas - Pan American[A 31],university-of-texas-pan-americana,2016-04-20 21:10:01+00:00,2
+1914,18,Utah Valley University,utah-valley-university,2016-04-20 21:10:02+00:00,2

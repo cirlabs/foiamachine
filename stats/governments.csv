@@ -1,53 +1,53 @@
 id,name,slug,created,agencies
 1,United States of America,united-states-of-america,2013-10-02 02:37:21+00:00,143
-2,Vermont,vermont,2013-10-15 03:09:25+00:00,6
-3,Arkansas,arkansas,2013-10-15 03:09:32+00:00,12
-4,Colorado,colorado,2013-10-15 03:09:42+00:00,29
-5,Missouri,missouri,2013-10-15 03:09:43+00:00,22
+2,Vermont,vermont,2013-10-15 03:09:25+00:00,7
+3,Arkansas,arkansas,2013-10-15 03:09:32+00:00,17
+4,Colorado,colorado,2013-10-15 03:09:42+00:00,35
+5,Missouri,missouri,2013-10-15 03:09:43+00:00,25
 6,New Mexico,new-mexico,2013-10-15 03:09:44+00:00,108
-7,Georgia,georgia,2013-10-15 03:09:46+00:00,27
-8,Idaho,idaho,2013-10-15 03:09:47+00:00,10
-9,Kansas,kansas,2013-10-15 03:09:50+00:00,7
-10,Kentucky,kentucky,2013-10-15 03:09:54+00:00,13
-11,Louisiana,louisiana,2013-10-15 03:10:00+00:00,19
-12,Connecticut,connecticut,2013-10-15 03:10:10+00:00,9
-13,Nebraska,nebraska,2013-10-15 03:10:15+00:00,10
-14,Michigan,michigan,2013-10-15 03:10:25+00:00,31
-15,New Hampshire,new-hampshire,2013-10-15 03:10:37+00:00,4
-16,New York,new-york,2013-10-15 03:10:43+00:00,215
-17,Pennsylvania,pennsylvania,2013-10-15 03:10:45+00:00,42
-18,Utah,utah,2013-10-15 03:10:57+00:00,7
-19,Virginia,virginia,2013-10-15 03:11:19+00:00,19
+7,Georgia,georgia,2013-10-15 03:09:46+00:00,33
+8,Idaho,idaho,2013-10-15 03:09:47+00:00,14
+9,Kansas,kansas,2013-10-15 03:09:50+00:00,10
+10,Kentucky,kentucky,2013-10-15 03:09:54+00:00,20
+11,Louisiana,louisiana,2013-10-15 03:10:00+00:00,30
+12,Connecticut,connecticut,2013-10-15 03:10:10+00:00,11
+13,Nebraska,nebraska,2013-10-15 03:10:15+00:00,19
+14,Michigan,michigan,2013-10-15 03:10:25+00:00,33
+15,New Hampshire,new-hampshire,2013-10-15 03:10:37+00:00,5
+16,New York,new-york,2013-10-15 03:10:43+00:00,220
+17,Pennsylvania,pennsylvania,2013-10-15 03:10:45+00:00,44
+18,Utah,utah,2013-10-15 03:10:57+00:00,10
+19,Virginia,virginia,2013-10-15 03:11:19+00:00,28
 20,Washington,washington,2013-10-15 03:11:28+00:00,79
-21,West Virginia,west-virginia,2013-10-15 03:11:30+00:00,12
-22,Wisconsin,wisconsin,2013-10-15 03:11:35+00:00,8
-23,Illinois,illinois,2013-10-15 03:11:44+00:00,60
-24,Maine,maine,2013-10-15 03:11:48+00:00,18
-25,New Jersey,new-jersey,2013-10-15 03:11:52+00:00,44
-26,Rhode Island,rhode-island,2013-10-15 03:11:55+00:00,9
-27,Tennessee,tennessee,2013-10-15 03:11:59+00:00,19
-28,Indiana,indiana,2013-10-15 03:12:05+00:00,20
-29,Texas,texas,2013-10-15 03:12:10+00:00,192
-30,California,california,2013-10-15 03:12:11+00:00,114
-31,Hawaii,hawaii,2013-10-15 03:12:12+00:00,11
-32,Massachusetts,massachusetts,2013-10-15 03:12:13+00:00,22
-33,Mississippi,mississippi,2013-10-15 03:12:15+00:00,18
-34,South Carolina,south-carolina,2013-10-15 03:12:24+00:00,22
-35,Iowa,iowa,2013-10-15 03:13:00+00:00,8
-36,Maryland,maryland,2013-10-15 03:13:05+00:00,19
-37,Florida,florida,2013-10-15 03:13:09+00:00,48
-38,Minnesota,minnesota,2013-10-15 03:13:14+00:00,11
-39,North Carolina,north-carolina,2013-10-15 03:13:20+00:00,10
-40,Alabama,alabama,2013-10-15 03:13:24+00:00,17
+21,West Virginia,west-virginia,2013-10-15 03:11:30+00:00,13
+22,Wisconsin,wisconsin,2013-10-15 03:11:35+00:00,11
+23,Illinois,illinois,2013-10-15 03:11:44+00:00,70
+24,Maine,maine,2013-10-15 03:11:48+00:00,20
+25,New Jersey,new-jersey,2013-10-15 03:11:52+00:00,46
+26,Rhode Island,rhode-island,2013-10-15 03:11:55+00:00,10
+27,Tennessee,tennessee,2013-10-15 03:11:59+00:00,26
+28,Indiana,indiana,2013-10-15 03:12:05+00:00,25
+29,Texas,texas,2013-10-15 03:12:10+00:00,207
+30,California,california,2013-10-15 03:12:11+00:00,124
+31,Hawaii,hawaii,2013-10-15 03:12:12+00:00,12
+32,Massachusetts,massachusetts,2013-10-15 03:12:13+00:00,23
+33,Mississippi,mississippi,2013-10-15 03:12:15+00:00,23
+34,South Carolina,south-carolina,2013-10-15 03:12:24+00:00,30
+35,Iowa,iowa,2013-10-15 03:13:00+00:00,11
+36,Maryland,maryland,2013-10-15 03:13:05+00:00,27
+37,Florida,florida,2013-10-15 03:13:09+00:00,55
+38,Minnesota,minnesota,2013-10-15 03:13:14+00:00,12
+39,North Carolina,north-carolina,2013-10-15 03:13:20+00:00,21
+40,Alabama,alabama,2013-10-15 03:13:24+00:00,24
 41,Alaska,alaska,2013-10-15 03:13:27+00:00,8
-42,Arizona,arizona,2013-10-15 03:13:29+00:00,16
-43,Delaware,delaware,2013-10-15 03:13:31+00:00,10
-44,Montana,montana,2013-10-15 03:13:33+00:00,6
-45,Nevada,nevada,2013-10-15 03:13:36+00:00,7
-46,North Dakota,north-dakota,2013-10-15 03:13:38+00:00,4
-47,Ohio,ohio,2013-10-15 03:13:40+00:00,23
-48,Oklahoma,oklahoma,2013-10-15 03:13:42+00:00,9
-49,Oregon,oregon,2013-10-15 03:13:44+00:00,20
-50,South Dakota,south-dakota,2013-10-15 03:13:47+00:00,4
-51,Wyoming,wyoming,2013-10-15 03:13:50+00:00,6
+42,Arizona,arizona,2013-10-15 03:13:29+00:00,17
+43,Delaware,delaware,2013-10-15 03:13:31+00:00,11
+44,Montana,montana,2013-10-15 03:13:33+00:00,7
+45,Nevada,nevada,2013-10-15 03:13:36+00:00,9
+46,North Dakota,north-dakota,2013-10-15 03:13:38+00:00,6
+47,Ohio,ohio,2013-10-15 03:13:40+00:00,32
+48,Oklahoma,oklahoma,2013-10-15 03:13:42+00:00,11
+49,Oregon,oregon,2013-10-15 03:13:44+00:00,21
+50,South Dakota,south-dakota,2013-10-15 03:13:47+00:00,6
+51,Wyoming,wyoming,2013-10-15 03:13:50+00:00,7
 52,District of Columbia,district-of-columbia,2013-10-15 03:13:54+00:00,29

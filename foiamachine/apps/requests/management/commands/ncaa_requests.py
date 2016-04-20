@@ -151,9 +151,9 @@ class Command(BaseCommand):
         """
 
         fname = settings.SITE_ROOT + "/apps/requests/data/NCAA-pio.csv"
-        with codecs.open(fname, 'w', encoding="utf-8") as f:
-            resp = requests.get("https://docs.google.com/spreadsheets/d/1kccaiCCYIHOTEvpUWQiKs51v6K2TNRX7-NN6l1WtzyM/pub?output=csv")
-            f.write(resp.text)
+        #with codecs.open(fname, 'w', encoding="utf-8") as f:
+        #    resp = requests.get("https://docs.google.com/spreadsheets/d/1kccaiCCYIHOTEvpUWQiKs51v6K2TNRX7-NN6l1WtzyM/pub?output=csv")
+        #    f.write(resp.text)
 
         reader = list(UnicodeReader(open(fname, 'rb')))
         #create contacts
@@ -186,15 +186,23 @@ class Command(BaseCommand):
                 try:
                     agency, acreated = Agency.objects.get_or_create(name=agency_name, government=govt)
                 except Exception as e:
+                    print e
+                    print "If more than one agency was returned, pick one!"
                     import pdb;pdb.set_trace() 
-                contact, ccreated = Contact.objects.get_or_create(first_name=fname, middle_name=middle, last_name=lname)
+                try:
+                    contact, ccreated = agency.contacts.get_or_create(first_name=fname, middle_name=middle, last_name=lname)
+                except Exception as e:
+                    print e
+                    print "If more than one contact was returned, pick one!"
+                    import pdb;pdb.set_trace()
+
                 sid_contact = None
 
                 if phone != 'N/A':
                     contact.add_phone(phone)
                 contact.add_email(email)
 
-                agency.contacts.add(contact)
+                #agency.contacts.add(contact)
 
                 if sid_pio != 'N/A' and sid_email != 'N/A':
                     fname = sid_pio.split(" ")[0]
@@ -210,7 +218,7 @@ class Command(BaseCommand):
                 if sid_contact is not None:
                     contacts = [contact, sid_contact]
 
-                print contacts
+                agency.save()
 
                 #logger.info('agency %s %s contact %s %s %s %s' % (agency_name, acreated, fname, middle, lname, ccreated))
 
