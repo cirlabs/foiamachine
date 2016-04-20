@@ -207,6 +207,10 @@
 <script type="text/javascript" src="{{ STATIC_URL }}js/editabletext.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}js/request.js"></script>
 <script type="text/javascript">
+    var requestTags = [];
+    {% for tag in object.tags.all %}
+    requestTags.push("{{tag}}")
+    {% endfor %}
     $(document).ready(function(){
         //var etv = new EditableMessageView({el: ".message-container", token: "{% csrf_token %}", request: {{ object.id }} });
         $(".thiscode").on("mouseover", function(e){
@@ -354,6 +358,11 @@
               }
             });
         });
+
+    if(requestTags.indexOf("NCAA Expense Report") !== -1){
+        FOIMachine.utils.showUserMsg("This request was filed July 30, 2014 by reporters at The Huffington Post and Chronicle of Higher Education. <a href='http://projects.huffingtonpost.com/projects/ncaa/reporters-note#download' target='_blank'>The results of fulfilled requests can be downloaded here</a>.<br/>")
+    }
+
     });
 
 </script>
