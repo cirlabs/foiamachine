@@ -113,7 +113,7 @@ class Command(BaseCommand):
             assign_perm(Request.get_permission_name('edit'), group, therequest)
 
             if row[header.index("request.send")] == "TRUE":
-                print "SENT request %s" % row[header.index("request.title")]
                 therequest.send()
+                print "SENT request %s" % row[header.index("request.title")]
             else:
                 print "STAGED request %s" % row[header.index("request.title")]
