@@ -114,5 +114,6 @@ class Command(BaseCommand):
 
             if row[header.index("request.send")] == "TRUE":
                 print "SENT request %s" % row[header.index("request.title")]
+                therequest.send()
             else:
                 print "STAGED request %s" % row[header.index("request.title")]
