@@ -97,7 +97,9 @@ class Command(BaseCommand):
                 'private': True if row[header.index("request.private")] == "TRUE" else False,
                 'text': letter#silly distinction leftover from old days but fill it in
             }
+            #delete all requests that look like the one i'm about to make so we don't have duplicates floating around
             Request.objects.filter(author=user, title=row[header.index("request.title")]).delete()
+            #create the request
             therequest = Request(**fields_to_use)
             therequest.date_added = datetime.now()
             therequest.save()
