@@ -2,7 +2,7 @@ FOIAMachine is an open source project to send, organize and share requests for g
 
 While this repository allows you to set up a private instance, it lacks data from [foiamachine.org](https://foiamachine.org). Contact information for government employees at more than 500 agencies and data for all 50 states’ public records request act is not included. The FOIAMachine team believes data will make this project valuable. We encourage you to create an account at [foiamachine.org](https://foiamachine.org) to contribute data and contacts to other users. Additionally, to send requests via a private instance you will need either a [Mailgun](http://www.mailgun.com/) account or new methods to send and receive email.
 
-We welcome pull requests and thank all contributors to the code. 
+[Use this guide to learn more about setting up a FOIAMachine instance and sending bulk requests](https://docs.google.com/document/d/1G5pJx519Xq4ZU70wKfC_VTHUGdqxO4LtR2AeEZ0DVA0/edit?usp=sharing).
 
 [![Build Status](https://travis-ci.org/cirlabs/foiamachine.svg?branch=master)](https://travis-ci.org/cirlabs/foiamachine)
 
