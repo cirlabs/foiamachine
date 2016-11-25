@@ -474,7 +474,7 @@ class MailBox(models.Model):
 
     def get_provisioned_email(self):
         if hasattr(settings, 'MG_ROUTE'):
-            # Fix this beore commit
+            # this check is for testing so you can set a route to get messages to test servers
             thisaddress = "%s@%s.%s" % (self.usr.username.split("@")[0], settings.MG_ROUTE, settings.MG_DOMAIN)
         else:
             thisaddress = "%s@%s" % (self.usr.username.split("@")[0], settings.MG_DOMAIN)

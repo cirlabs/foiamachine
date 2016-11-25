@@ -22,7 +22,7 @@ django-heroku-memcacheify==0.4
 django-project-templates==0.11
 django-pylibmc-sasl==0.2.4
 django-registration==0.8
--e git://github.com/jamstooks/django-s3-folder-storage.git@153cf2a462dad27703b09ca477f3e014a5c03e47#egg=django_s3_folder_storage-0.1-py2.7-dev
+django-s3-folder-storage
 django-storages==1.1.6
 django-taggit==0.9.3
 -e hg+https://bitbucket.org/fabian/django-taggit-autosuggest@ce0382212840c05fd98a12782ea636051fdd04e6#egg=django_taggit_autosuggest-tip
