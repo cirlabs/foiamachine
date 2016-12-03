@@ -44,7 +44,7 @@ class AuthorizeBackend(SimpleBackend):
             if 'interested_party' in request.session.keys():
                 return True
             return False
-        return True
+        return False
 
 def user_created(sender, user, request, **kwargs):
     try:

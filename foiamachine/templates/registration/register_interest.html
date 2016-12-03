@@ -2,10 +2,9 @@
 {% load url from future %}
 
 {% block content %}
-<div class="splash">
+<div class="splash" style="text-align: center;">
     <img class="splash-logo" src="{{ STATIC_URL }}img/logo-splash.png" alt="FOIA Machine - Automate your #FOIAs" />
-    <a class="signup-button" href="{% url 'registration_register' %}">Sign up!</a>
-    <a class="sign-in signin-button" href="{% url 'login' %}">Sign In</a>
+    <a class="sign-in signin-button" href="{% url 'login' %}" style="left: 0;position: inherit; margin-top: 20px">Sign In</a>
 </div>
 <div class="signup-wrap">
     <div class="sign-up">
