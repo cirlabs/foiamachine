@@ -26,6 +26,14 @@ for Ubuntu, some help:
 * sudo pip install virtualenv
 * sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk
 
+Fedora Core 25:
+* sudo yum install mysql-server
+* sudo service mysqld start
+* sudo yum install memcached
+* sudo yum install libmemcached-devel
+* sudo yum install mercurial
+* sudo yum install meld
+* sudo yum install mysql-devel
 
 
 Getting started
