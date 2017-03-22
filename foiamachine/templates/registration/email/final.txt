@@ -1,0 +1,17 @@
+Dear {{name}}
+
+As you may remember, we announced our plan to merge with muckrock.com at the end of 2016. We’re very pleased to announced that the new site design as part of that merger is nearly complete.
+
+A lot will be changing but all you have to do is wait for an email arriving this weekend with instructions on how to access your existing requests. It will also tell you how to create new ones on the improved FOIAMachine.org, which will feature a more robust contacts database.
+
+Here’s what you need to know:
+
+* FOIAmachine.org will look a lot different. You can preview the new design until Sunday at beta.foiamachine.org, which has been tested by users for several months. The new design will keep many of the features you’re used to but some things won’t be available. 
+
+* The new version of FOIA Machine will no longer support sending a receiving requests by email. All requests will have to be sent through your personal email account.
+
+*Your login should work the same and all your requests should be accessible by Sunday evening, March 26. We’ll handle everything and you’ll get an email when the new site is live.
+
+When we announced this merger, we planned to move the FOIAMachine site you’re familiar with to a new url: classic.foiamachine.org. After speaking with users and reviewing the technical issues, we believe maintaining a temporary legacy site will only create frustration. We’re sorry for any confusion this may have caused. 
+
+If you have questions about the transition or any other issues, please email us at info@foiamachine.org.
